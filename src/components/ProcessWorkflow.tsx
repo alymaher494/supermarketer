@@ -40,7 +40,7 @@ export default function ProcessWorkflow() {
     ];
 
     return (
-        <section ref={container} className="process-section py-32 bg-[#020617]">
+        <section ref={container} className="process-section py-32 bg-primary">
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
                     {steps.map((step, i) => (

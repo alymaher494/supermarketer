@@ -34,7 +34,7 @@ export default function BlogSection() {
     }, []);
 
     return (
-        <section ref={container} className="py-32 bg-[#020617] border-t border-slate-900">
+        <section ref={container} className="py-32 bg-primary border-t border-slate-800">
             <div className="container mx-auto px-6">
                 <div className="flex justify-between items-end mb-16">
                     <div>

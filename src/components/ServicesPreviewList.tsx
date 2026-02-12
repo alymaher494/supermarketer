@@ -9,22 +9,26 @@ export default function ServicesPreviewList() {
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
 
-        const rows = gsap.utils.toArray('.service-row');
-        rows.forEach((row: any) => {
-            gsap.fromTo(row,
-                { opacity: 0, y: 50 },
-                {
-                    opacity: 1,
-                    y: 0,
-                    duration: 0.8,
-                    ease: 'power3.out',
-                    scrollTrigger: {
-                        trigger: row,
-                        start: 'top 85%',
+        const ctx = gsap.context(() => {
+            const rows = gsap.utils.toArray('.service-row');
+            rows.forEach((row: any) => {
+                gsap.fromTo(row,
+                    { opacity: 0, y: 50 },
+                    {
+                        opacity: 1,
+                        y: 0,
+                        duration: 0.8,
+                        ease: 'power3.out',
+                        scrollTrigger: {
+                            trigger: row,
+                            start: 'top 85%',
+                        }
                     }
-                }
-            );
-        });
+                );
+            });
+        }, container);
+
+        return () => ctx.revert();
     }, []);
 
     const services = [
