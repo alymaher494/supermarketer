@@ -4,20 +4,22 @@ import gsap from "gsap";
 
 export default function Preloader() {
     const [complete, setComplete] = useState(false);
-    const container = useRef(null);
-    const text = useRef(null);
-    const percent = useRef(null);
+    const container = useRef<HTMLDivElement>(null);
+    const text = useRef<HTMLHeadingElement>(null);
+    const percent = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
         const tl = gsap.timeline();
 
         // Counter Animation
-        let count = { val: 0 };
+        const count = { val: 0 };
         tl.to(count, {
             val: 100,
             duration: 1.5,
             onUpdate: () => {
-                if (percent.current) percent.current.textContent = count.val.toFixed(0) + "%";
+                if (percent.current) {
+                    percent.current.textContent = count.val.toFixed(0) + "%";
+                }
             }
         });
 
