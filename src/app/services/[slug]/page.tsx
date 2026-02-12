@@ -9,7 +9,7 @@ interface PageProps {
 
 export default async function ServiceDetail({ params }: PageProps) {
     const { slug } = await params;
-    const service = servicesData.find((s) => s.id === slug);
+    const service = servicesData.en.find((s) => s.id === slug);
 
     if (!service) {
         notFound();

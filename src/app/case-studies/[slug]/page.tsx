@@ -9,7 +9,7 @@ interface PageProps {
 
 export default async function CaseStudyDetail({ params }: PageProps) {
     const { slug } = await params;
-    const project = caseStudiesData.find((p) => p.slug === slug);
+    const project = caseStudiesData.en.find((p) => p.slug === slug);
 
     if (!project) {
         notFound();
@@ -47,13 +47,8 @@ export default async function CaseStudyDetail({ params }: PageProps) {
                         <div key={idx} className="bg-slate-900 border border-slate-800 p-8 rounded-2xl text-center">
                             <span className="block text-slate-500 text-sm uppercase tracking-wider mb-2">{res.label}</span>
                             <div className="text-4xl font-bold text-white mb-2">
-                                {res.after || res.value}
+                                {res.value}
                             </div>
-                            {res.before && (
-                                <div className="text-xs text-slate-500 line-through">
-                                    Was {res.before}
-                                </div>
-                            )}
                         </div>
                     ))}
                 </div>
