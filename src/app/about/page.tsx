@@ -4,11 +4,102 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import PageHeader from "@/components/ui/PageHeader";
 import MarqueeText from "@/components/ui/MarqueeText";
-import { certificatesData, clientsData } from "@/data/general";
+import { clientsData } from "@/data/general";
 import Image from "next/image";
 import { Check } from "lucide-react";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function AboutPage() {
+    const { language } = useLanguage();
+    const isRTL = language === 'ar';
+    const clients = clientsData[language];
+
+    const content = {
+        ar: {
+            header: {
+                subtitle: "الوكالة",
+                title: "نحن مهندسو النمو",
+                desc: "نحن استشاريون متخصصون في تسويق الأداء، نشارك العلامات التجارية الطموحة لهندسة نمو إيرادات يمكن التنبؤ به."
+            },
+            hero: {
+                title: "مهووسون بالنتائج.\nموجهون بالبيانات.",
+                text1: { pre: "التسويق لم يعد مبنياً على \"التخمين\". إنه يتعلق", strong: "بالبنية التحتية", post: ". نؤمن بأن النمو المستدام يأتي من نظام دقيق للاختبار، ودقة تتبع من جانب السيرفر، والنمذجة المالية." },
+                text2: { pre: "نعمل في النقطة التي", span: "يلتقي فيها الإبداع بالحسابات", post: ". نحدد بدقة الروافع التي تحول الإنفاق الإعلاني إلى أرباح لشركائنا في جميع أنحاء منطقة الشرق الأوسط." }
+            },
+            stats: [
+                { label: "إنفاق إعلاني مدار", value: "+$15M" },
+                { label: "إيرادات محققة", value: "+$40M" },
+                { label: "متوسط عائد الإنفاق", value: "6.5x" },
+                { label: "سنوات الخبرة", value: "+10" }
+            ],
+            values: {
+                label: "حمضنا النووي",
+                title: "لماذا تختارنا العلامات التجارية؟",
+                items: [
+                    {
+                        title: "التحليل الجنائي للبيانات",
+                        desc: "نصلح التتبع أولاً. إذا لم نتمكن من قياسه بدقة (من جانب السيرفر)، فلن ننفق دولاراً واحداً عليه.",
+                        points: ["إعداد CAPI", "نمذجة الإسناد", "تدقيق شامل"]
+                    },
+                    {
+                        title: "الربح > عائد الإنفاق",
+                        desc: "لا نهتم بمقاييس الغرور. نحن نحسن من أجل هامش المساهمة، القيمة الدائمة للعميل، والأموال الفعلية في البنك.",
+                        points: ["اقتصاديات الوحدة", "تحليل الأرباح والخسائر", "التوسع المدروس"]
+                    },
+                    {
+                        title: "الإبداع العلمي",
+                        desc: "نختبر الإعلانات بشكل منهجي. نكرر العمل بناءً على بيانات الأداء، وليس الآراء الشخصية.",
+                        points: ["اختبار A/B", "محتوى من إنشاء المستخدم", "إنتاج عالي الجودة"]
+                    }
+                ]
+            },
+            marquee: "خبراء معتمدون • معايير عالمية • نتائج حقيقية • ",
+            clientsTitle: "موثوق بنا من قادة الصناعة"
+        },
+        en: {
+            header: {
+                subtitle: "The Agency",
+                title: "We Are Growth Engineers",
+                desc: "We are specialist performance marketing consultants, partnering with ambitious brands to engineer predictable revenue growth."
+            },
+            hero: {
+                title: "Results Obsessed.\nData Driven.",
+                text1: { pre: "Marketing is no longer about 'guessing'. It's about", strong: "Infrastructure", post: ". We believe sustainable growth comes from a rigorous system of testing, server-side tracking accuracy, and financial modeling." },
+                text2: { pre: "We operate where", span: "Creativity meets Calculus", post: ". We pinpoint the exact levers that turn ad spend into profit for our partners across the MENA region." }
+            },
+            stats: [
+                { label: "Managed Ad Spend", value: "+$15M" },
+                { label: "Generated Revenue", value: "+$40M" },
+                { label: "Avg ROAS", value: "6.5x" },
+                { label: "Years Experience", value: "+10" }
+            ],
+            values: {
+                label: "Our DNA",
+                title: "Why Brands Choose Us?",
+                items: [
+                    {
+                        title: "Forensic Data Analysis",
+                        desc: "We fix tracking first. If we can't measure it accurately (Server-Side), we won't spend a dollar on it.",
+                        points: ["CAPI Setup", "Attribution Modeling", "Comprehensive Audit"]
+                    },
+                    {
+                        title: "Profit > ROAS",
+                        desc: "We don't care about vanity metrics. We optimize for Contribution Margin, LTV, and actual cash in the bank.",
+                        points: ["Unit Economics", "P&L Analysis", "Thoughtful Scaling"]
+                    },
+                    {
+                        title: "Scientific Creativity",
+                        desc: "We test ads systematically. We iterate based on performance data, not personal opinions.",
+                        points: ["A/B Testing", "UGC Content", "High Quality Production"]
+                    }
+                ]
+            },
+            marquee: "Certified Experts • Global Standards • Real Results • ",
+            clientsTitle: "Trusted by Industry Leaders"
+        }
+    };
+
+    const t = content[language];
 
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
@@ -24,14 +115,14 @@ export default function AboutPage() {
                 start: "top center",
             }
         });
-    }, []);
+    }, [language]);
 
     return (
-        <main className="min-h-screen bg-primary">
+        <main className="min-h-screen bg-primary" dir={isRTL ? "rtl" : "ltr"}>
             <PageHeader
-                subtitle="The Agency"
-                title="We Are Growth Architects"
-                description="We are a specialized performance consultancy partnering with ambitious brands to engineer predictable revenue growth."
+                subtitle={t.header.subtitle}
+                title={t.header.title}
+                description={t.header.desc}
             />
 
             {/* Hero Section with Large Visual */}
@@ -40,23 +131,23 @@ export default function AboutPage() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
                     <Image
                         src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"
-                        alt="Team Strategy Session"
+                        alt="Strategy Session"
                         fill
                         className="about-image object-cover"
                     />
-                    <div className="absolute bottom-8 left-8 md:bottom-16 md:left-16 z-20 max-w-2xl">
-                        <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
-                            Results-Obsessed. <br /> Data-Driven.
+                    <div className={`absolute bottom-8 ${isRTL ? "right-8 text-right md:right-16" : "left-8 text-left md:left-16"} md:bottom-16 z-20 max-w-2xl`}>
+                        <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 whitespace-pre-line">
+                            {t.hero.title}
                         </h2>
                     </div>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-16 text-lg md:text-xl text-slate-300 font-light leading-relaxed">
+                <div className={`grid md:grid-cols-2 gap-16 text-lg md:text-xl text-slate-300 font-light leading-relaxed ${isRTL ? "text-right" : "text-left"}`}>
                     <p>
-                        Marketing is no longer about "guesses". It's about <strong className="text-white">infrastructure</strong>. We believe that sustainable growth comes from a system of rigorous testing, server-side precision, and financial modeling.
+                        {t.hero.text1.pre} <strong className="text-white">{t.hero.text1.strong}</strong>{t.hero.text1.post}
                     </p>
                     <p>
-                        We operate where <span className="text-secondary border-b border-secondary/30">creativity meets calculus</span>. Identifying the exact levers that turn ad spend into profit for our partners across the MENA region.
+                        {t.hero.text2.pre} <span className="text-secondary border-b border-secondary/30">{t.hero.text2.span}</span>{t.hero.text2.post}
                     </p>
                 </div>
             </section>
@@ -64,14 +155,9 @@ export default function AboutPage() {
             {/* Stats Row */}
             <section className="border-y border-slate-800 py-20 bg-[#0B1221]">
                 <div className="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
-                    {[
-                        { label: "Ad Spend Managed", value: "$15M+" },
-                        { label: "Revenue Generated", value: "$40M+" },
-                        { label: "Average ROAS", value: "6.5x" },
-                        { label: "Years Experience", value: "10+" }
-                    ].map((stat, i) => (
+                    {t.stats.map((stat, i) => (
                         <div key={i}>
-                            <span className="block text-4xl md:text-6xl font-bold text-white mb-2">{stat.value}</span>
+                            <span className="block text-4xl md:text-6xl font-bold text-white mb-2" dir="ltr">{stat.value}</span>
                             <span className="text-xs font-mono uppercase tracking-widest text-slate-500">{stat.label}</span>
                         </div>
                     ))}
@@ -81,30 +167,14 @@ export default function AboutPage() {
             {/* Values Cards */}
             <section className="py-32 container mx-auto px-6">
                 <div className="text-center mb-20">
-                    <span className="text-secondary font-mono uppercase tracking-widest mb-4 block">Our DNA</span>
-                    <h2 className="text-4xl md:text-5xl font-bold text-white">Why Brands Choose Us</h2>
+                    <span className="text-secondary font-mono uppercase tracking-widest mb-4 block">{t.values.label}</span>
+                    <h2 className="text-4xl md:text-5xl font-bold text-white">{t.values.title}</h2>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-8">
-                    {[
-                        {
-                            title: "Data Forensics",
-                            desc: "We fix tracking first. If we can't measure it accurately (server-side), we don't spend a dollar on it.",
-                            points: ["CAPI Setup", "Attribution Modeling", "Audit"]
-                        },
-                        {
-                            title: "Profit > ROAS",
-                            desc: "We don't care about vanity metrics. We optimize for Contribution Margin, LTV, and actual money in the bank.",
-                            points: ["Unit Economics", "P&L Analysis", "Scale"]
-                        },
-                        {
-                            title: "Scientific Creative",
-                            desc: "We test ads systematically. Iterating based on performance data, not subjective opinions.",
-                            points: ["A/B Testing", "UGC", "High-Fidelity Prod"]
-                        }
-                    ].map((item, i) => (
+                <div className={`grid md:grid-cols-3 gap-8 ${isRTL ? "text-right" : "text-left"}`}>
+                    {t.values.items.map((item, i) => (
                         <div key={i} className="bg-slate-900/50 border border-slate-800 rounded-2xl p-8 hover:border-secondary transition-colors group">
-                            <span className="text-6xl font-bold text-slate-800 mb-6 block group-hover:text-secondary/20 transition-colors">0{i + 1}</span>
+                            <span className={`text-6xl font-bold text-slate-800 mb-6 block group-hover:text-secondary/20 transition-colors ${isRTL ? "text-left" : "text-right"}`} dir="ltr">0{i + 1}</span>
                             <h3 className="text-2xl font-bold text-white mb-4">{item.title}</h3>
                             <p className="text-slate-400 mb-8 leading-relaxed h-24">{item.desc}</p>
                             <ul className="space-y-2">
@@ -119,13 +189,13 @@ export default function AboutPage() {
                 </div>
             </section>
 
-            <MarqueeText text="CERTIFIED EXPERTS • GLOBAL STANDARDS •" />
+            <MarqueeText text={t.marquee} />
 
             {/* Clients Cloud */}
             <section className="py-32 container mx-auto px-6 text-center">
-                <h2 className="text-sm font-mono uppercase tracking-widest text-slate-500 mb-16">Trusted By Industry Leaders</h2>
+                <h2 className="text-sm font-mono uppercase tracking-widest text-slate-500 mb-16">{t.clientsTitle}</h2>
                 <div className="flex flex-wrap justify-center gap-x-16 gap-y-12 opacity-80">
-                    {clientsData.map((client, i) => (
+                    {clients.map((client, i) => (
                         <span key={i} className="text-xl md:text-2xl font-bold text-slate-500 hover:text-white transition-colors cursor-default select-none">
                             {client.name}
                         </span>
@@ -135,3 +205,5 @@ export default function AboutPage() {
         </main>
     );
 }
+
+

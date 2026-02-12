@@ -10,6 +10,14 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'plus.unsplash.com',
             },
+            {
+                protocol: 'https',
+                hostname: 'mtgar.com',
+            },
+            {
+                protocol: 'https',
+                hostname: 'landing.mtgar.com',
+            },
         ],
     },
 };

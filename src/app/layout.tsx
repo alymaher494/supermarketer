@@ -1,20 +1,25 @@
 import type { Metadata } from 'next';
-import SmoothScrollLayout from "@/components/SmoothScrollLayout";
+import Providers from "./Providers";
 import "./globals.css";
-import { Inter, Manrope } from "next/font/google";
+import { Inter, Manrope, IBM_Plex_Sans_Arabic } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const manrope = Manrope({ subsets: ["latin"], variable: "--font-manrope" });
+const ibmPlexSansArabic = IBM_Plex_Sans_Arabic({
+  subsets: ["arabic"],
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
+  variable: "--font-ibm-arabic"
+});
 
 export const metadata: Metadata = {
-  title: 'SuperMarketer | Performance & Growth Agency',
-  description: 'We help ambitious brands scale revenue through data-driven performance marketing and scientific creative testing.',
+  title: 'سوبر ماركتير | وكالة الأداء والنمو الرقمي',
+  description: 'نحن نساعد العلامات التجارية الطموحة على زيادة الإيرادات من خلال التسويق المبني على البيانات واختبار الإبداع العلمي.',
   openGraph: {
-    title: 'SuperMarketer | Performance & Growth Agency',
-    description: 'We help ambitious brands scale revenue through data-driven performance marketing.',
+    title: 'سوبر ماركتير | وكالة الأداء والنمو الرقمي',
+    description: 'نحن نساعد العلامات التجارية الطموحة على زيادة الإيرادات من خلال التسويق المبني على البيانات.',
     url: 'https://supermarketer.net',
     siteName: 'SuperMarketer',
-    locale: 'en_US',
+    locale: 'ar_EG',
     type: 'website',
   },
 };
@@ -25,11 +30,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${inter.variable} ${manrope.variable} antialiased bg-primary text-foreground overflow-x-hidden selection:bg-secondary selection:text-primary`}>
-        <SmoothScrollLayout>
+    <html lang="ar" dir="rtl" className="dark">
+      <body className={`${inter.variable} ${manrope.variable} ${ibmPlexSansArabic.variable} font-arabic antialiased bg-primary text-foreground overflow-x-hidden selection:bg-secondary selection:text-primary`}>
+        <Providers>
           {children}
-        </SmoothScrollLayout>
+        </Providers>
       </body>
     </html>
   );

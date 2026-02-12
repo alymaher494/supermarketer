@@ -1,9 +1,10 @@
 "use client";
-import { ArrowRight, CheckCircle2, XCircle, Zap } from "lucide-react";
+import { ArrowRight, ArrowLeft, CheckCircle2, XCircle, Zap } from "lucide-react";
 import Link from "next/link";
 import { useRef, useState } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import { useLanguage } from "@/context/LanguageContext";
 
 if (typeof window !== "undefined") {
     gsap.registerPlugin(useGSAP);
@@ -23,8 +24,27 @@ interface ServiceCardProps {
 }
 
 export default function ServiceCard({ id, title, description, type, details, delay = 0 }: ServiceCardProps) {
+    const { language } = useLanguage();
+    const isRTL = language === 'ar';
     const cardRef = useRef<HTMLDivElement>(null);
     const [isHovered, setIsHovered] = useState(false);
+    const ArrowIcon = isRTL ? ArrowLeft : ArrowRight;
+
+    const content = {
+        ar: {
+            problem: "المشكلة",
+            solution: "الحل",
+            outcomes: "النتائج",
+            explore: "استكشف الخدمة"
+        },
+        en: {
+            problem: "Problem",
+            solution: "Solution",
+            outcomes: "Outcomes",
+            explore: "Explore Service"
+        }
+    };
+    const t = content[language];
 
     useGSAP(() => {
         gsap.from(cardRef.current, {
@@ -47,7 +67,7 @@ export default function ServiceCard({ id, title, description, type, details, del
             onMouseLeave={() => setIsHovered(false)}
         >
             {/* Service Type Badge */}
-            <span className="absolute top-6 right-6 text-xs font-mono text-secondary bg-secondary/10 px-3 py-1 rounded-full">
+            <span className={`absolute top-6 ${isRTL ? "left-6" : "right-6"} text-xs font-mono text-secondary bg-secondary/10 px-3 py-1 rounded-full`}>
                 {type}
             </span>
 
@@ -61,7 +81,7 @@ export default function ServiceCard({ id, title, description, type, details, del
                 <div className="flex gap-3 items-start">
                     <XCircle className="w-5 h-5 text-red-400 shrink-0 mt-1" />
                     <div>
-                        <span className="text-sm font-bold text-red-400 block">Problem</span>
+                        <span className="text-sm font-bold text-red-400 block">{t.problem}</span>
                         <p className="text-sm text-slate-300">{details.problem}</p>
                     </div>
                 </div>
@@ -69,13 +89,13 @@ export default function ServiceCard({ id, title, description, type, details, del
                 <div className="flex gap-3 items-start">
                     <CheckCircle2 className="w-5 h-5 text-secondary shrink-0 mt-1" />
                     <div>
-                        <span className="text-sm font-bold text-secondary block">Solution</span>
+                        <span className="text-sm font-bold text-secondary block">{t.solution}</span>
                         <p className="text-sm text-slate-300">{details.solution}</p>
                     </div>
                 </div>
 
                 <div>
-                    <span className="text-xs font-bold text-slate-500 uppercase tracking-widest block mb-2">Outcomes</span>
+                    <span className="text-xs font-bold text-slate-500 uppercase tracking-widest block mb-2">{t.outcomes}</span>
                     <div className="flex flex-wrap gap-2">
                         {details.outcomes.map((outcome, idx) => (
                             <span key={idx} className="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded flex items-center gap-1">
@@ -90,7 +110,7 @@ export default function ServiceCard({ id, title, description, type, details, del
                 href={`/services/${id}`}
                 className="inline-flex items-center gap-2 text-secondary font-semibold hover:gap-3 transition-all"
             >
-                Explore Service <ArrowRight className="w-4 h-4" />
+                {t.explore} <ArrowIcon className="w-4 h-4" />
             </Link>
 
             {/* Hover Glow Effect */}
@@ -98,3 +118,4 @@ export default function ServiceCard({ id, title, description, type, details, del
         </div>
     );
 }
+

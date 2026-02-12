@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
+import { useLanguage } from "@/context/LanguageContext";
 
 // Generate array of logo paths (1-51)
 // Mixing jpg and png based on file list
@@ -15,14 +15,18 @@ const logoFiles = [
 ];
 
 export default function LogoTicker() {
+    const { language } = useLanguage();
     const slider = useRef<HTMLDivElement>(null);
+    const isRTL = language === 'ar';
+
+    const text = isRTL ? "أكثر من 50 شريك نجاح" : "Over 50 Success Partners";
 
     useEffect(() => {
         const ctx = gsap.context(() => {
             if (!slider.current) return;
             const totalWidth = slider.current.scrollWidth;
             const loop = gsap.to(slider.current, {
-                x: -totalWidth / 2,
+                x: totalWidth / 2,
                 duration: 60,
                 ease: "none",
                 repeat: -1,
@@ -33,10 +37,10 @@ export default function LogoTicker() {
     }, []);
 
     return (
-        <section className="py-16 bg-[#020617] overflow-hidden border-t border-slate-900">
-            <div className="container mx-auto px-6 mb-8 text-center md:text-left">
+        <section className="py-16 bg-[#020617] overflow-hidden border-t border-slate-900" dir={isRTL ? "rtl" : "ltr"}>
+            <div className={`container mx-auto px-6 mb-8 text-center ${isRTL ? "md:text-right" : "md:text-left"}`}>
                 <p className="text-secondary font-mono text-xs uppercase tracking-[0.2em] opacity-80">
-                    Trusted by 50+ Partners
+                    {text}
                 </p>
             </div>
 
@@ -57,3 +61,4 @@ export default function LogoTicker() {
         </section>
     );
 }
+

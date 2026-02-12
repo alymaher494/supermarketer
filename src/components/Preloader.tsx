@@ -1,8 +1,10 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Preloader() {
+    const { language } = useLanguage();
     const [complete, setComplete] = useState(false);
     const container = useRef<HTMLDivElement>(null);
     const text = useRef<HTMLHeadingElement>(null);
@@ -48,7 +50,7 @@ export default function Preloader() {
         <div ref={container} className="fixed inset-0 z-[9999] bg-[#020617] flex flex-col items-center justify-center text-white">
             <div className="overflow-hidden mb-4">
                 <h1 ref={text} className="text-4xl md:text-6xl font-bold translate-y-full opacity-0">
-                    SUPER MARKETER
+                    {language === 'ar' ? "سوبر ماركتير" : "SUPER MARKETER"}
                 </h1>
             </div>
             <div ref={percent} className="text-xl font-mono text-secondary">
@@ -57,3 +59,4 @@ export default function Preloader() {
         </div>
     );
 }
+

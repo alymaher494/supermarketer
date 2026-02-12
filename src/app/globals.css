@@ -8,8 +8,9 @@
   --color-accent: #3B82F6;
   --color-accent-light: #60A5FA;
 
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-heading: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-arabic: var(--font-ibm-arabic);
+  --font-sans: var(--font-arabic), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-arabic), var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer utilities {
@@ -70,4 +71,16 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #10B981;
+}
+
+html[dir="rtl"],
+html[dir="rtl"] body {
+  line-height: 1.8;
+}
+
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3 {
+  line-height: 1.4;
+  padding-bottom: 0.1em;
 }

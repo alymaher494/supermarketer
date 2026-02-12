@@ -5,10 +5,31 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { blogData } from "@/data/blog";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowUpRight, Calendar } from "lucide-react";
+import { ArrowUpRight, ArrowUpLeft, Calendar } from "lucide-react";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function BlogSection() {
+    const { language } = useLanguage();
     const container = useRef(null);
+    const isRTL = language === 'ar';
+    const posts = blogData[language];
+
+    const content = {
+        ar: {
+            label: "قاعدة المعرفة",
+            title: "آخر الأفكار",
+            allArticles: "كل المقالات",
+            readMore: "اقرأ المزيد"
+        },
+        en: {
+            label: "Knowledge Base",
+            title: "Latest Thoughts",
+            allArticles: "All Articles",
+            readMore: "Read More"
+        }
+    };
+    const t = content[language];
+    const ArrowIcon = isRTL ? ArrowUpLeft : ArrowUpRight;
 
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
@@ -34,24 +55,24 @@ export default function BlogSection() {
     }, []);
 
     return (
-        <section ref={container} className="py-32 bg-primary border-t border-slate-800">
+        <section ref={container} className="py-32 bg-primary border-t border-slate-800" dir={isRTL ? "rtl" : "ltr"}>
             <div className="container mx-auto px-6">
                 <div className="flex justify-between items-end mb-16">
                     <div>
-                        <span className="text-secondary font-mono uppercase tracking-widest mb-4 block">Knowledge Base</span>
-                        <h2 className="text-4xl md:text-5xl font-bold text-white">Latest Insights</h2>
+                        <span className="text-secondary font-mono uppercase tracking-widest mb-4 block">{t.label}</span>
+                        <h2 className="text-4xl md:text-5xl font-bold text-white">{t.title}</h2>
                     </div>
 
                     <Link href="/blog" className="hidden md:flex items-center gap-2 text-white hover:text-secondary transition-colors group">
-                        All Articles
+                        {t.allArticles}
                         <div className="bg-white/10 p-2 rounded-full group-hover:bg-secondary group-hover:text-black transition-all">
-                            <ArrowUpRight size={20} />
+                            <ArrowIcon size={20} />
                         </div>
                     </Link>
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-8">
-                    {blogData.map((post, i) => (
+                    {posts.map((post, i) => (
                         <Link key={i} href={`/blog/${post.slug}`} className="blog-card group block">
                             <div className="relative aspect-[16/10] overflow-hidden rounded-2xl mb-6 bg-slate-900 border border-slate-800 group-hover:border-secondary transition-colors">
                                 <Image
@@ -60,14 +81,14 @@ export default function BlogSection() {
                                     fill
                                     className="object-cover group-hover:scale-105 transition-transform duration-700"
                                 />
-                                <div className="absolute top-4 left-4">
+                                <div className={`absolute top-4 ${isRTL ? "right-4" : "left-4"}`}>
                                     <span className="bg-black/50 backdrop-blur-md text-white border border-white/20 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
                                         {post.category}
                                     </span>
                                 </div>
                             </div>
 
-                            <div className="space-y-3 pr-4">
+                            <div className={`space-y-3 ${isRTL ? "pl-4" : "pr-4"}`}>
                                 <div className="flex items-center gap-3 text-slate-500 text-sm font-mono uppercase">
                                     <Calendar size={14} />
                                     <span>{post.date}</span>
@@ -82,7 +103,7 @@ export default function BlogSection() {
                                 </p>
 
                                 <span className="inline-flex items-center gap-2 text-white font-bold text-sm uppercase tracking-wider mt-4 group-hover:gap-4 transition-all">
-                                    Read More <ArrowUpRight size={16} className="text-secondary" />
+                                    {t.readMore} <ArrowIcon size={16} className="text-secondary" />
                                 </span>
                             </div>
                         </Link>
@@ -90,9 +111,10 @@ export default function BlogSection() {
                 </div>
 
                 <div className="mt-12 md:hidden text-center">
-                    <Link href="/blog" className="btn-outline">View All Articles</Link>
+                    <Link href="/blog" className="btn-outline">{t.allArticles}</Link>
                 </div>
             </div>
         </section>
     );
 }
+
