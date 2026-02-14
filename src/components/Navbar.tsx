@@ -27,12 +27,12 @@ export default function Navbar() {
         ar: {
             links: [
                 { name: "الرئيسية", href: "/" },
-                { name: "من نحن", href: "/about" },
-                { name: "خدماتنا", href: "/services" },
-                { name: "أعمالنا", href: "/case-studies" }, // Changed href to match real page
+                { name: "عني", href: "/about" },
+                { name: "خدماتي", href: "/services" },
+                { name: "أعمالي", href: "/case-studies" }, // Changed href to match real page
                 { name: "المدونة", href: "/blog" },
             ],
-            contact: "تواصل معنا",
+            contact: "تواصل معي",
             langBtn: "EN"
         },
         en: {

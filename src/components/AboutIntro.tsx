@@ -14,20 +14,20 @@ export default function AboutIntro() {
 
     const content = {
         ar: {
-            label: "من نحن",
-            title: <>مهندسو <br /> النمو.</>,
-            p1: <>معظم الوكالات تخمن. نحن <strong className="text-white font-medium">نحسب</strong>.</>,
-            p2: <>نساعد العلامات التجارية في مصر والخليج على التوسع بمنهجية من خلال التركيز على ما يهم: <strong className="text-white">ROAS، CAC، واقتصاديات الوحدة</strong>.</>,
-            p3: "استبدلنا \"مقاييس الغرور\" بالنماذج المالية. استبدلنا \"المشاعر\" بالتتبع من جانب السيرفر. قمنا ببناء نظام حيث يتم توجيه الإبداع بواسطة البيانات، وليس العكس.",
-            link: "اقرأ قصتنا الكاملة"
+            label: "من أنا",
+            title: <>مهندس <br /> النمو.</>,
+            p1: <>معظم الوكالات تخمن. أنا <strong className="text-white font-medium">أحسب</strong>.</>,
+            p2: <>أساعد العلامات التجارية في مصر والخليج على التوسع بمنهجية من خلال التركيز على ما يهم: <strong className="text-white">ROAS، CAC، واقتصاديات الوحدة</strong>.</>,
+            p3: "استبدلت \"مقاييس الغرور\" بالنماذج المالية. استبدلت \"المشاعر\" بالتتبع من جانب السيرفر. قمت ببناء نظام حيث يتم توجيه الإبداع بواسطة البيانات، وليس العكس.",
+            link: "اقرأ قصتي الكاملة"
         },
         en: {
-            label: "Who We Are",
-            title: <>Growth <br /> Engineers.</>,
-            p1: <>Most agencies guess. We <strong className="text-white font-medium">calculate</strong>.</>,
-            p2: <>We help brands scale systematically by focusing on what matters: <strong className="text-white">ROAS, CAC, and Unit Economics</strong>.</>,
-            p3: "We replaced \"vanity metrics\" with financial models. We replaced \"feelings\" with server-side tracking. We built a system where creative is directed by data, not the other way around.",
-            link: "Read Our Full Story"
+            label: "Who I Am",
+            title: <>Growth <br /> Engineer.</>,
+            p1: <>Most agencies guess. I <strong className="text-white font-medium">calculate</strong>.</>,
+            p2: <>I help brands scale systematically by focusing on what matters: <strong className="text-white">ROAS, CAC, and Unit Economics</strong>.</>,
+            p3: "I replaced \"vanity metrics\" with financial models. I replaced \"feelings\" with server-side tracking. I built a system where creative is directed by data, not the other way around.",
+            link: "Read My Full Story"
         }
     };
 
@@ -47,13 +47,14 @@ export default function AboutIntro() {
         });
 
         gsap.from(".intro-text", {
-            y: 50,
+            y: 30,
             opacity: 0,
-            duration: 1,
-            stagger: 0.1,
+            duration: 0.8,
+            stagger: 0.2,
             scrollTrigger: {
                 trigger: container.current,
-                start: "top 70%"
+                start: "top 85%", // Revealed earlier
+                toggleActions: "play none none none"
             }
         });
     }, [language]);
@@ -76,14 +77,14 @@ export default function AboutIntro() {
                     {/* Animated overlay border */}
                     <div className={`absolute top-0 ${isRTL ? "right-[-1px]" : "left-[-1px]"} w-[2px] h-full bg-secondary origin-top intro-line transform transition-transform duration-1000`} />
 
-                    <div className="intro-text space-y-8 text-xl md:text-2xl text-slate-300 font-light leading-relaxed">
-                        <p>
+                    <div className="space-y-8 text-xl md:text-2xl text-slate-200 font-light leading-relaxed">
+                        <p className="intro-text">
                             {t.p1}
                         </p>
-                        <p>
+                        <p className="intro-text">
                             {t.p2}
                         </p>
-                        <p>
+                        <p className="intro-text">
                             {t.p3}
                         </p>
 

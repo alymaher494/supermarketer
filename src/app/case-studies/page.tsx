@@ -3,6 +3,7 @@ import PageHeader from "@/components/ui/PageHeader";
 import Image from "next/image";
 import CaseStudyCard from "@/components/CaseStudyCard";
 import { caseStudiesData } from "@/data/case-studies";
+import Link from "next/link";
 import { useState, useMemo } from "react";
 import { ArrowDown } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
@@ -17,7 +18,7 @@ export default function CaseStudiesPage() {
             header: {
                 subtitle: "أعمال مختارة",
                 title: "نتائج تتوسع",
-                desc: "مجموعة مختارة من أكثر حملاتنا وتدقيقاتنا واستراتيجياتنا تأثيراً."
+                desc: "مجموعة مختارة من أكثر حملاتي وتدقيقاتي واستراتيجياتي تأثيراً."
             },
             result: "النتيجة",
             all: "الكل",
@@ -27,7 +28,7 @@ export default function CaseStudiesPage() {
             header: {
                 subtitle: "Selected Works",
                 title: "Results That Scale",
-                desc: "A curated collection of our most impactful campaigns, audits, and strategic overhauls."
+                desc: "A curated collection of my most impactful campaigns, audits, and strategic overhauls."
             },
             result: "Result",
             all: "All",
@@ -62,18 +63,20 @@ export default function CaseStudiesPage() {
             />
 
             {/* Filters */}
-            <div className="container mx-auto px-6 mb-20 sticky top-24 z-30 mix-blend-difference">
-                <div className="flex flex-wrap gap-x-8 gap-y-4 text-xl md:text-2xl font-bold uppercase">
-                    {allCategories.map(cat => (
-                        <button
-                            key={cat}
-                            onClick={() => setActiveCat(cat)}
-                            className={`transition-colors ${activeCat === cat ? "text-white border-b-2 border-secondary" : "text-slate-500 hover:text-slate-300"}`}
-                        >
-                            {cat}
-                            {activeCat === cat && <sup className="text-secondary ml-1 text-sm">{filtered.length}</sup>}
-                        </button>
-                    ))}
+            <div className="sticky top-[80px] z-30 bg-primary/80 backdrop-blur-xl border-y border-slate-800/50 py-6 mb-16">
+                <div className="container mx-auto px-6">
+                    <div className="flex flex-wrap gap-x-8 gap-y-4 text-sm md:text-base font-mono uppercase tracking-widest">
+                        {allCategories.map(cat => (
+                            <button
+                                key={cat}
+                                onClick={() => setActiveCat(cat)}
+                                className={`transition-colors ${activeCat === cat ? "text-white border-b-2 border-secondary" : "text-slate-500 hover:text-slate-300"}`}
+                            >
+                                {cat}
+                                {activeCat === cat && <sup className="text-secondary ml-1 text-sm">{filtered.length}</sup>}
+                            </button>
+                        ))}
+                    </div>
                 </div>
             </div>
 
@@ -81,7 +84,11 @@ export default function CaseStudiesPage() {
             <section className="container mx-auto px-6 pb-32">
                 <div className="grid md:grid-cols-2 gap-x-12 gap-y-24 lg:gap-y-40">
                     {filtered.map((study, index) => (
-                        <div key={study.slug} className={`group ${index % 2 !== 0 ? "md:translate-y-32" : ""}`}>
+                        <Link
+                            key={study.slug}
+                            href={`/case-studies/${study.slug}`}
+                            className={`group block ${index % 2 !== 0 ? "md:translate-y-32" : ""}`}
+                        >
                             {/* Reuse the style from Home page for consistency but refined */}
                             <div className="aspect-[4/5] md:aspect-[3/4] relative overflow-hidden rounded-sm mb-6 bg-slate-900 border border-slate-800">
                                 <Image
@@ -111,7 +118,7 @@ export default function CaseStudiesPage() {
                                 </div>
                                 <p className="text-slate-400 text-sm uppercase tracking-widest">{study.category}</p>
                             </div>
-                        </div>
+                        </Link>
                     ))}
                 </div>
 

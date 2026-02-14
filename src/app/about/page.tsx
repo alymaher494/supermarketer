@@ -18,13 +18,13 @@ export default function AboutPage() {
         ar: {
             header: {
                 subtitle: "الوكالة",
-                title: "نحن مهندسو النمو",
-                desc: "نحن استشاريون متخصصون في تسويق الأداء، نشارك العلامات التجارية الطموحة لهندسة نمو إيرادات يمكن التنبؤ به."
+                title: "أنا مهندس النمو",
+                desc: "أنا استشاري متخصص في تسويق الأداء، أشارك العلامات التجارية الطموحة لهندسة نمو إيرادات يمكن التنبؤ به."
             },
             hero: {
-                title: "مهووسون بالنتائج.\nموجهون بالبيانات.",
-                text1: { pre: "التسويق لم يعد مبنياً على \"التخمين\". إنه يتعلق", strong: "بالبنية التحتية", post: ". نؤمن بأن النمو المستدام يأتي من نظام دقيق للاختبار، ودقة تتبع من جانب السيرفر، والنمذجة المالية." },
-                text2: { pre: "نعمل في النقطة التي", span: "يلتقي فيها الإبداع بالحسابات", post: ". نحدد بدقة الروافع التي تحول الإنفاق الإعلاني إلى أرباح لشركائنا في جميع أنحاء منطقة الشرق الأوسط." }
+                title: "مهووس بالنتائج.\nموجه بالبيانات.",
+                text1: { pre: "التسويق لم يعد مبنياً على \"التخمين\". إنه يتعلق", strong: "بالبنية التحتية", post: ". أؤمن بأن النمو المستدام يأتي من نظام دقيق للاختبار، ودقة تتبع من جانب السيرفر، والنمذجة المالية." },
+                text2: { pre: "أعمل في النقطة التي", span: "يلتقي فيها الإبداع بالحسابات", post: ". أحدد بدقة الروافع التي تحول الإنفاق الإعلاني إلى أرباح لشركائي في جميع أنحاء منطقة الشرق الأوسط." }
             },
             stats: [
                 { label: "إنفاق إعلاني مدار", value: "+$15M" },
@@ -33,39 +33,39 @@ export default function AboutPage() {
                 { label: "سنوات الخبرة", value: "+10" }
             ],
             values: {
-                label: "حمضنا النووي",
-                title: "لماذا تختارنا العلامات التجارية؟",
+                label: "حمضي النووي",
+                title: "لماذا تختارني العلامات التجارية؟",
                 items: [
                     {
                         title: "التحليل الجنائي للبيانات",
-                        desc: "نصلح التتبع أولاً. إذا لم نتمكن من قياسه بدقة (من جانب السيرفر)، فلن ننفق دولاراً واحداً عليه.",
+                        desc: "أصلح التتبع أولاً. إذا لم أتمكن من قياسه بدقة (من جانب السيرفر)، فلن أنفق دولاراً واحداً عليه.",
                         points: ["إعداد CAPI", "نمذجة الإسناد", "تدقيق شامل"]
                     },
                     {
                         title: "الربح > عائد الإنفاق",
-                        desc: "لا نهتم بمقاييس الغرور. نحن نحسن من أجل هامش المساهمة، القيمة الدائمة للعميل، والأموال الفعلية في البنك.",
+                        desc: "لا أهتم بمقاييس الغرور. أنا أحسن من أجل هامش المساهمة، القيمة الدائمة للعميل، والأموال الفعلية في البنك.",
                         points: ["اقتصاديات الوحدة", "تحليل الأرباح والخسائر", "التوسع المدروس"]
                     },
                     {
                         title: "الإبداع العلمي",
-                        desc: "نختبر الإعلانات بشكل منهجي. نكرر العمل بناءً على بيانات الأداء، وليس الآراء الشخصية.",
+                        desc: "أختبر الإعلانات بشكل منهجي. أكرر العمل بناءً على بيانات الأداء، وليس الآراء الشخصية.",
                         points: ["اختبار A/B", "محتوى من إنشاء المستخدم", "إنتاج عالي الجودة"]
                     }
                 ]
             },
-            marquee: "خبراء معتمدون • معايير عالمية • نتائج حقيقية • ",
-            clientsTitle: "موثوق بنا من قادة الصناعة"
+            marquee: "خبير معتمد • معايير عالمية • نتائج حقيقية • ",
+            clientsTitle: "موثوق بي من قادة الصناعة"
         },
         en: {
             header: {
                 subtitle: "The Agency",
-                title: "We Are Growth Engineers",
-                desc: "We are specialist performance marketing consultants, partnering with ambitious brands to engineer predictable revenue growth."
+                title: "I Am a Growth Engineer",
+                desc: "I am a specialist performance marketing consultant, partnering with ambitious brands to engineer predictable revenue growth."
             },
             hero: {
                 title: "Results Obsessed.\nData Driven.",
-                text1: { pre: "Marketing is no longer about 'guessing'. It's about", strong: "Infrastructure", post: ". We believe sustainable growth comes from a rigorous system of testing, server-side tracking accuracy, and financial modeling." },
-                text2: { pre: "We operate where", span: "Creativity meets Calculus", post: ". We pinpoint the exact levers that turn ad spend into profit for our partners across the MENA region." }
+                text1: { pre: "Marketing is no longer about 'guessing'. It's about", strong: "Infrastructure", post: ". I believe sustainable growth comes from a rigorous system of testing, server-side tracking accuracy, and financial modeling." },
+                text2: { pre: "I operate where", span: "Creativity meets Calculus", post: ". I pinpoint the exact levers that turn ad spend into profit for my partners across the MENA region." }
             },
             stats: [
                 { label: "Managed Ad Spend", value: "+$15M" },
@@ -74,27 +74,27 @@ export default function AboutPage() {
                 { label: "Years Experience", value: "+10" }
             ],
             values: {
-                label: "Our DNA",
-                title: "Why Brands Choose Us?",
+                label: "My DNA",
+                title: "Why Brands Choose Me?",
                 items: [
                     {
                         title: "Forensic Data Analysis",
-                        desc: "We fix tracking first. If we can't measure it accurately (Server-Side), we won't spend a dollar on it.",
+                        desc: "I fix tracking first. If I can't measure it accurately (Server-Side), I won't spend a dollar on it.",
                         points: ["CAPI Setup", "Attribution Modeling", "Comprehensive Audit"]
                     },
                     {
                         title: "Profit > ROAS",
-                        desc: "We don't care about vanity metrics. We optimize for Contribution Margin, LTV, and actual cash in the bank.",
+                        desc: "I don't care about vanity metrics. I optimize for Contribution Margin, LTV, and actual cash in the bank.",
                         points: ["Unit Economics", "P&L Analysis", "Thoughtful Scaling"]
                     },
                     {
                         title: "Scientific Creativity",
-                        desc: "We test ads systematically. We iterate based on performance data, not personal opinions.",
+                        desc: "I test ads systematically. I iterate based on performance data, not personal opinions.",
                         points: ["A/B Testing", "UGC Content", "High Quality Production"]
                     }
                 ]
             },
-            marquee: "Certified Experts • Global Standards • Real Results • ",
+            marquee: "Certified Expert • Global Standards • Real Results • ",
             clientsTitle: "Trusted by Industry Leaders"
         }
     };

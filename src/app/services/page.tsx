@@ -18,9 +18,9 @@ export default function ServicesPage() {
     const content = {
         ar: {
             header: {
-                subtitle: "خبراتنا",
+                subtitle: "خبراتي",
                 title: "وحدات النمو",
-                desc: "لا نبيع باقات عامة. نحن ننشر وحدات نمو متخصصة مصممة خصيصاً لأهداف إيراداتك."
+                desc: "لا أبيع باقات عامة. أنا أنشر وحدات نمو متخصصة مصممة خصيصاً لأهداف إيراداتك."
             },
             labels: {
                 fix: "الحل",
@@ -31,9 +31,9 @@ export default function ServicesPage() {
         },
         en: {
             header: {
-                subtitle: "Our Expertise",
+                subtitle: "My Expertise",
                 title: "Growth Modules",
-                desc: "We don't sell generic packages. We deploy specialized growth modules tailored to your revenue goals."
+                desc: "I don't sell generic packages. I deploy specialized growth modules tailored to your revenue goals."
             },
             labels: {
                 fix: "The Fix",

@@ -17,10 +17,10 @@ export default function Footer() {
             connectTitle: "تواصل",
             links: [
                 { name: "الرئيسية", href: "/" },
-                { name: "من نحن", href: "/about" },
-                { name: "خدماتنا", href: "/services" },
-                { name: "أعمالنا", href: "/case-studies" },
-                { name: "تواصل معنا", href: "/contact" }
+                { name: "عني", href: "/about" },
+                { name: "خدماتي", href: "/services" },
+                { name: "أعمالي", href: "/case-studies" },
+                { name: "تواصل معي", href: "/contact" }
             ],
             social: [
                 { name: "لينكد إن", href: "#" },
@@ -105,7 +105,7 @@ export default function Footer() {
 
             {/* Big Background Text */}
             <div className="absolute bottom-0 left-0 w-full overflow-hidden pointer-events-none opacity-[0.03]">
-                <h1 className="text-[15vw] font-bold leading-none text-center whitespace-nowrap">
+                <h1 className="text-[10vw] font-bold leading-none text-center whitespace-nowrap">
                     SUPER MARKETER
                 </h1>
             </div>

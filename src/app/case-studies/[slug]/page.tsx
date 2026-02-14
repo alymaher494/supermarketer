@@ -1,25 +1,63 @@
+"use client";
+import React, { use } from "react";
 import { caseStudiesData } from "@/data/case-studies";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, CheckCircle2 } from "lucide-react";
+import { useLanguage } from "@/context/LanguageContext";
+import Image from "next/image";
 
 interface PageProps {
     params: Promise<{ slug: string }>;
 }
 
-export default async function CaseStudyDetail({ params }: PageProps) {
-    const { slug } = await params;
-    const project = caseStudiesData.en.find((p) => p.slug === slug);
+export default function CaseStudyDetail({ params }: PageProps) {
+    const { slug } = use(params);
+    const { language } = useLanguage();
+    const isRTL = language === 'ar';
+
+    const project = caseStudiesData[language].find((p) => p.slug === slug);
 
     if (!project) {
         notFound();
     }
 
+    const t = {
+        ar: {
+            back: "العودة للأعمال",
+            client: "العميل",
+            challenge: "التحدي",
+            solution: "الحل",
+            tactics: "التكتيكات الرئيسية المنفذة:",
+            cta: "هل أنت مستعد لتحقيق نتائج مماثلة؟",
+            book: "احجز مكالمة استراتيجية",
+            tactics_list: [
+                "دمج هيكل الحملة للخروج من مرحلة التعلم بشكل أسرع.",
+                "دورة اختبار إبداعية كل 7 أيام.",
+                "تنفيذ التتبع من جانب السيرفر (CAPI) لتحسين الإسناد."
+            ]
+        },
+        en: {
+            back: "Back to Case Studies",
+            client: "Client",
+            challenge: "The Challenge",
+            solution: "The Solution",
+            tactics: "Key Tactics Implemented:",
+            cta: "Ready to get similar results?",
+            book: "Book Strategy Call",
+            tactics_list: [
+                "Consolidated campaign structure to exit learning phase faster.",
+                "Creative iteration cycle every 7 days.",
+                "Implemented server-side tracking (CAPI) for better attribution."
+            ]
+        }
+    }[language];
+
     return (
-        <main className="min-h-screen pt-32 pb-20">
+        <main className="min-h-screen pt-32 pb-20 bg-primary" dir={isRTL ? "rtl" : "ltr"}>
             <div className="container mx-auto px-4">
                 <Link href="/case-studies" className="inline-flex items-center gap-2 text-slate-400 hover:text-white mb-8 transition-colors">
-                    <ArrowLeft size={18} /> Back to Case Studies
+                    <ArrowLeft size={18} className={isRTL ? "rotate-180" : ""} /> {t.back}
                 </Link>
 
                 {/* Header */}
@@ -35,18 +73,23 @@ export default async function CaseStudyDetail({ params }: PageProps) {
                         ))}
                     </div>
 
-                    <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">{project.headline}</h1>
+                    <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-white">{project.headline}</h1>
                     <p className="text-xl text-slate-400">
-                        Client: <span className="text-white font-semibold">{project.client}</span>
+                        {t.client}: <span className="text-white font-semibold">{project.client}</span>
                     </p>
                 </div>
 
+                {/* Main Hero Image */}
+                <div className="max-w-5xl mx-auto mb-20 aspect-video relative rounded-3xl overflow-hidden border border-slate-800">
+                    <Image src={project.image} alt={project.client} fill className="object-cover" />
+                </div>
+
                 {/* Key Metrics Grid */}
-                <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 mb-20">
+                <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 mb-20">
                     {project.results.map((res, idx) => (
                         <div key={idx} className="bg-slate-900 border border-slate-800 p-8 rounded-2xl text-center">
                             <span className="block text-slate-500 text-sm uppercase tracking-wider mb-2">{res.label}</span>
-                            <div className="text-4xl font-bold text-white mb-2">
+                            <div className="text-3xl md:text-4xl font-bold text-white">
                                 {res.value}
                             </div>
                         </div>
@@ -56,41 +99,35 @@ export default async function CaseStudyDetail({ params }: PageProps) {
                 {/* Content */}
                 <div className="max-w-3xl mx-auto space-y-16">
                     <section>
-                        <h2 className="text-2xl font-bold mb-4 text-white">The Challenge</h2>
+                        <h2 className="text-2xl font-bold mb-4 text-white uppercase tracking-tight">{t.challenge}</h2>
                         <p className="text-slate-400 text-lg leading-relaxed">
                             {project.challenge}
                         </p>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-bold mb-4 text-white">The Solution</h2>
+                        <h2 className="text-2xl font-bold mb-4 text-white uppercase tracking-tight">{t.solution}</h2>
                         <p className="text-slate-400 text-lg leading-relaxed mb-6">
                             {project.solution}
                         </p>
                         <div className="bg-slate-900/50 p-6 rounded-xl border border-slate-800">
-                            <h3 className="font-semibold text-white mb-4">Key Tactics Implemented:</h3>
+                            <h3 className="font-semibold text-white mb-4">{t.tactics}</h3>
                             <ul className="space-y-3">
-                                <li className="flex gap-3 text-slate-300">
-                                    <CheckCircle2 className="w-5 h-5 text-secondary shrink-0" />
-                                    Consolidated campaign structure to exit learning phase faster.
-                                </li>
-                                <li className="flex gap-3 text-slate-300">
-                                    <CheckCircle2 className="w-5 h-5 text-secondary shrink-0" />
-                                    Creative iteration cycle every 7 days.
-                                </li>
-                                <li className="flex gap-3 text-slate-300">
-                                    <CheckCircle2 className="w-5 h-5 text-secondary shrink-0" />
-                                    Implemented server-side tracking (CAPI) for better attribution.
-                                </li>
+                                {t.tactics_list.map((item, i) => (
+                                    <li key={i} className="flex gap-3 text-slate-300">
+                                        <CheckCircle2 className="w-5 h-5 text-secondary shrink-0" />
+                                        {item}
+                                    </li>
+                                ))}
                             </ul>
                         </div>
                     </section>
 
                     <section className="pt-12 border-t border-slate-800 text-center">
-                        <h2 className="text-3xl font-bold mb-6">Ready to get similar results?</h2>
-                        <a href="/contact" className="btn-primary inline-block">
-                            Book Strategy Call
-                        </a>
+                        <h2 className="text-3xl font-bold mb-6 text-white">{t.cta}</h2>
+                        <Link href="/contact" className="btn-primary inline-block">
+                            {t.book}
+                        </Link>
                     </section>
                 </div>
             </div>

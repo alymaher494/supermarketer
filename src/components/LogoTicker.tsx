@@ -24,10 +24,11 @@ export default function LogoTicker() {
     useEffect(() => {
         const ctx = gsap.context(() => {
             if (!slider.current) return;
-            const totalWidth = slider.current.scrollWidth;
-            const loop = gsap.to(slider.current, {
-                x: totalWidth / 2,
-                duration: 60,
+
+            // For infinite marquee, we move by half since we duplicated the items
+            gsap.to(slider.current, {
+                xPercent: -50,
+                duration: 40,
                 ease: "none",
                 repeat: -1,
             });
@@ -37,23 +38,23 @@ export default function LogoTicker() {
     }, []);
 
     return (
-        <section className="py-16 bg-[#020617] overflow-hidden border-t border-slate-900" dir={isRTL ? "rtl" : "ltr"}>
-            <div className={`container mx-auto px-6 mb-8 text-center ${isRTL ? "md:text-right" : "md:text-left"}`}>
-                <p className="text-secondary font-mono text-xs uppercase tracking-[0.2em] opacity-80">
+        <section className="py-24 bg-[#020617] overflow-hidden border-y border-slate-900" dir="ltr">
+            <div className={`container mx-auto px-6 mb-12 text-center ${isRTL ? "md:text-right" : "md:text-left"}`}>
+                <p className="text-secondary font-mono text-sm uppercase tracking-[0.3em] font-bold">
                     {text}
                 </p>
             </div>
 
-            <div className="flex gap-16 items-center w-max" ref={slider}>
+            <div className="flex gap-12 md:gap-20 items-center w-max" ref={slider}>
                 {/* Render twice for infinite loop */}
                 {[...logoFiles, ...logoFiles].map((logo, i) => (
-                    <div key={i} className="relative w-32 h-20 grayscale hover:grayscale-0 opacity-50 hover:opacity-100 transition-all duration-300 flex items-center justify-center shrink-0">
+                    <div key={i} className="relative w-28 h-12 md:w-40 md:h-20 grayscale-0 opacity-80 hover:opacity-100 transition-all duration-300 flex items-center justify-center shrink-0">
                         <Image
                             src={`/logos/${logo}`}
                             alt={`Partner Logo ${i}`}
                             fill
                             className="object-contain"
-                            sizes="(max-width: 768px) 100px, 150px"
+                            sizes="200px"
                         />
                     </div>
                 ))}

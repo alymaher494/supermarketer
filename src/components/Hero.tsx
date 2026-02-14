@@ -24,14 +24,14 @@ export default function Hero() {
                     subtitle: "تسويق الأداء",
                     title: "حول الإنفاق",
                     title2: "إلى نمو",
-                    desc: "متخصصون في رفع العائد على الإنفاق الإعلاني (ROAS)، تحسين تكلفة الاستحواذ (CAC)، واقتصاديات الوحدة. نساعد العلامات التجارية في مصر والخليج على التوسع بمنهجية.",
+                    desc: "أنا متخصص في رفع العائد على الإنفاق الإعلاني (ROAS)، تحسين تكلفة الاستحواذ (CAC)، واقتصاديات الوحدة. أساعد العلامات التجارية في مصر والخليج على التوسع بمنهجية.",
                     image: "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2000&auto=format&fit=crop"
                 },
                 {
                     subtitle: "استراتيجيات مبنية على البيانات",
                     title: "توسع مع",
                     title2: "ثقة تامة",
-                    desc: "نحن لا نخمن. نحن نهندس تدفقات إيرادات يمكن التنبؤ بها للعلامات التجارية الطموحة.",
+                    desc: "أنا لا أخمن. أنا أهندس تدفقات إيرادات يمكن التنبؤ بها للعلامات التجارية الطموحة.",
                     image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2000&auto=format&fit=crop"
                 },
                 {
@@ -43,7 +43,7 @@ export default function Hero() {
                 }
             ],
             cta: "ابدأ مشروعك",
-            work: "أعمالنا"
+            work: "أعمالي"
         },
         en: {
             slides: [
@@ -51,14 +51,14 @@ export default function Hero() {
                     subtitle: "Performance Marketing",
                     title: "Turn Spend",
                     title2: "Into Growth",
-                    desc: "Specializing in ROAS maximization, CAC reduction, and unit economics. We help brands in Egypt & GCC scale systematically.",
+                    desc: "Specializing in ROAS maximization, CAC reduction, and unit economics. I help brands in Egypt & GCC scale systematically.",
                     image: "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2000&auto=format&fit=crop"
                 },
                 {
                     subtitle: "Data-Driven Strategies",
                     title: "Scale With",
                     title2: "Confidence",
-                    desc: "We don't guess. We engineer predictable revenue streams for ambitious brands.",
+                    desc: "I don't guess. I engineer predictable revenue streams for ambitious brands.",
                     image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2000&auto=format&fit=crop"
                 },
                 {
@@ -70,7 +70,7 @@ export default function Hero() {
                 }
             ],
             cta: "Start Project",
-            work: "Our Work"
+            work: "My Work"
         }
     };
 

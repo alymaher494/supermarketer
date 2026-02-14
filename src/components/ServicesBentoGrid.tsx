@@ -14,7 +14,7 @@ export default function ServicesBentoGrid() {
 
     const content = {
         ar: {
-            label: "خبراتنا",
+            label: "خبراتي",
             headline: <>وحدات نمو <br /> <span className="text-slate-500">شاملة.</span></>,
             viewAll: "عرض جميع الخدمات",
             items: [
@@ -41,7 +41,7 @@ export default function ServicesBentoGrid() {
             ]
         },
         en: {
-            label: "Our Expertise",
+            label: "My Expertise",
             headline: <>Holistic Growth <br /> <span className="text-slate-500">Units.</span></>,
             viewAll: "View All Services",
             items: [

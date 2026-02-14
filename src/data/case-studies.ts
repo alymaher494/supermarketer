@@ -40,7 +40,7 @@ export const caseStudiesData = {
             category: "عطور / تجارة إلكترونية",
             headline: "ميتا: 12 حملة ناجحة و 5 مليون ظهور",
             metric: { label: "مرات الظهور", value: "5M+" },
-            image: "/المركز السعودي للعود.png",
+            image: "/saudi-oud.png",
             challenge: "زيادة المبيعات والانتشار عبر منصات ميتا المتعددة.",
             solution: "12 حملة متكاملة شملت المبيعات (Sales) والزيارات (Traffic) وصفحات الهبوط (Landing Page).",
             results: [
@@ -57,7 +57,7 @@ export const caseStudiesData = {
             category: "عناية شخصية / تجارة إلكترونية",
             headline: "تيك توك: نتائج مبهرة في التحويلات",
             metric: { label: "التحويلات", value: "9,881" },
-            image: "/New Inaya.PNG",
+            image: "/inaya-ads.png",
             challenge: "بناء الوعي وزيادة التحويلات على منصة تيك توك.",
             solution: "5 حملات إعلانية مركزة حققت وصولاً واسعاً ومعدلات تحويل عالية.",
             results: [
@@ -161,7 +161,7 @@ export const caseStudiesData = {
             category: "Perfumes / E-commerce",
             headline: "Meta: 12 Successful Campaigns & 5M+ Impressions",
             metric: { label: "Impressions", value: "5M+" },
-            image: "/المركز السعودي للعود.png",
+            image: "/saudi-oud.png",
             challenge: "Scaling sales and reach across multiple Meta platforms.",
             solution: "12 integrated campaigns including Sales, Traffic, and Landing Page strategies.",
             results: [
@@ -178,7 +178,7 @@ export const caseStudiesData = {
             category: "Personal Care / E-commerce",
             headline: "TikTok: Impressive Conversion Results",
             metric: { label: "Conversions", value: "9,881" },
-            image: "/New Inaya.PNG",
+            image: "/inaya-ads.png",
             challenge: "Building awareness and driving conversions on TikTok.",
             solution: "5 focused ad campaigns achieving massive reach and high conversion rates.",
             results: [

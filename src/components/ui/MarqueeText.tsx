@@ -25,16 +25,25 @@ export default function MarqueeText({ text }: Props) {
     const finalItems = language === 'ar' ? [...items].reverse() : items;
 
     // Create enough duplicates to ensure smooth looping
-    // For short lists, we might need more duplication, but 4x is usually safe for this length
-    const displayItems = [...finalItems, ...finalItems, ...finalItems, ...finalItems];
+    const displayItems = [...finalItems, ...finalItems, ...finalItems, ...finalItems, ...finalItems, ...finalItems];
 
     useEffect(() => {
         const ctx = gsap.context(() => {
             // Row 1: Moves Left
-            gsap.to(row1.current, { xPercent: -50, ease: "none", duration: 20, repeat: -1 });
+            gsap.to(row1.current, {
+                xPercent: -50,
+                ease: "none",
+                duration: 30,
+                repeat: -1
+            });
 
             // Row 2: Moves Right
-            gsap.fromTo(row2.current, { xPercent: -50 }, { xPercent: 0, ease: "none", duration: 20, repeat: -1 });
+            gsap.fromTo(row2.current, { xPercent: -50 }, {
+                xPercent: 0,
+                ease: "none",
+                duration: 30,
+                repeat: -1
+            });
         }, container);
         return () => ctx.revert();
     }, [language]);

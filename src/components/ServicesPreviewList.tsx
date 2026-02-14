@@ -12,7 +12,7 @@ export default function ServicesPreviewList() {
 
     const content = {
         ar: {
-            label: "خبراتنا",
+            label: "خبراتي",
             title: "محركات النمو",
             services: [
                 { num: "01", title: "الاستراتيجية والتخطيط", desc: "استراتيجيات متكاملة مصممة خصيصًا لاقتصاديات وحدتك." },
@@ -22,7 +22,7 @@ export default function ServicesPreviewList() {
             ]
         },
         en: {
-            label: "Our Expertise",
+            label: "My Expertise",
             title: "Growth Engines",
             services: [
                 { num: "01", title: "Strategy & Planning", desc: "Integrated strategies tailored to your unit economics." },

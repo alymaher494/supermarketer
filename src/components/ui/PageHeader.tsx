@@ -12,17 +12,21 @@ export default function PageHeader({ title, subtitle, description }: PageHeaderP
     const container = useRef(null);
 
     useEffect(() => {
-        const tl = gsap.timeline();
-        tl.fromTo(".page-title-char",
-            { y: 100, opacity: 0, rotate: 5 },
-            { y: 0, opacity: 1, rotate: 0, stagger: 0.05, duration: 1, ease: "power4.out" }
-        );
-        tl.fromTo(".page-desc",
-            { y: 20, opacity: 0 },
-            { y: 0, opacity: 1, duration: 0.8, ease: "power2.out" },
-            "-=0.5"
-        );
-    }, []);
+        const ctx = gsap.context(() => {
+            const tl = gsap.timeline();
+            tl.fromTo(".page-title-char",
+                { y: 100, opacity: 0, rotate: 5 },
+                { y: 0, opacity: 1, rotate: 0, stagger: 0.05, duration: 1, ease: "power4.out" }
+            );
+            tl.fromTo(".page-desc",
+                { y: 20, opacity: 0 },
+                { y: 0, opacity: 1, duration: 0.8, ease: "power2.out" },
+                "-=0.5"
+            );
+        }, container);
+
+        return () => ctx.revert();
+    }, [title, description]);
 
     return (
         <section ref={container} className="relative pt-40 pb-20 container mx-auto px-6 border-b border-slate-800 mb-20 overflow-hidden">
@@ -46,7 +50,7 @@ export default function PageHeader({ title, subtitle, description }: PageHeaderP
             {description && (
                 <div className="relative z-10 grid md:grid-cols-2">
                     <div /> {/* Spacer */}
-                    <p className="page-desc text-xl md:text-2xl text-slate-400 font-light leading-relaxed">
+                    <p className="page-desc text-xl md:text-2xl text-slate-200 font-light leading-relaxed">
                         {description}
                     </p>
                 </div>

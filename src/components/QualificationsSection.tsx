@@ -16,7 +16,7 @@ export default function QualificationsSection() {
         ar: {
             label: "خبرة مثبتة",
             headline: { part1: "شريك", part2: "معتمد." },
-            desc: "استراتيجياتنا مدعومة بشهادات رسمية من منصات الإعلان الرائدة في العالم. نلتزم بالقواعد لتحقيق انتصارات كبيرة.",
+            desc: "استراتيجياتي مدعومة بشهادات رسمية من منصات الإعلان الرائدة في العالم. ألتزم بالقواعد لتحقيق انتصارات كبيرة.",
             stats: {
                 years: "سنوات الخبرة",
                 clients: "عملاء نشطين"
@@ -25,7 +25,7 @@ export default function QualificationsSection() {
         en: {
             label: "Proven Experience",
             headline: { part1: "Certified", part2: "Partner." },
-            desc: "Our strategies are backed by official certifications from leading ad platforms. We play by the rules to win big.",
+            desc: "My strategies are backed by official certifications from leading ad platforms. I play by the rules to win big.",
             stats: {
                 years: "Years Experience",
                 clients: "Active Clients"

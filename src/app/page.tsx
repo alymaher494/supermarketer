@@ -23,20 +23,20 @@ export default function Home() {
     ar: {
       agency: "الوكالة",
       headline: {
-        pre: "نحن",
-        span: "مهندسو النمو",
-        post: ". نحن نخطط لتدفقات إيرادات مستدامة للعلامات التجارية الطموحة."
+        pre: "أنا",
+        span: "مهندس النمو",
+        post: ". أنا أخطط لتدفقات إيرادات مستدامة للعلامات التجارية الطموحة."
       },
-      marquee: "خبراء معتمدون • معايير عالمية • نتائج حقيقية • "
+      marquee: "خبير معتمد • معايير عالمية • نتائج حقيقية • "
     },
     en: {
       agency: "The Agency",
       headline: {
-        pre: "We Are",
-        span: "Growth Engineers",
-        post: ". We architect sustainable revenue streams for ambitious brands."
+        pre: "I Am a",
+        span: "Growth Engineer",
+        post: ". I architect sustainable revenue streams for ambitious brands."
       },
-      marquee: "Certified Experts • Global Standards • Real Results • "
+      marquee: "Certified Expert • Global Standards • Real Results • "
     }
   };
   const t = content[language];

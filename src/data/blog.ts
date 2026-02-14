@@ -10,7 +10,7 @@ export const blogData = {
         },
         {
             slug: "furniture-marketing-audit",
-            title: "كيف وفرنا 45% من ميزانية الإعلانات لعلامة تجارية للأثاث",
+            title: "كيف وفرت 45% من ميزانية الإعلانات لعلامة تجارية للأثاث",
             excerpt: "غوص عميق في تدقيق أثاث قباني: تحديد الهدر وتحسين تدوير الإبداع.",
             category: "دراسة حالة",
             date: "28 يناير 2026",
@@ -36,7 +36,7 @@ export const blogData = {
         },
         {
             slug: "furniture-marketing-audit",
-            title: "How We Saved 45% Ad Budget for a Furniture Brand",
+            title: "How I Saved 45% Ad Budget for a Furniture Brand",
             excerpt: "A deep dive into the Kabani Furniture audit: Identifying waste and improving creative rotation.",
             category: "Case Study",
             date: "January 28, 2026",

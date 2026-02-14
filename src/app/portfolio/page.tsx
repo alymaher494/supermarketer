@@ -10,7 +10,7 @@ export default function PortfolioPage() {
             <PageHeader
                 subtitle="Visual Archive"
                 title="Creative Gallery"
-                description="A visual exploration of our campaigns, creative assets, and brand transformations."
+                description="A visual exploration of my campaigns, creative assets, and brand transformations."
             />
 
             <section className="container mx-auto px-6 pb-20">

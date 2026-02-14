@@ -29,7 +29,7 @@ export default function SplitColumns() {
 
     const content = {
         ar: {
-            label: "منهجنا",
+            label: "منهجي",
             headline: (
                 <>
                     صياغة <br /> التميز <br /> <span className="text-outline-white text-transparent">الرقمي.</span>
@@ -38,7 +38,7 @@ export default function SplitColumns() {
             features: [
                 {
                     title: "الاستراتيجية الموجهة بالبيانات",
-                    desc: "قبل إطلاق أي حملة، نقوم بتحليل عميق للسوق والمنافسين وسلوك الجمهور المستهدف لضمان أقصى عائد.",
+                    desc: "قبل إطلاق أي حملة، أقوم بتحليل عميق للسوق والمنافسين وسلوك الجمهور المستهدف لضمان أقصى عائد.",
                     image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop"
                 },
                 {
@@ -54,7 +54,7 @@ export default function SplitColumns() {
             ]
         },
         en: {
-            label: "Our Methodology",
+            label: "My Methodology",
             headline: (
                 <>
                     Crafting <br /> Digital <br /> <span className="text-outline-white text-transparent">Excellence.</span>
@@ -63,7 +63,7 @@ export default function SplitColumns() {
             features: [
                 {
                     title: "Data-Driven Strategy",
-                    desc: "Before launching any campaign, we conduct deep analysis of the market, competitors, and audience behavior to ensure maximum ROI.",
+                    desc: "Before launching any campaign, I conduct deep analysis of the market, competitors, and audience behavior to ensure maximum ROI.",
                     image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop"
                 },
                 {
