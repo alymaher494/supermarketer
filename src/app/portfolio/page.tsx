@@ -16,8 +16,8 @@ export default function PortfolioPage() {
             <section className="container mx-auto px-6 pb-20">
                 <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
                     {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item) => (
-                        <div key={item} className="break-inside-avoid bg-slate-900 rounded-sm overflow-hidden group relative">
-                            <div className={`w-full bg-slate-800 ${item % 2 === 0 ? 'aspect-[3/4]' : 'aspect-square'} relative`}>
+                        <div key={item} className="break-inside-avoid bg-card rounded-sm overflow-hidden group relative">
+                            <div className={`w-full bg-primary-light ${item % 2 === 0 ? 'aspect-[3/4]' : 'aspect-square'} relative`}>
                                 <div className="absolute inset-0 flex items-center justify-center text-slate-700 font-bold uppercase tracking-widest opacity-30">
                                     Asset {item}
                                 </div>
@@ -25,7 +25,7 @@ export default function PortfolioPage() {
                                     <ArrowUpRight className="text-black w-8 h-8" />
                                 </div>
                             </div>
-                            <div className="p-4 border-t border-slate-800">
+                            <div className="p-4 border-t border-border-subtle">
                                 <h4 className="font-bold text-white">Project Name {item}</h4>
                                 <p className="text-xs text-slate-500 uppercase">Social Media Creative</p>
                             </div>
@@ -34,7 +34,7 @@ export default function PortfolioPage() {
                 </div>
             </section>
 
-            <section className="py-20 border-t border-slate-800 text-center">
+            <section className="py-20 border-t border-border-subtle text-center">
                 <h2 className="text-3xl font-bold mb-6">Need creative for your next campaign?</h2>
                 <Link href="/contact" className="btn-primary">Book Creative Strategy</Link>
             </section>

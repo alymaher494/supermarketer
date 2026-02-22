@@ -54,7 +54,7 @@ export default function QualificationsSection() {
     }, [language]); // Re-run animation if language/content changes
 
     return (
-        <section ref={container} className="py-24 bg-[#020617] relative border-t border-slate-900 mb-0" dir={isRTL ? "rtl" : "ltr"}> {/* Ensure no margin bottom to avoid gap */}
+        <section ref={container} className="py-24 bg-[#161616] relative border-t border-slate-900 mb-0" dir={isRTL ? "rtl" : "ltr"}> {/* Ensure no margin bottom to avoid gap */}
 
             <div className="container mx-auto px-6">
                 <div className="flex flex-col md:flex-row gap-16">
@@ -75,7 +75,7 @@ export default function QualificationsSection() {
                                 {t.desc}
                             </p>
 
-                            <div className="flex gap-8 border-t border-slate-800 pt-8">
+                            <div className="flex gap-8 border-t border-border-subtle pt-8">
                                 <div>
                                     <span className="block text-4xl font-bold text-white mb-1">10+</span>
                                     <span className="text-xs text-slate-500 uppercase tracking-wider">{t.stats.years}</span>
@@ -91,7 +91,7 @@ export default function QualificationsSection() {
                     {/* Right Grid (Certificates) - Better Styling */}
                     <div className="md:w-2/3 grid sm:grid-cols-2 gap-4">
                         {data.map((cert, i) => (
-                            <div key={i} className="cert-item bg-[#0B1221] border border-slate-800 p-8 rounded-2xl hover:bg-slate-900 transition-all group relative overflow-hidden">
+                            <div key={i} className="cert-item bg-card border border-border-subtle p-8 rounded-2xl hover:bg-primary-light transition-all group relative overflow-hidden">
                                 {/* Hover Gradient */}
                                 <div className="absolute inset-0 bg-gradient-to-br from-secondary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
@@ -100,7 +100,7 @@ export default function QualificationsSection() {
                                     <div className="h-10 w-10 flex items-center justify-center bg-white rounded-md text-black font-bold">
                                         {cert.issuer[0]}
                                     </div>
-                                    <span className="text-xs font-mono text-slate-500 bg-slate-800 px-2 py-1 rounded">
+                                    <span className="text-xs font-mono text-slate-500 bg-primary-light px-2 py-1 rounded">
                                         {cert.date}
                                     </span>
                                 </div>

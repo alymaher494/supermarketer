@@ -130,8 +130,8 @@ export default function AboutPage() {
                 <div className="relative aspect-video w-full overflow-hidden rounded-3xl mb-16">
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
                     <Image
-                        src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"
-                        alt="Strategy Session"
+                        src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=2070&auto=format&fit=crop"
+                        alt="Growth Strategy"
                         fill
                         className="about-image object-cover"
                     />
@@ -153,7 +153,7 @@ export default function AboutPage() {
             </section>
 
             {/* Stats Row */}
-            <section className="border-y border-slate-800 py-20 bg-[#0B1221]">
+            <section className="border-y border-border-subtle py-20 bg-primary">
                 <div className="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
                     {t.stats.map((stat, i) => (
                         <div key={i}>
@@ -173,7 +173,7 @@ export default function AboutPage() {
 
                 <div className={`grid md:grid-cols-3 gap-8 ${isRTL ? "text-right" : "text-left"}`}>
                     {t.values.items.map((item, i) => (
-                        <div key={i} className="bg-slate-900/50 border border-slate-800 rounded-2xl p-8 hover:border-secondary transition-colors group">
+                        <div key={i} className="bg-card/50 border border-border-subtle rounded-2xl p-8 hover:border-secondary transition-colors group">
                             <span className={`text-6xl font-bold text-slate-800 mb-6 block group-hover:text-secondary/20 transition-colors ${isRTL ? "text-left" : "text-right"}`} dir="ltr">0{i + 1}</span>
                             <h3 className="text-2xl font-bold text-white mb-4">{item.title}</h3>
                             <p className="text-slate-400 mb-8 leading-relaxed h-24">{item.desc}</p>

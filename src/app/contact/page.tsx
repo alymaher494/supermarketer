@@ -60,7 +60,7 @@ export default function ContactPage() {
 
     return (
         <main className="min-h-screen bg-primary" dir={isRTL ? "rtl" : "ltr"}>
-            <div className="pt-40 container mx-auto px-6 border-b border-slate-800 pb-12 mb-20">
+            <div className="pt-40 container mx-auto px-6 border-b border-border-subtle pb-12 mb-20">
                 <h1 className="text-[12vw] md:text-[10vw] font-bold font-heading uppercase leading-none tracking-tighter text-white mb-8">
                     {t.title}
                 </h1>
@@ -80,9 +80,9 @@ export default function ContactPage() {
                     <div>
                         <h3 className="text-xl text-slate-400 mb-6 uppercase tracking-widest">{t.socialsLabel}</h3>
                         <div className="flex flex-col gap-4 text-xl">
-                            <a href="#" className="border-b border-slate-800 py-2 w-fit hover:border-white transition-colors">LinkedIn ↗</a>
-                            <a href="#" className="border-b border-slate-800 py-2 w-fit hover:border-white transition-colors">Instagram ↗</a>
-                            <a href="#" className="border-b border-slate-800 py-2 w-fit hover:border-white transition-colors">Twitter (X) ↗</a>
+                            <a href="#" className="border-b border-border-subtle py-2 w-fit hover:border-white transition-colors">LinkedIn ↗</a>
+                            <a href="#" className="border-b border-border-subtle py-2 w-fit hover:border-white transition-colors">Instagram ↗</a>
+                            <a href="#" className="border-b border-border-subtle py-2 w-fit hover:border-white transition-colors">Twitter (X) ↗</a>
                         </div>
                     </div>
                 </div>

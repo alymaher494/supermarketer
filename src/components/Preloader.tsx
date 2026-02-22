@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
+import Image from "next/image";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function Preloader() {
@@ -47,11 +48,15 @@ export default function Preloader() {
     if (complete) return null;
 
     return (
-        <div ref={container} className="fixed inset-0 z-[9999] bg-[#020617] flex flex-col items-center justify-center text-white">
+        <div ref={container} className="fixed inset-0 z-[9999] bg-[#161616] flex flex-col items-center justify-center text-white">
             <div className="overflow-hidden mb-4">
-                <h1 ref={text} className="text-4xl md:text-6xl font-bold translate-y-full opacity-0">
-                    {language === 'ar' ? "سوبر ماركتير" : "SUPER MARKETER"}
-                </h1>
+                <Image
+                    src="/logo.png"
+                    alt="Mohamed Elsayed Logo"
+                    width={150}
+                    height={150}
+                    className="object-contain group-hover:scale-110 transition-transform duration-500"
+                />
             </div>
             <div ref={percent} className="text-xl font-mono text-secondary">
                 0%

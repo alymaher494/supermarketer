@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, ArrowRight } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { useLanguage } from "@/context/LanguageContext";
@@ -54,18 +55,21 @@ export default function Navbar() {
     return (
         <>
             <header
-                className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? "py-4 bg-[#020617]/80 backdrop-blur-md border-b border-white/5" : "py-8 bg-transparent"}`}
+                className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? "py-4 bg-[#161616]/80 backdrop-blur-md border-b border-white/5" : "py-8 bg-transparent"}`}
             >
                 <div className="container mx-auto px-6 flex justify-between items-center">
                     {/* Logo */}
-                    <Link href="/" className="relative z-50 flex items-center gap-2 group">
-                        <div className="w-10 h-10 bg-secondary rounded-lg flex items-center justify-center font-bold text-black text-xl"> S </div>
-                        <span className="text-2xl font-bold text-white tracking-tight">
-                            {language === 'ar' ? "سوبر" : "Super"}
-                            <span className="font-light text-slate-400">
-                                {language === 'ar' ? "ماركتير." : "Marketer."}
-                            </span>
-                        </span>
+                    <Link href="/" className="relative z-50 flex items-center gap-4 group">
+                        <div className="relative w-24 h-24 flex items-center justify-center">
+                            <Image
+                                src="/logo.png"
+                                alt="Mohamed Elsayed Logo"
+                                width={200}
+                                height={200}
+                                className="object-contain group-hover:scale-110 transition-transform duration-500"
+                            />
+                        </div>
+
                     </Link>
 
                     {/* Desktop Nav */}
@@ -109,7 +113,7 @@ export default function Navbar() {
 
             {/* Mobile Menu Overlay */}
             {isOpen && (
-                <div className="fixed inset-0 bg-[#020617] z-40 flex items-center justify-center md:hidden">
+                <div className="fixed inset-0 bg-[#161616] z-40 flex items-center justify-center md:hidden">
                     <nav className="flex flex-col gap-8 text-center">
                         {t.links.map((link) => (
                             <Link

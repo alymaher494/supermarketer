@@ -81,7 +81,7 @@ export default function SelectedWorkList() {
             {/* Background noise/grain could go here */}
 
             {/* Custom Cursor Element for Project Preview */}
-            <div ref={cursor} className="fixed top-0 left-0 w-[400px] h-[300px] bg-slate-800 rounded-lg pointer-events-none z-[100] opacity-0 scale-0 overflow-hidden transform -translate-x-1/2 -translate-y-1/2 border border-slate-600 shadow-2xl hidden md:block">
+            <div ref={cursor} className="fixed top-0 left-0 w-[400px] h-[300px] bg-primary-light rounded-lg pointer-events-none z-[100] opacity-0 scale-0 overflow-hidden transform -translate-x-1/2 -translate-y-1/2 border border-slate-600 shadow-2xl hidden md:block">
                 <div className="cursor-content w-full h-full relative">
                     {/* Image injected via JS */}
                 </div>

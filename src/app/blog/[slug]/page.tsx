@@ -100,7 +100,7 @@ export default function BlogPostDetail({ params }: PageProps) {
                             }
                         </p>
 
-                        <div className="bg-[#0B1221] p-8 rounded-3xl border border-slate-800 my-12">
+                        <div className="bg-card p-8 rounded-3xl border border-slate-800 my-12">
                             <h3 className="text-xl font-bold text-white mb-4">
                                 {isRTL ? "نصيحة الخبير:" : "Expert Tip:"}
                             </h3>
@@ -123,7 +123,7 @@ export default function BlogPostDetail({ params }: PageProps) {
                     {/* Share & Call to Action */}
                     <div className="mt-20 pt-10 border-t border-slate-800 flex flex-wrap justify-between items-center gap-8">
                         <div className="flex gap-4">
-                            <button className="flex items-center gap-2 bg-slate-900 hover:bg-slate-800 px-6 py-3 rounded-full transition-colors text-white">
+                            <button className="flex items-center gap-2 bg-card hover:bg-slate-800 px-6 py-3 rounded-full transition-colors text-white">
                                 <Share2 size={18} /> {t.share}
                             </button>
                         </div>
@@ -135,7 +135,7 @@ export default function BlogPostDetail({ params }: PageProps) {
             </div>
 
             {/* Newsletter Section */}
-            <section className="py-24 bg-slate-900/50 border-y border-slate-800">
+            <section className="py-24 bg-card/50 border-y border-slate-800">
                 <div className="container mx-auto px-6 text-center max-w-2xl">
                     <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 tracking-tight">{t.newsletter}</h2>
                     <p className="text-slate-400 text-lg mb-10">{t.news_desc}</p>

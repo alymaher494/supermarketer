@@ -36,27 +36,34 @@ export default function AboutIntro() {
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
 
-        gsap.from(".intro-line", {
-            scaleY: 0,
-            duration: 1,
-            ease: "power2.inOut",
-            scrollTrigger: {
-                trigger: container.current,
-                start: "top 70%"
-            }
-        });
+        const ctx = gsap.context(() => {
+            // Line animation
+            gsap.from(".intro-line", {
+                scaleY: 0,
+                duration: 1.2,
+                ease: "power3.inOut",
+                scrollTrigger: {
+                    trigger: container.current,
+                    start: "top 80%",
+                }
+            });
 
-        gsap.from(".intro-text", {
-            y: 30,
-            opacity: 0,
-            duration: 0.8,
-            stagger: 0.2,
-            scrollTrigger: {
-                trigger: container.current,
-                start: "top 85%", // Revealed earlier
-                toggleActions: "play none none none"
-            }
-        });
+            // Text animation
+            gsap.from(".intro-text", {
+                y: 50,
+                opacity: 0,
+                duration: 1,
+                stagger: 0.15,
+                ease: "power3.out",
+                scrollTrigger: {
+                    trigger: container.current,
+                    start: "top 90%",
+                    once: true
+                }
+            });
+        }, container);
+
+        return () => ctx.revert();
     }, [language]);
 
     return (
@@ -73,11 +80,11 @@ export default function AboutIntro() {
                 </div>
 
                 {/* Right: Content with Border Line */}
-                <div className={`lg:col-span-8 relative ${isRTL ? "pr-8 md:pr-16 border-r" : "pl-8 md:pl-16 border-l"} border-slate-800`}>
+                <div className={`lg:col-span-8 relative ${isRTL ? "pr-8 md:pr-16 border-r" : "pl-8 md:pl-16 border-l"} border-border-subtle`}>
                     {/* Animated overlay border */}
                     <div className={`absolute top-0 ${isRTL ? "right-[-1px]" : "left-[-1px]"} w-[2px] h-full bg-secondary origin-top intro-line transform transition-transform duration-1000`} />
 
-                    <div className="space-y-8 text-xl md:text-2xl text-slate-200 font-light leading-relaxed">
+                    <div className="space-y-8 text-xl md:text-2xl text-white font-normal leading-relaxed">
                         <p className="intro-text">
                             {t.p1}
                         </p>

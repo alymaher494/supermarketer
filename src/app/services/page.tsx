@@ -85,7 +85,7 @@ export default function ServicesPage() {
                 {services.map((service, i) => (
                     <div
                         key={service.id}
-                        className="service-card sticky top-32 min-h-[600px] bg-[#0B1221] border border-slate-800 rounded-3xl p-8 md:p-12 mb-12 shadow-2xl flex flex-col md:flex-row gap-12 overflow-hidden"
+                        className="service-card sticky top-32 min-h-[600px] bg-card border border-border-subtle rounded-3xl p-8 md:p-12 mb-12 shadow-2xl flex flex-col md:flex-row gap-12 overflow-hidden"
                         // Z-index ensures correct stacking order
                         style={{ zIndex: i + 1 }}
                     >
@@ -126,7 +126,7 @@ export default function ServicesPage() {
                                     <h4 className="text-sm uppercase tracking-widest text-slate-500 mb-4">{t.labels.outcomes}</h4>
                                     <div className="flex flex-wrap gap-2">
                                         {service.details.outcomes.map((o, idx) => (
-                                            <span key={idx} className="bg-slate-800 px-3 py-1 rounded text-sm text-slate-300 border border-slate-700">
+                                            <span key={idx} className="bg-primary-light px-3 py-1 rounded text-sm text-slate-300 border border-slate-700">
                                                 {o}
                                             </span>
                                         ))}

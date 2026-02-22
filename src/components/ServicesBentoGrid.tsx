@@ -109,7 +109,7 @@ export default function ServicesBentoGrid() {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[400px]">
                     {/* Card 1: Large Feature */}
-                    <div className="bento-item md:col-span-2 row-span-1 bg-[#0B1221] rounded-3xl p-10 border border-slate-800 relative overflow-hidden group hover:border-secondary transition-colors">
+                    <div className="bento-item md:col-span-2 row-span-1 bg-card rounded-3xl p-10 border border-border-subtle relative overflow-hidden group hover:border-secondary transition-colors">
                         <div className="relative z-10 h-full flex flex-col justify-between">
                             <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center text-black font-bold text-xl mb-6">{t.items[0].num}</div>
                             <div>
@@ -125,9 +125,9 @@ export default function ServicesBentoGrid() {
                     </div>
 
                     {/* Card 2: Vertical */}
-                    <div className="bento-item md:col-span-1 row-span-1 md:row-span-2 bg-[#0F172A] rounded-3xl p-10 border border-slate-800 relative overflow-hidden group hover:border-secondary transition-colors flex flex-col justify-between">
+                    <div className="bento-item md:col-span-1 row-span-1 md:row-span-2 bg-card rounded-3xl p-10 border border-border-subtle relative overflow-hidden group hover:border-secondary transition-colors flex flex-col justify-between">
                         <div>
-                            <div className="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center text-white font-bold text-xl mb-6">{t.items[1].num}</div>
+                            <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center text-black font-bold text-xl mb-6">{t.items[1].num}</div>
                             <h3 className="text-3xl font-bold text-white mb-4">{t.items[1].title}</h3>
                             <p className="text-slate-400 text-lg">{t.items[1].desc}</p>
                         </div>
@@ -137,15 +137,15 @@ export default function ServicesBentoGrid() {
                     </div>
 
                     {/* Card 3: Standard */}
-                    <div className="bento-item md:col-span-1 bg-[#0B1221] rounded-3xl p-10 border border-slate-800 relative overflow-hidden group hover:border-secondary transition-colors">
-                        <div className="w-16 h-16 bg-purple-600 rounded-2xl flex items-center justify-center text-white font-bold text-xl mb-6">{t.items[2].num}</div>
+                    <div className="bento-item md:col-span-1 bg-card rounded-3xl p-10 border border-border-subtle relative overflow-hidden group hover:border-secondary transition-colors">
+                        <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center text-black font-bold text-xl mb-6">{t.items[2].num}</div>
                         <h3 className="text-2xl font-bold text-white mb-3">{t.items[2].title}</h3>
                         <p className="text-slate-400">{t.items[2].desc}</p>
                     </div>
 
                     {/* Card 4: Standard */}
-                    <div className="bento-item md:col-span-1 bg-[#0B1221] rounded-3xl p-10 border border-slate-800 relative overflow-hidden group hover:border-secondary transition-colors">
-                        <div className="w-16 h-16 bg-orange-600 rounded-2xl flex items-center justify-center text-white font-bold text-xl mb-6">{t.items[3].num}</div>
+                    <div className="bento-item md:col-span-1 bg-card rounded-3xl p-10 border border-border-subtle relative overflow-hidden group hover:border-secondary transition-colors">
+                        <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center text-black font-bold text-xl mb-6">{t.items[3].num}</div>
                         <h3 className="text-2xl font-bold text-white mb-3">{t.items[3].title}</h3>
                         <p className="text-slate-400">{t.items[3].desc}</p>
                     </div>

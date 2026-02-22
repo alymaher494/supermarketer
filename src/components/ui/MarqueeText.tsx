@@ -49,7 +49,7 @@ export default function MarqueeText({ text }: Props) {
     }, [language]);
 
     return (
-        <section ref={container} className="py-24 bg-[#020617] overflow-hidden flex flex-col gap-4 opacity-80" dir="ltr">
+        <section ref={container} className="py-24 bg-[#161616] overflow-hidden flex flex-col gap-4 opacity-80" dir="ltr">
             {/* Row 1 */}
             <div className="flex w-max whitespace-nowrap gap-12 md:gap-24" ref={row1}>
                 {displayItems.map((t, i) => (

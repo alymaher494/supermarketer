@@ -55,7 +55,7 @@ export default function BlogSection() {
     }, []);
 
     return (
-        <section ref={container} className="py-32 bg-primary border-t border-slate-800" dir={isRTL ? "rtl" : "ltr"}>
+        <section ref={container} className="py-32 bg-primary border-t border-border-subtle" dir={isRTL ? "rtl" : "ltr"}>
             <div className="container mx-auto px-6">
                 <div className="flex justify-between items-end mb-16">
                     <div>
@@ -74,7 +74,7 @@ export default function BlogSection() {
                 <div className="grid md:grid-cols-3 gap-8">
                     {posts.map((post, i) => (
                         <Link key={i} href={`/blog/${post.slug}`} className="blog-card group block">
-                            <div className="relative aspect-[16/10] overflow-hidden rounded-2xl mb-6 bg-slate-900 border border-slate-800 group-hover:border-secondary transition-colors">
+                            <div className="relative aspect-[16/10] overflow-hidden rounded-2xl mb-6 bg-card border border-border-subtle group-hover:border-secondary transition-colors">
                                 <Image
                                     src={post.image!}
                                     alt={post.title}

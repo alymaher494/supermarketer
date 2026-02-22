@@ -6,7 +6,7 @@ export const blogData = {
             excerpt: "لماذا تفشل نماذج عائد الإنفاق القديمة وما هي مقاييس القيمة الدائمة التي يجب تتبعها بدلاً من ذلك.",
             category: "استراتيجية",
             date: "10 فبراير 2026",
-            image: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?q=80&w=2070&auto=format&fit=crop"
+            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
         },
         {
             slug: "furniture-marketing-audit",
@@ -14,7 +14,7 @@ export const blogData = {
             excerpt: "غوص عميق في تدقيق أثاث قباني: تحديد الهدر وتحسين تدوير الإبداع.",
             category: "دراسة حالة",
             date: "28 يناير 2026",
-            image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=2070&auto=format&fit=crop"
+            image: "/industries/furniture.jpg"
         },
         {
             slug: "medical-marketing-compliance",
@@ -22,7 +22,7 @@ export const blogData = {
             excerpt: "بناء ثقة المرضى في العصر الرقمي دون انتهاك سياسات الإعلانات الصحية.",
             category: "تركيز صناعي",
             date: "15 يناير 2026",
-            image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
+            image: "/industries/medical.jpg"
         }
     ],
     en: [
@@ -32,7 +32,7 @@ export const blogData = {
             excerpt: "Why old ROAS models are failing and what LTV metrics to track instead.",
             category: "Strategy",
             date: "February 10, 2026",
-            image: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?q=80&w=2070&auto=format&fit=crop"
+            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
         },
         {
             slug: "furniture-marketing-audit",
@@ -40,7 +40,7 @@ export const blogData = {
             excerpt: "A deep dive into the Kabani Furniture audit: Identifying waste and improving creative rotation.",
             category: "Case Study",
             date: "January 28, 2026",
-            image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=2070&auto=format&fit=crop"
+            image: "/industries/furniture.jpg"
         },
         {
             slug: "medical-marketing-compliance",
@@ -48,7 +48,7 @@ export const blogData = {
             excerpt: "Building patient trust in the digital age without violating health ad policies.",
             category: "Industry Focus",
             date: "January 15, 2026",
-            image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
+            image: "/industries/medical.jpg"
         }
     ]
 };

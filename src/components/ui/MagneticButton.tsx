@@ -35,7 +35,7 @@ export default function MagneticButton({
             style={{ transform: `translate(${position.x}px, ${position.y}px)` }}
             className={`relative inline-flex items-center justify-center overflow-hidden transition-transform duration-200 ease-out group ${className}`}
         >
-            <span className="relative z-10 flex items-center gap-2 font-bold px-8 py-4 rounded-full border border-slate-700 bg-slate-900 group-hover:bg-secondary group-hover:text-primary group-hover:border-secondary transition-colors duration-300">
+            <span className="relative z-10 flex items-center gap-2 font-bold px-8 py-4 rounded-full border border-slate-700 bg-card group-hover:bg-secondary group-hover:text-primary group-hover:border-secondary transition-colors duration-300">
                 {children}
                 <ArrowUpRight className="w-5 h-5 group-hover:rotate-45 transition-transform duration-300" />
             </span>

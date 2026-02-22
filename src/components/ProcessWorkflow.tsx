@@ -83,7 +83,7 @@ export default function ProcessWorkflow() {
                     ))}
                 </div>
 
-                <div className="text-center border-t border-slate-800 pt-12">
+                <div className="text-center border-t border-border-subtle pt-12">
                     <p className="text-xl text-white font-medium inline-flex items-center gap-4 flex-col md:flex-row">
                         {t.cta}
                         <Link href="/contact" className="inline-flex items-center gap-3 bg-white text-black px-8 py-3 rounded-full text-sm font-bold uppercase hover:bg-secondary transition-colors">

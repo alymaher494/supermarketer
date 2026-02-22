@@ -63,7 +63,7 @@ export default function CaseStudiesPage() {
             />
 
             {/* Filters */}
-            <div className="sticky top-[80px] z-30 bg-primary/80 backdrop-blur-xl border-y border-slate-800/50 py-6 mb-16">
+            <div className="sticky top-[80px] z-30 bg-primary/80 backdrop-blur-xl border-y border-border-subtle/50 py-6 mb-16">
                 <div className="container mx-auto px-6">
                     <div className="flex flex-wrap gap-x-8 gap-y-4 text-sm md:text-base font-mono uppercase tracking-widest">
                         {allCategories.map(cat => (
@@ -90,7 +90,7 @@ export default function CaseStudiesPage() {
                             className={`group block ${index % 2 !== 0 ? "md:translate-y-32" : ""}`}
                         >
                             {/* Reuse the style from Home page for consistency but refined */}
-                            <div className="aspect-[4/5] md:aspect-[3/4] relative overflow-hidden rounded-sm mb-6 bg-slate-900 border border-slate-800">
+                            <div className="aspect-[4/5] md:aspect-[3/4] relative overflow-hidden rounded-sm mb-6 bg-card border border-border-subtle">
                                 <Image
                                     src={study.image}
                                     alt={study.client}
@@ -111,7 +111,7 @@ export default function CaseStudiesPage() {
                                 </div>
                             </div>
 
-                            <div className="border-t border-slate-800 pt-6">
+                            <div className="border-t border-border-subtle pt-6">
                                 <div className="flex justify-between items-baseline mb-2">
                                     <h3 className="text-3xl font-bold text-white uppercase group-hover:text-secondary transition-colors">{study.client}</h3>
                                     <span className="text-sm font-mono text-slate-500" dir="ltr">0{index + 1}</span>

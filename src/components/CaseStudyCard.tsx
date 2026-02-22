@@ -22,9 +22,9 @@ export default function CaseStudyCard({ slug, client, category, headline, metric
 
     return (
         <Link href={`/case-studies/${slug}`} className="block group">
-            <div className="aspect-[4/5] md:aspect-[3/4] relative overflow-hidden rounded-sm mb-6 bg-slate-900 border border-slate-800">
+            <div className="aspect-[4/5] md:aspect-[3/4] relative overflow-hidden rounded-sm mb-6 bg-card border border-border-subtle">
                 {/* Background Image Placeholder */}
-                <div className="absolute inset-0 bg-slate-800 transition-transform duration-1000 ease-out group-hover:scale-105" />
+                <div className="absolute inset-0 bg-primary-light transition-transform duration-1000 ease-out group-hover:scale-105" />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
 
                 {/* Date/Tag Overlay */}
@@ -41,7 +41,7 @@ export default function CaseStudyCard({ slug, client, category, headline, metric
                 </div>
             </div>
 
-            <div className="flex justify-between items-start border-t border-slate-800 pt-4 group-hover:border-secondary transition-colors">
+            <div className="flex justify-between items-start border-t border-border-subtle pt-4 group-hover:border-secondary transition-colors">
                 <div>
                     <h3 className="text-2xl font-bold text-white mb-1 group-hover:text-secondary transition-colors">{client}</h3>
                     <p className="text-slate-500 text-sm">{headline}</p>

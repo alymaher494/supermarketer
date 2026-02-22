@@ -62,7 +62,7 @@ export default function ServiceCard({ id, title, description, type, details, del
     return (
         <div
             ref={cardRef}
-            className="group relative bg-slate-900 border border-slate-800 rounded-2xl p-8 hover:border-secondary/50 transition-colors duration-300"
+            className="group relative bg-card border border-border-subtle rounded-2xl p-8 hover:border-secondary/50 transition-colors duration-300"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
         >
@@ -98,7 +98,7 @@ export default function ServiceCard({ id, title, description, type, details, del
                     <span className="text-xs font-bold text-slate-500 uppercase tracking-widest block mb-2">{t.outcomes}</span>
                     <div className="flex flex-wrap gap-2">
                         {details.outcomes.map((outcome, idx) => (
-                            <span key={idx} className="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded flex items-center gap-1">
+                            <span key={idx} className="text-xs bg-primary-light text-slate-300 px-2 py-1 rounded flex items-center gap-1">
                                 <Zap className="w-3 h-3 text-yellow-400" /> {outcome}
                             </span>
                         ))}

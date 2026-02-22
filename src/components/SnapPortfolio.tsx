@@ -55,7 +55,7 @@ export default function SnapPortfolio() {
     }, [language, slides.length]); // Re-run if language changes
 
     return (
-        <section className="relative bg-[#020617]" dir={isRTL ? "rtl" : "ltr"}>
+        <section className="relative bg-primary" dir={isRTL ? "rtl" : "ltr"}>
             <div ref={container} className="h-screen w-full relative overflow-hidden flex items-center">
 
                 {/* Background Static Text/Elements */}

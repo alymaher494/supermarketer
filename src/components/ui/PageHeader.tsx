@@ -29,7 +29,7 @@ export default function PageHeader({ title, subtitle, description }: PageHeaderP
     }, [title, description]);
 
     return (
-        <section ref={container} className="relative pt-40 pb-20 container mx-auto px-6 border-b border-slate-800 mb-20 overflow-hidden">
+        <section ref={container} className="relative pt-40 pb-20 container mx-auto px-6 border-b border-border-subtle mb-20 overflow-hidden">
             {/* Background Gradient */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[100vw] h-[50vh] bg-secondary/5 blur-[120px] rounded-full pointer-events-none -z-10" />
 

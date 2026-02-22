@@ -71,7 +71,7 @@ export default function TestimonialSlider() {
                             animate={{ opacity: 1, scale: 1 }}
                             exit={{ opacity: 0, scale: 0.9 }}
                             transition={{ duration: 0.5 }}
-                            className="bg-slate-900 border border-slate-800 p-8 md:p-12 rounded-2xl relative"
+                            className="bg-card border border-border-subtle p-8 md:p-12 rounded-2xl relative"
                         >
                             <Quote className={`w-12 h-12 text-secondary/20 absolute top-6 ${isRTL ? "right-6" : "left-6"}`} />
                             <p className="text-xl md:text-2xl text-slate-300 mb-6 italic relative z-10">
@@ -88,7 +88,7 @@ export default function TestimonialSlider() {
                     {/* Left Button (Physical Left) */}
                     <button
                         onClick={isRTL ? next : prev}
-                        className={`absolute top-1/2 -translate-y-1/2 p-3 bg-slate-800 rounded-full hover:bg-secondary hover:text-primary transition-all left-0 md:-left-12`}
+                        className={`absolute top-1/2 -translate-y-1/2 p-3 bg-primary-light rounded-full hover:bg-secondary hover:text-primary transition-all left-0 md:-left-12`}
                     >
                         <ChevronLeft />
                     </button>
@@ -96,7 +96,7 @@ export default function TestimonialSlider() {
                     {/* Right Button (Physical Right) */}
                     <button
                         onClick={isRTL ? prev : next}
-                        className={`absolute top-1/2 -translate-y-1/2 p-3 bg-slate-800 rounded-full hover:bg-secondary hover:text-primary transition-all right-0 md:-right-12`}
+                        className={`absolute top-1/2 -translate-y-1/2 p-3 bg-primary-light rounded-full hover:bg-secondary hover:text-primary transition-all right-0 md:-right-12`}
                     >
                         <ChevronRight />
                     </button>

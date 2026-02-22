@@ -38,7 +38,7 @@ export default function LogoTicker() {
     }, []);
 
     return (
-        <section className="py-24 bg-[#020617] overflow-hidden border-y border-slate-900" dir="ltr">
+        <section className="py-24 bg-[#161616] overflow-hidden border-y border-border-subtle" dir="ltr">
             <div className={`container mx-auto px-6 mb-12 text-center ${isRTL ? "md:text-right" : "md:text-left"}`}>
                 <p className="text-secondary font-mono text-sm uppercase tracking-[0.3em] font-bold">
                     {text}

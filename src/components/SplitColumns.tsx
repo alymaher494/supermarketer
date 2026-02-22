@@ -15,12 +15,16 @@ export default function SplitColumns() {
         gsap.registerPlugin(ScrollTrigger);
 
         const ctx = gsap.context(() => {
-            ScrollTrigger.create({
-                trigger: container.current,
-                start: "top top",
-                end: "bottom bottom",
-                pin: leftCol.current,
-                pinSpacing: false,
+            let mm = gsap.matchMedia();
+
+            mm.add("(min-width: 1024px)", () => {
+                ScrollTrigger.create({
+                    trigger: container.current,
+                    start: "top top",
+                    end: "bottom bottom",
+                    pin: leftCol.current,
+                    pinSpacing: false,
+                });
             });
         }, container);
 
@@ -64,7 +68,7 @@ export default function SplitColumns() {
                 {
                     title: "Data-Driven Strategy",
                     desc: "Before launching any campaign, I conduct deep analysis of the market, competitors, and audience behavior to ensure maximum ROI.",
-                    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop"
+                    image: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=2070&auto=format&fit=crop"
                 },
                 {
                     title: "Impactful Creative",
@@ -84,22 +88,22 @@ export default function SplitColumns() {
     const isRTL = language === "ar";
 
     return (
-        <section ref={container} className="relative bg-[#020617] border-t border-slate-900" dir={isRTL ? "rtl" : "ltr"}>
+        <section ref={container} className="relative bg-[#161616] border-t border-slate-900" dir={isRTL ? "rtl" : "ltr"}>
             <div className="flex flex-col lg:flex-row">
-                {/* Fixed Content Side */}
-                <div ref={leftCol} className="lg:w-1/2 h-screen flex flex-col justify-center px-12 lg:px-24 sticky top-0 bg-[#020617] z-10">
+                {/* Fixed Content Side (Desktop) / Header (Mobile) */}
+                <div ref={leftCol} className="lg:w-1/2 min-h-[50vh] lg:h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 bg-[#161616] z-10 transition-all duration-300">
                     <span className="text-secondary font-mono uppercase tracking-widest mb-6 block">{t.label}</span>
-                    <h2 className={`text-5xl md:text-7xl font-bold text-white mb-8 leading-tight ${isRTL ? "font-sans" : "font-sans"}`}>
+                    <h2 className={`text-4xl md:text-7xl font-bold text-white mb-8 leading-tight`}>
                         {t.headline}
                     </h2>
                     <div className="h-1 w-24 bg-secondary" />
                 </div>
 
-                {/* Scrollable Content Side */}
-                <div ref={rightCol} className="lg:w-1/2 bg-slate-900 border-l border-slate-800">
+                {/* Content Side */}
+                <div ref={rightCol} className="lg:w-1/2 bg-card lg:border-l border-border-subtle">
                     {t.features.map((feature, i) => (
-                        <div key={i} className="min-h-screen flex flex-col justify-center px-12 lg:px-24 py-24 border-b border-slate-800 last:border-0 relative group hover:bg-[#0B1221] transition-colors duration-500">
-                            <div className="relative aspect-[4/3] w-full mb-12 overflow-hidden rounded-sm">
+                        <div key={i} className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 py-16 lg:py-24 border-b border-border-subtle last:border-0 relative group hover:bg-primary-light transition-colors duration-500">
+                            <div className="relative aspect-[16/10] lg:aspect-[4/3] w-full mb-8 lg:mb-12 overflow-hidden rounded-xl">
                                 <Image
                                     src={feature.image}
                                     alt={feature.title}
@@ -108,13 +112,13 @@ export default function SplitColumns() {
                                 />
                                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors" />
                             </div>
-                            <h3 className="text-4xl font-bold text-white mb-4 group-hover:translate-x-4 transition-transform duration-300 rtl:group-hover:-translate-x-4 ltr:group-hover:translate-x-4">
+                            <h3 className="text-3xl lg:text-4xl font-bold text-white mb-4 group-hover:translate-x-4 transition-transform duration-300 rtl:group-hover:-translate-x-4">
                                 {feature.title}
                             </h3>
-                            <p className="text-slate-400 text-xl font-light leading-relaxed max-w-md group-hover:text-slate-300 transition-colors">
+                            <p className="text-slate-400 text-lg lg:text-xl font-light leading-relaxed max-w-md group-hover:text-slate-300 transition-colors">
                                 {feature.desc}
                             </p>
-                            <span className={`absolute top-12 ${isRTL ? "left-12" : "right-12"} text-8xl font-bold text-slate-800 opacity-20 pointer-events-none`}>0{i + 1}</span>
+                            <span className={`absolute top-8 lg:top-12 ${isRTL ? "left-6 lg:left-12" : "right-6 lg:right-12"} text-6xl lg:text-8xl font-bold text-slate-800 opacity-20 pointer-events-none`}>0{i + 1}</span>
                         </div>
                     ))}
                 </div>

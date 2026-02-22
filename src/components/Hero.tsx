@@ -116,12 +116,12 @@ export default function Hero() {
             </div>
 
             {/* Content Layer */}
-            <div className="relative z-20 h-full container mx-auto px-6 flex flex-col justify-center">
+            <div className="relative z-20 h-full container mx-auto px-6 flex flex-col justify-center pb-32 md:pb-0">
                 <div className="max-w-4xl">
                     <span className="block text-secondary font-mono uppercase tracking-[0.2em] mb-4 pl-1">
                         {slides[currentSlide].subtitle}
                     </span>
-                    <h1 className="text-[12vw] md:text-[8vw] font-bold leading-[0.9] text-white uppercase mb-6 mix-blend-overlay">
+                    <h1 className="text-[12vw] md:text-[8vw] font-bold leading-[0.9] text-white uppercase mb-6">
                         <div className="overflow-hidden">
                             <span ref={title1Ref} className="block">{slides[currentSlide].title}</span>
                         </div>

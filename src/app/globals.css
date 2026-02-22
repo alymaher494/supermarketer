@@ -1,12 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #0F172A;
-  --color-primary-light: #1E293B;
-  --color-secondary: #10B981;
-  --color-secondary-glow: #34D399;
-  --color-accent: #3B82F6;
-  --color-accent-light: #60A5FA;
+  --color-primary: #161616;
+  --color-primary-light: #262626;
+  --color-secondary: #A50707;
+  --color-secondary-glow: #C80909;
+  --color-accent: #D1D1D1;
+  --color-accent-light: #F8F9FA;
+
+  --color-card: #1C1C1C;
+  --color-border-subtle: #333333;
+  --color-secondary-gray: #424242;
 
   --font-arabic: var(--font-ibm-arabic);
   --font-sans: var(--font-arabic), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
@@ -15,8 +19,9 @@
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(to right, #10b981, #3b82f6);
+    background: linear-gradient(to right, #A50707, #D1D1D1);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
@@ -51,8 +56,8 @@ body {
 }
 
 :root {
-  --color-background: #020617;
-  --color-foreground: #f8fafc;
+  --color-background: #161616;
+  --color-foreground: #FFFFFF;
 }
 
 /* Custom Scrollbar for Webkit */
@@ -70,7 +75,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #10B981;
+  background: #A50707;
 }
 
 html[dir="rtl"],

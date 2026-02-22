@@ -57,7 +57,7 @@ export default function Footer() {
     const t = content[language];
 
     return (
-        <footer className="bg-primary text-white pt-24 pb-8 border-t border-slate-800 relative overflow-hidden" dir={isRTL ? "rtl" : "ltr"}>
+        <footer className="bg-primary text-white pt-24 pb-8 border-t border-border-subtle relative overflow-hidden" dir={isRTL ? "rtl" : "ltr"}>
             <div className="container mx-auto px-6 relative z-10">
                 <div className="grid lg:grid-cols-2 gap-16 mb-24">
                     <div>
@@ -106,7 +106,7 @@ export default function Footer() {
             {/* Big Background Text */}
             <div className="absolute bottom-0 left-0 w-full overflow-hidden pointer-events-none opacity-[0.03]">
                 <h1 className="text-[10vw] font-bold leading-none text-center whitespace-nowrap">
-                    SUPER MARKETER
+                    MOHAMED ELSAYED
                 </h1>
             </div>
         </footer>

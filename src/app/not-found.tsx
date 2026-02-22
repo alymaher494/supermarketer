@@ -43,7 +43,7 @@ export default function NotFound() {
                     <Link href="/" className="btn-primary flex items-center justify-center gap-3">
                         <Home size={20} /> {t.back}
                     </Link>
-                    <Link href="/contact" className="px-8 py-4 rounded-xl border border-slate-800 text-white font-bold hover:bg-white hover:text-black transition-all">
+                    <Link href="/contact" className="px-8 py-4 rounded-xl border border-border-subtle text-white font-bold hover:bg-white hover:text-black transition-all">
                         {t.contact}
                     </Link>
                 </div>
