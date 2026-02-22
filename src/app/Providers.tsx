@@ -3,6 +3,7 @@ import { LanguageProvider } from "@/context/LanguageContext";
 import SmoothScrollLayout from "@/components/SmoothScrollLayout";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function Providers({ children }: { children: React.ReactNode }) {
     return (
@@ -12,6 +13,7 @@ export default function Providers({ children }: { children: React.ReactNode }) {
                 {children}
             </SmoothScrollLayout>
             <Footer />
+            <WhatsAppButton />
         </LanguageProvider>
     );
 }

@@ -29,7 +29,7 @@ export default function ContactPage() {
                 }
             },
             info: {
-                location: "الرياض • القاهرة"
+                location: "القاهرة، مصر"
             }
         },
         en: {
@@ -52,7 +52,7 @@ export default function ContactPage() {
                 }
             },
             info: {
-                location: "Riyadh • Cairo"
+                location: "Cairo, Egypt"
             }
         }
     };
@@ -71,8 +71,8 @@ export default function ContactPage() {
                     <div>
                         <h3 className="text-xl text-slate-400 mb-6 uppercase tracking-widest">{t.detailsLabel}</h3>
                         <div className="space-y-8 text-2xl md:text-3xl font-light text-white">
-                            <a href="mailto:hello@supermarketer.net" className="block hover:text-secondary w-fit transition-colors">hello@supermarketer.net</a>
-                            <a href="tel:+966500000000" className="block hover:text-secondary w-fit transition-colors" dir="ltr">+966 5X XXX XXXX</a>
+                            <a href="mailto:info@mtgar.com" className="block hover:text-secondary w-fit transition-colors">info@mtgar.com</a>
+                            <a href="tel:+201025414469" className="block hover:text-secondary w-fit transition-colors" dir="ltr">+20 102 541 4469</a>
                             <p className="text-slate-500">{t.info.location}</p>
                         </div>
                     </div>

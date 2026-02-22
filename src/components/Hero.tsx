@@ -116,7 +116,7 @@ export default function Hero() {
             </div>
 
             {/* Content Layer */}
-            <div className="relative z-20 h-full container mx-auto px-6 flex flex-col justify-center pb-32 md:pb-0">
+            <div className="relative z-20 h-full container mx-auto px-6 flex flex-col justify-center pt-32 md:pt-40 pb-32 md:pb-0">
                 <div className="max-w-4xl">
                     <span className="block text-secondary font-mono uppercase tracking-[0.2em] mb-4 pl-1">
                         {slides[currentSlide].subtitle}
@@ -133,7 +133,7 @@ export default function Hero() {
                         {slides[currentSlide].desc}
                     </p>
 
-                    <div className="flex items-center gap-6">
+                    <div className={`flex items-center gap-6 ${isRTL ? "justify-end md:justify-start" : "justify-start"}`}>
                         <Link href="/contact" className="btn-primary flex items-center gap-2 group">
                             {t.cta} <ArrowRight className={`group-hover:${isRTL ? "-translate-x-1" : "translate-x-1"} transition-transform ${isRTL ? "rotate-180" : ""}`} />
                         </Link>
