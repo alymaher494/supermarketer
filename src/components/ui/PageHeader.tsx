@@ -39,7 +39,7 @@ export default function PageHeader({ title, subtitle, description }: PageHeaderP
                 </span>
             )}
 
-            <h1 className="relative z-10 text-6xl md:text-8xl lg:text-9xl font-bold font-heading uppercase leading-[0.9] mb-12 tracking-tight break-words">
+            <h1 className="relative z-10 text-4xl md:text-6xl lg:text-7xl font-bold font-heading uppercase leading-[0.9] mb-12 tracking-tight break-words">
                 {title.split(" ").map((word, i) => (
                     <span key={i} className="inline-block me-4 md:me-8 overflow-hidden">
                         <span className="inline-block page-title-char">{word}</span>

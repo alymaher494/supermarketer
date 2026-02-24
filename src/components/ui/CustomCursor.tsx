@@ -33,15 +33,15 @@ export default function CustomCursor() {
         gsap.to('.cursor-dot', {
             x: position.x,
             y: position.y,
-            duration: 0.02,
+            duration: 0.01,
             ease: 'none'
         });
 
         gsap.to('.cursor-ring', {
             x: position.x,
             y: position.y,
-            duration: 0.15,
-            ease: 'power2.out'
+            duration: 0.02 ,
+            ease: 'power1.out'
         });
     }, [position]);
 
