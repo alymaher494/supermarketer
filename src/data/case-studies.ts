@@ -6,7 +6,7 @@ export const caseStudiesData = {
             category: "تجارة إلكترونية",
             headline: "إعلانات جوجل: نمو العائد المادي بنسبة 250%",
             metric: { label: "زيادة العائد", value: "+250%" },
-            image: "https://landing.mtgar.com/google-jewelry.png",
+            image: "/images/results/meta/سبائك الماسة.png",
             challenge: "تحقيق عائد استثمار عالٍ لعلامة مجوهرات فاخرة في سوق تنافسي.",
             solution: "حملة إعلانات جوجل شاملة استهدفت الكلمات المفتاحية الاستراتيجية مع نصوص إعلانية جذابة وصفحات هبوط محسّنة.",
             results: [
@@ -23,7 +23,7 @@ export const caseStudiesData = {
             category: "مطاعم وتجزئة",
             headline: "سناب شات: توسيع الوصول وزيادة المبيعات المباشرة",
             metric: { label: "نمو المبيعات", value: "+210%" },
-            image: "https://landing.mtgar.com/snapchat-balila.png",
+            image: "/images/results/snapchat/s دكان بليلة.PNG",
             challenge: "الوصول إلى الفئات العمرية الشابة وزيادة التفاعل مع العلامة التجارية.",
             solution: "حملة مبتكرة على سناب شات استخدمت السرد الإبداعي والأشكال التفاعلية.",
             results: [
@@ -36,11 +36,11 @@ export const caseStudiesData = {
         },
         {
             slug: "perfume-luxury-meta",
-            client: "قطاع العطور والرفاهية",
+            client: "قطاع العطور والبخور",
             category: "تجارة إلكترونية",
             headline: "ميتا: إدارة 12 حملة مبيعات مباشرة و 5 مليون ظهور",
             metric: { label: "مرات الظهور", value: "5M+" },
-            image: "https://landing.mtgar.com/%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%20%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%20%D9%84%D9%84%D8%B9%D9%88%D8%AF.png",
+            image: "/images/results/meta/المركز السعودي للعود.png",
             challenge: "زيادة المبيعات والانتشار عبر منصات ميتا المتعددة.",
             solution: "12 حملة متكاملة شملت المبيعات (Sales) والزيارات (Traffic) وصفحات الهبوط (Landing Page).",
             results: [
@@ -52,21 +52,38 @@ export const caseStudiesData = {
             tags: ["إعلانات ميتا", "عطور", "توسع"]
         },
         {
-            slug: "medical-education-tiktok",
-            client: "قطاع التعليم والخدمات الطبية",
-            category: "مؤسسات تعليمية",
-            headline: "تيك توك: 5 حملات ناجحة بمعدلات تحويل مرتفعة",
+            slug: "education-tiktok",
+            client: "كليات العناية الطبية",
+            category: "قطاع التعليم",
+            headline: "تيك توك: حملات ناجحة بمعدلات تحويل مرتفعة لمؤسسات تعليمية",
             metric: { label: "التحويلات", value: "9,881" },
-            image: "https://landing.mtgar.com/New%20Inaya.PNG",
-            challenge: "بناء الوعي وزيادة التحويلات على منصة تيك توك.",
-            solution: "5 حملات إعلانية مركزة حققت وصولاً واسعاً ومعدلات تحويل عالية.",
+            image: "/images/results/tiktok/New Inaya.PNG",
+            challenge: "بناء الوعي وزيادة التحويلات والتسجيلات للطلاب الجدد.",
+            solution: "حملات إعلانية مركزة على تيك توك استهدفت الفئات العمرية المهتمة بالدراسة الجامعية.",
             results: [
                 { label: "مرات الظهور", value: "3.8M" },
                 { label: "النقرات", value: "21K+" },
                 { label: "التحويلات", value: "9,881" },
                 { label: "معدل النقر", value: "0.56%" }
             ],
-            tags: ["تيك توك", "عناية", "تحويلات"]
+            tags: ["تيك توك", "تعليم", "توسع"]
+        },
+        {
+            slug: "medical-clinics-performance",
+            client: "مراكز طبية متخصصة",
+            category: "الخدمات الطبية",
+            headline: "زيادة حجوزات العيادات بنسبة 40% من خلال الاستهداف الموجه",
+            metric: { label: "نمو الحجوزات", value: "+40%" },
+            image: "/images/results/tiktok/كليات العناية الطبية.PNG",
+            challenge: "تقليل تكلفة حجز الموعد وزيادة جودة المرضى المستهدفين.",
+            solution: "استراتيجية أداء تركز على عرض الخدمات المتخصصة وإعادة استهداف المهتمين.",
+            results: [
+                { label: "نمو الحجوزات", value: "+40%" },
+                { label: "خفض التكلفة", value: "-25%" },
+                { label: "مرات الظهور", value: "1.2M" },
+                { label: "الرضا", value: "High" }
+            ],
+            tags: ["عيادات", "أداء مالي", "تحويلات"]
         },
         {
             slug: "real-estate-performance",
@@ -74,7 +91,7 @@ export const caseStudiesData = {
             category: "عقارات",
             headline: "إنفاق 4 مليون ريال خلال سنة ونصف بنمو مستدام",
             metric: { label: "الإنفاق", value: "4M+" },
-            image: "https://landing.mtgar.com/real-estate-stats.png",
+            image: "/images/results/meta/ركائز .png",
             challenge: "إدارة ميزانيات ضخمة وتحويلها إلى مبيعات عقارية ملموسة.",
             solution: "استراتيجية أداء شاملة عبر قنوات متعددة مع التركيز على جودة العميل المحتمل.",
             results: [
@@ -91,7 +108,7 @@ export const caseStudiesData = {
             category: "تجميل / تجارة إلكترونية",
             headline: "تحقيق 9.9 مليون ريال مبيعات بعائد 14x",
             metric: { label: "ROAS", value: "14x" },
-            image: "https://landing.mtgar.com/cosmetics-revenue.jpg",
+            image: "/images/results/meta/تارا.png",
             challenge: "إطلاق منتجات ميك أب ومزيلات عرق في سوق تنافسي.",
             solution: "استخدام محتوى إبداعي جذاب مع استهداف دقيق لزيادة معدلات الشراء.",
             results: [
@@ -108,7 +125,7 @@ export const caseStudiesData = {
             category: "منتجات استهلاكية",
             headline: "توسيع نطاق مبيعات المنتجات الاستهلاكية أونلاين",
             metric: { label: "معدل التحويل", value: "3.19%" },
-            image: "https://landing.mtgar.com/ecommerce-tissues.jpg",
+            image: "/images/stores/متجر مناديل.png",
             challenge: "بيع منتجات استهلاكية ضخمة الحجم بكفاءة عبر الإنترنت.",
             solution: "حملات أداء تركز على زيادة عدد الجلسات وتحسين قمع الشراء.",
             results: [
@@ -118,6 +135,38 @@ export const caseStudiesData = {
                 { label: "النمو", value: "مستمر" }
             ],
             tags: ["FMCG", "توسيع نطاق", "مبيعات أونلاين"]
+        },
+        {
+            slug: "store-management-athba",
+            client: "متجر عذبة",
+            category: "إدارة متاجر",
+            headline: "إدارة متكاملة ونمو مبيعات استثنائي في وقت قياسي",
+            metric: { label: "نمو المبيعات", value: "+300%" },
+            image: "/images/stores/عذبة.png",
+            challenge: "تحسين عمليات التشغيل وزيادة وتيرة الطلبات اليومية.",
+            solution: "إعادة هيكلة إدارة المخزون وتحسين تجربة المستخدم مع حملات إعادة استهداف ذكية.",
+            results: [
+                { label: "نمو الطلبات", value: "+300%" },
+                { label: "رضا العملاء", value: "98%" },
+                { label: "كفاءة التشغيل", value: "+150%" }
+            ],
+            tags: ["إدارة", "تجارة إلكترونية", "نمو"]
+        },
+        {
+            slug: "store-management-tissues",
+            client: "متجر مناديل",
+            category: "إدارة متاجر",
+            headline: "تحويل متجر المناديل إلى نموذج مبيعات مرتفع الكفاءة",
+            metric: { label: "التحويل", value: "4.5%" },
+            image: "/images/stores/متجر مناديل.png",
+            challenge: "السير بمتجر المناديل من مرحلة التأسيس إلى البيع الكثيف.",
+            solution: "بناء قمع بيع متكامل يركز على قيمة العميل الدائمة (LTV).",
+            results: [
+                { label: "معدل التحويل", value: "4.5%" },
+                { label: "تكرار الشراء", value: "40%" },
+                { label: "تحسين التكلفة", value: "-30%" }
+            ],
+            tags: ["FMCG", "إدارة متاجر", "كفاءة"]
         }
     ],
     en: [
@@ -127,7 +176,7 @@ export const caseStudiesData = {
             category: "E-commerce",
             headline: "Google Ads: +250% ROI Growth",
             metric: { label: "ROI Increase", value: "+250%" },
-            image: "https://landing.mtgar.com/google-jewelry.png",
+            image: "/images/results/meta/سبائك الماسة.png",
             challenge: "Achieving high ROI for a luxury jewelry brand in a competitive market.",
             solution: "Comprehensive Google Ads campaign targeting strategic keywords with engaging ad copy and optimized landing pages.",
             results: [
@@ -144,7 +193,7 @@ export const caseStudiesData = {
             category: "Restaurants & Retail",
             headline: "Snapchat: Reach Expansion & Direct Sales Growth",
             metric: { label: "Sales Growth", value: "+210%" },
-            image: "https://landing.mtgar.com/snapchat-balila.png",
+            image: "/images/results/snapchat/s دكان بليلة.PNG",
             challenge: "Connecting with younger demographics and driving brand engagement.",
             solution: "Innovative Snapchat campaign using creative storytelling and interactive formats.",
             results: [
@@ -161,7 +210,7 @@ export const caseStudiesData = {
             category: "E-commerce",
             headline: "Meta: Managing 12 Sales Campaigns & 5M+ Impressions",
             metric: { label: "Impressions", value: "5M+" },
-            image: "https://landing.mtgar.com/%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%20%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%20%D9%84%D9%84%D8%B9%D9%88%D8%AF.png",
+            image: "/images/results/meta/المركز السعودي للعود.png",
             challenge: "Scaling sales and reach across multiple Meta platforms.",
             solution: "12 integrated campaigns including Sales, Traffic, and Landing Page strategies.",
             results: [
@@ -173,21 +222,38 @@ export const caseStudiesData = {
             tags: ["Meta Ads", "Perfume", "Scaling"]
         },
         {
-            slug: "medical-education-tiktok",
-            client: "Medical & Education Sector",
-            category: "Educational Institutions",
-            headline: "TikTok: 5 Successful Campaigns with High Conversion Rates",
+            slug: "education-tiktok",
+            client: "Inaya Medical Colleges",
+            category: "Education Sector",
+            headline: "TikTok: High-Conversion Enrollment Campaigns for Universities",
             metric: { label: "Conversions", value: "9,881" },
-            image: "https://landing.mtgar.com/New%20Inaya.PNG",
-            challenge: "Building awareness and driving conversions on TikTok.",
-            solution: "5 focused ad campaigns achieving massive reach and high conversion rates.",
+            image: "/images/results/tiktok/New Inaya.PNG",
+            challenge: "Building brand awareness and driving student enrollments on TikTok.",
+            solution: "Data-driven TikTok campaigns targeting relevant student demographics.",
             results: [
                 { label: "Impressions", value: "3.8M" },
                 { label: "Clicks", value: "21K+" },
                 { label: "Conversions", value: "9,881" },
                 { label: "CTR", value: "0.56%" }
             ],
-            tags: ["TikTok Ads", "Personal Care", "Conversions"]
+            tags: ["TikTok Ads", "Education", "Scaling"]
+        },
+        {
+            slug: "medical-clinics-performance",
+            client: "Specialized Medical Centers",
+            category: "Medical Services",
+            headline: "40% Growth in Clinic Bookings via Targeted Performance Scaling",
+            metric: { label: "Booking Growth", value: "+40%" },
+            image: "/images/results/tiktok/كليات العناية الطبية.PNG",
+            challenge: "Lowering lead costs while maintaining high patient quality for specialized clinics.",
+            solution: "Specific service-based targeting and retargeting strategy.",
+            results: [
+                { label: "Booking Growth", value: "+40%" },
+                { label: "Cost Per Lead", value: "-25%" },
+                { label: "Impressions", value: "1.2M" },
+                { label: "Satisfaction", value: "High" }
+            ],
+            tags: ["Healthcare", "Performance", "Leads"]
         },
         {
             slug: "real-estate-performance",
@@ -195,7 +261,7 @@ export const caseStudiesData = {
             category: "Real Estate",
             headline: "Managing 4M SAR Spend in 1.5 Years with Consistent Growth",
             metric: { label: "Spend", value: "4M+" },
-            image: "https://landing.mtgar.com/real-estate-stats.png",
+            image: "/images/results/meta/ركائز .png",
             challenge: "Managing massive budgets and turning them into tangible real estate sales.",
             solution: "Integrated performance strategy across multiple channels focusing on lead quality.",
             results: [
@@ -212,7 +278,7 @@ export const caseStudiesData = {
             category: "Beauty / E-commerce",
             headline: "9.9 Million SAR Revenue with 14x ROAS",
             metric: { label: "ROAS", value: "14x" },
-            image: "https://landing.mtgar.com/cosmetics-revenue.jpg",
+            image: "/images/results/meta/تارا.png",
             challenge: "Launching makeup and deodorant products in a saturated market.",
             solution: "Leveraged engaging creative content with precision targeting to drive high purchase volume.",
             results: [
@@ -229,7 +295,7 @@ export const caseStudiesData = {
             category: "Consumer Goods",
             headline: "Scaling FMCG Online Sales Through Targeted Growth",
             metric: { label: "Conv. Rate", value: "3.19%" },
-            image: "https://landing.mtgar.com/ecommerce-tissues.jpg",
+            image: "/images/stores/متجر مناديل.png",
             challenge: "Scaling sales for high-volume consumer goods online.",
             solution: "Performance campaigns focused on scaling sessions and optimizing the conversion funnel.",
             results: [
@@ -239,6 +305,38 @@ export const caseStudiesData = {
                 { label: "Growth", value: "Constant" }
             ],
             tags: ["FMCG", "Scaling", "Online Sales"]
+        },
+        {
+            slug: "store-management-athba",
+            client: "Athba Store",
+            category: "Store Management",
+            headline: "Integrated Management & Exceptional Sales Growth",
+            metric: { label: "Sales Growth", value: "+300%" },
+            image: "/images/stores/عذبة.png",
+            challenge: "Improving operational efficiency and increasing daily order volume.",
+            solution: "Restructured inventory management and optimized UX with smart retargeting.",
+            results: [
+                { label: "Order Growth", value: "+300%" },
+                { label: "Customer Satisfaction", value: "98%" },
+                { label: "Ops Efficiency", value: "+150%" }
+            ],
+            tags: ["Management", "E-commerce", "Scaling"]
+        },
+        {
+            slug: "store-management-tissues",
+            client: "Tissue Store",
+            category: "Store Management",
+            headline: "Transforming Tissue Store into High-Efficiency Sales Model",
+            metric: { label: "Conv. Rate", value: "4.5%" },
+            image: "/images/stores/متجر مناديل.png",
+            challenge: "Taking the store from establishment to high-volume sales.",
+            solution: "Built an integrated sales funnel focused on Customer Lifetime Value (LTV).",
+            results: [
+                { label: "Conv. Rate", value: "4.5%" },
+                { label: "Repeat Purchase", value: "40%" },
+                { label: "Cost Optimization", value: "-30%" }
+            ],
+            tags: ["FMCG", "Management", "Efficiency"]
         }
     ]
 };

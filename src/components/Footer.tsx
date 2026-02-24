@@ -20,12 +20,12 @@ export default function Footer() {
                 { name: "عني", href: "/about" },
                 { name: "خدماتي", href: "/services" },
                 { name: "أعمالي", href: "/case-studies" },
-                { name: "تواصل معي", href: "/contact" }
+                { name: "تواصل الآن", href: "/contact" }
             ],
             social: [
-                { name: "لينكد إن", href: "#" },
-                { name: "انستجرام", href: "#" },
-                { name: "تويتر (X)", href: "#" }
+                { name: "لينكد إن", href: "https://www.linkedin.com/in/mohamed-elsayed-a976311ba/" },
+                { name: "فيسبوك", href: "https://www.facebook.com/mohamed.elafreky" },
+                { name: "انستجرام", href: "https://www.instagram.com/el_afreky_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" }
             ],
             copyright: `© ${new Date().getFullYear()} محمد السيد. جميع الحقوق محفوظة.`,
             privacy: "سياسة الخصوصية",
@@ -44,11 +44,11 @@ export default function Footer() {
                 { name: "Contact", href: "/contact" }
             ],
             social: [
-                { name: "LinkedIn", href: "#" },
-                { name: "Instagram", href: "#" },
-                { name: "Twitter (X)", href: "#" }
+                { name: "LinkedIn", href: "https://www.linkedin.com/in/mohamed-elsayed-a976311ba/" },
+                { name: "Facebook", href: "https://www.facebook.com/mohamed.elafreky" },
+                { name: "Instagram", href: "https://www.instagram.com/el_afreky_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" }
             ],
-            copyright: `© ${new Date().getFullYear()} Mohamed Elsayed. All Rights Reserved.`,
+            copyright: `© ${new Date().getFullYear()} Mohamed El-Sayed. All Rights Reserved.`,
             privacy: "Privacy Policy",
             terms: "Terms of Service"
         }

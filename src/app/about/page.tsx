@@ -18,84 +18,84 @@ export default function AboutPage() {
         ar: {
             header: {
                 subtitle: "عني",
-                title: "محمد – متخصص تسويق إلكتروني وإعلانات ممولة",
-                desc: "بشتغل في مجال التسويق الإلكتروني وإدارة الحملات الإعلانية مع تركيز كامل على النتائج."
+                title: "خبير تسويق الأداء والنمو",
+                desc: "توسع العلامات التجارية في مصر والخليج بربحية من خلال بناء أنظمة تسويق متكاملة تعتمد على البيانات."
             },
             hero: {
-                title: "زيادة المبيعات.\nوتقليل تكلفة الإعلان.",
-                text1: { pre: "التسويق الحقيقي مش لايكات ومشاهدات. اللي يهمني هو", strong: "هل الإعلان جاب مبيعات؟", post: " بشتغل على إدارة الإعلانات الممولة بطريقة عملية تهدف لزيادة المبيعات وتقليل التكلفة." },
-                text2: { pre: "بساعد الشركات في مصر والخليج", span: "تحوّل الإعلان من تكلفة لاستثمار مربح", post: " من خلال تحليل البيانات، اختبار الإعلانات، وتكبير الناجح منها." }
+                title: "بناء أنظمة.\nنمو مستدامة.",
+                text1: { pre: "أنا متخصص في تسويق الأداء والنمو بخبرة تزيد عن", strong: "5 سنوات", post: " في مساعدة الشركات على التوسع بربحية من خلال دمج البيانات واختبار الإبداع واقتصاديات الوحدة." },
+                text2: { pre: "قمت بإدارة ميزانيات شهرية تتجاوز", span: "مليون ريال سعودي", post: " في قطاعات متنوعة مثل التجارة الإلكترونية، العقارات، والأغذية والمشروبات." }
             },
             stats: [
-                { label: "إنفاق إعلاني مُدار", value: "+$15M" },
-                { label: "مبيعات تم تحقيقها", value: "+$40M" },
-                { label: "متوسط العائد", value: "6.5x" },
-                { label: "سنوات الخبرة", value: "+10" }
+                { label: "ميزانيات مُدارة", value: "+1M SAR" },
+                { label: "سنوات الخبرة", value: "+5" },
+                { label: "عائد إعلاني (ROAS)", value: "High" },
+                { label: "قطاعات السوق", value: "E-com/RE" }
             ],
             values: {
-                label: "ليه تشتغل معايا",
-                title: "الفرق بيني وبين أي حد تاني",
+                label: "نهج النمو",
+                title: "كيفية تحقيق النتائج",
                 items: [
                     {
-                        title: "بصلّح التتبع الأول",
-                        desc: "لو مش قادر أقيس النتيجة بدقة، مش هصرف جنيه. التتبع الصح هو الأساس.",
-                        points: ["تتبع سيرفر دقيق", "بيانات صحيحة", "تدقيق شامل"]
+                        title: "بناء أنظمة لا حملات فقط",
+                        desc: "التركيز على بناء بنية تحتية للنمو تجمع بين تتبع البيانات واختبار المحتوى الإعلاني لضمان استدامة النتائج.",
+                        points: ["تتبع دقيق", "اختبار الإبداع", "أنظمة قابلة للتوسع"]
                     },
                     {
-                        title: "مبيعات حقيقية مش أرقام شكلية",
-                        desc: "ما بهتمش بعدد اللايكات. اللي يهمني هل الإعلان دخل فلوس وهل التكلفة مناسبة.",
-                        points: ["تقليل تكلفة الإعلان", "زيادة المبيعات", "ربح حقيقي"]
+                        title: "التركيز على اقتصاديات الوحدة",
+                        desc: "كل قرار يعتمد على ROAS و CAC والـ Payback لضمان أن كل ريال يُنفق يحقق ربحاً حقيقياً.",
+                        points: ["ROAS عالي", "خفض CAC", "ربحية مستدامة"]
                     },
                     {
-                        title: "اختبار مستمر للإعلانات",
-                        desc: "بختبر الإعلانات بالأرقام. بوقف الخسران وبكبر الناجح.",
-                        points: ["اختبار A/B", "محتوى إعلاني قوي", "تحسين مستمر"]
+                        title: "خبرة إقليمية واسعة",
+                        desc: "فهم عميق لأسواق مصر والسعودية والخليج، مما يساعد في تصميم استراتيجيات تناسب ثقافة وسلوك المستهلك.",
+                        points: ["سوق مصر", "سوق الخليج", "تحليل المنافسين"]
                     }
                 ]
             },
-            marquee: "تسويق إلكتروني • إعلانات ممولة • زيادة مبيعات • نتائج حقيقية • ",
-            clientsTitle: "شركات اشتغلت معاها"
+            marquee: "تسويق الأداء • إعلانات ممولة • نمو المبيعات • نتائج حقيقية • ",
+            clientsTitle: "شركات ساعدتها على النمو"
         },
         en: {
             header: {
                 subtitle: "About Me",
-                title: "Mohamed — Paid Ads & Digital Marketing Specialist",
-                desc: "I work in digital marketing and paid ads campaign management with a complete focus on results."
+                title: "Performance Marketing Expert",
+                desc: "Helping brands across Egypt & the GCC turn ad spend into profitable growth through data-driven systems."
             },
             hero: {
-                title: "Increase Sales.\nReduce Ad Costs.",
-                text1: { pre: "Real marketing isn't about likes and views. What matters to me is", strong: "did the ad generate sales?", post: " I manage paid ads with a practical approach aimed at increasing sales and reducing costs." },
-                text2: { pre: "I help businesses in Egypt and the Gulf", span: "turn ads from a cost into a profitable investment", post: " through data analysis, ad testing, and scaling what works." }
+                title: "Building Systems.\nNot Just Campaigns.",
+                text1: { pre: "Specializing in performance & growth marketing with over", strong: "5 years of experience", post: " helping brands scale profitably by combining data, creative testing, and clear unit economics." },
+                text2: { pre: "Managing monthly budgets above", span: "1M SAR", post: " across E-commerce, perfumes, real estate, services, and F&B sectors." }
             },
             stats: [
-                { label: "Managed Ad Spend", value: "+$15M" },
-                { label: "Sales Generated", value: "+$40M" },
-                { label: "Avg ROAS", value: "6.5x" },
-                { label: "Years Experience", value: "+10" }
+                { label: "Monthly Budget", value: "+1M SAR" },
+                { label: "Years Experience", value: "+5" },
+                { label: "ROAS Focus", value: "High" },
+                { label: "Sectors", value: "E-com/RE" }
             ],
             values: {
-                label: "Why Work With Me",
-                title: "What Sets Me Apart",
+                label: "Growth Approach",
+                title: "How Results are Driven",
                 items: [
                     {
-                        title: "I Fix Tracking First",
-                        desc: "If I can't measure results accurately, I won't spend a penny. Proper tracking is the foundation.",
-                        points: ["Server-Side Tracking", "Accurate Data", "Full Audit"]
+                        title: "System-First Mindset",
+                        desc: "Focusing on building growth systems that combine data tracking and creative testing to ensure long-term success.",
+                        points: ["Data Tracking", "Creative Testing", "Scalable Systems"]
                     },
                     {
-                        title: "Real Sales, Not Vanity Metrics",
-                        desc: "I don't care about likes count. What matters is: did the ad make money? Is the cost right?",
-                        points: ["Reduce Ad Costs", "Increase Sales", "Real Profit"]
+                        title: "Unit Economics Driven",
+                        desc: "Every decision is based on ROAS, CAC, and payback periods to ensure profitable scaling.",
+                        points: ["High ROAS", "Lower CAC", "Sustainable Profit"]
                     },
                     {
-                        title: "Continuous Ad Testing",
-                        desc: "I test ads by the numbers. I stop the losers and scale the winners.",
-                        points: ["A/B Testing", "Strong Ad Creative", "Continuous Improvement"]
+                        title: "Regional Expertise",
+                        desc: "Deep understanding of Egypt and GCC markets, tailoring strategies to local consumer behavior.",
+                        points: ["Egypt Market", "GCC Market", "Competitor Analysis"]
                     }
                 ]
             },
-            marquee: "Digital Marketing • Paid Ads • Sales Growth • Real Results • ",
-            clientsTitle: "Companies I've Worked With"
+            marquee: "Performance Marketing • Paid Ads • Sales Growth • Real Results • ",
+            clientsTitle: "Companies I've Helped Scale"
         }
     };
 

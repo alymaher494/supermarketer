@@ -132,12 +132,8 @@ export default function ServicesGrid() {
                     {t.items.map((item, i) => (
                         <div
                             key={i}
-                            className={`service-card p-10 rounded-3xl border transition-all duration-500 group relative overflow-hidden
-                                ${item.highlight
-                                    ? "bg-secondary/15 border-secondary/50 shadow-[0_0_50px_-10px_rgba(165,7,7,0.4)]"
-                                    : "bg-[#161616] border-white/10 hover:border-secondary/30"
-                                }`}
-                            style={{ opacity: 1 }} // Ensure visible by default
+                            className="service-card p-10 rounded-3xl border transition-all duration-500 group relative overflow-hidden bg-[#161616] border-white/10 hover:bg-secondary/15 hover:border-secondary/50 hover:shadow-[0_0_50px_-10px_rgba(165,7,7,0.4)]"
+                            style={{ opacity: 1 }}
                         >
                             {/* Decorative background glow */}
                             <div className={`absolute -top-20 w-40 h-40 bg-secondary/10 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 ${isRTL ? "-left-20" : "-right-20"}`} />

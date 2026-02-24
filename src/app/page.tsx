@@ -10,6 +10,7 @@ import SnapPortfolio from "@/components/SnapPortfolio";
 import IndustriesSection from "@/components/IndustriesSection";
 import MarqueeText from "@/components/ui/MarqueeText";
 import BlogSection from "@/components/BlogSection";
+import CertificatesGallery from "@/components/CertificatesGallery";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useLanguage } from "@/context/LanguageContext";
@@ -21,22 +22,22 @@ export default function Home() {
 
   const content = {
     ar: {
-      agency: "الرؤية",
+      agency: "خبير تسويق الأداء",
       headline: {
-        pre: "أنا",
-        span: "متخصص تسويق إلكتروني وإعلانات ممولة",
-        post: ". بساعد الشركات تحقق مبيعات حقيقية وتقلل تكلفة الإعلان."
+        pre: "متخصص في",
+        span: "تسويق الأداء والنمو الرقمي",
+        post: ". مساعدة العلامات التجارية في مصر والخليج على تحويل الإنفاق الإعلاني إلى نمو مربح."
       },
-      marquee: "تسويق إلكتروني • إعلانات ممولة • زيادة مبيعات • نتائج حقيقية • "
+      marquee: "تسويق الأداء • إعلانات ممولة • نمو المبيعات • نتائج حقيقية • "
     },
     en: {
-      agency: "The Vision",
+      agency: "Performance Marketing Specialist",
       headline: {
-        pre: "I Am a",
-        span: "Paid Ads & Digital Marketing Specialist",
-        post: ". I help businesses drive real sales and reduce ad costs."
+        pre: "Helping brands",
+        span: "across Egypt & the GCC",
+        post: " turn ad spend into profitable growth."
       },
-      marquee: "Digital Marketing • Paid Ads • Sales Growth • Real Results • "
+      marquee: "Performance Marketing • Paid Ads • Sales Growth • Real Results • "
     }
   };
   const t = content[language];
@@ -67,6 +68,8 @@ export default function Home() {
 
       {/* Snap Portfolio (High Impact) */}
       <SnapPortfolio />
+
+      <CertificatesGallery />
 
       <ServicesGrid />
 

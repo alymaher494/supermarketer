@@ -14,56 +14,56 @@ export default function ServicesBentoGrid() {
 
     const content = {
         ar: {
-            label: "خبراتي",
-            headline: <>وحدات نمو <br /> <span className="text-slate-500">شاملة.</span></>,
+            label: "خدمات وحلول النمو",
+            headline: <>من الاستراتيجية إلى التنفيذ، <br /> <span className="text-slate-500">التركيز على نتائج ملموسة.</span></>,
             viewAll: "عرض جميع الخدمات",
             items: [
                 {
                     num: "01",
-                    title: "تسويق الأداء",
-                    desc: "إدارة الوسائط المدفوعة الموجهة بالبيانات عبر ميتا، جوجل، تيك توك، وسناب لتوسيع الإيرادات بشكل موثوق."
+                    title: "استراتيجية تسويق الأداء",
+                    desc: "استراتيجيات كاملة مصممة خصيصًا لاقتصاديات شركتك: استهداف الجماهير الباردة والدافئة والساخنة مع مؤشرات أداء رئيسية واضحة وخطط اختبار."
                 },
                 {
                     num: "02",
-                    title: "الاستراتيجية الإبداعية",
-                    desc: "إبداعات إعلانية عالية التحويل مصممة بناءً على بيانات الأداء."
+                    title: "إدارة الإعلانات الممولة",
+                    desc: "تخطيط وإطلاق وتحسين الحملات على Meta و TikTok و Snapchat و Google بعقلية الأداء أولاً."
                 },
                 {
                     num: "03",
-                    title: "SEO والتحليلات",
-                    desc: "تتبع من جانب السيرفر وبنية تحتية للنمو العضوي."
+                    title: "نمو التجارة الإلكترونية",
+                    desc: "دفع المبيعات المربحة من خلال اختبار الإبداع، وتصميم العروض، وتحسين مسار التحويل، وأطر التوسع المهيكلة."
                 },
                 {
                     num: "04",
-                    title: "استشارات",
-                    desc: "تدقيق استراتيجي وتدريب الفرق الداخلية."
+                    title: "التتبع والتقارير",
+                    desc: "تقارير نظيفة عن ROAS و CAC وفترات الاسترداد — تحويل البيانات الخام إلى قرارات واضحة."
                 }
             ]
         },
         en: {
-            label: "My Expertise",
-            headline: <>Holistic Growth <br /> <span className="text-slate-500">Units.</span></>,
+            label: "Growth Services & Solutions",
+            headline: <>From Strategy to Execution, <br /> <span className="text-slate-500">Focusing on measurable outcomes.</span></>,
             viewAll: "View All Services",
             items: [
                 {
                     num: "01",
-                    title: "Performance Marketing",
-                    desc: "Data-driven paid media management across Meta, Google, TikTok, and Snap to scale revenue reliably."
+                    title: "Performance Marketing Strategy",
+                    desc: "Full-funnel strategies tailored to your economics: cold, warm, and hot audiences with clear KPIs and testing roadmaps."
                 },
                 {
                     num: "02",
-                    title: "Creative Strategy",
-                    desc: "High-converting ad creatives designed based on performance data."
+                    title: "Paid Ads Management",
+                    desc: "Planning, launching, and optimizing campaigns on Meta, TikTok, Snapchat, and Google with a performance-first mindset."
                 },
                 {
                     num: "03",
-                    title: "SEO & Analytics",
-                    desc: "Server-side tracking and organic growth infrastructure."
+                    title: "E-commerce Growth",
+                    desc: "Driving profitable sales through creative testing, offer design, funnel optimization, and structured scaling frameworks."
                 },
                 {
                     num: "04",
-                    title: "Consulting",
-                    desc: "Strategic auditing and internal team training."
+                    title: "Tracking & Reporting",
+                    desc: "Clean reporting on ROAS, CAC, LTV proxies, and payback periods — turning raw data into clear decisions."
                 }
             ]
         }

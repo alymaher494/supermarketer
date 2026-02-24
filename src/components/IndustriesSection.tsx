@@ -24,25 +24,33 @@ export default function IndustriesSection() {
 
             const totalWidth = slider.current.scrollWidth;
             const viewportWidth = window.innerWidth;
+            const scrollAmount = totalWidth - viewportWidth;
 
-            // Calculate how much we need to scroll
-            const scrollAmount = totalWidth - viewportWidth + (viewportWidth * 0.1);
+            // RTL logic: 
+            // In flex-row-reverse, Card 1 is at the right end of the slider.
+            // To see it first at the viewport's right edge, we start at -scrollAmount
+            // and animate to 0 (moving right).
+            const startX = isRTL ? -scrollAmount : 0;
+            const endX = isRTL ? 0 : -scrollAmount;
 
-            const xValue = isRTL ? scrollAmount : -scrollAmount;
-
-            gsap.to(slider.current, {
-                x: xValue,
-                ease: "none",
-                scrollTrigger: {
-                    trigger: container.current,
-                    start: "top top",
-                    end: () => `+=${totalWidth}`,
-                    scrub: 1,
-                    pin: true,
-                    invalidateOnRefresh: true,
-                    anticipatePin: 1
+            gsap.fromTo(slider.current,
+                { x: startX },
+                {
+                    x: endX,
+                    ease: "none",
+                    scrollTrigger: {
+                        trigger: container.current,
+                        start: "top top",
+                        end: () => `+=${scrollAmount}`,
+                        scrub: 1,
+                        pin: true,
+                        invalidateOnRefresh: true,
+                        anticipatePin: 1
+                    }
                 }
-            });
+            );
+
+            ScrollTrigger.refresh();
         }, container);
 
         return () => ctx.revert();
@@ -50,8 +58,8 @@ export default function IndustriesSection() {
 
     const content = {
         ar: {
-            label: "مجالات اشتغلت فيها",
-            title: "مجالات اشتغلت فيها في التسويق الإلكتروني",
+            label: "القطاعات والخبرات",
+            title: "خبرات واسعة في قطاعات سوقية متنوعة",
             industries: [
                 {
                     title: "تسويق إلكتروني للعقارات",
@@ -93,7 +101,7 @@ export default function IndustriesSection() {
                     desc: "بناء المكانة الرقمية لمكاتب المحاماة وزيادة الاستشارات.",
                     icon: Scale,
                     stats: "بناء المكانة",
-                    image: "/industries/legal.jpg"
+                    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1200"
                 },
                 {
                     title: "تسويق للبرمجيات (SaaS)",
@@ -127,8 +135,8 @@ export default function IndustriesSection() {
             impact: "الأثر",
         },
         en: {
-            label: "Industries I Work In",
-            title: "Industries I've Worked In",
+            label: "Market Sectors",
+            title: "Experience Across Diverse Sectors",
             industries: [
                 {
                     title: "Digital Marketing for Real Estate",
@@ -170,7 +178,7 @@ export default function IndustriesSection() {
                     desc: "Building digital authority for law firms and increasing consultations.",
                     icon: Scale,
                     stats: "Authority Building",
-                    image: "/industries/legal.jpg"
+                    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1200"
                 },
                 {
                     title: "Marketing for SaaS",
@@ -209,7 +217,7 @@ export default function IndustriesSection() {
 
 
     return (
-        <section ref={container} className="relative min-h-[120vh] bg-primary overflow-hidden flex flex-col justify-center py-16 md:py-24" dir={isRTL ? "rtl" : "ltr"}>
+        <section ref={container} className="relative h-screen bg-primary overflow-hidden flex flex-col justify-center py-16 md:py-24" dir="ltr">
 
             <div className={`container mx-auto px-6 md:px-24 mb-12 ${isRTL ? "text-right" : "text-left"}`}>
                 <span className="text-secondary font-mono text-xs md:text-sm uppercase tracking-[0.3em] block mb-2 font-bold opacity-80">
@@ -220,7 +228,10 @@ export default function IndustriesSection() {
                 </h2>
             </div>
 
-            <div ref={slider} className="flex gap-6 md:gap-8 ps-6 md:ps-24 pe-24 items-center h-[480px] md:h-[580px] w-max">
+            <div
+                ref={slider}
+                className={`flex gap-6 md:gap-8 ps-6 md:ps-24 pe-24 items-center h-[480px] md:h-[580px] w-max ${isRTL ? "flex-row-reverse" : "flex-row"}`}
+            >
                 {t.industries.map((ind, i) => (
                     <div
                         key={i}
@@ -235,8 +246,8 @@ export default function IndustriesSection() {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/20 to-transparent" />
 
-                        <div className="relative z-10 h-full p-6 md:p-10 flex flex-col justify-between">
-                            <div className="flex justify-between items-start">
+                        <div className={`relative z-10 h-full p-6 md:p-10 flex flex-col justify-between ${isRTL ? "text-right" : "text-left"}`}>
+                            <div className={`flex justify-between items-start ${isRTL ? "flex-row-reverse" : "flex-row"}`}>
                                 <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl md:rounded-2xl bg-slate-950/80 backdrop-blur border border-border-subtle flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-black transition-all duration-500">
                                     <ind.icon size={28} />
                                 </div>
@@ -250,7 +261,7 @@ export default function IndustriesSection() {
                                 <p className="text-slate-400 mb-6 md:mb-8 font-light leading-relaxed text-sm md:text-base line-clamp-3">
                                     {ind.desc}
                                 </p>
-                                <div className="border-t border-white/5 pt-4 md:pt-6 flex justify-between items-center">
+                                <div className={`border-t border-white/5 pt-4 md:pt-6 flex justify-between items-center ${isRTL ? "flex-row-reverse" : "flex-row"}`}>
                                     <span className="text-[10px] md:text-xs uppercase tracking-[0.2em] text-slate-500 font-bold">{t.impact}</span>
                                     <span className="font-bold text-secondary text-base md:text-lg">{ind.stats}</span>
                                 </div>

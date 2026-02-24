@@ -21,51 +21,51 @@ export default function Hero() {
         ar: {
             slides: [
                 {
-                    subtitle: "متخصص تسويق إلكتروني وإعلانات ممولة",
-                    title: "زيادة المبيعات",
-                    title2: "وتقليل تكلفة الإعلان",
-                    desc: "بساعد الشركات وأصحاب البيزنس يحققوا مبيعات حقيقية من خلال إدارة الإعلانات الممولة على فيسبوك، إنستجرام، جوجل، وتيك توك. التركيز دايمًا على الربح، مش الأرقام الوهمية.",
+                    subtitle: "خبير في تسويق الأداء والنمو",
+                    title: "بناء أنظمة",
+                    title2: "نمو مربحة ومستدامة",
+                    desc: "بناء وتحسين أنظمة تسويق الأداء عبر Meta و TikTok و Snapchat و Google - مع التركيز على ROAS و CAC والـ Payback.",
                     image: "/hero_performance_v3_1771881226946.png"
                 },
                 {
-                    subtitle: "إدارة حملات إعلانية باحترافية",
-                    title: "نتائج حقيقية",
-                    title2: "مش أرقام وهمية",
-                    desc: "بحلل البيانات، بختبر الإعلانات، وبكبر الناجح منها. كل قرش بيتصرف بهدف واضح: زيادة المبيعات وتقليل تكلفة الإعلان.",
+                    subtitle: "إدارة إعلانات مبنية على النتائج",
+                    title: "تحويل الإنفاق",
+                    title2: "إلى نمو واستثمار",
+                    desc: "مساعدة العلامات التجارية في مصر والخليج على النمو وتحقيق الربحية. إدارة ميزانيات شهرية تتجاوز مليون ريال سعودي مع التركيز على اقتصاديات الوحدة.",
                     image: "/strategy_blueprint_v3_1771881257824.png"
                 },
                 {
-                    subtitle: "خبرة في مصر والخليج",
-                    title: "تسويق إلكتروني",
-                    title2: "يجيب مبيعات",
-                    desc: "خبرة في التسويق الإلكتروني في مصر والسعودية والإمارات للتجارة الإلكترونية، العقارات، والخدمات. +10 سنوات وإدارة ميزانيات تجاوزت 15 مليون دولار.",
+                    subtitle: "خبرة في الأسواق الإقليمية",
+                    title: "خبير تسويق",
+                    title2: "في مصر والخليج",
+                    desc: "أكثر من 5 سنوات من الخبرة في مساعدة العلامات التجارية على التوسع في مجالات التجارة الإلكترونية، العقارات، والأغذية والمشروبات.",
                     image: "/regional_growth_v3_1771881241616.png"
                 }
             ],
-            cta: "ابدأ مشروعك",
+            cta: "ابدأ الآن",
             work: "شاهد أعمالي"
         },
         en: {
             slides: [
                 {
-                    subtitle: "Paid Ads & Digital Marketing Specialist",
-                    title: "Increase Sales",
-                    title2: "& Reduce Ad Cost",
-                    desc: "I help businesses achieve real sales through paid ads management on Facebook, Instagram, Google, and TikTok. Always focused on profit, not vanity metrics.",
+                    subtitle: "Performance Marketing Expert",
+                    title: "Building Profitable",
+                    title2: "Growth Systems",
+                    desc: "Building and optimizing performance marketing systems across Meta, TikTok, Snapchat, and Google — focusing on ROAS, CAC, and payback.",
                     image: "/hero_performance_v3_1771881226946.png"
                 },
                 {
-                    subtitle: "Professional Campaign Management",
-                    title: "Real Results",
-                    title2: "Not Fake Numbers",
-                    desc: "I analyze data, test ads, and scale what works. Every dollar is spent with a clear goal: increase sales and reduce ad cost.",
+                    subtitle: "Media Buying & Optimization",
+                    title: "Turn Ad Spend",
+                    title2: "Into Growth",
+                    desc: "Helping brands across Egypt & the GCC turn ad spend into profitable growth. Managing monthly budgets above 1M SAR with a clear focus on unit economics.",
                     image: "/strategy_blueprint_v3_1771881257824.png"
                 },
                 {
-                    subtitle: "Experience Across Egypt & Gulf",
-                    title: "Digital Marketing",
-                    title2: "That Drives Sales",
-                    desc: "Digital marketing expertise across Egypt, Saudi Arabia & UAE for e-commerce, real estate, and services. 10+ years managing $15M+ in ad budgets.",
+                    subtitle: "Regional Expertise",
+                    title: "Egypt & GCC",
+                    title2: "Market Growth",
+                    desc: "Over 5 years of experience helping brands scale profitably across E-commerce, Real Estate, and F&B sectors.",
                     image: "/regional_growth_v3_1771881241616.png"
                 }
             ],

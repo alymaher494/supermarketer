@@ -18,6 +18,10 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'landing.mtgar.com',
             },
+            {
+                protocol: 'https',
+                hostname: 'upload.wikimedia.org',
+            },
         ],
     },
 };

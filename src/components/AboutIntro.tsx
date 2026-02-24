@@ -14,20 +14,20 @@ export default function AboutIntro() {
 
     const content = {
         ar: {
-            label: "من أنا",
-            title: <>متخصص تسويق <br />إلكتروني وإعلانات ممولة</>,
-            p1: <>أنا متخصص في التسويق الإلكتروني وتسويق الأداء، بشتغل على <strong className="text-white font-medium">إدارة الحملات الإعلانية</strong> بطريقة عملية تهدف لزيادة المبيعات وتقليل تكلفة العميل.</>,
-            p2: <>اشتغلت مع شركات في مصر والخليج في مجالات زي <strong className="text-white">التجارة الإلكترونية، العقارات، والعيادات</strong>، وساعدتهم يحوّلوا الإعلان من تكلفة لاستثمار مربح.</>,
-            p3: "ما بهتمش بعدد اللايكات أو المشاهدات، اللي يهمني هو: هل الإعلان دخل مبيعات؟ وهل التكلفة مناسبة؟",
-            link: "اقرأ قصتي الكاملة"
+            label: "نهج النمو",
+            title: <>خبير في تسويق <br />الأداء والنمو الرقمي</>,
+            p1: <>خبير متخصص في تسويق الأداء والنمو بخبرة تزيد عن <strong className="text-white font-medium">5 سنوات</strong> في مساعدة العلامات التجارية في مصر والخليج على التوسع بربحية.</>,
+            p2: <>التركيز على بناء <strong className="text-white">أنظمة نمو متاكملة</strong>، وليس مجرد حملات: حيث يتم الجمع بين البيانات، واختبار الإبداع، واقتصاديات الوحدة الواضحة.</>,
+            p3: "إدارة ميزانيات شهرية تتجاوز مليون ريال سعودي في مجالات التجارة الإلكترونية، العطور، العقارات، الخدمات، والأغذية والمشروبات — مع التركيز دائمًا على ROAS و CAC والربحية طويلة الأمد.",
+            link: "اقرأ القصة الكاملة"
         },
         en: {
-            label: "Who I Am",
-            title: <>Paid Ads &<br />Digital Marketing Specialist</>,
-            p1: <>I specialize in digital marketing and paid ads, managing <strong className="text-white font-medium">ad campaigns</strong> with a practical approach focused on increasing sales and reducing cost per customer.</>,
-            p2: <>I've worked with companies across Egypt & the Gulf in <strong className="text-white">e-commerce, real estate, and healthcare</strong>, helping them turn ad spend from a cost into a profitable investment.</>,
-            p3: "I don't care about likes or views. What matters to me is: did the ad generate sales? And is the cost right?",
-            link: "Read My Full Story"
+            label: "Growth Approach",
+            title: <>Performance &<br />Growth Marketing Expert</>,
+            p1: <>Specializing in performance & growth marketing with over <strong className="text-white font-medium">5 years of experience</strong> helping brands in Egypt and the GCC scale profitably.</>,
+            p2: <>Focusing on <strong className="text-white">building systems</strong>, not just campaigns: combining data, creative testing, and clear unit economics.</>,
+            p3: "Managing monthly budgets above 1M SAR across E-commerce, perfumes, real estate, services, and F&B — always with a clear focus on ROAS, CAC, and long-term payback.",
+            link: "Read Full Story"
         }
     };
 

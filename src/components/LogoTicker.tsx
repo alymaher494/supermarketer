@@ -16,48 +16,88 @@ const logoFiles = [
 
 export default function LogoTicker() {
     const { language } = useLanguage();
-    const slider = useRef<HTMLDivElement>(null);
+    const row1 = useRef<HTMLDivElement>(null);
+    const row2 = useRef<HTMLDivElement>(null);
     const isRTL = language === 'ar';
 
     const text = isRTL ? "أكثر من 50 شريك نجاح" : "Over 50 Success Partners";
 
+    const firstHalf = logoFiles.slice(0, 25);
+    const secondHalf = logoFiles.slice(25);
+
     useEffect(() => {
         const ctx = gsap.context(() => {
-            if (!slider.current) return;
+            if (row1.current) {
+                gsap.to(row1.current, {
+                    xPercent: -50,
+                    duration: 120, // Slower for premium feel
+                    ease: "none",
+                    repeat: -1,
+                });
+            }
 
-            // For infinite marquee, we move by half since we duplicated the items
-            gsap.to(slider.current, {
-                xPercent: -50,
-                duration: 40,
-                ease: "none",
-                repeat: -1,
-            });
-        }, slider);
+            if (row2.current) {
+                // Reverse direction: start from -50% and go to 0
+                gsap.fromTo(row2.current,
+                    { xPercent: -50 },
+                    {
+                        xPercent: 0,
+                        duration: 100, // Slightly different speed for variation
+                        ease: "none",
+                        repeat: -1,
+                    }
+                );
+            }
+        });
 
         return () => ctx.revert();
     }, []);
 
+    const LogoBox = ({ logo, i }: { logo: string, i: number }) => (
+        <div
+            key={i}
+            className="relative w-40 h-24 md:w-72 md:h-44 bg-white/5 rounded-2xl border border-white/5 flex items-center justify-center shrink-0 transition-all duration-500 hover:scale-105 hover:bg-white hover:border-white hover:shadow-[0_20px_60px_rgba(255,255,255,0.2)] group overflow-hidden p-8"
+        >
+            <Image
+                src={`/logos/${logo}`}
+                alt={`Partner Logo ${i}`}
+                width={240}
+                height={140}
+                className="object-contain w-full h-full grayscale opacity-40 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
+                sizes="(max-width: 768px) 160px, 280px"
+            />
+        </div>
+    );
+
     return (
-        <section className="py-24 bg-[#161616] overflow-hidden border-y border-border-subtle" dir="ltr">
-            <div className={`container mx-auto px-6 mb-12 text-center ${isRTL ? "md:text-right" : "md:text-left"}`}>
-                <p className="text-secondary font-mono text-sm uppercase tracking-[0.3em] font-bold">
-                    {text}
-                </p>
+        <section className="py-24 bg-[#0a0a0a] overflow-hidden border-y border-white/5" dir="ltr">
+            <div className="container mx-auto px-6 mb-16">
+                <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+                    <div>
+                        <p className="text-secondary font-mono text-sm uppercase tracking-[0.3em] font-bold mb-2">
+                            {isRTL ? "شركاء النجاح" : "Success Partners"}
+                        </p>
+                        <h2 className="text-2xl md:text-4xl font-bold text-white uppercase tracking-tight">
+                            {text}
+                        </h2>
+                    </div>
+                </div>
             </div>
 
-            <div className="flex gap-12 md:gap-20 items-center w-max" ref={slider}>
-                {/* Render twice for infinite loop */}
-                {[...logoFiles, ...logoFiles].map((logo, i) => (
-                    <div key={i} className="relative w-28 h-12 md:w-40 md:h-20 grayscale-0 opacity-80 hover:opacity-100 transition-all duration-300 flex items-center justify-center shrink-0">
-                        <Image
-                            src={`/logos/${logo}`}
-                            alt={`Partner Logo ${i}`}
-                            fill
-                            className="object-contain"
-                            sizes="200px"
-                        />
-                    </div>
-                ))}
+            <div className="flex flex-col gap-12">
+                {/* Row 1 */}
+                <div className="flex gap-10 md:gap-14 items-center w-max" ref={row1}>
+                    {[...firstHalf, ...firstHalf].map((logo, i) => (
+                        <LogoBox key={`row1-${i}`} logo={logo} i={i} />
+                    ))}
+                </div>
+
+                {/* Row 2 */}
+                <div className="flex gap-10 md:gap-14 items-center w-max" ref={row2}>
+                    {[...secondHalf, ...secondHalf].map((logo, i) => (
+                        <LogoBox key={`row2-${i}`} logo={logo} i={i} />
+                    ))}
+                </div>
             </div>
         </section>
     );

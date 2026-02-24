@@ -23,18 +23,18 @@ export const clientsData = {
 
 export const certificatesData = {
     ar: [
-        { title: "معتمد من إعلانات جوجل", issuer: "جوجل", date: "2024" },
-        { title: "محترف شراء الوسائط من ميتا", issuer: "ميتا", date: "2023" },
-        { title: "مدير إعلانات سناب شات", issuer: "سناب شات", date: "2023" },
-        { title: "أخصائي إعلانات تيك توك", issuer: "تيك توك", date: "2024" },
-        { title: "مؤهل في تحليلات جوجل GA4", issuer: "تحليلات جوجل", date: "2024" }
+        { title: "أساسيات إدارة التسعير", issuer: "إدراك / جامعة بيردو", date: "2024", image: "/images/certificates/pricing-fundamentals.jpg" },
+        { title: "B2B Marketing on LinkedIn", issuer: "LinkedIn Learning", date: "2023", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" },
+        { title: "Learning is a Life's Journey", issuer: "almentor", date: "2023", image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=400" },
+        { title: "معتمد من إعلانات جوجل", issuer: "جوجل", date: "2024", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Ads_logo.svg/800px-Google_Ads_logo.svg.png" },
+        { title: "محترف شراء الوسائط من ميتا", issuer: "ميتا", date: "2023", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/800px-Meta_Platforms_Inc._logo.svg.png" }
     ],
     en: [
-        { title: "Google Ads Certified", issuer: "Google", date: "2024" },
-        { title: "Meta Media Buying Professional", issuer: "Meta", date: "2023" },
-        { title: "Snapchat Ads Manager", issuer: "Snapchat", date: "2023" },
-        { title: "TikTok Ads Specialist", issuer: "TikTok", date: "2024" },
-        { title: "Google Analytics GA4 Qualified", issuer: "Google Analytics", date: "2024" }
+        { title: "Pricing Management Fundamentals", issuer: "Edraak / Purdue University", date: "2024", image: "/images/certificates/pricing-fundamentals.jpg" },
+        { title: "B2B Marketing on LinkedIn", issuer: "LinkedIn Learning", date: "2023", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" },
+        { title: "Learning is a Life's Journey", issuer: "almentor", date: "2023", image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=400" },
+        { title: "Google Ads Certified", issuer: "Google", date: "2024", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Ads_logo.svg/800px-Google_Ads_logo.svg.png" },
+        { title: "Meta Media Buying Professional", issuer: "Meta", date: "2023", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/800px-Meta_Platforms_Inc._logo.svg.png" }
     ]
 };
 

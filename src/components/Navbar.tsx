@@ -33,7 +33,7 @@ export default function Navbar() {
                 { name: "أعمالي", href: "/case-studies" }, // Changed href to match real page
                 { name: "المدونة", href: "/blog" },
             ],
-            contact: "تواصل معي",
+            contact: "تواصل الآن",
             langBtn: "EN"
         },
         en: {
@@ -44,7 +44,7 @@ export default function Navbar() {
                 { name: "Work", href: "/case-studies" },
                 { name: "Blog", href: "/blog" },
             ],
-            contact: "Let's Talk",
+            contact: "Contact Now",
             langBtn: "عربي"
         }
     };
@@ -60,10 +60,10 @@ export default function Navbar() {
                 <div className="container mx-auto px-6 flex justify-between items-center">
                     {/* Logo */}
                     <Link href="/" className="relative z-50 flex items-center gap-4 group">
-                        <div className="relative w-28 h-28 flex items-center justify-center">
+                        <div className="relative w-36 h-36 flex items-center justify-center -my-8">
                             <Image
                                 src="/logo.png"
-                                alt="Mohamed Elsayed Logo"
+                                alt="Mohamed El-Sayed Logo"
                                 width={240}
                                 height={240}
                                 className="object-contain group-hover:scale-110 transition-transform duration-500"
@@ -73,12 +73,12 @@ export default function Navbar() {
                     </Link>
 
                     {/* Desktop Nav */}
-                    <nav className="hidden md:flex items-center gap-8 bg-white/5 px-8 py-3 rounded-full border border-white/10 backdrop-blur-sm">
+                    <nav className="hidden md:flex items-center gap-10 bg-white/5 px-10 py-4 rounded-full border border-white/10 backdrop-blur-sm">
                         {t.links.map((link) => (
                             <Link
                                 key={link.href}
                                 href={link.href}
-                                className={`text-sm font-bold uppercase tracking-wider hover:text-secondary transition-colors ${pathname === link.href ? "text-white" : "text-slate-400"}`}
+                                className={`text-lg font-bold uppercase tracking-wider hover:text-secondary transition-colors ${pathname === link.href ? "text-white" : "text-slate-400"}`}
                             >
                                 {link.name}
                             </Link>
@@ -86,16 +86,16 @@ export default function Navbar() {
                     </nav>
 
                     {/* CTA + Mobile Trigger */}
-                    <div className="flex items-center gap-4">
-                        <Link href="/contact" className="hidden md:inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full text-sm font-bold uppercase hover:bg-secondary transition-colors">
+                    <div className="flex items-center gap-6">
+                        <Link href="/contact" className="hidden md:inline-flex items-center gap-3 bg-white text-black px-8 py-4 rounded-full text-base font-bold uppercase hover:bg-secondary transition-colors">
                             {t.contact}
-                            <ArrowRight size={16} className={isRTL ? "rotate-180" : ""} />
+                            <ArrowRight size={18} className={isRTL ? "rotate-180" : ""} />
                         </Link>
 
                         {/* Language Switcher */}
                         <button
                             onClick={toggleLanguage}
-                            className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white font-mono text-xs hover:bg-white hover:text-black transition-all"
+                            className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-white font-mono text-sm hover:bg-white hover:text-black transition-all"
                             aria-label="Change Language"
                         >
                             {t.langBtn}
@@ -131,4 +131,3 @@ export default function Navbar() {
         </>
     );
 }
-
