@@ -71,7 +71,7 @@ export default function BlogPostDetail({ params }: PageProps) {
                         {post.title}
                     </h1>
 
-                    <p className="text-xl md:text-2xl text-slate-300 font-light leading-relaxed mb-16 border-l-2 border-secondary pl-6 italic">
+                    <p className={`text-xl md:text-2xl text-slate-300 font-light leading-relaxed mb-16 ${isRTL ? "border-r-2 pr-6" : "border-l-2 pl-6"} border-secondary italic`}>
                         {post.excerpt}
                     </p>
 

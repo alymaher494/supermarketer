@@ -18,27 +18,27 @@ export default function ServicesPage() {
     const content = {
         ar: {
             header: {
-                subtitle: "خبراتي",
-                title: "وحدات النمو",
-                desc: "لا أبيع باقات عامة. أنا أنشر وحدات نمو متخصصة مصممة خصيصاً لأهداف إيراداتك."
+                subtitle: "خدماتي",
+                title: "خدمات التسويق الإلكتروني وإدارة الإعلانات الممولة",
+                desc: "بقدم خدمات تسويق إلكتروني مخصصة حسب طبيعة البيزنس والهدف، سواء زيادة مبيعات، عملاء محتملين، أو توسّع."
             },
             labels: {
                 fix: "الحل",
                 outcomes: "النتائج",
-                start: "ابدأ المشروع"
+                start: "ابدأ مشروعك"
             },
             cta: "احجز مكالمة استراتيجية"
         },
         en: {
             header: {
-                subtitle: "My Expertise",
-                title: "Growth Modules",
-                desc: "I don't sell generic packages. I deploy specialized growth modules tailored to your revenue goals."
+                subtitle: "My Services",
+                title: "Digital Marketing & Paid Ads Services",
+                desc: "I provide customized digital marketing services tailored to your business and goals — whether it's increasing sales, generating leads, or scaling up."
             },
             labels: {
                 fix: "The Fix",
                 outcomes: "Outcomes",
-                start: "Start Project"
+                start: "Start Your Project"
             },
             cta: "Book a Strategy Call"
         }

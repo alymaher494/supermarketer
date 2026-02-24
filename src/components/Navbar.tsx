@@ -55,17 +55,17 @@ export default function Navbar() {
     return (
         <>
             <header
-                className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? "py-4 bg-[#161616]/80 backdrop-blur-md border-b border-white/5" : "py-8 bg-transparent"}`}
+                className={`fixed top-0 inset-x-0 w-full z-50 transition-all duration-300 ${scrolled ? "py-3 bg-[#161616]/80 backdrop-blur-md border-b border-white/5" : "py-4 md:py-6 bg-transparent"}`}
             >
                 <div className="container mx-auto px-6 flex justify-between items-center">
                     {/* Logo */}
                     <Link href="/" className="relative z-50 flex items-center gap-4 group">
-                        <div className="relative w-24 h-24 flex items-center justify-center">
+                        <div className="relative w-28 h-28 flex items-center justify-center">
                             <Image
                                 src="/logo.png"
                                 alt="Mohamed Elsayed Logo"
-                                width={200}
-                                height={200}
+                                width={240}
+                                height={240}
                                 className="object-contain group-hover:scale-110 transition-transform duration-500"
                             />
                         </div>

@@ -1,12 +1,12 @@
 export const caseStudiesData = {
     ar: [
         {
-            slug: "diamond-bullion-google",
-            client: "سبائك الماسة",
-            category: "مجوهرات / تجارة إلكترونية",
-            headline: "إعلانات جوجل: زيادة العائد بنسبة 250%",
+            slug: "jewelry-google-ads",
+            client: "قطاع المجوهرات",
+            category: "تجارة إلكترونية",
+            headline: "إعلانات جوجل: نمو العائد المادي بنسبة 250%",
             metric: { label: "زيادة العائد", value: "+250%" },
-            image: "https://mtgar.com/wp-content/uploads/2026/01/سبائك-الماسة-جوجل.png",
+            image: "https://landing.mtgar.com/google-jewelry.png",
             challenge: "تحقيق عائد استثمار عالٍ لعلامة مجوهرات فاخرة في سوق تنافسي.",
             solution: "حملة إعلانات جوجل شاملة استهدفت الكلمات المفتاحية الاستراتيجية مع نصوص إعلانية جذابة وصفحات هبوط محسّنة.",
             results: [
@@ -18,12 +18,12 @@ export const caseStudiesData = {
             tags: ["إعلانات جوجل", "تجارة إلكترونية", "مجوهرات"]
         },
         {
-            slug: "dokkan-balila-snapchat",
-            client: "دكان بليلة",
-            category: "أغذية ومشروبات",
-            headline: "سناب شات: توسيع الوصول وزيادة المبيعات",
+            slug: "food-beverage-snapchat",
+            client: "قطاع الأغذية والمشروبات",
+            category: "مطاعم وتجزئة",
+            headline: "سناب شات: توسيع الوصول وزيادة المبيعات المباشرة",
             metric: { label: "نمو المبيعات", value: "+210%" },
-            image: "https://mtgar.com/wp-content/uploads/2026/01/s-دكان-بليلة.png",
+            image: "https://landing.mtgar.com/snapchat-balila.png",
             challenge: "الوصول إلى الفئات العمرية الشابة وزيادة التفاعل مع العلامة التجارية.",
             solution: "حملة مبتكرة على سناب شات استخدمت السرد الإبداعي والأشكال التفاعلية.",
             results: [
@@ -35,12 +35,12 @@ export const caseStudiesData = {
             tags: ["سناب شات", "تفاعل", "أغذية"]
         },
         {
-            slug: "saudi-oud-center-meta",
-            client: "المركز السعودي للعود",
-            category: "عطور / تجارة إلكترونية",
-            headline: "ميتا: 12 حملة ناجحة و 5 مليون ظهور",
+            slug: "perfume-luxury-meta",
+            client: "قطاع العطور والرفاهية",
+            category: "تجارة إلكترونية",
+            headline: "ميتا: إدارة 12 حملة مبيعات مباشرة و 5 مليون ظهور",
             metric: { label: "مرات الظهور", value: "5M+" },
-            image: "/saudi-oud.png",
+            image: "https://landing.mtgar.com/%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%20%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%20%D9%84%D9%84%D8%B9%D9%88%D8%AF.png",
             challenge: "زيادة المبيعات والانتشار عبر منصات ميتا المتعددة.",
             solution: "12 حملة متكاملة شملت المبيعات (Sales) والزيارات (Traffic) وصفحات الهبوط (Landing Page).",
             results: [
@@ -52,12 +52,12 @@ export const caseStudiesData = {
             tags: ["إعلانات ميتا", "عطور", "توسع"]
         },
         {
-            slug: "inaya-tiktok",
-            client: "عناية (Inaya)",
-            category: "عناية شخصية / تجارة إلكترونية",
-            headline: "تيك توك: نتائج مبهرة في التحويلات",
+            slug: "medical-education-tiktok",
+            client: "قطاع التعليم والخدمات الطبية",
+            category: "مؤسسات تعليمية",
+            headline: "تيك توك: 5 حملات ناجحة بمعدلات تحويل مرتفعة",
             metric: { label: "التحويلات", value: "9,881" },
-            image: "/inaya-ads.png",
+            image: "https://landing.mtgar.com/New%20Inaya.PNG",
             challenge: "بناء الوعي وزيادة التحويلات على منصة تيك توك.",
             solution: "5 حملات إعلانية مركزة حققت وصولاً واسعاً ومعدلات تحويل عالية.",
             results: [
@@ -70,7 +70,7 @@ export const caseStudiesData = {
         },
         {
             slug: "real-estate-performance",
-            client: "العقارات والريل إستيت",
+            client: "العقارات",
             category: "عقارات",
             headline: "إنفاق 4 مليون ريال خلال سنة ونصف بنمو مستدام",
             metric: { label: "الإنفاق", value: "4M+" },
@@ -122,12 +122,12 @@ export const caseStudiesData = {
     ],
     en: [
         {
-            slug: "diamond-bullion-google",
-            client: "Diamond Bullion",
-            category: "Jewelry / E-commerce",
-            headline: "Google Ads: +250% ROI Increase",
+            slug: "jewelry-google-ads",
+            client: "Jewelry Sector",
+            category: "E-commerce",
+            headline: "Google Ads: +250% ROI Growth",
             metric: { label: "ROI Increase", value: "+250%" },
-            image: "https://mtgar.com/wp-content/uploads/2026/01/سبائك-الماسة-جوجل.png",
+            image: "https://landing.mtgar.com/google-jewelry.png",
             challenge: "Achieving high ROI for a luxury jewelry brand in a competitive market.",
             solution: "Comprehensive Google Ads campaign targeting strategic keywords with engaging ad copy and optimized landing pages.",
             results: [
@@ -139,12 +139,12 @@ export const caseStudiesData = {
             tags: ["Google Ads", "E-commerce", "Jewelry"]
         },
         {
-            slug: "dokkan-balila-snapchat",
-            client: "Dokkan Balila",
-            category: "Food & Beverage",
-            headline: "Snapchat: Reach Expansion & Sales Growth",
+            slug: "food-beverage-snapchat",
+            client: "F&B Sector",
+            category: "Restaurants & Retail",
+            headline: "Snapchat: Reach Expansion & Direct Sales Growth",
             metric: { label: "Sales Growth", value: "+210%" },
-            image: "https://mtgar.com/wp-content/uploads/2026/01/s-دكان-بليلة.png",
+            image: "https://landing.mtgar.com/snapchat-balila.png",
             challenge: "Connecting with younger demographics and driving brand engagement.",
             solution: "Innovative Snapchat campaign using creative storytelling and interactive formats.",
             results: [
@@ -156,12 +156,12 @@ export const caseStudiesData = {
             tags: ["Snapchat", "Engagement", "F&B"]
         },
         {
-            slug: "saudi-oud-center-meta",
-            client: "Saudi Oud Center",
-            category: "Perfumes / E-commerce",
-            headline: "Meta: 12 Successful Campaigns & 5M+ Impressions",
+            slug: "perfume-luxury-meta",
+            client: "Perfume & Luxury Sector",
+            category: "E-commerce",
+            headline: "Meta: Managing 12 Sales Campaigns & 5M+ Impressions",
             metric: { label: "Impressions", value: "5M+" },
-            image: "/saudi-oud.png",
+            image: "https://landing.mtgar.com/%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%20%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%20%D9%84%D9%84%D8%B9%D9%88%D8%AF.png",
             challenge: "Scaling sales and reach across multiple Meta platforms.",
             solution: "12 integrated campaigns including Sales, Traffic, and Landing Page strategies.",
             results: [
@@ -173,12 +173,12 @@ export const caseStudiesData = {
             tags: ["Meta Ads", "Perfume", "Scaling"]
         },
         {
-            slug: "inaya-tiktok",
-            client: "Inaya",
-            category: "Personal Care / E-commerce",
-            headline: "TikTok: Impressive Conversion Results",
+            slug: "medical-education-tiktok",
+            client: "Medical & Education Sector",
+            category: "Educational Institutions",
+            headline: "TikTok: 5 Successful Campaigns with High Conversion Rates",
             metric: { label: "Conversions", value: "9,881" },
-            image: "/inaya-ads.png",
+            image: "https://landing.mtgar.com/New%20Inaya.PNG",
             challenge: "Building awareness and driving conversions on TikTok.",
             solution: "5 focused ad campaigns achieving massive reach and high conversion rates.",
             results: [

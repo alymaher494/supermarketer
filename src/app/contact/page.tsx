@@ -10,7 +10,7 @@ export default function ContactPage() {
 
     const content = {
         ar: {
-            title: "لنتحدث",
+            title: "تواصل مع متخصص تسويق إلكتروني",
             detailsLabel: "بيانات التواصل",
             socialsLabel: "تواصل معنا",
             form: {
@@ -20,7 +20,7 @@ export default function ContactPage() {
                 interest: "الاهتمام",
                 message: "الرسالة",
                 btn: "إرسال الرسالة",
-                options: ["تدقيق استراتيجي", "تسويق الأداء", "استشارة", "أخرى"],
+                options: ["إدارة إعلانات ممولة", "زيادة المبيعات", "تدقيق حملات", "استشارة"],
                 placeholders: {
                     name: "الاسم الكامل",
                     company: "اسم الشركة",
@@ -29,11 +29,11 @@ export default function ContactPage() {
                 }
             },
             info: {
-                location: "القاهرة، مصر"
+                location: "القاهرة – مصر"
             }
         },
         en: {
-            title: "Let's Talk",
+            title: "Contact a Digital Marketing Specialist",
             detailsLabel: "Contact Details",
             socialsLabel: "Socials",
             form: {
@@ -43,7 +43,7 @@ export default function ContactPage() {
                 interest: "Interest",
                 message: "Message",
                 btn: "Send Message",
-                options: ["Strategy Audit", "Performance Marketing", "Consultation", "Other"],
+                options: ["Paid Ads Management", "Increase Sales", "Campaign Audit", "Consultation"],
                 placeholders: {
                     name: "John Doe",
                     company: "Acme Inc.",
@@ -52,7 +52,7 @@ export default function ContactPage() {
                 }
             },
             info: {
-                location: "Cairo, Egypt"
+                location: "Cairo – Egypt"
             }
         }
     };

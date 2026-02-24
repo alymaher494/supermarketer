@@ -11,8 +11,8 @@ export default function Footer() {
 
     const content = {
         ar: {
-            headline: { part1: "لنطور", part2: "رؤيتك." },
-            cta: "ابدأ مشروعاً",
+            headline: { part1: "لنكبّر", part2: "مبيعاتك." },
+            cta: "ابدأ مشروعك الآن",
             menuTitle: "القائمة",
             connectTitle: "تواصل",
             links: [
@@ -32,8 +32,8 @@ export default function Footer() {
             terms: "شروط الخدمة"
         },
         en: {
-            headline: { part1: "Let's Scale", part2: "Your Vision." },
-            cta: "Start a Project",
+            headline: { part1: "Let's Grow", part2: "Your Sales." },
+            cta: "Start Your Project",
             menuTitle: "Menu",
             connectTitle: "Connect",
             links: [

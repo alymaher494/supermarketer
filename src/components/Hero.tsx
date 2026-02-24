@@ -21,56 +21,56 @@ export default function Hero() {
         ar: {
             slides: [
                 {
-                    subtitle: "تسويق الأداء",
-                    title: "حول الإنفاق",
-                    title2: "إلى نمو",
-                    desc: "أنا متخصص في رفع العائد على الإنفاق الإعلاني (ROAS)، تحسين تكلفة الاستحواذ (CAC)، واقتصاديات الوحدة. أساعد العلامات التجارية في مصر والخليج على التوسع بمنهجية.",
-                    image: "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2000&auto=format&fit=crop"
+                    subtitle: "متخصص تسويق إلكتروني وإعلانات ممولة",
+                    title: "زيادة المبيعات",
+                    title2: "وتقليل تكلفة الإعلان",
+                    desc: "بساعد الشركات وأصحاب البيزنس يحققوا مبيعات حقيقية من خلال إدارة الإعلانات الممولة على فيسبوك، إنستجرام، جوجل، وتيك توك. التركيز دايمًا على الربح، مش الأرقام الوهمية.",
+                    image: "/hero_performance_v3_1771881226946.png"
                 },
                 {
-                    subtitle: "استراتيجيات مبنية على البيانات",
-                    title: "توسع مع",
-                    title2: "ثقة تامة",
-                    desc: "أنا لا أخمن. أنا أهندس تدفقات إيرادات يمكن التنبؤ بها للعلامات التجارية الطموحة.",
-                    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2000&auto=format&fit=crop"
+                    subtitle: "إدارة حملات إعلانية باحترافية",
+                    title: "نتائج حقيقية",
+                    title2: "مش أرقام وهمية",
+                    desc: "بحلل البيانات، بختبر الإعلانات، وبكبر الناجح منها. كل قرش بيتصرف بهدف واضح: زيادة المبيعات وتقليل تكلفة الإعلان.",
+                    image: "/strategy_blueprint_v3_1771881257824.png"
                 },
                 {
-                    subtitle: "تركيز على مصر والخليج",
-                    title: "بلا",
-                    title2: "حدود",
-                    desc: "خبرة واسعة في الأسواق السعودية، الإماراتية، والمصرية.",
-                    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop"
+                    subtitle: "خبرة في مصر والخليج",
+                    title: "تسويق إلكتروني",
+                    title2: "يجيب مبيعات",
+                    desc: "خبرة في التسويق الإلكتروني في مصر والسعودية والإمارات للتجارة الإلكترونية، العقارات، والخدمات. +10 سنوات وإدارة ميزانيات تجاوزت 15 مليون دولار.",
+                    image: "/regional_growth_v3_1771881241616.png"
                 }
             ],
             cta: "ابدأ مشروعك",
-            work: "أعمالي"
+            work: "شاهد أعمالي"
         },
         en: {
             slides: [
                 {
-                    subtitle: "Performance Marketing",
-                    title: "Turn Spend",
-                    title2: "Into Growth",
-                    desc: "Specializing in ROAS maximization, CAC reduction, and unit economics. I help brands in Egypt & GCC scale systematically.",
-                    image: "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2000&auto=format&fit=crop"
+                    subtitle: "Paid Ads & Digital Marketing Specialist",
+                    title: "Increase Sales",
+                    title2: "& Reduce Ad Cost",
+                    desc: "I help businesses achieve real sales through paid ads management on Facebook, Instagram, Google, and TikTok. Always focused on profit, not vanity metrics.",
+                    image: "/hero_performance_v3_1771881226946.png"
                 },
                 {
-                    subtitle: "Data-Driven Strategies",
-                    title: "Scale With",
-                    title2: "Confidence",
-                    desc: "I don't guess. I engineer predictable revenue streams for ambitious brands.",
-                    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2000&auto=format&fit=crop"
+                    subtitle: "Professional Campaign Management",
+                    title: "Real Results",
+                    title2: "Not Fake Numbers",
+                    desc: "I analyze data, test ads, and scale what works. Every dollar is spent with a clear goal: increase sales and reduce ad cost.",
+                    image: "/strategy_blueprint_v3_1771881257824.png"
                 },
                 {
-                    subtitle: "Egypt & Gulf Focus",
-                    title: "No",
-                    title2: "Limits",
-                    desc: "Extensive experience in Saudi, UAE, and Egyptian markets.",
-                    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop"
+                    subtitle: "Experience Across Egypt & Gulf",
+                    title: "Digital Marketing",
+                    title2: "That Drives Sales",
+                    desc: "Digital marketing expertise across Egypt, Saudi Arabia & UAE for e-commerce, real estate, and services. 10+ years managing $15M+ in ad budgets.",
+                    image: "/regional_growth_v3_1771881241616.png"
                 }
             ],
-            cta: "Start Project",
-            work: "My Work"
+            cta: "Start Your Project",
+            work: "View My Work"
         }
     };
 
@@ -101,7 +101,7 @@ export default function Hero() {
     }, [currentSlide]);
 
     return (
-        <section className="relative h-screen w-full bg-primary overflow-hidden">
+        <section className="relative min-h-screen md:h-[110vh] w-full bg-primary overflow-hidden">
             {/* Background Image Layer */}
             <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-black/60 z-10" />
@@ -116,12 +116,12 @@ export default function Hero() {
             </div>
 
             {/* Content Layer */}
-            <div className="relative z-20 h-full container mx-auto px-6 flex flex-col justify-center pt-32 md:pt-40 pb-32 md:pb-0">
+            <div className="relative z-20 h-full container mx-auto px-6 flex flex-col justify-center pt-40 md:pt-48 pb-40 md:pb-20">
                 <div className="max-w-4xl">
-                    <span className="block text-secondary font-mono uppercase tracking-[0.2em] mb-4 pl-1">
+                    <span className="block text-secondary font-mono uppercase tracking-[0.2em] mb-4 ps-1">
                         {slides[currentSlide].subtitle}
                     </span>
-                    <h1 className="text-[12vw] md:text-[8vw] font-bold leading-[0.9] text-white uppercase mb-6">
+                    <h1 className="text-[8vw] md:text-[5vw] font-bold leading-[0.95] text-white uppercase mb-8">
                         <div className="overflow-hidden">
                             <span ref={title1Ref} className="block">{slides[currentSlide].title}</span>
                         </div>
@@ -129,11 +129,11 @@ export default function Hero() {
                             <span ref={title2Ref} className="block text-outline-white text-transparent">{slides[currentSlide].title2}</span>
                         </div>
                     </h1>
-                    <p ref={descRef} className={`text-xl md:text-2xl text-slate-300 max-w-2xl font-light leading-relaxed mb-12 ${isRTL ? "border-r-2 pr-6" : "border-l-2 pl-6"} border-secondary`}>
+                    <p ref={descRef} className={`text-xl md:text-2xl text-slate-300 max-w-2xl font-light leading-[1.8] mb-14 border-secondary overflow-hidden ${isRTL ? "border-r-[3px] pr-8 text-right" : "border-l-[3px] pl-8 text-left"}`}>
                         {slides[currentSlide].desc}
                     </p>
 
-                    <div className={`flex items-center gap-6 ${isRTL ? "justify-end md:justify-start" : "justify-start"}`}>
+                    <div className={`flex items-center gap-6 justify-start`}>
                         <Link href="/contact" className="btn-primary flex items-center gap-2 group">
                             {t.cta} <ArrowRight className={`group-hover:${isRTL ? "-translate-x-1" : "translate-x-1"} transition-transform ${isRTL ? "rotate-180" : ""}`} />
                         </Link>
@@ -145,11 +145,11 @@ export default function Hero() {
             </div>
 
             {/* Slider Controls */}
-            <div className={`absolute bottom-12 ${isRTL ? "right-6 md:right-12" : "left-6 md:left-12"} z-30 flex gap-4`}>
-                <button onClick={prevSlide} className="w-14 h-14 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-secondary hover:text-black hover:border-secondary transition-all">
+            <div className={`absolute bottom-10 ${isRTL ? "right-6 md:right-12" : "left-6 md:left-12"} z-30 flex gap-4`}>
+                <button onClick={prevSlide} className="w-14 h-10 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-secondary hover:text-black hover:border-secondary transition-all">
                     {isRTL ? <ChevronRight size={24} /> : <ChevronLeft size={24} />}
                 </button>
-                <button onClick={nextSlide} className="w-14 h-14 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-secondary hover:text-black hover:border-secondary transition-all">
+                <button onClick={nextSlide} className="w-14 h-10 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-secondary hover:text-black hover:border-secondary transition-all">
                     {isRTL ? <ChevronLeft size={24} /> : <ChevronRight size={24} />}
                 </button>
             </div>

@@ -17,85 +17,85 @@ export default function AboutPage() {
     const content = {
         ar: {
             header: {
-                subtitle: "الوكالة",
-                title: "أنا مهندس النمو",
-                desc: "أنا استشاري متخصص في تسويق الأداء، أشارك العلامات التجارية الطموحة لهندسة نمو إيرادات يمكن التنبؤ به."
+                subtitle: "عني",
+                title: "محمد – متخصص تسويق إلكتروني وإعلانات ممولة",
+                desc: "بشتغل في مجال التسويق الإلكتروني وإدارة الحملات الإعلانية مع تركيز كامل على النتائج."
             },
             hero: {
-                title: "مهووس بالنتائج.\nموجه بالبيانات.",
-                text1: { pre: "التسويق لم يعد مبنياً على \"التخمين\". إنه يتعلق", strong: "بالبنية التحتية", post: ". أؤمن بأن النمو المستدام يأتي من نظام دقيق للاختبار، ودقة تتبع من جانب السيرفر، والنمذجة المالية." },
-                text2: { pre: "أعمل في النقطة التي", span: "يلتقي فيها الإبداع بالحسابات", post: ". أحدد بدقة الروافع التي تحول الإنفاق الإعلاني إلى أرباح لشركائي في جميع أنحاء منطقة الشرق الأوسط." }
+                title: "زيادة المبيعات.\nوتقليل تكلفة الإعلان.",
+                text1: { pre: "التسويق الحقيقي مش لايكات ومشاهدات. اللي يهمني هو", strong: "هل الإعلان جاب مبيعات؟", post: " بشتغل على إدارة الإعلانات الممولة بطريقة عملية تهدف لزيادة المبيعات وتقليل التكلفة." },
+                text2: { pre: "بساعد الشركات في مصر والخليج", span: "تحوّل الإعلان من تكلفة لاستثمار مربح", post: " من خلال تحليل البيانات، اختبار الإعلانات، وتكبير الناجح منها." }
             },
             stats: [
-                { label: "إنفاق إعلاني مدار", value: "+$15M" },
-                { label: "إيرادات محققة", value: "+$40M" },
-                { label: "متوسط عائد الإنفاق", value: "6.5x" },
+                { label: "إنفاق إعلاني مُدار", value: "+$15M" },
+                { label: "مبيعات تم تحقيقها", value: "+$40M" },
+                { label: "متوسط العائد", value: "6.5x" },
                 { label: "سنوات الخبرة", value: "+10" }
             ],
             values: {
-                label: "حمضي النووي",
-                title: "لماذا تختارني العلامات التجارية؟",
+                label: "ليه تشتغل معايا",
+                title: "الفرق بيني وبين أي حد تاني",
                 items: [
                     {
-                        title: "التحليل الجنائي للبيانات",
-                        desc: "أصلح التتبع أولاً. إذا لم أتمكن من قياسه بدقة (من جانب السيرفر)، فلن أنفق دولاراً واحداً عليه.",
-                        points: ["إعداد CAPI", "نمذجة الإسناد", "تدقيق شامل"]
+                        title: "بصلّح التتبع الأول",
+                        desc: "لو مش قادر أقيس النتيجة بدقة، مش هصرف جنيه. التتبع الصح هو الأساس.",
+                        points: ["تتبع سيرفر دقيق", "بيانات صحيحة", "تدقيق شامل"]
                     },
                     {
-                        title: "الربح > عائد الإنفاق",
-                        desc: "لا أهتم بمقاييس الغرور. أنا أحسن من أجل هامش المساهمة، القيمة الدائمة للعميل، والأموال الفعلية في البنك.",
-                        points: ["اقتصاديات الوحدة", "تحليل الأرباح والخسائر", "التوسع المدروس"]
+                        title: "مبيعات حقيقية مش أرقام شكلية",
+                        desc: "ما بهتمش بعدد اللايكات. اللي يهمني هل الإعلان دخل فلوس وهل التكلفة مناسبة.",
+                        points: ["تقليل تكلفة الإعلان", "زيادة المبيعات", "ربح حقيقي"]
                     },
                     {
-                        title: "الإبداع العلمي",
-                        desc: "أختبر الإعلانات بشكل منهجي. أكرر العمل بناءً على بيانات الأداء، وليس الآراء الشخصية.",
-                        points: ["اختبار A/B", "محتوى من إنشاء المستخدم", "إنتاج عالي الجودة"]
+                        title: "اختبار مستمر للإعلانات",
+                        desc: "بختبر الإعلانات بالأرقام. بوقف الخسران وبكبر الناجح.",
+                        points: ["اختبار A/B", "محتوى إعلاني قوي", "تحسين مستمر"]
                     }
                 ]
             },
-            marquee: "خبير معتمد • معايير عالمية • نتائج حقيقية • ",
-            clientsTitle: "موثوق بي من قادة الصناعة"
+            marquee: "تسويق إلكتروني • إعلانات ممولة • زيادة مبيعات • نتائج حقيقية • ",
+            clientsTitle: "شركات اشتغلت معاها"
         },
         en: {
             header: {
-                subtitle: "The Agency",
-                title: "I Am a Growth Engineer",
-                desc: "I am a specialist performance marketing consultant, partnering with ambitious brands to engineer predictable revenue growth."
+                subtitle: "About Me",
+                title: "Mohamed — Paid Ads & Digital Marketing Specialist",
+                desc: "I work in digital marketing and paid ads campaign management with a complete focus on results."
             },
             hero: {
-                title: "Results Obsessed.\nData Driven.",
-                text1: { pre: "Marketing is no longer about 'guessing'. It's about", strong: "Infrastructure", post: ". I believe sustainable growth comes from a rigorous system of testing, server-side tracking accuracy, and financial modeling." },
-                text2: { pre: "I operate where", span: "Creativity meets Calculus", post: ". I pinpoint the exact levers that turn ad spend into profit for my partners across the MENA region." }
+                title: "Increase Sales.\nReduce Ad Costs.",
+                text1: { pre: "Real marketing isn't about likes and views. What matters to me is", strong: "did the ad generate sales?", post: " I manage paid ads with a practical approach aimed at increasing sales and reducing costs." },
+                text2: { pre: "I help businesses in Egypt and the Gulf", span: "turn ads from a cost into a profitable investment", post: " through data analysis, ad testing, and scaling what works." }
             },
             stats: [
                 { label: "Managed Ad Spend", value: "+$15M" },
-                { label: "Generated Revenue", value: "+$40M" },
+                { label: "Sales Generated", value: "+$40M" },
                 { label: "Avg ROAS", value: "6.5x" },
                 { label: "Years Experience", value: "+10" }
             ],
             values: {
-                label: "My DNA",
-                title: "Why Brands Choose Me?",
+                label: "Why Work With Me",
+                title: "What Sets Me Apart",
                 items: [
                     {
-                        title: "Forensic Data Analysis",
-                        desc: "I fix tracking first. If I can't measure it accurately (Server-Side), I won't spend a dollar on it.",
-                        points: ["CAPI Setup", "Attribution Modeling", "Comprehensive Audit"]
+                        title: "I Fix Tracking First",
+                        desc: "If I can't measure results accurately, I won't spend a penny. Proper tracking is the foundation.",
+                        points: ["Server-Side Tracking", "Accurate Data", "Full Audit"]
                     },
                     {
-                        title: "Profit > ROAS",
-                        desc: "I don't care about vanity metrics. I optimize for Contribution Margin, LTV, and actual cash in the bank.",
-                        points: ["Unit Economics", "P&L Analysis", "Thoughtful Scaling"]
+                        title: "Real Sales, Not Vanity Metrics",
+                        desc: "I don't care about likes count. What matters is: did the ad make money? Is the cost right?",
+                        points: ["Reduce Ad Costs", "Increase Sales", "Real Profit"]
                     },
                     {
-                        title: "Scientific Creativity",
-                        desc: "I test ads systematically. I iterate based on performance data, not personal opinions.",
-                        points: ["A/B Testing", "UGC Content", "High Quality Production"]
+                        title: "Continuous Ad Testing",
+                        desc: "I test ads by the numbers. I stop the losers and scale the winners.",
+                        points: ["A/B Testing", "Strong Ad Creative", "Continuous Improvement"]
                     }
                 ]
             },
-            marquee: "Certified Expert • Global Standards • Real Results • ",
-            clientsTitle: "Trusted by Industry Leaders"
+            marquee: "Digital Marketing • Paid Ads • Sales Growth • Real Results • ",
+            clientsTitle: "Companies I've Worked With"
         }
     };
 
@@ -130,7 +130,7 @@ export default function AboutPage() {
                 <div className="relative aspect-video w-full overflow-hidden rounded-3xl mb-16">
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
                     <Image
-                        src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=2070&auto=format&fit=crop"
+                        src="/regional_growth_v3_1771881241616.png"
                         alt="Growth Strategy"
                         fill
                         className="about-image object-cover"

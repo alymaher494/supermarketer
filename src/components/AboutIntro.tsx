@@ -15,18 +15,18 @@ export default function AboutIntro() {
     const content = {
         ar: {
             label: "من أنا",
-            title: <>مهندس <br /> النمو.</>,
-            p1: <>معظم الوكالات تخمن. أنا <strong className="text-white font-medium">أحسب</strong>.</>,
-            p2: <>أساعد العلامات التجارية في مصر والخليج على التوسع بمنهجية من خلال التركيز على ما يهم: <strong className="text-white">ROAS، CAC، واقتصاديات الوحدة</strong>.</>,
-            p3: "استبدلت \"مقاييس الغرور\" بالنماذج المالية. استبدلت \"المشاعر\" بالتتبع من جانب السيرفر. قمت ببناء نظام حيث يتم توجيه الإبداع بواسطة البيانات، وليس العكس.",
+            title: <>متخصص تسويق <br />إلكتروني وإعلانات ممولة</>,
+            p1: <>أنا متخصص في التسويق الإلكتروني وتسويق الأداء، بشتغل على <strong className="text-white font-medium">إدارة الحملات الإعلانية</strong> بطريقة عملية تهدف لزيادة المبيعات وتقليل تكلفة العميل.</>,
+            p2: <>اشتغلت مع شركات في مصر والخليج في مجالات زي <strong className="text-white">التجارة الإلكترونية، العقارات، والعيادات</strong>، وساعدتهم يحوّلوا الإعلان من تكلفة لاستثمار مربح.</>,
+            p3: "ما بهتمش بعدد اللايكات أو المشاهدات، اللي يهمني هو: هل الإعلان دخل مبيعات؟ وهل التكلفة مناسبة؟",
             link: "اقرأ قصتي الكاملة"
         },
         en: {
             label: "Who I Am",
-            title: <>Growth <br /> Engineer.</>,
-            p1: <>Most agencies guess. I <strong className="text-white font-medium">calculate</strong>.</>,
-            p2: <>I help brands scale systematically by focusing on what matters: <strong className="text-white">ROAS, CAC, and Unit Economics</strong>.</>,
-            p3: "I replaced \"vanity metrics\" with financial models. I replaced \"feelings\" with server-side tracking. I built a system where creative is directed by data, not the other way around.",
+            title: <>Paid Ads &<br />Digital Marketing Specialist</>,
+            p1: <>I specialize in digital marketing and paid ads, managing <strong className="text-white font-medium">ad campaigns</strong> with a practical approach focused on increasing sales and reducing cost per customer.</>,
+            p2: <>I've worked with companies across Egypt & the Gulf in <strong className="text-white">e-commerce, real estate, and healthcare</strong>, helping them turn ad spend from a cost into a profitable investment.</>,
+            p3: "I don't care about likes or views. What matters to me is: did the ad generate sales? And is the cost right?",
             link: "Read My Full Story"
         }
     };
@@ -67,7 +67,7 @@ export default function AboutIntro() {
     }, [language]);
 
     return (
-        <section ref={container} className="py-32 container mx-auto px-6" dir={isRTL ? "rtl" : "ltr"}>
+        <section ref={container} className="py-24 md:py-32 container mx-auto px-6" dir={isRTL ? "rtl" : "ltr"}>
             <div className="grid lg:grid-cols-12 gap-12">
                 {/* Left: Sticky Title */}
                 <div className="lg:col-span-4">
@@ -80,7 +80,7 @@ export default function AboutIntro() {
                 </div>
 
                 {/* Right: Content with Border Line */}
-                <div className={`lg:col-span-8 relative ${isRTL ? "pr-8 md:pr-16 border-r" : "pl-8 md:pl-16 border-l"} border-border-subtle`}>
+                <div className={`lg:col-span-8 relative ${isRTL ? "pr-10 md:pr-24 border-r" : "pl-10 md:pl-24 border-l"} border-border-subtle`}>
                     {/* Animated overlay border */}
                     <div className={`absolute top-0 ${isRTL ? "right-[-1px]" : "left-[-1px]"} w-[2px] h-full bg-secondary origin-top intro-line transform transition-transform duration-1000`} />
 

@@ -14,21 +14,21 @@ export default function QualificationsSection() {
 
     const content = {
         ar: {
-            label: "خبرة مثبتة",
+            label: "شهادات معتمدة",
             headline: { part1: "شريك", part2: "معتمد." },
-            desc: "استراتيجياتي مدعومة بشهادات رسمية من منصات الإعلان الرائدة في العالم. ألتزم بالقواعد لتحقيق انتصارات كبيرة.",
+            desc: "معتمد من أكبر منصات الإعلان في العالم. ده مش كلام — دي شهادات رسمية بتثبت إن شغلي مبني على أساس صح.",
             stats: {
                 years: "سنوات الخبرة",
-                clients: "عملاء نشطين"
+                clients: "شريك نجاح"
             }
         },
         en: {
-            label: "Proven Experience",
+            label: "Certified Credentials",
             headline: { part1: "Certified", part2: "Partner." },
-            desc: "My strategies are backed by official certifications from leading ad platforms. I play by the rules to win big.",
+            desc: "Certified by the world's largest ad platforms. This isn't just talk — these are official certifications proving my work is built on a solid foundation.",
             stats: {
                 years: "Years Experience",
-                clients: "Active Clients"
+                clients: "Success Partners"
             }
         }
     };

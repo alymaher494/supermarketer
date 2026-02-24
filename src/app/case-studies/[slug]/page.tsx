@@ -80,8 +80,8 @@ export default function CaseStudyDetail({ params }: PageProps) {
                 </div>
 
                 {/* Main Hero Image */}
-                <div className="max-w-5xl mx-auto mb-20 aspect-video relative rounded-3xl overflow-hidden border border-slate-800">
-                    <Image src={project.image} alt={project.client} fill className="object-cover" />
+                <div className="max-w-5xl mx-auto mb-20 aspect-video relative rounded-3xl overflow-hidden border border-slate-800 bg-[#0a0a0a]">
+                    <Image src={project.image} alt={project.client} fill className="object-contain p-4" />
                 </div>
 
                 {/* Key Metrics Grid */}

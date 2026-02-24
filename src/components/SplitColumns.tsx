@@ -33,27 +33,27 @@ export default function SplitColumns() {
 
     const content = {
         ar: {
-            label: "منهجي",
+            label: "منهجيتي",
             headline: (
                 <>
-                    صياغة <br /> التميز <br /> <span className="text-outline-white text-transparent">الرقمي.</span>
+                    إزاي بشتغل <br />في إدارة <br /><span className="text-outline-white text-transparent">الإعلانات؟</span>
                 </>
             ),
             features: [
                 {
-                    title: "الاستراتيجية الموجهة بالبيانات",
-                    desc: "قبل إطلاق أي حملة، أقوم بتحليل عميق للسوق والمنافسين وسلوك الجمهور المستهدف لضمان أقصى عائد.",
-                    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop"
+                    title: "تحليل قبل الإعلان",
+                    desc: "قبل ما نصرف جنيه واحد، بنحلل السوق، المنافسين، والجمهور المستهدف عشان الإعلان يجيب نتيجة.",
+                    image: "/strategy_blueprint_v3_1771881257824.png"
                 },
                 {
-                    title: "الإبداع المؤثر",
-                    desc: "تصميمات جذابة ورسائل إعلانية مقنعة تخاطب مشاعر الجمهور وتحفزهم على اتخاذ الإجراء.",
-                    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop"
+                    title: "تشغيل واختبار الحملات",
+                    desc: "إعلانات مختلفة على فيسبوك، إنستجرام، جوجل، وتيك توك ونشوف بالأرقام إيه اللي بيبيع فعلًا.",
+                    image: "/hero_data_strategy_ai_1771881188950.png"
                 },
                 {
-                    title: "التحسين المستمر والتوسع",
-                    desc: "مراقبة دقيقة للأداء، تجارب A/B مستمرة، وقرارات مبنية على الأرقام لتعظيم النتائج وتوسيع نطاق النجاح.",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
+                    title: "تحسين مستمر",
+                    desc: "نوقف الحملات الخسرانة، نكرر الناجح، ونكبر الميزانية بشكل ذكي.",
+                    image: "/hero_performance_v3_1771881226946.png"
                 }
             ]
         },
@@ -61,24 +61,24 @@ export default function SplitColumns() {
             label: "My Methodology",
             headline: (
                 <>
-                    Crafting <br /> Digital <br /> <span className="text-outline-white text-transparent">Excellence.</span>
+                    How I Manage <br />Your Ad <br /><span className="text-outline-white text-transparent">Campaigns</span>
                 </>
             ),
             features: [
                 {
-                    title: "Data-Driven Strategy",
-                    desc: "Before launching any campaign, I conduct deep analysis of the market, competitors, and audience behavior to ensure maximum ROI.",
-                    image: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=2070&auto=format&fit=crop"
+                    title: "Analysis Before Spending",
+                    desc: "Before spending a single dollar, I analyze the market, competitors, and target audience to ensure ads deliver results.",
+                    image: "/strategy_blueprint_v3_1771881257824.png"
                 },
                 {
-                    title: "Impactful Creative",
-                    desc: "Eye-catching designs and compelling ad copy that resonate with your audience and drive action.",
-                    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop"
+                    title: "Launch & Test Campaigns",
+                    desc: "Different ads on Facebook, Instagram, Google, and TikTok — then we see by the numbers what actually sells.",
+                    image: "/hero_data_strategy_ai_1771881188950.png"
                 },
                 {
-                    title: "Optimization & Scaling",
-                    desc: "Rigorous performance monitoring, continuous A/B testing, and data-backed decisions to maximize results and scale success.",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
+                    title: "Continuous Optimization",
+                    desc: "Stop losing campaigns, repeat winners, and scale the budget smartly.",
+                    image: "/hero_performance_v3_1771881226946.png"
                 }
             ]
         }
@@ -93,26 +93,26 @@ export default function SplitColumns() {
                 {/* Fixed Content Side (Desktop) / Header (Mobile) */}
                 <div ref={leftCol} className="lg:w-1/2 min-h-[50vh] lg:h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 bg-[#161616] z-10 transition-all duration-300">
                     <span className="text-secondary font-mono uppercase tracking-widest mb-6 block">{t.label}</span>
-                    <h2 className={`text-4xl md:text-7xl font-bold text-white mb-8 leading-tight`}>
+                    <h2 className={`text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-[1.1]`}>
                         {t.headline}
                     </h2>
                     <div className="h-1 w-24 bg-secondary" />
                 </div>
 
                 {/* Content Side */}
-                <div ref={rightCol} className="lg:w-1/2 bg-card lg:border-l border-border-subtle">
+                <div ref={rightCol} className="lg:w-1/2 bg-card lg:border-s border-border-subtle">
                     {t.features.map((feature, i) => (
                         <div key={i} className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 py-16 lg:py-24 border-b border-border-subtle last:border-0 relative group hover:bg-primary-light transition-colors duration-500">
-                            <div className="relative aspect-[16/10] lg:aspect-[4/3] w-full mb-8 lg:mb-12 overflow-hidden rounded-xl">
+                            <div className="relative aspect-[16/10] lg:aspect-[4/3] w-full mb-8 lg:mb-12 overflow-hidden rounded-3xl">
                                 <Image
                                     src={feature.image}
                                     alt={feature.title}
                                     fill
                                     className="object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
-                                <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors" />
+                                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition-colors" />
                             </div>
-                            <h3 className="text-3xl lg:text-4xl font-bold text-white mb-4 group-hover:translate-x-4 transition-transform duration-300 rtl:group-hover:-translate-x-4">
+                            <h3 className="text-3xl lg:text-4xl font-bold text-white mb-6 group-hover:text-secondary transition-colors duration-300">
                                 {feature.title}
                             </h3>
                             <p className="text-slate-400 text-lg lg:text-xl font-light leading-relaxed max-w-md group-hover:text-slate-300 transition-colors">

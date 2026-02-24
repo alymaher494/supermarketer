@@ -29,7 +29,7 @@ export default function PageHeader({ title, subtitle, description }: PageHeaderP
     }, [title, description]);
 
     return (
-        <section ref={container} className="relative pt-40 pb-20 container mx-auto px-6 border-b border-border-subtle mb-20 overflow-hidden">
+        <section ref={container} className="relative pt-48 pb-24 container mx-auto px-6 border-b border-border-subtle mb-24 overflow-hidden">
             {/* Background Gradient */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[100vw] h-[50vh] bg-secondary/5 blur-[120px] rounded-full pointer-events-none -z-10" />
 
@@ -41,7 +41,7 @@ export default function PageHeader({ title, subtitle, description }: PageHeaderP
 
             <h1 className="relative z-10 text-6xl md:text-8xl lg:text-9xl font-bold font-heading uppercase leading-[0.9] mb-12 tracking-tight break-words">
                 {title.split(" ").map((word, i) => (
-                    <span key={i} className="inline-block mr-4 md:mr-8 overflow-hidden">
+                    <span key={i} className="inline-block me-4 md:me-8 overflow-hidden">
                         <span className="inline-block page-title-char">{word}</span>
                     </span>
                 ))}

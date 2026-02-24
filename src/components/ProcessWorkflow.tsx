@@ -38,23 +38,23 @@ export default function ProcessWorkflow() {
     const content = {
         ar: {
             steps: [
-                { num: "01", title: "التدقيق | والاستراتيجية", desc: "تدقيق الحسابات الإعلانية الحالية لاكتشاف التسريبات والفرص." },
-                { num: "02", title: "اختبار | الإبداع", desc: "اختبار منهجي A/B للصور، والخطافات، والنصوص الإعلانية." },
-                { num: "03", title: "التنفيذ | والتوسع", desc: "إطلاق الحملات عبر ميتا، تيك توك، سناب شات، وجوجل." },
-                { num: "04", title: "التحسين | المستمر", desc: "تحسين مستمر للعائد على الإنفاق واقتصاديات الوحدة." },
+                { num: "01", title: "التحليل | والتخطيط", desc: "بنحلل الحسابات الإعلانية والتتبع عشان نعرف فين المشكلة وفين الفرصة." },
+                { num: "02", title: "اختبار | الإعلانات", desc: "بنجرب إعلانات مختلفة ونشوف بالأرقام إيه اللي بيجيب مبيعات." },
+                { num: "03", title: "التشغيل | والتوسع", desc: "بنشغل الحملات على فيسبوك، جوجل، تيك توك، وسناب شات ونكبر الناجح." },
+                { num: "04", title: "التحسين | المستمر", desc: "بنوقف الخسران، نكرر الناجح، ونحسن النتائج باستمرار." },
             ],
-            cta: "لا تتردد في التعاون مع الخبراء",
-            btn: "لنبدأ الحديث"
+            cta: "محتاج تزوّد مبيعاتك وتقلل تكلفة الإعلان؟",
+            btn: "ابدأ دلوقتي"
         },
         en: {
             steps: [
-                { num: "01", title: "Audit | & Strategy", desc: "Audit existing ad accounts to discover leaks and opportunities." },
-                { num: "02", title: "Creative | Testing", desc: "Systematic A/B testing of visuals, hooks, and ad copy." },
-                { num: "03", title: "Execution | & Scaling", desc: "Launching campaigns across Meta, TikTok, Snap, and Google." },
-                { num: "04", title: "Continuous | Optimization", desc: "Continuous improvement of ROAS and Unit Economics." },
+                { num: "01", title: "Analysis | & Planning", desc: "We analyze ad accounts and tracking to find where the problem is and where the opportunity lies." },
+                { num: "02", title: "Ad | Testing", desc: "We test different ads and see by the numbers what actually generates sales." },
+                { num: "03", title: "Launch | & Scale", desc: "We run campaigns on Facebook, Google, TikTok, and Snapchat — scaling what works." },
+                { num: "04", title: "Continuous | Optimization", desc: "We stop the losers, repeat the winners, and keep improving results." },
             ],
-            cta: "Ready to Scale?",
-            btn: "Let's Talk"
+            cta: "Need to increase sales and reduce ad costs?",
+            btn: "Get Started Now"
         }
     };
 

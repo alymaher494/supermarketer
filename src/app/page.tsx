@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 import LogoTicker from "@/components/LogoTicker";
 import AboutIntro from "@/components/AboutIntro";
 import SplitColumns from "@/components/SplitColumns";
-import ServicesPreviewList from "@/components/ServicesPreviewList";
+import ServicesGrid from "@/components/ServicesGrid";
 import ProcessWorkflow from "@/components/ProcessWorkflow";
 import SnapPortfolio from "@/components/SnapPortfolio";
 import IndustriesSection from "@/components/IndustriesSection";
@@ -21,22 +21,22 @@ export default function Home() {
 
   const content = {
     ar: {
-      agency: "الوكالة",
+      agency: "الرؤية",
       headline: {
         pre: "أنا",
-        span: "مهندس النمو",
-        post: ". أنا أخطط لتدفقات إيرادات مستدامة للعلامات التجارية الطموحة."
+        span: "متخصص تسويق إلكتروني وإعلانات ممولة",
+        post: ". بساعد الشركات تحقق مبيعات حقيقية وتقلل تكلفة الإعلان."
       },
-      marquee: "خبير معتمد • معايير عالمية • نتائج حقيقية • "
+      marquee: "تسويق إلكتروني • إعلانات ممولة • زيادة مبيعات • نتائج حقيقية • "
     },
     en: {
-      agency: "The Agency",
+      agency: "The Vision",
       headline: {
         pre: "I Am a",
-        span: "Growth Engineer",
-        post: ". I architect sustainable revenue streams for ambitious brands."
+        span: "Paid Ads & Digital Marketing Specialist",
+        post: ". I help businesses drive real sales and reduce ad costs."
       },
-      marquee: "Certified Expert • Global Standards • Real Results • "
+      marquee: "Digital Marketing • Paid Ads • Sales Growth • Real Results • "
     }
   };
   const t = content[language];
@@ -68,8 +68,7 @@ export default function Home() {
       {/* Snap Portfolio (High Impact) */}
       <SnapPortfolio />
 
-      {/* Symmetrical List Layout */}
-      <ServicesPreviewList />
+      <ServicesGrid />
 
       <IndustriesSection />
 

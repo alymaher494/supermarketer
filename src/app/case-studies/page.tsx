@@ -16,19 +16,19 @@ export default function CaseStudiesPage() {
     const content = {
         ar: {
             header: {
-                subtitle: "أعمال مختارة",
-                title: "نتائج تتوسع",
-                desc: "مجموعة مختارة من أكثر حملاتي وتدقيقاتي واستراتيجياتي تأثيراً."
+                subtitle: "أعمال حقيقية",
+                title: "نتائج اشتغلت عليها",
+                desc: "مجموعة من أنجح الحملات الإعلانية اللي اشتغلت عليها في التسويق الإلكتروني."
             },
             result: "النتيجة",
             all: "الكل",
-            noProjects: "لا توجد مشاريع في هذه الفئة."
+            noProjects: "مفيش مشاريع في الفئة دي."
         },
         en: {
             header: {
-                subtitle: "Selected Works",
-                title: "Results That Scale",
-                desc: "A curated collection of my most impactful campaigns, audits, and strategic overhauls."
+                subtitle: "Real Work",
+                title: "Results I've Delivered",
+                desc: "A collection of the most successful ad campaigns I've worked on in digital marketing."
             },
             result: "Result",
             all: "All",
@@ -73,7 +73,7 @@ export default function CaseStudiesPage() {
                                 className={`transition-colors ${activeCat === cat ? "text-white border-b-2 border-secondary" : "text-slate-500 hover:text-slate-300"}`}
                             >
                                 {cat}
-                                {activeCat === cat && <sup className="text-secondary ml-1 text-sm">{filtered.length}</sup>}
+                                {activeCat === cat && <sup className="text-secondary ms-1 text-sm">{filtered.length}</sup>}
                             </button>
                         ))}
                     </div>
@@ -90,12 +90,12 @@ export default function CaseStudiesPage() {
                             className={`group block ${index % 2 !== 0 ? "md:translate-y-32" : ""}`}
                         >
                             {/* Reuse the style from Home page for consistency but refined */}
-                            <div className="aspect-[4/5] md:aspect-[3/4] relative overflow-hidden rounded-sm mb-6 bg-card border border-border-subtle">
+                            <div className="aspect-[4/5] md:aspect-[3/4] relative overflow-hidden rounded-sm mb-6 bg-[#0a0a0a] border border-border-subtle">
                                 <Image
                                     src={study.image}
                                     alt={study.client}
                                     fill
-                                    className="object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
+                                    className="object-contain p-4 transition-transform duration-1000 ease-out group-hover:scale-105"
                                     priority={index < 2}
                                 />
                                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
@@ -105,7 +105,7 @@ export default function CaseStudiesPage() {
                                     <span className="text-secondary font-bold">{study.metric.value}</span> <span className="text-xs uppercase text-slate-300">{study.metric.label}</span>
                                 </div>
 
-                                <div className="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-black/90 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-500 z-20">
+                                <div className={`absolute bottom-0 inset-x-0 w-full p-8 bg-gradient-to-t from-black/90 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-500 z-20 ${isRTL ? "text-right" : "text-left"}`}>
                                     <span className="block text-secondary font-mono uppercase text-sm mb-2">{t.result}</span>
                                     <p className="text-white leading-tight">{study.headline}</p>
                                 </div>

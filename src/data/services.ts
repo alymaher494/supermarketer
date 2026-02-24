@@ -1,125 +1,149 @@
 export const servicesData = {
     ar: [
         {
-            id: "performance-marketing",
-            title: "تسويق الأداء",
-            description: "إدارة إعلانات ميتا، جوجل، تيك توك وسناب شات بهدف الربحية.",
-            type: "عقد شهري",
-            content: "استراتيجية شراء وسائط كاملة المسار مع اختبار إبداعي صارم.",
+            id: "ecommerce-growth",
+            title: "نمو التجارة الإلكترونية",
+            description: "خدمة مخصصة لأصحاب المتاجر الإلكترونية لزيادة عدد الطلبات وتقليل تكلفة الإعلان.",
+            type: "شراكة نمو",
+            content: "بنركز على زيادة المبيعات وتحسين معدل التحويل داخل الموقع.",
             details: {
-                problem: "هدر الميزانية على إعلانات لا تحقق تحويلات أو لا تتوسع.",
-                solution: "استراتيجية شراء وسائط كاملة المسار مع اختبار إبداعي صارم.",
-                outcomes: ["تكلفة استحواذ أقل", "إيرادات يمكن التنبؤ بها", "حملات قابلة للتوسع"]
+                problem: "المبيعات واقفة وتكلفة الإعلان بتزيد من غير نتيجة.",
+                solution: "تحسين كامل لمسار الشراء وإعادة تصميم العروض التسويقية.",
+                outcomes: ["زيادة المبيعات", "تقليل تكلفة الإعلان", "هوامش ربح أعلى"]
             }
         },
         {
-            id: "growth-strategy",
-            title: "استراتيجية النمو والاستشارات",
-            description: "تدقيق شامل وخارطة طريق لفتح المرحلة التالية من نموك.",
-            type: "مشروع / جزئي",
-            content: "غوص عميق في نموذج عملك وروافع النمو.",
+            id: "paid-ads",
+            title: "إدارة الإعلانات الممولة",
+            description: "إدارة حملات إعلانية على فيسبوك، إنستجرام، جوجل، تيك توك، وسناب شات.",
+            type: "إدارة شهرية",
+            content: "إدارة ميزانيات إعلانية بتركيز 100% على زيادة المبيعات.",
             details: {
-                problem: "الوصول إلى ثبات في الإيرادات مع عدم وضوح الخطوات التالية.",
-                solution: "تحديد مقياس نجم الشمال، تنويع القنوات، وسجل التجارب.",
-                outcomes: ["خارطة طريق واضحة", "توافق الفريق", "دورات مستدامة"]
+                problem: "بتصرف على الإعلانات ومش شايف نتيجة واضحة.",
+                solution: "إدارة دقيقة للحملات مع اختبار مستمر للجمهور والمنصات.",
+                outcomes: ["زيادة المبيعات", "بيانات دقيقة", "تقليل تكلفة العميل"]
             }
         },
         {
-            id: "analytics-tracking",
-            title: "إعداد التحليلات والتتبع",
-            description: "أصلح بياناتك. إتقان GTM من جانب السيرفر، CAPI، و GA4.",
-            type: "إعداد لمرة واحدة",
-            content: "ضمان دقة بيانات 95%+ مع التتبع من جانب السيرفر.",
+            id: "strategy-planning",
+            title: "التخطيط والاستراتيجية",
+            description: "خطة تسويق إلكتروني واضحة بدل التجارب العشوائية وتضييع الميزانية.",
+            type: "استشارة استراتيجية",
+            content: "خارطة طريق واضحة للنمو تعتمد على الأرقام مش التوقعات.",
             details: {
-                problem: "تتشغيل إعلانات عمياء ببيانات غير دقيقة وفقدان إشارات iOS.",
-                solution: "تطبيق كامل للتتبع من جانب السيرفر وأدوات الإسناد.",
-                outcomes: ["دقة بيانات 95%+", "رؤية حقيقية لعائد الاستثمار", "تغذية أفضل لخوارزميات الإعلان"]
+                problem: "مفيش خطة واضحة والميزانية بتروح في تجارب عشوائية.",
+                solution: "تصميم خطة تسويق متكاملة وتحديد القنوات الإعلانية المناسبة.",
+                outcomes: ["خطة واضحة", "توفير الميزانية", "نتائج أسرع"]
             }
         },
         {
-            id: "funnel-cro",
-            title: "تصميم المسار وتحسين التحويل (CRO)",
-            description: "تحويل المزيد من الزوار إلى عملاء من خلال التصميم وعلم النفس.",
-            type: "مشروع",
-            content: "تحسين رحلة المستخدم من النقر إلى التحويل.",
+            id: "audit-consulting",
+            title: "تدقيق الحملات الإعلانية",
+            description: "مراجعة كاملة للحسابات الإعلانية لمعرفة فين المشكلة وفين الهدر.",
+            type: "تدقيق لمرة واحدة",
+            content: "بنكشف الأخطاء الخفية في إعدادات الحملات والتتبع.",
             details: {
-                problem: "زيارات عالية ولكن معدلات تحويل منخفضة (دلو مثقوب).",
-                solution: "تجديد صفحات الهبوط، تحليل الخرائط الحرارية، واختبارات A/B.",
-                outcomes: ["معدل تحويل أعلى", "تكلفة استحواذ أقل", "تجربة مستخدم أفضل"]
+                problem: "مش متأكد إن الإعلانات شغالة صح أو الوكالة بتشتغل كويس.",
+                solution: "فحص شامل لأكثر من 50 نقطة فنية في الحسابات الإعلانية.",
+                outcomes: ["تقرير مفصل بالمشاكل", "توصيات فورية", "تحسين مباشر"]
             }
         },
         {
-            id: "consulting-hours",
-            title: "استشارات استراتيجية",
-            description: "جلسات فردية لحل تحديات محددة.",
-            type: "بالساعة / يومي",
-            content: "توجيه خبير لتحديات نمو محددة.",
+            id: "creative-testing",
+            title: "اختبارات المحتوى الإعلاني",
+            description: "تجربة صور وفيديوهات مختلفة عشان نعرف أنهي إعلان بيجيب مبيعات أكتر.",
+            type: "استراتيجية محتوى",
+            content: "المحتوى الصح هو اللي بيبيع، مش اللي بيعجبنا.",
             details: {
-                problem: "الحاجة لرأي خبير ثانٍ أو تدريب الفريق.",
-                solution: "ورش عمل عميقة أو جلسات سؤال وجواب.",
-                outcomes: ["وضوح فوري", "فريق غير عالق", "خطوات قابلة للتنفيذ"]
+                problem: "مش عارف أنهي صور أو فيديوهات بتجيب نتيجة أحسن.",
+                solution: "نظام اختبار منهجي للمحتوى الإعلاني لتحديد الأفضل أداءً.",
+                outcomes: ["إعلانات أقوى", "فهم سلوك العميل", "تقليل إجهاد الإعلانات"]
+            }
+        },
+        {
+            id: "analytics-reporting",
+            title: "التحليلات والتقارير",
+            description: "تقارير بسيطة ومفهومة تعرفك صرفت كام، دخلت كام، تكمل ولا تغيّر.",
+            type: "إعداد تقني",
+            content: "تتبع دقيق من جانب السيرفر عشان البيانات تكون صح.",
+            details: {
+                problem: "البيانات مش دقيقة والتقارير مش واضحة.",
+                solution: "إعداد تتبع سيرفر دقيق لجميع المنصات الإعلانية.",
+                outcomes: ["بيانات دقيقة +95%", "تقارير مفهومة", "قرارات أفضل"]
             }
         }
     ],
     en: [
         {
-            id: "performance-marketing",
-            title: "Performance Marketing",
-            description: "Meta, Google, TikTok & Snap Ads management aimed at profitability.",
-            type: "Retainer",
-            content: "Full-funnel media buying strategy with rigorous creative testing.",
+            id: "ecommerce-growth",
+            title: "E-commerce Growth",
+            description: "Dedicated service for online store owners to increase orders and reduce ad costs.",
+            type: "Growth Partnership",
+            content: "We focus on increasing sales and improving conversion rates on your website.",
             details: {
-                problem: "Wasting budget on ads that don't convert or scale.",
-                solution: "Full-funnel media buying strategy with rigorous creative testing.",
-                outcomes: ["Lower CPA", "Predictable Revenue", "Scalable Campaigns"]
+                problem: "Sales are stagnant and ad costs keep rising with no results.",
+                solution: "Full purchase funnel optimization and redesigning marketing offers.",
+                outcomes: ["Increase Sales", "Reduce Ad Costs", "Better Margins"]
             }
         },
         {
-            id: "growth-strategy",
-            title: "Growth Strategy & Consulting",
-            description: "A holistic audit and roadmap to unlock your next stage of growth.",
-            type: "Project / Fractional",
-            content: "Deep dive into your business model and growth levers.",
+            id: "paid-ads",
+            title: "Paid Ads Management",
+            description: "Managing ad campaigns on Facebook, Instagram, Google, TikTok, and Snapchat.",
+            type: "Monthly Retainer",
+            content: "Managing ad budgets with 100% focus on increasing sales.",
             details: {
-                problem: "Hitting a revenue plateau with unclear next steps.",
-                solution: "North Star Metric definition, channel diversification, and experiment backlog.",
-                outcomes: ["Clear Roadmap", "Team Alignment", "Sustainable Loops"]
+                problem: "Spending on ads but not seeing clear results.",
+                solution: "Precise campaign management with continuous audience and platform testing.",
+                outcomes: ["Increase Sales", "Accurate Data", "Reduce Cost Per Customer"]
             }
         },
         {
-            id: "analytics-tracking",
-            title: "Analytics & Tracking Setup",
-            description: "Fix your data. GTM Server-side, CAPI, and GA4 mastery.",
-            type: "One-time Setup",
-            content: "Ensure 95%+ data accuracy with server-side tracking.",
+            id: "strategy-planning",
+            title: "Strategy & Planning",
+            description: "A clear digital marketing plan instead of random experiments and wasted budget.",
+            type: "Strategic Consulting",
+            content: "A clear growth roadmap based on numbers, not guesses.",
             details: {
-                problem: "Blindly running ads with inaccurate data and iOS signal loss.",
-                solution: "Complete implementation of Server-side tracking and attribution tools.",
-                outcomes: ["95%+ Data Accuracy", "Real ROI Visibility", "Better Ad Algo Feeding"]
+                problem: "No clear plan and budget goes into random experiments.",
+                solution: "Designing a comprehensive marketing plan and identifying the right ad channels.",
+                outcomes: ["Clear Plan", "Budget Saved", "Faster Results"]
             }
         },
         {
-            id: "funnel-cro",
-            title: "Funnel Design & CRO",
-            description: "Turning more visitors into customers through design and psychology.",
-            type: "Project",
-            content: "Optimizing the user journey from click to conversion.",
+            id: "audit-consulting",
+            title: "Campaign Auditing",
+            description: "Full review of ad accounts to find where the problems and waste are.",
+            type: "One-time Audit",
+            content: "We uncover hidden errors in campaign settings and tracking.",
             details: {
-                problem: "High traffic but low conversion rates (leaky bucket).",
-                solution: "Landing page overhaul, heatmap analysis, and A/B testing.",
-                outcomes: ["Higher CVR", "Lower CAC", "Better UX"]
+                problem: "Not sure if your ads are set up right or your agency is doing a good job.",
+                solution: "Comprehensive 50-point technical check of your ad accounts.",
+                outcomes: ["Detailed Problem Report", "Immediate Recommendations", "Direct Improvement"]
             }
         },
         {
-            id: "consulting-hours",
-            title: "Strategy Consultation",
-            description: "1-on-1 sessions to unblock specific challenges.",
-            type: "Hourly / Daily",
-            content: "Expert guidance on specific growth challenges.",
+            id: "creative-testing",
+            title: "Ad Creative Testing",
+            description: "Testing different images and videos to find which ads drive the most sales.",
+            type: "Content Strategy",
+            content: "The right content is what sells — not what we personally like.",
             details: {
-                problem: "Needing a second expert opinion or team training.",
-                solution: "Deep-dive workshops or Q&A sessions.",
-                outcomes: ["Immediate Clarity", "Unblocked Team", "Actionable Steps"]
+                problem: "Not knowing which images or videos perform better.",
+                solution: "Systematic ad creative testing framework to identify top performers.",
+                outcomes: ["Stronger Ads", "Customer Behavior Insights", "Reduced Ad Fatigue"]
+            }
+        },
+        {
+            id: "analytics-reporting",
+            title: "Analytics & Reporting",
+            description: "Simple, clear reports that show you how much you spent, how much you made, and what to do next.",
+            type: "Technical Setup",
+            content: "Accurate server-side tracking so your data is reliable.",
+            details: {
+                problem: "Inaccurate data and unclear reports.",
+                solution: "Setting up precise server-side tracking for all ad platforms.",
+                outcomes: ["95%+ Data Accuracy", "Clear Reports", "Better Decisions"]
             }
         }
     ]

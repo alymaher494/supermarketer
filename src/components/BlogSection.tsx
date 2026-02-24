@@ -16,14 +16,14 @@ export default function BlogSection() {
 
     const content = {
         ar: {
-            label: "قاعدة المعرفة",
-            title: "آخر الأفكار",
+            label: "مقالات مفيدة",
+            title: "أفكار وتجارب حقيقية",
             allArticles: "كل المقالات",
             readMore: "اقرأ المزيد"
         },
         en: {
-            label: "Knowledge Base",
-            title: "Latest Thoughts",
+            label: "Helpful Articles",
+            title: "Real Ideas & Experiences",
             allArticles: "All Articles",
             readMore: "Read More"
         }

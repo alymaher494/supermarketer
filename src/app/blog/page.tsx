@@ -11,16 +11,16 @@ export default function BlogPage() {
 
     const content = {
         ar: {
-            subtitle: "رؤى وأخبار",
-            title: "أفكار تقود النمو",
-            desc: "مقالات متعمقة في تسويق الأداء، تحليلات البيانات، ومستقبل التجارة الرقمية.",
-            marquee: "اقرأ • تعلم • نفذ • انمو • "
+            subtitle: "مقالات مفيدة",
+            title: "أفكار وتجارب في التسويق الإلكتروني",
+            desc: "مقالات عملية عن إدارة الإعلانات الممولة، تحسين الحملات، وزيادة المبيعات.",
+            marquee: "اقرأ • تعلم • نفذ • بيع أكتر • "
         },
         en: {
-            subtitle: "Insights & News",
-            title: "Thinking That Drives Growth",
-            desc: "Deep dives into performance marketing, data analytics, and the future of digital commerce.",
-            marquee: "READ • LEARN • EXECUTE • GROW • "
+            subtitle: "Helpful Articles",
+            title: "Ideas & Experiences in Digital Marketing",
+            desc: "Practical articles about paid ads management, campaign optimization, and increasing sales.",
+            marquee: "READ • LEARN • EXECUTE • SELL MORE • "
         }
     };
     const t = content[language];

@@ -33,22 +33,27 @@ export default function CustomCursor() {
         gsap.to('.cursor-dot', {
             x: position.x,
             y: position.y,
-            duration: 0.1,
-            ease: 'power2.out'
+            duration: 0.02,
+            ease: 'none'
         });
 
         gsap.to('.cursor-ring', {
             x: position.x,
             y: position.y,
-            duration: 0.6,
-            ease: 'power3.out'
+            duration: 0.15,
+            ease: 'power2.out'
         });
     }, [position]);
 
     return (
         <>
-            <div className={`cursor-dot fixed top-0 left-0 w-2 h-2 bg-secondary rounded-full pointer-events-none z-[9999] transition-opacity duration-300 ${hovered ? 'scale-150 bg-white' : ''} -translate-x-1/2 -translate-y-1/2`} />
-            <div className={`cursor-ring fixed top-0 left-0 w-10 h-10 border border-secondary/50 rounded-full pointer-events-none z-[9998] transition-all duration-300 -translate-x-1/2 -translate-y-1/2 ${hovered ? 'scale-150 border-white bg-white/10' : ''}`} />
+            <style jsx global>{`
+                body, a, button, [role="button"], input, textarea {
+                    cursor: none !important;
+                }
+            `}</style>
+            <div className={`cursor-dot fixed top-0 left-0 w-1.5 h-1.5 bg-secondary rounded-full pointer-events-none z-[9999] transition-opacity duration-300 ${hovered ? 'opacity-0' : 'opacity-100'} -translate-x-1/2 -translate-y-1/2`} />
+            <div className={`cursor-ring fixed top-0 left-0 w-8 h-8 border border-secondary rounded-full pointer-events-none z-[9998] transition-all duration-300 -translate-x-1/2 -translate-y-1/2 ${hovered ? 'scale-[2.5] bg-secondary/10' : ''}`} />
         </>
     );
 }

@@ -50,75 +50,75 @@ export default function IndustriesSection() {
 
     const content = {
         ar: {
-            label: "قطاعات أتميز بها",
-            title: "خبرات صناعية",
+            label: "مجالات اشتغلت فيها",
+            title: "مجالات اشتغلت فيها في التسويق الإلكتروني",
             industries: [
                 {
-                    title: "العقارات",
-                    desc: "توليد عملاء محتملين ذوي جودة عالية للمطورين والمشاريع الضخمة.",
+                    title: "تسويق إلكتروني للعقارات",
+                    desc: "توليد عملاء محتملين مؤهلين للمطورين العقاريين والمشاريع الكبرى.",
                     icon: Building2,
                     stats: "$150M+ مبيعات",
                     image: "/industries/real-estate.jpg"
                 },
                 {
-                    title: "التجارة الإلكترونية",
-                    desc: "توسيع العلامات التجارية في مجالات العود، الأزياء، والإلكترونيات.",
+                    title: "تسويق للتجارة الإلكترونية",
+                    desc: "زيادة مبيعات المتاجر الإلكترونية في مجالات العود والأزياء والإلكترونيات.",
                     icon: ShoppingBag,
                     stats: "6.5x عائد إعلاني",
                     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200"
                 },
                 {
-                    title: "المجال الطبي",
-                    desc: "استراتيجيات جذب المرضى للعيادات والمستشفيات.",
+                    title: "تسويق للعيادات والمراكز الطبية",
+                    desc: "حملات إعلانية متخصصة لاستقطاب المرضى للعيادات والمستشفيات.",
                     icon: Stethoscope,
                     stats: "+40% حجوزات",
                     image: "/industries/medical.jpg"
                 },
                 {
-                    title: "المطاعم والكافيهات",
-                    desc: "زيادة حركة الزوار والطلبات عبر الإنترنت.",
+                    title: "تسويق للمطاعم والكافيهات",
+                    desc: "زيادة حركة الزوار والطلبات عبر حملات إعلانية موجهة جغرافياً.",
                     icon: Utensils,
                     stats: "أحجام ضخمة",
                     image: "/industries/restaurants.jpg"
                 },
                 {
-                    title: "الأثاث والديكور",
-                    desc: "تحسين الإنفاق الإعلاني للمنتجات المنزلية عالية القيمة.",
+                    title: "تسويق للأثاث والديكور",
+                    desc: "تحسين كفاءة الإنفاق الإعلاني للمنتجات المنزلية عالية القيمة.",
                     icon: Sofa,
                     stats: "+45% كفاءة",
                     image: "/industries/furniture.jpg"
                 },
                 {
-                    title: "الخدمات القانونية",
-                    desc: "ترسيخ مكانة مكاتب المحاماة كمرجع في السوق.",
+                    title: "تسويق للخدمات القانونية",
+                    desc: "بناء المكانة الرقمية لمكاتب المحاماة وزيادة الاستشارات.",
                     icon: Scale,
-                    stats: "بناء السلطة",
+                    stats: "بناء المكانة",
                     image: "/industries/legal.jpg"
                 },
                 {
-                    title: "البرمجيات (SaaS)",
-                    desc: "توليد عملاء B2B وتحسين مسار التحويل.",
+                    title: "تسويق للبرمجيات (SaaS)",
+                    desc: "توليد عملاء B2B مؤهلين وتقليل تكلفة الاستحواذ.",
                     icon: Code2,
                     stats: "عملاء مؤهلين",
                     image: "/industries/saas.jpg"
                 },
                 {
-                    title: "الأزياء",
-                    desc: "حملات مدفوعة بالاتجاهات (Trends) للملابس والإكسسوارات.",
+                    title: "تسويق للأزياء",
+                    desc: "حملات إعلانية للملابس والإكسسوارات مع تركيز على العائد والمبيعات.",
                     icon: Shirt,
                     stats: "توسع العلامة",
                     image: "/industries/fashion.jpg"
                 },
                 {
                     title: "القطاع الحكومي",
-                    desc: "حملات توعية وطنية مع وصول ضخم.",
+                    desc: "حملات توعية وطنية مع وصول ضخم ومشاركة مجتمعية.",
                     icon: Landmark,
                     stats: "3M+ وصول",
                     image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200"
                 },
                 {
-                    title: "التعليم",
-                    desc: "زيادة الالتحاق بالكليات والبرامج المتخصصة.",
+                    title: "تسويق تعليمي",
+                    desc: "زيادة الالتحاق بالكليات والبرامج المتخصصة عبر حملات إعلانية موجهة.",
                     icon: GraduationCap,
                     stats: "+20% تسجيلات",
                     image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1200"
@@ -127,75 +127,75 @@ export default function IndustriesSection() {
             impact: "الأثر",
         },
         en: {
-            label: "Industries I Master",
-            title: "Industrial Expertise",
+            label: "Industries I Work In",
+            title: "Industries I've Worked In",
             industries: [
                 {
-                    title: "Real Estate",
-                    desc: "High-quality lead gen for developers and mega-projects.",
+                    title: "Digital Marketing for Real Estate",
+                    desc: "Generating qualified leads for developers and mega-projects.",
                     icon: Building2,
                     stats: "$150M+ Sales",
                     image: "/industries/real-estate.jpg"
                 },
                 {
-                    title: "E-commerce",
-                    desc: "Scaling brands in Oud, Fashion, and Electronics.",
+                    title: "Marketing for E-commerce",
+                    desc: "Increasing online store sales in oud, fashion, and electronics.",
                     icon: ShoppingBag,
                     stats: "6.5x ROAS",
                     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200"
                 },
                 {
-                    title: "Medical",
-                    desc: "Patient acquisition strategies for clinics and hospitals.",
+                    title: "Marketing for Clinics & Healthcare",
+                    desc: "Specialized ad campaigns for patient acquisition at clinics and hospitals.",
                     icon: Stethoscope,
                     stats: "+40% Bookings",
                     image: "/industries/medical.jpg"
                 },
                 {
-                    title: "Restaurants & Cafes",
-                    desc: "Driving footfall and online orders.",
+                    title: "Marketing for Restaurants & Cafes",
+                    desc: "Driving footfall and orders through geo-targeted ad campaigns.",
                     icon: Utensils,
                     stats: "High Volume",
                     image: "/industries/restaurants.jpg"
                 },
                 {
-                    title: "Furniture & Decor",
-                    desc: "Optimizing ad spend for high-ticket home products.",
+                    title: "Marketing for Furniture & Decor",
+                    desc: "Maximizing ad spend efficiency for high-ticket home products.",
                     icon: Sofa,
                     stats: "+45% Efficiency",
                     image: "/industries/furniture.jpg"
                 },
                 {
-                    title: "Legal Services",
-                    desc: "Positioning law firms as market authorities.",
+                    title: "Marketing for Legal Services",
+                    desc: "Building digital authority for law firms and increasing consultations.",
                     icon: Scale,
                     stats: "Authority Building",
                     image: "/industries/legal.jpg"
                 },
                 {
-                    title: "SaaS",
-                    desc: "B2B lead gen and funnel optimization.",
+                    title: "Marketing for SaaS",
+                    desc: "Qualified B2B lead generation and reducing acquisition costs.",
                     icon: Code2,
                     stats: "Qualified Leads",
                     image: "/industries/saas.jpg"
                 },
                 {
-                    title: "Fashion",
-                    desc: "Trend-driven campaigns for apparel and accessories.",
+                    title: "Marketing for Fashion",
+                    desc: "Ad campaigns for apparel and accessories with a focus on ROI and sales.",
                     icon: Shirt,
                     stats: "Brand Expansion",
                     image: "/industries/fashion.jpg"
                 },
                 {
                     title: "Government",
-                    desc: "National awareness campaigns with massive reach.",
+                    desc: "National awareness campaigns with massive reach and community engagement.",
                     icon: Landmark,
                     stats: "3M+ Reach",
                     image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200"
                 },
                 {
-                    title: "Education",
-                    desc: "Boosting enrollment for colleges and specialized programs.",
+                    title: "Education Marketing",
+                    desc: "Boosting enrollment for colleges and specialized programs through targeted ads.",
                     icon: GraduationCap,
                     stats: "+20% Enrollments",
                     image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1200"
@@ -209,13 +209,13 @@ export default function IndustriesSection() {
 
 
     return (
-        <section ref={container} className="relative min-h-screen bg-primary overflow-hidden flex flex-col justify-center py-16 md:py-24" dir={isRTL ? "rtl" : "ltr"}>
+        <section ref={container} className="relative min-h-[120vh] bg-primary overflow-hidden flex flex-col justify-center py-16 md:py-24" dir={isRTL ? "rtl" : "ltr"}>
 
-            <div className="container mx-auto px-6 md:px-24 mb-12">
+            <div className={`container mx-auto px-6 md:px-24 mb-12 ${isRTL ? "text-right" : "text-left"}`}>
                 <span className="text-secondary font-mono text-xs md:text-sm uppercase tracking-[0.3em] block mb-2 font-bold opacity-80">
                     {t.label}
                 </span>
-                <h2 className="text-4xl md:text-7xl font-bold text-white leading-tight">
+                <h2 className={`font-bold text-white leading-tight ${isRTL ? "text-3xl md:text-5xl" : "text-4xl md:text-7xl"}`}>
                     {t.title}
                 </h2>
             </div>

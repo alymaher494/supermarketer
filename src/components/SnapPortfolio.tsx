@@ -71,36 +71,36 @@ export default function SnapPortfolio() {
                             className={`portfolio-slide absolute inset-0 w-full h-full transition-opacity duration-700 ${i === activeIndex ? "opacity-100 z-10" : "opacity-0 z-0"}`}
                         >
                             {/* Big Number */}
-                            <div className={`absolute top-[10%] ${isRTL ? "right-[5%] md:right-[15%]" : "left-[5%] md:left-[15%]"} z-20 mix-blend-overlay pointer-events-none`}>
-                                <span className="text-[15vw] font-bold text-white opacity-20 leading-none block">
-                                    00{i + 1}
+                            <div className={`absolute top-[5%] ${isRTL ? "left-[5%] md:left-[12%]" : "right-[5%] md:right-[12%]"} z-10 pointer-events-none select-none`}>
+                                <span className="text-[25vw] font-bold text-white opacity-[0.15] leading-none block italic tracking-tighter drop-shadow-[0_0_30px_rgba(0,0,0,0.5)]" style={{ WebkitTextStroke: '2px rgba(255,255,255,0.05)' }}>
+                                    0{i + 1}
                                 </span>
                             </div>
 
                             {/* Main Visual */}
                             <div className={`absolute top-0 ${isRTL ? "left-0" : "right-0"} w-full md:w-[65%] h-full`}>
-                                <div className="relative w-full h-full">
-                                    <div className="absolute inset-0 bg-black/30 z-10" />
+                                <div className="relative w-full h-full bg-[#0a0a0a] border-x border-white/5">
+                                    <div className="absolute inset-0 bg-black/10 z-10" />
                                     <Image
                                         src={slide.image}
                                         alt={slide.client}
                                         fill
-                                        className="object-cover"
+                                        className="object-contain p-8 md:p-12 lg:p-16"
                                         priority={i === 0}
                                     />
                                 </div>
                             </div>
 
                             {/* Content Box */}
-                            <div className={`absolute bottom-20 md:top-1/2 md:bottom-auto ${isRTL ? "right-6 md:right-24 md:-translate-y-1/2 text-right items-end" : "left-6 md:left-24 md:-translate-y-1/2 text-left items-start"} z-30 max-w-xl flex flex-col`}>
+                            <div className={`absolute bottom-20 md:top-1/2 md:bottom-auto ${isRTL ? "right-6 md:right-24 md:-translate-y-1/2" : "left-6 md:left-24 md:-translate-y-1/2"} z-30 max-w-xl flex flex-col items-start text-start`}>
                                 <div className="overflow-hidden mb-4">
                                     <h2 className={`text-5xl md:text-7xl font-bold text-white uppercase leading-tight transform transition-transform duration-700 ${i === activeIndex ? "translate-y-0" : "translate-y-full"}`}>
                                         {slide.client}
                                     </h2>
                                 </div>
 
-                                <div className="overflow-hidden mb-8">
-                                    <div className={`flex flex-wrap gap-3 transform transition-transform duration-700 delay-100 ${i === activeIndex ? "translate-y-0" : "translate-y-full"}`}>
+                                <div className="overflow-hidden mb-8 w-full">
+                                    <div className={`flex flex-wrap gap-3 transform transition-transform duration-700 delay-100 ${i === activeIndex ? "translate-y-0" : "translate-y-full"} justify-start`}>
                                         {slide.tags?.map((tag, idx) => (
                                             <span key={idx} className="px-4 py-1 border border-white/20 rounded-full text-sm text-white bg-black/20 backdrop-blur-sm">
                                                 {tag}
@@ -109,8 +109,8 @@ export default function SnapPortfolio() {
                                     </div>
                                 </div>
 
-                                <div className={`transform transition-all duration-700 delay-200 ${i === activeIndex ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
-                                    <Link href={`/case-studies/${slide.slug}`} className="inline-flex items-center gap-4 text-white hover:text-secondary transition-colors group">
+                                <div className={`transform transition-all duration-700 delay-200 w-full ${i === activeIndex ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} flex justify-start`}>
+                                    <Link href={`/case-studies/${slide.slug}`} className={`inline-flex items-center gap-4 text-white hover:text-secondary transition-colors group ${isRTL ? "flex-row-reverse" : ""}`}>
                                         <span className="text-xl font-bold uppercase tracking-wider">{t.viewCase}</span>
                                         <div className="w-12 h-12 rounded-full border border-white/30 flex items-center justify-center group-hover:bg-secondary group-hover:border-secondary group-hover:text-black transition-all">
                                             <ArrowIcon size={20} />
@@ -131,9 +131,9 @@ export default function SnapPortfolio() {
                                 // Scroll logic requires manipulating the scroll position of the pinned container, which is complex.
                                 // For now, we leave it as an indicator or implement click-to-scroll later.
                             }}
-                            className={`w-16 h-16 md:w-24 md:h-24 relative rounded border transition-all duration-300 overflow-hidden ${i === activeIndex ? "border-secondary opacity-100 scale-110" : "border-transparent opacity-50 grayscale"}`}
+                            className={`w-16 h-16 md:w-24 md:h-24 relative rounded border transition-all duration-300 overflow-hidden bg-[#0a0a0a] ${i === activeIndex ? "border-secondary opacity-100 scale-110" : "border-transparent opacity-50 grayscale"}`}
                         >
-                            <Image src={slide.image} alt="thumb" fill className="object-cover" />
+                            <Image src={slide.image} alt="thumb" fill className="object-contain p-1" />
                         </button>
                     ))}
                 </div>

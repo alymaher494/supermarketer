@@ -13,47 +13,47 @@ export default function TestimonialSlider() {
         ar: [
             {
                 id: 1,
-                text: "محمد حول استراتيجية الاستحواذ لدينا. النتائج تتحدث عن نفسها.",
+                text: "الإعلانات بقت تجيب مبيعات فعلية مش مجرد لايكات.",
                 author: "أحمد ك.",
-                role: "الرئيس التنفيذي، تيك ستارت"
+                role: "صاحب متجر إلكتروني"
             },
             {
                 id: 2,
-                text: "مزيج نادر من الاستراتيجية الإبداعية والتنفيذ الموجه بالبيانات.",
+                text: "تكلفة الإعلان قلت بشكل واضح والمبيعات زادت.",
                 author: "سارة م.",
                 role: "مديرة التسويق"
             },
             {
                 id: 3,
-                text: "ضاعف إيراداتنا 3 مرات في 4 أشهر فقط. أنصح به بشدة.",
+                text: "أرقام واضحة ومفيش كلام فاضي. ضاعف إيراداتنا 3 مرات.",
                 author: "عمر ي.",
-                role: "مؤسس متجر إلكتروني"
+                role: "مؤسس شركة"
             }
         ],
         en: [
             {
                 id: 1,
-                text: "Moe turned our acquisition strategy around. The results speak for themselves.",
+                text: "Our ads started driving actual sales, not just likes.",
                 author: "Ahmed K.",
-                role: "CEO, TechStart"
+                role: "E-commerce Store Owner"
             },
             {
                 id: 2,
-                text: "A rare blend of creative strategy and data-driven execution.",
+                text: "Ad costs dropped noticeably and sales went up.",
                 author: "Sarah M.",
                 role: "Marketing Director"
             },
             {
                 id: 3,
-                text: "Tripled our revenue in just 4 months. Highly recommended.",
+                text: "Clear numbers, no fluff. Tripled our revenue.",
                 author: "Omar Y.",
-                role: "Founder, E-com Store"
+                role: "Founder"
             }
         ]
     };
 
     const testimonials = testimonialsData[language];
-    const title = isRTL ? "ماذا يقول العملاء" : "What Clients Say";
+    const title = isRTL ? "آراء عملاء اشتغلوا معايا" : "What Clients Say";
 
     const next = () => setCurrent((prev) => (prev + 1) % testimonials.length);
     const prev = () => setCurrent((prev) => (prev - 1 + testimonials.length) % testimonials.length);
