@@ -64,7 +64,7 @@ export default function CertificatesGallery({ limit, showTitle = true }: Certifi
                     </div>
                 )}
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className={`grid grid-cols-1 sm:grid-cols-2 ${limit === 4 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'} gap-6`}>
                     {displayData.map((cert, i) => (
                         <motion.div
                             key={`${language}-${cert.title}`}
@@ -96,8 +96,8 @@ export default function CertificatesGallery({ limit, showTitle = true }: Certifi
                                 </div>
                             </div>
 
-                            <div className="flex-grow">
-                                <div className="flex justify-between items-start mb-2">
+                            <div className={`flex-grow ${isRTL ? "text-right" : "text-left"}`}>
+                                <div className={`flex justify-between items-start mb-2 ${isRTL ? "flex-row-reverse" : ""}`}>
                                     <span className="text-[10px] font-mono text-secondary px-2 py-0.5 border border-secondary/30 rounded uppercase tracking-tighter">
                                         {cert.date}
                                     </span>

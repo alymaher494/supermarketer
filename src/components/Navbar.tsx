@@ -30,7 +30,8 @@ export default function Navbar() {
                 { name: "الرئيسية", href: "/" },
                 { name: "عني", href: "/about" },
                 { name: "خدماتي", href: "/services" },
-                { name: "أعمالي", href: "/case-studies" }, // Changed href to match real page
+                { name: "أعمالي", href: "/case-studies" },
+                { name: "الشهادات", href: "/certificates" },
                 { name: "المدونة", href: "/blog" },
             ],
             contact: "تواصل الآن",
@@ -42,6 +43,7 @@ export default function Navbar() {
                 { name: "About", href: "/about" },
                 { name: "Services", href: "/services" },
                 { name: "Work", href: "/case-studies" },
+                { name: "Certificates", href: "/certificates" },
                 { name: "Blog", href: "/blog" },
             ],
             contact: "Contact Now",
