@@ -34,9 +34,9 @@ export default function IndustriesSection() {
             const endX = isRTL ? 0 : -scrollAmount;
 
             gsap.fromTo(slider.current,
-                { x: startX },
+                { x: isRTL ? -scrollAmount : 0 },
                 {
-                    x: endX,
+                    x: isRTL ? 0 : -scrollAmount,
                     ease: "none",
                     scrollTrigger: {
                         trigger: container.current,

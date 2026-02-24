@@ -75,7 +75,7 @@ export default function QualificationsSection() {
                                 {t.desc}
                             </p>
 
-                            <div className="flex gap-8 border-t border-border-subtle pt-8">
+                            <div className={`flex gap-8 border-t border-border-subtle pt-8 ${isRTL ? "flex-row-reverse" : "flex-row"}`}>
                                 <div>
                                     <span className="block text-4xl font-bold text-white mb-1">10+</span>
                                     <span className="text-xs text-slate-500 uppercase tracking-wider">{t.stats.years}</span>

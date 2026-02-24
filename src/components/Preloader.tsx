@@ -74,9 +74,9 @@ export default function Preloader() {
                     <Image
                         src="/logo-premium.png"
                         alt="Mohamed El-Sayed Premium Logo"
-                        width={800}
-                        height={400}
-                        className="object-contain w-full max-w-2xl h-auto"
+                        width={600}
+                        height={300}
+                        className="object-contain w-full max-w-sm md:max-w-md h-auto"
                         priority
                     />
                 </div>

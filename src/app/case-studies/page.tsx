@@ -80,50 +80,51 @@ export default function CaseStudiesPage() {
                 </div>
             </div>
 
-            {/* Staggered Grid */}
+            {/* Masonry-Style Grid */}
             <section className="container mx-auto px-6 pb-32">
-                <div className="grid md:grid-cols-2 gap-x-12 gap-y-24 lg:gap-y-40">
+                <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
                     {filtered.map((study, index) => (
                         <Link
                             key={study.slug}
                             href={`/case-studies/${study.slug}`}
-                            className={`group block ${index % 2 !== 0 ? "md:translate-y-32" : ""}`}
+                            className="break-inside-avoid group block"
                         >
-                            {/* Reuse the style from Home page for consistency but refined */}
-                            <div className="aspect-[4/5] md:aspect-[3/4] relative overflow-hidden rounded-sm mb-6 bg-[#0a0a0a] border border-border-subtle">
-                                <Image
-                                    src={study.image}
-                                    alt={study.client}
-                                    fill
-                                    className="object-contain p-4 transition-transform duration-1000 ease-out group-hover:scale-105"
-                                    priority={index < 2}
-                                />
-                                <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
+                            <div className="relative overflow-hidden rounded-2xl bg-[#0a0a0a] border border-border-subtle group-hover:border-secondary transition-all duration-500">
+                                <div className={`${index % 3 === 0 ? 'aspect-[4/5]' : index % 3 === 1 ? 'aspect-square' : 'aspect-[2/3]'} relative`}>
+                                    <Image
+                                        src={study.image}
+                                        alt={study.client}
+                                        fill
+                                        className="object-cover transition-transform duration-1000 ease-out group-hover:scale-110"
+                                        priority={index < 6}
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-40 transition-opacity" />
 
-                                {/* Metric Overlay */}
-                                <div className={`absolute top-6 ${isRTL ? "left-6" : "right-6"} z-10 bg-black/50 backdrop-blur border border-white/10 px-4 py-2 rounded-full`}>
-                                    <span className="text-secondary font-bold">{study.metric.value}</span> <span className="text-xs uppercase text-slate-300">{study.metric.label}</span>
-                                </div>
+                                    {/* Metric Overlay */}
+                                    <div className={`absolute top-4 ${isRTL ? "left-4" : "right-4"} z-10 bg-black/50 backdrop-blur-md border border-white/10 px-3 py-1 rounded-full text-xs`}>
+                                        <span className="text-secondary font-bold">{study.metric.value}</span> <span className="uppercase text-slate-300">{study.metric.label}</span>
+                                    </div>
 
-                                <div className={`absolute bottom-0 inset-x-0 w-full p-8 bg-gradient-to-t from-black/90 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-500 z-20 ${isRTL ? "text-right" : "text-left"}`}>
-                                    <span className="block text-secondary font-mono uppercase text-sm mb-2">{t.result}</span>
-                                    <p className="text-white leading-tight">{study.headline}</p>
+                                    <div className={`absolute bottom-0 inset-x-0 w-full p-6 ${isRTL ? "text-right" : "text-left"}`}>
+                                        <span className="block text-secondary font-mono uppercase text-[10px] mb-1">{t.result}</span>
+                                        <p className="text-white text-sm font-medium leading-tight group-hover:text-secondary transition-colors">{study.headline}</p>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div className="border-t border-border-subtle pt-6">
-                                <div className="flex justify-between items-baseline mb-2">
-                                    <h3 className="text-3xl font-bold text-white uppercase group-hover:text-secondary transition-colors">{study.client}</h3>
-                                    <span className="text-sm font-mono text-slate-500" dir="ltr">0{index + 1}</span>
+                            <div className="mt-4 px-2">
+                                <div className="flex justify-between items-center mb-1">
+                                    <h3 className="text-xl font-bold text-white uppercase">{study.client}</h3>
+                                    <span className="text-[10px] font-mono text-slate-500">0{index + 1}</span>
                                 </div>
-                                <p className="text-slate-400 text-sm uppercase tracking-widest">{study.category}</p>
+                                <p className="text-slate-500 text-[10px] uppercase tracking-widest">{study.category}</p>
                             </div>
                         </Link>
                     ))}
                 </div>
 
                 {filtered.length === 0 && (
-                    <div className="text-center py-20 text-slate-500">
+                    <div className="text-center py-20 text-slate-500 font-mono uppercase text-sm">
                         {t.noProjects}
                     </div>
                 )}

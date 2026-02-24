@@ -57,6 +57,7 @@ export default function Home() {
           {t.headline.pre} <span className="text-transparent text-outline-white">{t.headline.span}</span>{t.headline.post}
         </h2>
       </section>
+
       <AboutIntro />
 
       <SplitColumns />
