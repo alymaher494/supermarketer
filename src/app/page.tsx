@@ -70,7 +70,7 @@ export default function Home() {
       {/* Snap Portfolio (High Impact) */}
       <SnapPortfolio />
 
-      <CertificatesGallery />
+      <CertificatesGallery limit={4} />
 
       <ServicesGrid />
 

@@ -70,7 +70,7 @@ export default function LogoTicker() {
     );
 
     return (
-        <section className="py-24 bg-[#0a0a0a] overflow-hidden border-y border-white/5" dir="ltr">
+        <section className="py-24 bg-[#0a0a0a] overflow-hidden border-y border-white/5" dir={isRTL ? "rtl" : "ltr"}>
             <div className="container mx-auto px-6 mb-16">
                 <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
                     <div>

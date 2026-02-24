@@ -6,7 +6,14 @@ import { useLanguage } from "@/context/LanguageContext";
 import { Award, ExternalLink, ShieldCheck } from "lucide-react";
 import { motion } from "framer-motion";
 
-export default function CertificatesGallery() {
+import Link from "next/link";
+
+interface CertificatesGalleryProps {
+    limit?: number;
+    showTitle?: boolean;
+}
+
+export default function CertificatesGallery({ limit, showTitle = true }: CertificatesGalleryProps) {
     const { language } = useLanguage();
     const [mounted, setMounted] = React.useState(false);
 
@@ -15,18 +22,21 @@ export default function CertificatesGallery() {
     }, []);
 
     const data = certificatesData[language];
+    const displayData = limit ? data.slice(0, limit) : data;
     const isRTL = language === 'ar';
 
     const content = {
         ar: {
             title: "الشهادات والاعتمادات",
             subtitle: "التميز المهني",
-            desc: "توثيق رسمي للخبرات والمهارات في مجالات التسويق وإدارة الأعمال من مؤسسات عالمية."
+            desc: "توثيق رسمي للخبرات والمهارات في مجالات التسويق وإدارة الأعمال من مؤسسات عالمية.",
+            viewAll: "عرض جميع الشهادات"
         },
         en: {
             title: "Certifications & Credentials",
             subtitle: "Professional Excellence",
-            desc: "Official documentation of expertise and skills in marketing and business management from global institutions."
+            desc: "Official documentation of expertise and skills in marketing and business management from global institutions.",
+            viewAll: "View All Certificates"
         }
     };
     const t = content[language];
@@ -34,30 +44,33 @@ export default function CertificatesGallery() {
     if (!mounted) return null;
 
     return (
-        <section className="py-24 bg-[#0a0a0a] relative overflow-hidden">
+        <section className={`py-24 bg-[#0a0a0a] relative overflow-hidden ${!showTitle ? 'pt-0' : ''}`}>
             {/* Background decorative elements */}
             <div className={`absolute top-0 ${isRTL ? "right-0" : "left-0"} w-96 h-96 bg-secondary/5 rounded-full blur-3xl pointer-events-none`} />
 
             <div className="container mx-auto px-6 relative z-10">
-                <div className="max-w-3xl mb-16">
-                    <div className="flex items-center gap-3 mb-4">
-                        <div className="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
-                            <ShieldCheck size={20} />
+                {showTitle && (
+                    <div className="max-w-3xl mb-16">
+                        <div className="flex items-center gap-3 mb-4">
+                            <div className="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
+                                <ShieldCheck size={20} />
+                            </div>
+                            <span className="text-secondary font-mono text-sm uppercase tracking-widest">{t.subtitle}</span>
                         </div>
-                        <span className="text-secondary font-mono text-sm uppercase tracking-widest">{t.subtitle}</span>
+                        <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 uppercase tracking-tight">{t.title}</h2>
+                        <p className="text-slate-400 text-lg leading-relaxed">
+                            {t.desc}
+                        </p>
                     </div>
-                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 uppercase tracking-tight">{t.title}</h2>
-                    <p className="text-slate-400 text-lg leading-relaxed">
-                        {t.desc}
-                    </p>
-                </div>
+                )}
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {data.map((cert, i) => (
+                    {displayData.map((cert, i) => (
                         <motion.div
                             key={`${language}-${cert.title}`}
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
                             transition={{ delay: i * 0.1 }}
                             className="group bg-[#111111] border border-white/5 p-6 rounded-2xl hover:border-secondary/50 transition-all duration-500 flex flex-col h-full"
                         >
@@ -98,6 +111,18 @@ export default function CertificatesGallery() {
                         </motion.div>
                     ))}
                 </div>
+
+                {limit && data.length > limit && (
+                    <div className="mt-16 text-center">
+                        <Link
+                            href="/certificates"
+                            className="inline-flex items-center gap-3 bg-white text-black px-10 py-4 rounded-full text-base font-bold uppercase hover:bg-secondary transition-colors"
+                        >
+                            {t.viewAll}
+                            <ExternalLink size={18} />
+                        </Link>
+                    </div>
+                )}
             </div>
         </section>
     );

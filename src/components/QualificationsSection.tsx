@@ -59,7 +59,7 @@ export default function QualificationsSection() {
             <div className="container mx-auto px-6">
                 <div className="flex flex-col md:flex-row gap-16">
                     {/* Left Content */}
-                    <div className="md:w-1/3">
+                    <div className={`md:w-1/3 ${isRTL ? "text-right" : "text-left"}`}>
                         <div className="sticky top-32">
                             <div className="flex items-center gap-3 mb-6">
                                 <div className="p-3 bg-secondary/10 rounded-full text-secondary">
@@ -75,15 +75,30 @@ export default function QualificationsSection() {
                                 {t.desc}
                             </p>
 
-                            <div className={`flex gap-8 border-t border-border-subtle pt-8 ${isRTL ? "flex-row-reverse" : "flex-row"}`}>
-                                <div>
-                                    <span className="block text-4xl font-bold text-white mb-1">10+</span>
-                                    <span className="text-xs text-slate-500 uppercase tracking-wider">{t.stats.years}</span>
-                                </div>
-                                <div>
-                                    <span className="block text-4xl font-bold text-white mb-1">50+</span>
-                                    <span className="text-xs text-slate-500 uppercase tracking-wider">{t.stats.clients}</span>
-                                </div>
+                            <div className="flex gap-8 border-t border-border-subtle pt-8">
+                                {isRTL ? (
+                                    <>
+                                        <div className="text-right">
+                                            <span className="block text-4xl font-bold text-white mb-1">50+</span>
+                                            <span className="text-xs text-slate-500 uppercase tracking-wider">{t.stats.clients}</span>
+                                        </div>
+                                        <div className="text-right">
+                                            <span className="block text-4xl font-bold text-white mb-1">10+</span>
+                                            <span className="text-xs text-slate-500 uppercase tracking-wider">{t.stats.years}</span>
+                                        </div>
+                                    </>
+                                ) : (
+                                    <>
+                                        <div>
+                                            <span className="block text-4xl font-bold text-white mb-1">10+</span>
+                                            <span className="text-xs text-slate-500 uppercase tracking-wider">{t.stats.years}</span>
+                                        </div>
+                                        <div>
+                                            <span className="block text-4xl font-bold text-white mb-1">50+</span>
+                                            <span className="text-xs text-slate-500 uppercase tracking-wider">{t.stats.clients}</span>
+                                        </div>
+                                    </>
+                                )}
                             </div>
                         </div>
                     </div>
