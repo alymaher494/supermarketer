@@ -23,7 +23,7 @@ export default function AboutPage() {
             },
             hero: {
                 title: "بناء أنظمة.\nنمو مستدامة.",
-                text1: { pre: "أنا متخصص في تسويق الأداء والنمو بخبرة تزيد عن", strong: "5 سنوات", post: " في مساعدة الشركات على التوسع بربحية من خلال دمج البيانات واختبار الإبداع واقتصاديات الوحدة." },
+                text1: { pre: "أنا محمد السيد، متخصص في تسويق الأداء والنمو بخبرة تزيد عن", strong: "5 سنوات", post: " في مساعدة الشركات على التوسع بربحية من خلال دمج البيانات واختبار الإبداع واقتصاديات الوحدة." },
                 text2: { pre: "قمت بإدارة ميزانيات شهرية تتجاوز", span: "مليون ريال سعودي", post: " في قطاعات متنوعة مثل التجارة الإلكترونية، العقارات، والأغذية والمشروبات." }
             },
             stats: [
@@ -64,7 +64,7 @@ export default function AboutPage() {
             },
             hero: {
                 title: "Building Systems.\nNot Just Campaigns.",
-                text1: { pre: "Specializing in performance & growth marketing with over", strong: "5 years of experience", post: " helping brands scale profitably by combining data, creative testing, and clear unit economics." },
+                text1: { pre: "I am Mohamed Elsayed, specializing in performance & growth marketing with over", strong: "5 years of experience", post: " helping brands scale profitably by combining data, creative testing, and clear unit economics." },
                 text2: { pre: "Managing monthly budgets above", span: "1M SAR", post: " across E-commerce, perfumes, real estate, services, and F&B sectors." }
             },
             stats: [

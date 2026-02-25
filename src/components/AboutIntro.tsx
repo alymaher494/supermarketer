@@ -16,7 +16,7 @@ export default function AboutIntro() {
         ar: {
             label: "نهج النمو",
             title: <>خبير في تسويق <br />الأداء والنمو الرقمي</>,
-            p1: <>خبير متخصص في تسويق الأداء والنمو بخبرة تزيد عن <strong className="text-white font-medium">5 سنوات</strong> في مساعدة العلامات التجارية في مصر والخليج على التوسع بربحية.</>,
+            p1: <>أنا محمد السيد، خبير متخصص في تسويق الأداء والنمو بخبرة تزيد عن <strong className="text-white font-medium">5 سنوات</strong> في مساعدة العلامات التجارية في مصر والخليج على التوسع بربحية.</>,
             p2: <>التركيز على بناء <strong className="text-white">أنظمة نمو متاكملة</strong>، وليس مجرد حملات: حيث يتم الجمع بين البيانات، واختبار الإبداع، واقتصاديات الوحدة الواضحة.</>,
             p3: "إدارة ميزانيات شهرية تتجاوز مليون ريال سعودي في مجالات التجارة الإلكترونية، العطور، العقارات، الخدمات، والأغذية والمشروبات — مع التركيز دائمًا على ROAS و CAC والربحية طويلة الأمد.",
             link: "اقرأ القصة الكاملة"
@@ -24,7 +24,7 @@ export default function AboutIntro() {
         en: {
             label: "Growth Approach",
             title: <>Performance &<br />Growth Marketing Expert</>,
-            p1: <>Specializing in performance & growth marketing with over <strong className="text-white font-medium">5 years of experience</strong> helping brands in Egypt and the GCC scale profitably.</>,
+            p1: <>I am Mohamed Elsayed, specializing in performance & growth marketing with over <strong className="text-white font-medium">5 years of experience</strong> helping brands in Egypt and the GCC scale profitably.</>,
             p2: <>Focusing on <strong className="text-white">building systems</strong>, not just campaigns: combining data, creative testing, and clear unit economics.</>,
             p3: "Managing monthly budgets above 1M SAR across E-commerce, perfumes, real estate, services, and F&B — always with a clear focus on ROAS, CAC, and long-term payback.",
             link: "Read Full Story"
