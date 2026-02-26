@@ -36,7 +36,7 @@ export default function SplitColumns() {
             label: "منهجيتي",
             headline: (
                 <>
-                    إزاي بشتغل <br />في إدارة <br /><span className="text-outline-white text-transparent">الإعلانات؟</span>
+                    تحليل قبل  <br />الإعلان <br /><span className="text-outline-white text-transparent">الإعلانات؟</span>
                 </>
             ),
             features: [
