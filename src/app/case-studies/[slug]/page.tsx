@@ -32,9 +32,9 @@ export default function CaseStudyDetail({ params }: PageProps) {
             cta: "هل أنت مستعد لتحقيق نتائج مماثلة؟",
             book: "احجز مكالمة استراتيجية",
             tactics_list: [
-                "دمج هيكل الحملة للخروج من مرحلة التعلم بشكل أسرع.",
-                "دورة اختبار إبداعية كل 7 أيام.",
-                "تنفيذ التتبع من جانب السيرفر (CAPI) لتحسين الإسناد."
+                "البحث والتحليل المعمق للسوق والمنافسين.",
+                "دمج أدوات التتبع المتقدمة (Tracking Tools) لضمان دقة البيانات.",
+                "هيكلة الميزانيات وإطلاق زوايا اختبار إبداعية (Testing Campaigns)."
             ]
         },
         en: {
@@ -42,13 +42,13 @@ export default function CaseStudyDetail({ params }: PageProps) {
             client: "Client",
             challenge: "The Challenge",
             solution: "The Solution",
-            tactics: "Key Tactics Implemented:",
+            tactics: "Our Methodology:",
             cta: "Ready to get similar results?",
             book: "Book Strategy Call",
             tactics_list: [
-                "Consolidated campaign structure to exit learning phase faster.",
-                "Creative iteration cycle every 7 days.",
-                "Implemented server-side tracking (CAPI) for better attribution."
+                "Deep market and competitor research & analysis.",
+                "Integrating advanced tracking tools for data accuracy.",
+                "Budget structuring and launching creative testing campaigns."
             ]
         }
     }[language];
