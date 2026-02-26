@@ -16,7 +16,7 @@ export default function SnapPortfolio() {
     const isRTL = language === 'ar';
     const ArrowIcon = isRTL ? ArrowUpLeft : ArrowUpRight;
     const slides = caseStudiesData[language].filter(s =>
-        s.category !== "إدارة متاجر" && s.category !== "Store Management"
+        s.category !== "متاجر" && s.category !== "Stores"
     ).slice(0, 5);
 
     const content = {
