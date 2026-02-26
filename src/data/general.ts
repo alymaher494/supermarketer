@@ -23,22 +23,22 @@ export const clientsData = {
 
 export const certificatesData = {
     ar: [
-        { title: "أساسيات إدارة التسعير", issuer: "إدراك / جامعة بيردو", date: "2024", image: "/images/certificates/pricing-fundamentals-ar.jpg" },
-        { title: "التميز في التسعير: الاستراتيجية والتنفيذ", issuer: "IE Business School", date: "2024", image: "/images/certificates/pricing-excellence.jpg" },
-        { title: "استراتيجية الذهاب للسوق (Go-to-Market)", issuer: "LinkedIn Learning", date: "2023", image: "/images/certificates/go-to-market.jpg" },
-        { title: "تسويق B2B على LinkedIn", issuer: "LinkedIn Learning", date: "2023", image: "/images/certificates/linkedin-b2b.jpg" },
-        { title: "التعلم رحلة حياة", issuer: "almentor", date: "2023", image: "/images/certificates/almentor-learning.jpg" },
-        { title: "التصوير الفوتوغرافي عبر الجوال", issuer: "Entertainment Arts", date: "2022", image: "/images/certificates/mobile-photography.jpg" },
-        { title: "الدروبشيبينغ عبر eBay", issuer: "Terapeak", date: "2021", image: "/images/certificates/ebay-dropshipping.jpg" }
+        { title: "أساسيات إدارة التسعير", issuer: "almentor", image: "/images/certificates/pricing-fundamentals-ar.jpg" },
+        { title: "التميز في التسعير: الاستراتيجية والتنفيذ", issuer: "almentor", image: "/images/certificates/pricing-excellence.jpg" },
+        { title: "استراتيجية الذهاب للسوق (Go-to-Market)", issuer: "almentor", image: "/images/certificates/go-to-market.jpg" },
+        { title: "تسويق B2B على LinkedIn", issuer: "LinkedIn Learning", image: "/images/certificates/linkedin-b2b.jpg" },
+        { title: "التعلم رحلة حياة", issuer: "almentor", image: "/images/certificates/almentor-learning.jpg" },
+        { title: "التصوير الفوتوغرافي عبر الجوال", issuer: "yanfa3", image: "/images/certificates/mobile-photography.jpg" },
+        { title: "الدروبشيبينغ عبر eBay", issuer: "ُyanfa3", image: "/images/certificates/ebay-dropshipping.jpg" }
     ],
     en: [
-        { title: "Pricing Management Fundamentals", issuer: "Edraak / Purdue University", date: "2024", image: "/images/certificates/pricing-fundamentals-ar.jpg" },
-        { title: "Pricing Excellence: Strategy & Execution", issuer: "IE Business School", date: "2024", image: "/images/certificates/pricing-excellence.jpg" },
-        { title: "Go-to-Market Strategy", issuer: "LinkedIn Learning", date: "2023", image: "/images/certificates/go-to-market.jpg" },
-        { title: "B2B Marketing on LinkedIn", issuer: "LinkedIn Learning", date: "2023", image: "/images/certificates/linkedin-b2b.jpg" },
-        { title: "Learning is a Life's Journey", issuer: "almentor", date: "2023", image: "/images/certificates/almentor-learning.jpg" },
-        { title: "Mobile Photography", issuer: "Entertainment Arts", date: "2022", image: "/images/certificates/mobile-photography.jpg" },
-        { title: "eBay Dropshipping", issuer: "Terapeak", date: "2021", image: "/images/certificates/ebay-dropshipping.jpg" }
+        { title: "Pricing Management Fundamentals", issuer: "Edraak / Purdue University", image: "/images/certificates/pricing-fundamentals-ar.jpg" },
+        { title: "Pricing Excellence: Strategy & Execution", issuer: "almentor", image: "/images/certificates/pricing-excellence.jpg" },
+        { title: "Go-to-Market Strategy", issuer: "LinkedIn Learning", image: "/images/certificates/go-to-market.jpg" },
+        { title: "B2B Marketing on LinkedIn", issuer: "LinkedIn Learning", image: "/images/certificates/linkedin-b2b.jpg" },
+        { title: "Learning is a Life's Journey", issuer: "almentor", image: "/images/certificates/almentor-learning.jpg" },
+        { title: "Mobile Photography", issuer: "Entertainment Arts", image: "/images/certificates/mobile-photography.jpg" },
+        { title: "eBay Dropshipping", issuer: "ُyanfa3", image: "/images/certificates/ebay-dropshipping.jpg" }
     ]
 };
 

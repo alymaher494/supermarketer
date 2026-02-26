@@ -116,7 +116,7 @@ export default function QualificationsSection() {
                                         {cert.issuer[0]}
                                     </div>
                                     <span className="text-xs font-mono text-slate-500 bg-primary-light px-2 py-1 rounded">
-                                        {cert.date}
+                                        {/* {cert.date} */}
                                     </span>
                                 </div>
 

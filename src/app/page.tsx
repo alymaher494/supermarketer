@@ -5,7 +5,6 @@ import LogoTicker from "@/components/LogoTicker";
 import AboutIntro from "@/components/AboutIntro";
 import SplitColumns from "@/components/SplitColumns";
 import ServicesGrid from "@/components/ServicesGrid";
-import ProcessWorkflow from "@/components/ProcessWorkflow";
 import SnapPortfolio from "@/components/SnapPortfolio";
 import IndustriesSection from "@/components/IndustriesSection";
 import MarqueeText from "@/components/ui/MarqueeText";
@@ -63,9 +62,6 @@ export default function Home() {
       <SplitColumns />
 
       <LogoTicker />
-
-      {/* Process Steps (Symmetrical Layout) */}
-      <ProcessWorkflow />
 
       {/* Snap Portfolio (High Impact) */}
       <SnapPortfolio />

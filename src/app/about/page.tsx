@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import PageHeader from "@/components/ui/PageHeader";
 import MarqueeText from "@/components/ui/MarqueeText";
+import LogoTicker from "@/components/LogoTicker";
 import { clientsData } from "@/data/general";
 import Image from "next/image";
 import { Check } from "lucide-react";
@@ -17,18 +18,17 @@ export default function AboutPage() {
     const content = {
         ar: {
             header: {
-                subtitle: "عني",
-                title: "خبير تسويق الأداء والنمو",
-                desc: "توسع العلامات التجارية في مصر والخليج بربحية من خلال بناء أنظمة تسويق متكاملة تعتمد على البيانات."
+                subtitle: "   عنى",
+                title: "محمد السيد",
+                desc: " خبير تسويق الالكتروني والنمو يساعد العلامات التجارية في مصر والخليج على التوسع والحصول على  ربحية من خلال بناء أنظمة تسويق متكاملة تعتمد على البيانات."
             },
             hero: {
-                title: "بناء أنظمة.\nنمو مستدامة.",
-                text1: { pre: "أنا محمد السيد، متخصص في تسويق الأداء والنمو بخبرة تزيد عن", strong: "5 سنوات", post: " في مساعدة الشركات على التوسع بربحية من خلال دمج البيانات واختبار الإبداع واقتصاديات الوحدة." },
-                text2: { pre: "قمت بإدارة ميزانيات شهرية تتجاوز", span: "مليون ريال سعودي", post: " في قطاعات متنوعة مثل التجارة الإلكترونية، العقارات، والأغذية والمشروبات." }
+                title: "بناء أنظمة نمو مستدام.",
+                text2: { pre: "أدرتُ ميزانيات شهرية تتجاوز", span: "مليون ريال سعودي", post: " في قطاعات التجارة الإلكترونية، والعطور، والعقارات، والخدمات، والأغذية والمشروبات، مع التركيز الدائم على عائد الإنفاق الإعلاني، وتكلفة اكتساب العميل، وعائد الاستثمار على المدى الطويل." }
             },
             stats: [
                 { label: "ميزانيات مُدارة", value: "+1M SAR" },
-                { label: "سنوات الخبرة", value: "+5" },
+                { label: "سنوات الخبرة", value: "+9" },
                 { label: "عائد إعلاني (ROAS)", value: "مرتفع" },
                 { label: "قطاعات السوق", value: "متاجر/عقارات" }
             ],
@@ -59,23 +59,22 @@ export default function AboutPage() {
         en: {
             header: {
                 subtitle: "About Me",
-                title: "Performance Marketing Expert",
-                desc: "Helping brands across Egypt & the GCC turn ad spend into profitable growth through data-driven systems."
+                title: "Mohamed Elsayed",
+                desc: "Performance and growth marketing expert helping brands in Egypt and the GCC scale and achieve profitability through building data-driven integrated marketing systems."
             },
             hero: {
-                title: "Building Systems.\nNot Just Campaigns.",
-                text1: { pre: "I am Mohamed Elsayed, specializing in performance & growth marketing with over", strong: "5 years of experience", post: " helping brands scale profitably by combining data, creative testing, and clear unit economics." },
-                text2: { pre: "Managing monthly budgets above", span: "1M SAR", post: " across E-commerce, perfumes, real estate, services, and F&B sectors." }
+                title: "Building Sustainable Growth Systems.",
+                text2: { pre: "I have managed monthly budgets exceeding", span: "1M SAR", post: " across E-commerce, perfumes, real estate, services, and F&B sectors, with a constant focus on ROAS, CAC, and long-term ROI." }
             },
             stats: [
-                { label: "Monthly Budget", value: "+1M SAR" },
-                { label: "Years Experience", value: "+5" },
+                { label: "Managed Budgets", value: "+1M SAR" },
+                { label: "Years Experience", value: "+9" },
                 { label: "ROAS Focus", value: "High" },
-                { label: "Sectors", value: "E-com/RE" }
+                { label: "Sectors", value: "Stores/RE" }
             ],
             values: {
-                label: "Growth Approach",
-                title: "How Results are Driven",
+                label: "About",
+                title: "Mohamed Elsayed",
                 items: [
                     {
                         title: "System-First Mindset",
@@ -130,10 +129,10 @@ export default function AboutPage() {
 
             {/* Hero Section with Large Visual */}
             <section className="about-hero container mx-auto px-6 mb-32">
-                <div className="relative aspect-video w-full overflow-hidden rounded-3xl mb-16">
+                <div className="relative aspect-video w-full  overflow-hidden  rounded-3xl mb-16">
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
                     <Image
-                        src="/hero_performance_marketing_ai_1771881173104.png"
+                        src="/WhatsApp Image 2026-02-26 at 12.53.07 PM.jpeg"
                         alt="Growth Strategy"
                         fill
                         className="about-image object-cover"
@@ -145,10 +144,7 @@ export default function AboutPage() {
                     </div>
                 </div>
 
-                <div className={`grid md:grid-cols-2 gap-16 text-lg md:text-xl text-slate-300 font-light leading-relaxed ${isRTL ? "text-right" : "text-left"}`}>
-                    <p>
-                        {t.hero.text1.pre} <strong className="text-white">{t.hero.text1.strong}</strong>{t.hero.text1.post}
-                    </p>
+                <div className={`max-w-4xl mx-auto text-lg md:text-2xl text-slate-300 font-light leading-relaxed text-center`}>
                     <p>
                         {t.hero.text2.pre} <span className="text-secondary border-b border-secondary/30">{t.hero.text2.span}</span>{t.hero.text2.post}
                     </p>
@@ -195,16 +191,7 @@ export default function AboutPage() {
             <MarqueeText text={t.marquee} />
 
             {/* Clients Cloud */}
-            <section className="py-32 container mx-auto px-6 text-center">
-                <h2 className="text-sm font-mono uppercase tracking-widest text-slate-500 mb-16">{t.clientsTitle}</h2>
-                <div className="flex flex-wrap justify-center gap-x-16 gap-y-12 opacity-80">
-                    {clients.map((client, i) => (
-                        <span key={i} className="text-xl md:text-2xl font-bold text-slate-500 hover:text-white transition-colors cursor-default select-none">
-                            {client.name}
-                        </span>
-                    ))}
-                </div>
-            </section>
+            <LogoTicker />
         </main>
     );
 }

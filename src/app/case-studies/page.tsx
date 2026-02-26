@@ -80,46 +80,60 @@ export default function CaseStudiesPage() {
                 </div>
             </div>
 
-            {/* Masonry-Style Grid */}
-            <section className="container mx-auto px-6 pb-32">
-                <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
+            {/* Sticky Stacking Column Layout */}
+            <section className="container mx-auto px-6 pb-40">
+                <div className="flex flex-col items-center max-w-5xl mx-auto space-y-12">
                     {filtered.map((study, index) => (
-                        <Link
+                        <div
                             key={study.slug}
-                            href={`/case-studies/${study.slug}`}
-                            className="break-inside-avoid group block"
+                            className="sticky top-32 w-full pb-12"
+                            style={{ zIndex: index + 1 }}
                         >
-                            <div className="relative overflow-hidden rounded-2xl bg-[#0a0a0a] border border-border-subtle group-hover:border-secondary transition-all duration-500">
-                                <div className={`${index % 3 === 0 ? 'aspect-[4/5]' : index % 3 === 1 ? 'aspect-square' : 'aspect-[2/3]'} relative`}>
-                                    <Image
-                                        src={study.image}
-                                        alt={study.client}
-                                        fill
-                                        className="object-cover transition-transform duration-1000 ease-out group-hover:scale-110"
-                                        priority={index < 6}
-                                    />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-40 transition-opacity" />
+                            <Link
+                                href={`/case-studies/${study.slug}`}
+                                className="group block w-full"
+                            >
+                                <div className="relative overflow-hidden rounded-[2.5rem] bg-[#0a0a0a] border border-border-subtle group-hover:border-secondary transition-all duration-700 shadow-[0_20px_50px_rgba(0,0,0,0.5)] group-hover:shadow-secondary/20">
+                                    <div className="relative aspect-square md:aspect-[21/9] w-full">
+                                        <Image
+                                            src={study.image}
+                                            alt={study.client}
+                                            fill
+                                            className="object-cover transition-transform duration-1000 ease-out group-hover:scale-110"
+                                            priority={index < 2}
+                                        />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-90 group-hover:opacity-75 transition-opacity duration-500" />
 
-                                    {/* Metric Overlay */}
-                                    <div className={`absolute top-4 ${isRTL ? "left-4" : "right-4"} z-10 bg-black/50 backdrop-blur-md border border-white/10 px-3 py-1 rounded-full text-xs`}>
-                                        <span className="text-secondary font-bold">{study.metric.value}</span> <span className="uppercase text-slate-300">{study.metric.label}</span>
-                                    </div>
+                                        {/* Indicator Overlay */}
+                                        <div className={`absolute top-8 ${isRTL ? "left-8" : "right-8"} z-10 flex items-center gap-4`}>
+                                            <div className="bg-black/60 backdrop-blur-xl border border-white/10 px-5 py-2 rounded-full flex items-center gap-3">
+                                                <div className="w-2 h-2 rounded-full bg-secondary animate-pulse" />
+                                                <span className="text-secondary font-bold text-sm">{study.metric.value}</span>
+                                                <span className="uppercase text-slate-300 text-xs tracking-widest border-s border-white/10 ps-3 ms-1">{study.metric.label}</span>
+                                            </div>
+                                        </div>
 
-                                    <div className={`absolute bottom-0 inset-x-0 w-full p-6 ${isRTL ? "text-right" : "text-left"}`}>
-                                        <span className="block text-secondary font-mono uppercase text-[10px] mb-1">{t.result}</span>
-                                        <p className="text-white text-sm font-medium leading-tight group-hover:text-secondary transition-colors">{study.headline}</p>
+                                        {/* Content Overlay */}
+                                        <div className={`absolute bottom-0 inset-x-0 w-full p-8 md:p-16 ${isRTL ? "text-right" : "text-left"}`}>
+                                            <div className="flex flex-col gap-4">
+                                                <div className="flex items-center gap-3">
+                                                    <span className="inline-block px-3 py-1 bg-secondary text-black rounded-full font-mono text-[10px] font-bold uppercase">{t.result}</span>
+                                                    <span className="text-slate-400 font-mono text-xs tracking-[0.2em]">0{index + 1}</span>
+                                                </div>
+                                                <p className="text-white text-2xl md:text-5xl font-bold leading-[1.15] group-hover:text-secondary transition-colors duration-500 max-w-4xl drop-shadow-2xl">
+                                                    {study.headline}
+                                                </p>
+                                                <div className="mt-4 flex items-center gap-6 text-slate-400">
+                                                    <span className="text-xs md:text-sm uppercase tracking-[0.3em] font-medium border-b border-white/10 pb-1">{study.client}</span>
+                                                    <span className="w-1 h-1 rounded-full bg-slate-600" />
+                                                    <span className="text-xs md:text-sm uppercase tracking-[0.3em] font-medium border-b border-white/10 pb-1">{study.category}</span>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div className="mt-4 px-2">
-                                <div className="flex justify-between items-center mb-1">
-                                    <h3 className="text-xl font-bold text-white uppercase">{study.client}</h3>
-                                    <span className="text-[10px] font-mono text-slate-500">0{index + 1}</span>
-                                </div>
-                                <p className="text-slate-500 text-[10px] uppercase tracking-widest">{study.category}</p>
-                            </div>
-                        </Link>
+                            </Link>
+                        </div>
                     ))}
                 </div>
 

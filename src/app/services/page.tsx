@@ -46,31 +46,8 @@ export default function ServicesPage() {
     const t = content[language];
 
     useEffect(() => {
-        gsap.registerPlugin(ScrollTrigger);
-
-        // Clear any existing triggers to avoid duplication on re-renders
-        ScrollTrigger.getAll().forEach(t => t.kill());
-
-        const cards = gsap.utils.toArray(".service-card");
-
-        cards.forEach((card: any, index) => {
-            ScrollTrigger.create({
-                trigger: card,
-                start: "top top+=120", // Pin starts a bit lower to show header
-                end: "bottom bottom",
-                pin: true,
-                pinSpacing: false,
-                markers: false,
-                id: `card-${index}`
-            });
-        });
-
-        // Refresh to calculate positions correctly
-        ScrollTrigger.refresh();
-
-        return () => {
-            ScrollTrigger.getAll().forEach(t => t.kill());
-        };
+        // Fallback for animations if needed later, but CSS sticky is currently handling the UI layout
+        // perfectly without causing React hydration or inner DOM mismatches.
     }, [language]); // Re-run when language changes due to layout shift
 
     return (

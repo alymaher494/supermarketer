@@ -1,3 +1,4 @@
+
 "use client";
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
@@ -14,16 +15,16 @@ export default function AboutIntro() {
 
     const content = {
         ar: {
-            label: "نهج النمو",
-            title: <>خبير في تسويق <br />الأداء والنمو الرقمي</>,
-            p1: <>أنا محمد السيد، خبير متخصص في تسويق الأداء والنمو بخبرة تزيد عن <strong className="text-white font-medium">5 سنوات</strong> في مساعدة العلامات التجارية في مصر والخليج على التوسع بربحية.</>,
-            p2: <>التركيز على بناء <strong className="text-white">أنظمة نمو متاكملة</strong>، وليس مجرد حملات: حيث يتم الجمع بين البيانات، واختبار الإبداع، واقتصاديات الوحدة الواضحة.</>,
+            label: "عن ",
+            title: <>محمد السيد </>,
+            p1: <>أخصائي التسويق الألكتروني بخبرة تزيد عن <strong className="text-white font-medium">9 سنوات</strong> أساعد العلامات التجارية في مصر ودول الخليج على تحويل الإنفاق الإعلاني إلى نمو مربح.</>,
+            p2: <> أقوم ببناء وتحسين أنظمة تسويق الأداء عبر منصات Meta وTikTok وSnapchat وGoogle، مع التركيز على عائد الإنفاق الإعلاني وتكلفة اكتساب العميل وعائد الاستثمار، وليس فقط عدد النقرات. <strong className="text-white">  </strong>.</>,
             p3: "إدارة ميزانيات شهرية تتجاوز مليون ريال سعودي في مجالات التجارة الإلكترونية، العطور، العقارات، الخدمات، والأغذية والمشروبات — مع التركيز دائمًا على ROAS و CAC والربحية طويلة الأمد.",
             link: "اقرأ القصة الكاملة"
         },
         en: {
-            label: "Growth Approach",
-            title: <>Performance &<br />Growth Marketing Expert</>,
+            label: "About ",
+            title: <>Mohamed Elsayed</>,
             p1: <>I am Mohamed Elsayed, specializing in performance & growth marketing with over <strong className="text-white font-medium">5 years of experience</strong> helping brands in Egypt and the GCC scale profitably.</>,
             p2: <>Focusing on <strong className="text-white">building systems</strong>, not just campaigns: combining data, creative testing, and clear unit economics.</>,
             p3: "Managing monthly budgets above 1M SAR across E-commerce, perfumes, real estate, services, and F&B — always with a clear focus on ROAS, CAC, and long-term payback.",

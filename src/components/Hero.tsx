@@ -21,7 +21,7 @@ export default function Hero() {
         ar: {
             slides: [
                 {
-                    subtitle: "خبير في تسويق الأداء والنمو",
+                    subtitle: "خبير في تسويق الالكتروني والنمو",
                     title: "بناء أنظمة",
                     title2: "نمو مربحة ومستدامة",
                     desc: "بناء وتحسين أنظمة تسويق الأداء عبر Meta و TikTok و Snapchat و Google - مع التركيز على ROAS و CAC والـ Payback.",
@@ -38,7 +38,7 @@ export default function Hero() {
                     subtitle: "خبرة في الأسواق الإقليمية",
                     title: "خبير تسويق",
                     title2: "في مصر والخليج",
-                    desc: "أكثر من 5 سنوات من الخبرة في مساعدة العلامات التجارية على التوسع في مجالات التجارة الإلكترونية، العقارات، والأغذية والمشروبات.",
+                    desc: "أكثر من 9 سنوات من الخبرة في مساعدة العلامات التجارية على التوسع في مجالات التجارة الإلكترونية، العقارات، المجالات الطبية، والأغذية والمشروبات.",
                     image: "/hero_regional_expertise_ai_1771881203665.png"
                 }
             ],
@@ -65,7 +65,7 @@ export default function Hero() {
                     subtitle: "Regional Expertise",
                     title: "Egypt & GCC",
                     title2: "Market Growth",
-                    desc: "Over 5 years of experience helping brands scale profitably across E-commerce, Real Estate, and F&B sectors.",
+                    desc: "Over 9 years of experience helping brands scale profitably across E-commerce, Real Estate, Medical Fields, and F&B sectors.",
                     image: "/hero_regional_expertise_ai_1771881203665.png"
                 }
             ],

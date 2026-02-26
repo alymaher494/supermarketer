@@ -62,12 +62,12 @@ export default function Navbar() {
                 <div className="container mx-auto px-6 flex justify-between items-center">
                     {/* Logo */}
                     <Link href="/" className="relative z-50 flex items-center gap-4 group">
-                        <div className="relative w-36 h-36 flex items-center justify-center -my-8">
+                        <div className="relative w-60 h-60 flex items-center justify-center -my-8">
                             <Image
                                 src="/logo.png"
                                 alt="Mohamed El-Sayed Logo"
-                                width={240}
-                                height={240}
+                                width={500}
+                                height={500}
                                 className="object-contain group-hover:scale-110 transition-transform duration-500"
                             />
                         </div>
