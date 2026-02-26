@@ -1,16 +1,16 @@
 export const caseStudiesData = {
     "ar": [
         {
-            "slug": "f4s20d-google-7s1zt",
-            "client": "إنجاز جوجل",
+            "slug": "google-wnnemv",
+            "client": "تجارة إلكترونية",
             "category": "جوجل",
-            "headline": "نتائج متميزة لـ إنجاز جوجل عبر جوجل",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر جوجل",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/google/إنجاز جوجل.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -28,20 +28,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "جوجل",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "0nuu6r-google-aax3o",
-            "client": "ارابيكا جوجل",
+            "slug": "google-u9qsmk",
+            "client": "قطاع الأغذية والمشروبات",
             "category": "جوجل",
-            "headline": "نتائج متميزة لـ ارابيكا جوجل عبر جوجل",
+            "headline": "نتائج متميزة لعميل في قطاع الأغذية والمشروبات عبر جوجل",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/google/ارابيكا جوجل.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -59,20 +60,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "جوجل",
+                "قطاع الأغذية والمشروبات",
                 "أعمال"
             ]
         },
         {
-            "slug": "jrok0m-google-bujn23",
-            "client": "العمار جوجل",
+            "slug": "google-2u3ja",
+            "client": "قطاع العقارات",
             "category": "جوجل",
-            "headline": "نتائج متميزة لـ العمار جوجل عبر جوجل",
+            "headline": "نتائج متميزة لعميل في قطاع العقارات عبر جوجل",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/google/العمار جوجل.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -90,20 +92,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "جوجل",
+                "قطاع العقارات",
                 "أعمال"
             ]
         },
         {
-            "slug": "1q4bg-google-izvkeu",
-            "client": "المركز السعودي للعود جوجل",
+            "slug": "google-u09bvn",
+            "client": "قطاع العطور",
             "category": "جوجل",
-            "headline": "نتائج متميزة لـ المركز السعودي للعود جوجل عبر جوجل",
+            "headline": "نتائج متميزة لعميل في قطاع العطور عبر جوجل",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/google/المركز السعودي للعود جوجل.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -121,20 +124,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "جوجل",
+                "قطاع العطور",
                 "أعمال"
             ]
         },
         {
-            "slug": "f3lkg-google-7vik09",
-            "client": "تارا جوجل",
+            "slug": "google-sulq9r",
+            "client": "قطاع التجميل",
             "category": "جوجل",
-            "headline": "نتائج متميزة لـ تارا جوجل عبر جوجل",
+            "headline": "نتائج متميزة لعميل في قطاع التجميل عبر جوجل",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/google/تارا جوجل.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -152,20 +156,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "جوجل",
+                "قطاع التجميل",
                 "أعمال"
             ]
         },
         {
-            "slug": "5dmfp-google-2lk9y3",
-            "client": "سبائك الماسة جوجل",
+            "slug": "google-sxna3ed",
+            "client": "تجارة إلكترونية",
             "category": "جوجل",
-            "headline": "نتائج متميزة لـ سبائك الماسة جوجل عبر جوجل",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر جوجل",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/google/سبائك الماسة جوجل.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -183,20 +188,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "جوجل",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "1olf0a-google-btuma4",
-            "client": "شمروخ جوجل",
+            "slug": "google-vy0adj",
+            "client": "قطاع العطور",
             "category": "جوجل",
-            "headline": "نتائج متميزة لـ شمروخ جوجل عبر جوجل",
+            "headline": "نتائج متميزة لعميل في قطاع العطور عبر جوجل",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/google/شمروخ جوجل.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -214,20 +220,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "جوجل",
+                "قطاع العطور",
                 "أعمال"
             ]
         },
         {
-            "slug": "dp0yx-google-sem87e",
-            "client": "كليات العناية الطبية جوجل ",
+            "slug": "google-917tdq",
+            "client": "القطاع الطبي",
             "category": "جوجل",
-            "headline": "نتائج متميزة لـ كليات العناية الطبية جوجل  عبر جوجل",
+            "headline": "نتائج متميزة لعميل في القطاع الطبي عبر جوجل",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/google/كليات العناية الطبية جوجل .png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -245,20 +252,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "جوجل",
+                "القطاع الطبي",
                 "أعمال"
             ]
         },
         {
-            "slug": "eel3lq-meta-9hr5cc",
-            "client": "إليجانت عبايا",
+            "slug": "meta-1qy1o",
+            "client": "قطاع الأزياء",
             "category": "ميتا",
-            "headline": "نتائج متميزة لـ إليجانت عبايا عبر ميتا",
+            "headline": "نتائج متميزة لعميل في قطاع الأزياء عبر ميتا",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/meta/إليجانت عبايا.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -276,20 +284,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "ميتا",
+                "قطاع الأزياء",
                 "أعمال"
             ]
         },
         {
-            "slug": "oepnc-meta-zvgmtp",
-            "client": "إيجيت",
+            "slug": "meta-yxef5q",
+            "client": "تجارة إلكترونية",
             "category": "ميتا",
-            "headline": "نتائج متميزة لـ إيجيت عبر ميتا",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر ميتا",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/meta/إيجيت.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -307,20 +316,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "ميتا",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "gukqhm-meta-k42673",
-            "client": "ارابيكا",
+            "slug": "meta-1ndbt",
+            "client": "قطاع الأغذية والمشروبات",
             "category": "ميتا",
-            "headline": "نتائج متميزة لـ ارابيكا عبر ميتا",
+            "headline": "نتائج متميزة لعميل في قطاع الأغذية والمشروبات عبر ميتا",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/meta/ارابيكا.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -338,20 +348,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "ميتا",
+                "قطاع الأغذية والمشروبات",
                 "أعمال"
             ]
         },
         {
-            "slug": "uxvoht-meta-wj8nyj",
-            "client": "اسرار",
+            "slug": "meta-mfpq4w",
+            "client": "قطاع التجميل",
             "category": "ميتا",
-            "headline": "نتائج متميزة لـ اسرار عبر ميتا",
+            "headline": "نتائج متميزة لعميل في قطاع التجميل عبر ميتا",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/meta/اسرار.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -369,20 +380,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "ميتا",
+                "قطاع التجميل",
                 "أعمال"
             ]
         },
         {
-            "slug": "i839ng-meta-z7gulr",
-            "client": "المركز السعودي للعود",
+            "slug": "meta-bugnip",
+            "client": "قطاع العطور",
             "category": "ميتا",
-            "headline": "نتائج متميزة لـ المركز السعودي للعود عبر ميتا",
+            "headline": "نتائج متميزة لعميل في قطاع العطور عبر ميتا",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/meta/المركز السعودي للعود.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -400,20 +412,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "ميتا",
+                "قطاع العطور",
                 "أعمال"
             ]
         },
         {
-            "slug": "f51gam-meta-41vz4",
-            "client": "المكتبة المتنقلة",
+            "slug": "meta-l6fgoh",
+            "client": "قطاع التعليم",
             "category": "ميتا",
-            "headline": "نتائج متميزة لـ المكتبة المتنقلة عبر ميتا",
+            "headline": "نتائج متميزة لعميل في قطاع التعليم عبر ميتا",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/meta/المكتبة المتنقلة.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -431,20 +444,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "ميتا",
+                "قطاع التعليم",
                 "أعمال"
             ]
         },
         {
-            "slug": "cqjky-meta-3ae1il",
-            "client": "تارا",
+            "slug": "meta-ssu25j",
+            "client": "قطاع التجميل",
             "category": "ميتا",
-            "headline": "نتائج متميزة لـ تارا عبر ميتا",
+            "headline": "نتائج متميزة لعميل في قطاع التجميل عبر ميتا",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/meta/تارا.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -462,20 +476,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "ميتا",
+                "قطاع التجميل",
                 "أعمال"
             ]
         },
         {
-            "slug": "19agpo-meta-r6xuqr",
-            "client": "دكان بليلة",
+            "slug": "meta-eo6xxj",
+            "client": "قطاع الأغذية والمشروبات",
             "category": "ميتا",
-            "headline": "نتائج متميزة لـ دكان بليلة عبر ميتا",
+            "headline": "نتائج متميزة لعميل في قطاع الأغذية والمشروبات عبر ميتا",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/meta/دكان بليلة.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -493,20 +508,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "ميتا",
+                "قطاع الأغذية والمشروبات",
                 "أعمال"
             ]
         },
         {
-            "slug": "vedwc8-meta-3s4a7q",
-            "client": "ركائز ",
+            "slug": "meta-2l6rjn",
+            "client": "قطاع العقارات",
             "category": "ميتا",
-            "headline": "نتائج متميزة لـ ركائز  عبر ميتا",
+            "headline": "نتائج متميزة لعميل في قطاع العقارات عبر ميتا",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/meta/ركائز .png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -524,20 +540,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "ميتا",
+                "قطاع العقارات",
                 "أعمال"
             ]
         },
         {
-            "slug": "w56fmq-meta-yxel24",
-            "client": "روائع المجرة",
+            "slug": "meta-5klpjg",
+            "client": "تجارة إلكترونية",
             "category": "ميتا",
-            "headline": "نتائج متميزة لـ روائع المجرة عبر ميتا",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر ميتا",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/meta/روائع المجرة.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -555,20 +572,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "ميتا",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "1ks81-meta-otfm9j",
-            "client": "سبائك الماسة",
+            "slug": "meta-exq1v",
+            "client": "تجارة إلكترونية",
             "category": "ميتا",
-            "headline": "نتائج متميزة لـ سبائك الماسة عبر ميتا",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر ميتا",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/meta/سبائك الماسة.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -586,20 +604,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "ميتا",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "ql78t-meta-bidkk1",
-            "client": "سوليف",
+            "slug": "meta-tnjwag",
+            "client": "تجارة إلكترونية",
             "category": "ميتا",
-            "headline": "نتائج متميزة لـ سوليف عبر ميتا",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر ميتا",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/meta/سوليف.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -617,20 +636,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "ميتا",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "djzmdj-meta-gs6p6",
-            "client": "ليجيسي برفيوم",
+            "slug": "meta-foas0a",
+            "client": "تجارة إلكترونية",
             "category": "ميتا",
-            "headline": "نتائج متميزة لـ ليجيسي برفيوم عبر ميتا",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر ميتا",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/meta/ليجيسي برفيوم.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -648,20 +668,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "ميتا",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "i8286b-meta-di4mfr",
-            "client": "ميسرا",
+            "slug": "meta-zgyng",
+            "client": "قطاع التجميل",
             "category": "ميتا",
-            "headline": "نتائج متميزة لـ ميسرا عبر ميتا",
+            "headline": "نتائج متميزة لعميل في قطاع التجميل عبر ميتا",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/meta/ميسرا.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -679,20 +700,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "ميتا",
+                "قطاع التجميل",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-armniasa-snapchat-j29wz",
-            "client": "s armniasa",
+            "slug": "snapchat-xxmjp",
+            "client": "تجارة إلكترونية",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s armniasa عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s armniasa.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -710,20 +732,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-arrow-modern-future-snapchat-107cyp",
-            "client": "s arrow modern future",
+            "slug": "snapchat-p528ab",
+            "client": "تجارة إلكترونية",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s arrow modern future عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s arrow modern future.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -741,20 +764,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-asrar-snapchat-3qi74",
-            "client": "s asrar",
+            "slug": "snapchat-ycsrpi",
+            "client": "قطاع التجميل",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s asrar عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع التجميل عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s asrar.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -772,20 +796,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع التجميل",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-glory-snapchat-k8imrh",
-            "client": "s glory",
+            "slug": "snapchat-igoxbj",
+            "client": "قطاع التجميل",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s glory عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع التجميل عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s glory.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -803,20 +828,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع التجميل",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-green-garden-snapchat-31pp4",
-            "client": "s green garden",
+            "slug": "snapchat-sbh6r",
+            "client": "تجارة إلكترونية",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s green garden عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s green garden.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -834,20 +860,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-hindly-snapchat-8idx5h",
-            "client": "s hindly",
+            "slug": "snapchat-vye5ui",
+            "client": "تجارة إلكترونية",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s hindly عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s hindly.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -865,20 +892,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-legacy-perfumes-snapchat-iq5fcq",
-            "client": "s legacy perfumes",
+            "slug": "snapchat-6a126q",
+            "client": "قطاع العطور",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s legacy perfumes عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع العطور عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s legacy perfumes.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -896,20 +924,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع العطور",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-m-elegant-snapchat-xj8sqm",
-            "client": "s m elegant",
+            "slug": "snapchat-9yew6w",
+            "client": "قطاع الأزياء",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s m elegant عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع الأزياء عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s m elegant.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -927,20 +956,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع الأزياء",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-miniyum-snapchat-rygv5",
-            "client": "s miniyum",
+            "slug": "snapchat-4skfm9",
+            "client": "قطاع الأغذية والمشروبات",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s miniyum عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع الأغذية والمشروبات عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s miniyum.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -958,20 +988,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع الأغذية والمشروبات",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-square-style-snapchat-k2xuyp",
-            "client": "s square style",
+            "slug": "snapchat-jgd39g",
+            "client": "تجارة إلكترونية",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s square style عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s square style.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -989,20 +1020,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-tara-snapchat-ub70ln",
-            "client": "s tara",
+            "slug": "snapchat-rgvemo",
+            "client": "قطاع التجميل",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s tara عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع التجميل عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s tara.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1020,20 +1052,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع التجميل",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-yasoob-snapchat-hh2h79",
-            "client": "s yasoob",
+            "slug": "snapchat-oo8j0c",
+            "client": "قطاع العقارات",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s yasoob عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع العقارات عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s yasoob.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1051,20 +1084,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع العقارات",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-dmzbzt",
-            "client": "s المركب العربي للسيارات",
+            "slug": "snapchat-dgehzb",
+            "client": "قطاع السيارات",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s المركب العربي للسيارات عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع السيارات عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s المركب العربي للسيارات.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1082,20 +1116,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع السيارات",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-276b3s",
-            "client": "s المركز السعودي للعود",
+            "slug": "snapchat-3dujo",
+            "client": "قطاع العطور",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s المركز السعودي للعود عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع العطور عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s المركز السعودي للعود.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1113,20 +1148,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع العطور",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-d9m8k",
-            "client": "s انجاز الاملاك",
+            "slug": "snapchat-el3bvo",
+            "client": "قطاع العقارات",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s انجاز الاملاك عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع العقارات عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s انجاز الاملاك.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1144,20 +1180,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع العقارات",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-q6hv3",
-            "client": "s دكان بليلة",
+            "slug": "snapchat-ksa04i",
+            "client": "قطاع الأغذية والمشروبات",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s دكان بليلة عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع الأغذية والمشروبات عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s دكان بليلة.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1175,20 +1212,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع الأغذية والمشروبات",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-kdnhme",
-            "client": "s ركائز الاصول",
+            "slug": "snapchat-mgl3xl",
+            "client": "قطاع العقارات",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s ركائز الاصول عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع العقارات عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s ركائز الاصول.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1206,20 +1244,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع العقارات",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-kk51wx",
-            "client": "s شمروخ",
+            "slug": "snapchat-dwhms",
+            "client": "قطاع العطور",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s شمروخ عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع العطور عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s شمروخ.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1237,20 +1276,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع العطور",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-npap3h",
-            "client": "s عذبة",
+            "slug": "snapchat-jnf67c",
+            "client": "تجارة إلكترونية",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s عذبة عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s عذبة.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1268,20 +1308,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-anmep",
-            "client": "s كليات الناية الطبية",
+            "slug": "snapchat-nt1sx4",
+            "client": "القطاع الطبي",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s كليات الناية الطبية عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في القطاع الطبي عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s كليات الناية الطبية.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1299,20 +1340,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "القطاع الطبي",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-18g7",
-            "client": "s مكتبة المللك عبد العزيز",
+            "slug": "snapchat-tveupn",
+            "client": "قطاع التعليم",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s مكتبة المللك عبد العزيز عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع التعليم عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s مكتبة المللك عبد العزيز.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1330,20 +1372,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع التعليم",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-tt8kp",
-            "client": "s ميراث",
+            "slug": "snapchat-2n03ii",
+            "client": "قطاع العقارات",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s ميراث عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع العقارات عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s ميراث.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1361,20 +1404,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع العقارات",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-f605qt",
-            "client": "s نوادر السكري تمور",
+            "slug": "snapchat-buusw",
+            "client": "قطاع الأغذية والمشروبات",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ s نوادر السكري تمور عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع الأغذية والمشروبات عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s نوادر السكري تمور.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1392,20 +1436,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع الأغذية والمشروبات",
                 "أعمال"
             ]
         },
         {
-            "slug": "194r4-snapchat-jkjz96",
-            "client": "إبداع الاتصالات لتقسيط الموبايلات والقروض",
+            "slug": "snapchat-v5mj18",
+            "client": "قطاع الاتصالات",
             "category": "سناب شات",
-            "headline": "نتائج متميزة لـ إبداع الاتصالات لتقسيط الموبايلات والقروض عبر سناب شات",
+            "headline": "نتائج متميزة لعميل في قطاع الاتصالات عبر سناب شات",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/snapchat/إبداع الاتصالات لتقسيط الموبايلات والقروض.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1423,20 +1468,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "سناب شات",
+                "قطاع الاتصالات",
                 "أعمال"
             ]
         },
         {
-            "slug": "agate-tiktok-99yj8",
-            "client": "agate",
+            "slug": "tiktok-jro8kb",
+            "client": "قطاع التجميل",
             "category": "تيك توك",
-            "headline": "نتائج متميزة لـ agate عبر تيك توك",
+            "headline": "نتائج متميزة لعميل في قطاع التجميل عبر تيك توك",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/tiktok/agate.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1454,20 +1500,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "تيك توك",
+                "قطاع التجميل",
                 "أعمال"
             ]
         },
         {
-            "slug": "arabica-tiktok-ntstvd",
-            "client": "arabica",
+            "slug": "tiktok-2fp4iu",
+            "client": "قطاع الأغذية والمشروبات",
             "category": "تيك توك",
-            "headline": "نتائج متميزة لـ arabica عبر تيك توك",
+            "headline": "نتائج متميزة لعميل في قطاع الأغذية والمشروبات عبر تيك توك",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/tiktok/arabica.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1485,20 +1532,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "تيك توك",
+                "قطاع الأغذية والمشروبات",
                 "أعمال"
             ]
         },
         {
-            "slug": "azba-2-tiktok-3ho6sq",
-            "client": "Azba 2",
+            "slug": "tiktok-9o11xc",
+            "client": "تجارة إلكترونية",
             "category": "تيك توك",
-            "headline": "نتائج متميزة لـ Azba 2 عبر تيك توك",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر تيك توك",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/tiktok/Azba 2.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1516,20 +1564,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "تيك توك",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "azba-tiktok-21tfm",
-            "client": "Azba",
+            "slug": "tiktok-kfr812",
+            "client": "تجارة إلكترونية",
             "category": "تيك توك",
-            "headline": "نتائج متميزة لـ Azba عبر تيك توك",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر تيك توك",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/tiktok/Azba.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1547,20 +1596,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "تيك توك",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "misra-tiktok-4jkb9my",
-            "client": "Misra",
+            "slug": "tiktok-81vf6f",
+            "client": "قطاع التجميل",
             "category": "تيك توك",
-            "headline": "نتائج متميزة لـ Misra عبر تيك توك",
+            "headline": "نتائج متميزة لعميل في قطاع التجميل عبر تيك توك",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/tiktok/Misra.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1578,20 +1628,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "تيك توك",
+                "قطاع التجميل",
                 "أعمال"
             ]
         },
         {
-            "slug": "new-inaya-tiktok-dzbmx3",
-            "client": "New Inaya",
+            "slug": "tiktok-1lpcv6",
+            "client": "القطاع الطبي",
             "category": "تيك توك",
-            "headline": "نتائج متميزة لـ New Inaya عبر تيك توك",
+            "headline": "نتائج متميزة لعميل في القطاع الطبي عبر تيك توك",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/tiktok/New Inaya.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1609,20 +1660,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "تيك توك",
+                "القطاع الطبي",
                 "أعمال"
             ]
         },
         {
-            "slug": "tw5qec-tiktok-93dy9v",
-            "client": "إبداع الاتصالات لتقسيط الموبايلات والقروض",
+            "slug": "tiktok-pkrctl",
+            "client": "قطاع الاتصالات",
             "category": "تيك توك",
-            "headline": "نتائج متميزة لـ إبداع الاتصالات لتقسيط الموبايلات والقروض عبر تيك توك",
+            "headline": "نتائج متميزة لعميل في قطاع الاتصالات عبر تيك توك",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/tiktok/إبداع الاتصالات لتقسيط الموبايلات والقروض.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1640,20 +1692,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "تيك توك",
+                "قطاع الاتصالات",
                 "أعمال"
             ]
         },
         {
-            "slug": "ensl1i-tiktok-jp8rss",
-            "client": "ابداع السداد",
+            "slug": "tiktok-xo6ope",
+            "client": "القطاع المالي",
             "category": "تيك توك",
-            "headline": "نتائج متميزة لـ ابداع السداد عبر تيك توك",
+            "headline": "نتائج متميزة لعميل في القطاع المالي عبر تيك توك",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/tiktok/ابداع السداد.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1671,20 +1724,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "تيك توك",
+                "القطاع المالي",
                 "أعمال"
             ]
         },
         {
-            "slug": "42jvem-tiktok-k4z8aa",
-            "client": "تارا",
+            "slug": "tiktok-ri8xj5",
+            "client": "قطاع التجميل",
             "category": "تيك توك",
-            "headline": "نتائج متميزة لـ تارا عبر تيك توك",
+            "headline": "نتائج متميزة لعميل في قطاع التجميل عبر تيك توك",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/tiktok/تارا.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1702,20 +1756,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "تيك توك",
+                "قطاع التجميل",
                 "أعمال"
             ]
         },
         {
-            "slug": "vw5bth-tiktok-rvszos5",
-            "client": "سهم المستقبل ",
+            "slug": "tiktok-szrbdw",
+            "client": "قطاع العقارات",
             "category": "تيك توك",
-            "headline": "نتائج متميزة لـ سهم المستقبل  عبر تيك توك",
+            "headline": "نتائج متميزة لعميل في قطاع العقارات عبر تيك توك",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/tiktok/سهم المستقبل .PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1733,20 +1788,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "تيك توك",
+                "قطاع العقارات",
                 "أعمال"
             ]
         },
         {
-            "slug": "bga263-tiktok-vulfu",
-            "client": "شركة المركز السعودي للعود",
+            "slug": "tiktok-qsf9hc",
+            "client": "قطاع العطور",
             "category": "تيك توك",
-            "headline": "نتائج متميزة لـ شركة المركز السعودي للعود عبر تيك توك",
+            "headline": "نتائج متميزة لعميل في قطاع العطور عبر تيك توك",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/tiktok/شركة المركز السعودي للعود.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1764,20 +1820,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "تيك توك",
+                "قطاع العطور",
                 "أعمال"
             ]
         },
         {
-            "slug": "4x0cjm-tiktok-wxyk0d",
-            "client": "شمروخ",
+            "slug": "tiktok-9v0im9",
+            "client": "قطاع العطور",
             "category": "تيك توك",
-            "headline": "نتائج متميزة لـ شمروخ عبر تيك توك",
+            "headline": "نتائج متميزة لعميل في قطاع العطور عبر تيك توك",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/tiktok/شمروخ.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1795,20 +1852,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "تيك توك",
+                "قطاع العطور",
                 "أعمال"
             ]
         },
         {
-            "slug": "cuip4d-tiktok-njv34b",
-            "client": "عطور ليجاسي",
+            "slug": "tiktok-3n3l28",
+            "client": "قطاع العطور",
             "category": "تيك توك",
-            "headline": "نتائج متميزة لـ عطور ليجاسي عبر تيك توك",
+            "headline": "نتائج متميزة لعميل في قطاع العطور عبر تيك توك",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/tiktok/عطور ليجاسي.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1826,20 +1884,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "تيك توك",
+                "قطاع العطور",
                 "أعمال"
             ]
         },
         {
-            "slug": "vcygt9-tiktok-oxvd3j",
-            "client": "كليات العناية الطبية",
+            "slug": "tiktok-8t3h8",
+            "client": "القطاع الطبي",
             "category": "تيك توك",
-            "headline": "نتائج متميزة لـ كليات العناية الطبية عبر تيك توك",
+            "headline": "نتائج متميزة لعميل في القطاع الطبي عبر تيك توك",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/tiktok/كليات العناية الطبية.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1857,20 +1916,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "تيك توك",
+                "القطاع الطبي",
                 "أعمال"
             ]
         },
         {
-            "slug": "sh2hjp-tiktok-hoo45",
-            "client": "مؤسسة الماسة الزهرية",
+            "slug": "tiktok-4540jzp",
+            "client": "تجارة إلكترونية",
             "category": "تيك توك",
-            "headline": "نتائج متميزة لـ مؤسسة الماسة الزهرية عبر تيك توك",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر تيك توك",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/results/tiktok/مؤسسة الماسة الزهرية.PNG",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1888,20 +1948,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "تيك توك",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "2-stores-ijlyba",
-            "client": "2",
+            "slug": "stores-mfu29j",
+            "client": "تجارة إلكترونية",
             "category": "متاجر",
-            "headline": "نتائج متميزة لـ 2 عبر متاجر",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر متاجر",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/stores/2.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1919,20 +1980,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "متاجر",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "3-stores-bipwwx",
-            "client": "3",
+            "slug": "stores-g3tkgr",
+            "client": "تجارة إلكترونية",
             "category": "متاجر",
-            "headline": "نتائج متميزة لـ 3 عبر متاجر",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر متاجر",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/stores/3.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1950,20 +2012,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "متاجر",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "4-stores-t40lc",
-            "client": "4",
+            "slug": "stores-59ns7",
+            "client": "تجارة إلكترونية",
             "category": "متاجر",
-            "headline": "نتائج متميزة لـ 4 عبر متاجر",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر متاجر",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/stores/4.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -1981,20 +2044,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "متاجر",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "whatsapp-image-2025-07-19-at-3-51-22-pm-stores-5u6oks",
-            "client": "WhatsApp Image 2025-07-19 at 3.51.22 PM",
+            "slug": "stores-nefcem",
+            "client": "تجارة إلكترونية",
             "category": "متاجر",
-            "headline": "نتائج متميزة لـ WhatsApp Image 2025-07-19 at 3.51.22 PM عبر متاجر",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر متاجر",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/stores/WhatsApp Image 2025-07-19 at 3.51.22 PM.jpeg",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -2012,20 +2076,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "متاجر",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "whatsapp-image-2025-07-19-at-3-56-41-pm-stores-daigda",
-            "client": "WhatsApp Image 2025-07-19 at 3.56.41 PM",
+            "slug": "stores-akocxf",
+            "client": "تجارة إلكترونية",
             "category": "متاجر",
-            "headline": "نتائج متميزة لـ WhatsApp Image 2025-07-19 at 3.56.41 PM عبر متاجر",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر متاجر",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/stores/WhatsApp Image 2025-07-19 at 3.56.41 PM.jpeg",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -2043,20 +2108,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "متاجر",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "whatsapp-image-2025-07-19-at-3-58-59-pm-stores-5rteul",
-            "client": "WhatsApp Image 2025-07-19 at 3.58.59 PM",
+            "slug": "stores-ssvtt",
+            "client": "تجارة إلكترونية",
             "category": "متاجر",
-            "headline": "نتائج متميزة لـ WhatsApp Image 2025-07-19 at 3.58.59 PM عبر متاجر",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر متاجر",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/stores/WhatsApp Image 2025-07-19 at 3.58.59 PM.jpeg",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -2074,20 +2140,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "متاجر",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "01-06-2024-stores-d80smv",
-            "client": "المتجر مبيعات سنة 01-06- 2024",
+            "slug": "stores-q4upjc",
+            "client": "تجارة إلكترونية",
             "category": "متاجر",
-            "headline": "نتائج متميزة لـ المتجر مبيعات سنة 01-06- 2024 عبر متاجر",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر متاجر",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/stores/المتجر مبيعات سنة 01-06- 2024.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -2105,20 +2172,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "متاجر",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "j3ve67-stores-lfr3ti",
-            "client": "عذبة",
+            "slug": "stores-s8iow7",
+            "client": "تجارة إلكترونية",
             "category": "متاجر",
-            "headline": "نتائج متميزة لـ عذبة عبر متاجر",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر متاجر",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/stores/عذبة.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -2136,20 +2204,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "متاجر",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "9-stores-c4quts",
-            "client": "مبيعات المتجر شهر 9",
+            "slug": "stores-vsf6re",
+            "client": "تجارة إلكترونية",
             "category": "متاجر",
-            "headline": "نتائج متميزة لـ مبيعات المتجر شهر 9 عبر متاجر",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر متاجر",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/stores/مبيعات المتجر شهر 9.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -2167,20 +2236,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "متاجر",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "2-9-stores-7arey",
-            "client": "مبيعات المتجر2 شهر 9",
+            "slug": "stores-8v5bd",
+            "client": "تجارة إلكترونية",
             "category": "متاجر",
-            "headline": "نتائج متميزة لـ مبيعات المتجر2 شهر 9 عبر متاجر",
+            "headline": "نتائج متميزة لعميل في تجارة إلكترونية عبر متاجر",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/stores/مبيعات المتجر2 شهر 9.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -2198,20 +2268,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "متاجر",
+                "تجارة إلكترونية",
                 "أعمال"
             ]
         },
         {
-            "slug": "karto8-stores-phxwbyg",
-            "client": "متجر مناديل",
+            "slug": "stores-6xiz3c",
+            "client": "قطاع السلع الاستهلاكية",
             "category": "متاجر",
-            "headline": "نتائج متميزة لـ متجر مناديل عبر متاجر",
+            "headline": "نتائج متميزة لعميل في قطاع السلع الاستهلاكية عبر متاجر",
             "metric": {
                 "label": "نمو",
                 "value": "High"
             },
             "image": "/images/stores/متجر مناديل.png",
-            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية.",
+            "challenge": "تحقيق أهداف التسويق وسط منافسة قوية في السوق.",
             "solution": "إطلاق حملات مخصصة واختبارات لزيادة الأداء بناءً على تحليل البيانات.",
             "results": [
                 {
@@ -2229,22 +2300,23 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "متاجر",
+                "قطاع السلع الاستهلاكية",
                 "أعمال"
             ]
         }
     ],
     "en": [
         {
-            "slug": "ytrd3n-google-ah0g39",
-            "client": "إنجاز جوجل",
+            "slug": "google-e-commerce-0kdvx",
+            "client": "E-commerce",
             "category": "Google",
-            "headline": "Outstanding results for إنجاز جوجل via Google",
+            "headline": "Outstanding results for a client in E-commerce via Google",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/google/إنجاز جوجل.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2262,20 +2334,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Google",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "nqcwo-google-2rnl2d",
-            "client": "ارابيكا جوجل",
+            "slug": "google-f-b-sector-wvnqo",
+            "client": "F&B Sector",
             "category": "Google",
-            "headline": "Outstanding results for ارابيكا جوجل via Google",
+            "headline": "Outstanding results for a client in F&B Sector via Google",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/google/ارابيكا جوجل.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2293,20 +2366,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Google",
+                "F&B Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "ehrbqs-google-9f1nf9",
-            "client": "العمار جوجل",
+            "slug": "google-real-estate-sector-c48qbm",
+            "client": "Real Estate Sector",
             "category": "Google",
-            "headline": "Outstanding results for العمار جوجل via Google",
+            "headline": "Outstanding results for a client in Real Estate Sector via Google",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/google/العمار جوجل.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2324,20 +2398,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Google",
+                "Real Estate Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "8eo3-google-xgkwwf",
-            "client": "المركز السعودي للعود جوجل",
+            "slug": "google-perfumes-sector-z34ukn",
+            "client": "Perfumes Sector",
             "category": "Google",
-            "headline": "Outstanding results for المركز السعودي للعود جوجل via Google",
+            "headline": "Outstanding results for a client in Perfumes Sector via Google",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/google/المركز السعودي للعود جوجل.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2355,20 +2430,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Google",
+                "Perfumes Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "tovmza-google-8v4uss",
-            "client": "تارا جوجل",
+            "slug": "google-beauty-cosmetics-sector-zctwj",
+            "client": "Beauty & Cosmetics Sector",
             "category": "Google",
-            "headline": "Outstanding results for تارا جوجل via Google",
+            "headline": "Outstanding results for a client in Beauty & Cosmetics Sector via Google",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/google/تارا جوجل.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2386,20 +2462,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Google",
+                "Beauty & Cosmetics Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "v07tk-google-bu3tuf",
-            "client": "سبائك الماسة جوجل",
+            "slug": "google-e-commerce-p3b7t5",
+            "client": "E-commerce",
             "category": "Google",
-            "headline": "Outstanding results for سبائك الماسة جوجل via Google",
+            "headline": "Outstanding results for a client in E-commerce via Google",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/google/سبائك الماسة جوجل.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2417,20 +2494,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Google",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "ntn8nh-google-ppfu5h",
-            "client": "شمروخ جوجل",
+            "slug": "google-perfumes-sector-p1q28n",
+            "client": "Perfumes Sector",
             "category": "Google",
-            "headline": "Outstanding results for شمروخ جوجل via Google",
+            "headline": "Outstanding results for a client in Perfumes Sector via Google",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/google/شمروخ جوجل.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2448,20 +2526,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Google",
+                "Perfumes Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "o1gs5k-google-byciyr",
-            "client": "كليات العناية الطبية جوجل ",
+            "slug": "google-medical-sector-x7gof",
+            "client": "Medical Sector",
             "category": "Google",
-            "headline": "Outstanding results for كليات العناية الطبية جوجل  via Google",
+            "headline": "Outstanding results for a client in Medical Sector via Google",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/google/كليات العناية الطبية جوجل .png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2479,20 +2558,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Google",
+                "Medical Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "yi81zh-meta-7wwx3l",
-            "client": "إليجانت عبايا",
+            "slug": "meta-fashion-sector-3zin59",
+            "client": "Fashion Sector",
             "category": "Meta",
-            "headline": "Outstanding results for إليجانت عبايا via Meta",
+            "headline": "Outstanding results for a client in Fashion Sector via Meta",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/meta/إليجانت عبايا.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2510,20 +2590,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Meta",
+                "Fashion Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "wgaya-meta-5wze3i",
-            "client": "إيجيت",
+            "slug": "meta-e-commerce-0ar7qg",
+            "client": "E-commerce",
             "category": "Meta",
-            "headline": "Outstanding results for إيجيت via Meta",
+            "headline": "Outstanding results for a client in E-commerce via Meta",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/meta/إيجيت.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2541,20 +2622,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Meta",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "sgcjdc-meta-bh7d8s",
-            "client": "ارابيكا",
+            "slug": "meta-f-b-sector-ape1big",
+            "client": "F&B Sector",
             "category": "Meta",
-            "headline": "Outstanding results for ارابيكا via Meta",
+            "headline": "Outstanding results for a client in F&B Sector via Meta",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/meta/ارابيكا.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2572,20 +2654,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Meta",
+                "F&B Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "476kamm-meta-t6y88n",
-            "client": "اسرار",
+            "slug": "meta-beauty-cosmetics-sector-wzbx4",
+            "client": "Beauty & Cosmetics Sector",
             "category": "Meta",
-            "headline": "Outstanding results for اسرار via Meta",
+            "headline": "Outstanding results for a client in Beauty & Cosmetics Sector via Meta",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/meta/اسرار.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2603,20 +2686,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Meta",
+                "Beauty & Cosmetics Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "01n19m-meta-tmltof",
-            "client": "المركز السعودي للعود",
+            "slug": "meta-perfumes-sector-0qkmlc",
+            "client": "Perfumes Sector",
             "category": "Meta",
-            "headline": "Outstanding results for المركز السعودي للعود via Meta",
+            "headline": "Outstanding results for a client in Perfumes Sector via Meta",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/meta/المركز السعودي للعود.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2634,20 +2718,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Meta",
+                "Perfumes Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "e1g6n-meta-jdjjwh",
-            "client": "المكتبة المتنقلة",
+            "slug": "meta-education-sector-dm1tjb",
+            "client": "Education Sector",
             "category": "Meta",
-            "headline": "Outstanding results for المكتبة المتنقلة via Meta",
+            "headline": "Outstanding results for a client in Education Sector via Meta",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/meta/المكتبة المتنقلة.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2665,20 +2750,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Meta",
+                "Education Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "dmjcgn-meta-9ud0km",
-            "client": "تارا",
+            "slug": "meta-beauty-cosmetics-sector-99uv9",
+            "client": "Beauty & Cosmetics Sector",
             "category": "Meta",
-            "headline": "Outstanding results for تارا via Meta",
+            "headline": "Outstanding results for a client in Beauty & Cosmetics Sector via Meta",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/meta/تارا.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2696,20 +2782,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Meta",
+                "Beauty & Cosmetics Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "44j5mn-meta-0n3yxs",
-            "client": "دكان بليلة",
+            "slug": "meta-f-b-sector-p31nsb",
+            "client": "F&B Sector",
             "category": "Meta",
-            "headline": "Outstanding results for دكان بليلة via Meta",
+            "headline": "Outstanding results for a client in F&B Sector via Meta",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/meta/دكان بليلة.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2727,20 +2814,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Meta",
+                "F&B Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "0366w6-meta-f2kgj",
-            "client": "ركائز ",
+            "slug": "meta-real-estate-sector-9v5gjf",
+            "client": "Real Estate Sector",
             "category": "Meta",
-            "headline": "Outstanding results for ركائز  via Meta",
+            "headline": "Outstanding results for a client in Real Estate Sector via Meta",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/meta/ركائز .png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2758,20 +2846,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Meta",
+                "Real Estate Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "80zkd-meta-1zmxwb",
-            "client": "روائع المجرة",
+            "slug": "meta-e-commerce-k8esah",
+            "client": "E-commerce",
             "category": "Meta",
-            "headline": "Outstanding results for روائع المجرة via Meta",
+            "headline": "Outstanding results for a client in E-commerce via Meta",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/meta/روائع المجرة.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2789,20 +2878,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Meta",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "pjzaef-meta-w7s5v",
-            "client": "سبائك الماسة",
+            "slug": "meta-e-commerce-1thpnm",
+            "client": "E-commerce",
             "category": "Meta",
-            "headline": "Outstanding results for سبائك الماسة via Meta",
+            "headline": "Outstanding results for a client in E-commerce via Meta",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/meta/سبائك الماسة.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2820,20 +2910,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Meta",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "a2hio-meta-qrhez",
-            "client": "سوليف",
+            "slug": "meta-e-commerce-doc8jj",
+            "client": "E-commerce",
             "category": "Meta",
-            "headline": "Outstanding results for سوليف via Meta",
+            "headline": "Outstanding results for a client in E-commerce via Meta",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/meta/سوليف.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2851,20 +2942,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Meta",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "nwib2p-meta-bdurm8",
-            "client": "ليجيسي برفيوم",
+            "slug": "meta-e-commerce-wlx3nv",
+            "client": "E-commerce",
             "category": "Meta",
-            "headline": "Outstanding results for ليجيسي برفيوم via Meta",
+            "headline": "Outstanding results for a client in E-commerce via Meta",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/meta/ليجيسي برفيوم.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2882,20 +2974,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Meta",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "ooqnb-meta-tie2b",
-            "client": "ميسرا",
+            "slug": "meta-beauty-cosmetics-sector-641qgp",
+            "client": "Beauty & Cosmetics Sector",
             "category": "Meta",
-            "headline": "Outstanding results for ميسرا via Meta",
+            "headline": "Outstanding results for a client in Beauty & Cosmetics Sector via Meta",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/meta/ميسرا.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2913,20 +3006,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Meta",
+                "Beauty & Cosmetics Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-armniasa-snapchat-6l61q",
-            "client": "s armniasa",
+            "slug": "snapchat-e-commerce-47vh75",
+            "client": "E-commerce",
             "category": "Snapchat",
-            "headline": "Outstanding results for s armniasa via Snapchat",
+            "headline": "Outstanding results for a client in E-commerce via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s armniasa.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2944,20 +3038,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-arrow-modern-future-snapchat-yohrzg",
-            "client": "s arrow modern future",
+            "slug": "snapchat-e-commerce-2daem",
+            "client": "E-commerce",
             "category": "Snapchat",
-            "headline": "Outstanding results for s arrow modern future via Snapchat",
+            "headline": "Outstanding results for a client in E-commerce via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s arrow modern future.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -2975,20 +3070,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-asrar-snapchat-3tdozn",
-            "client": "s asrar",
+            "slug": "snapchat-beauty-cosmetics-sector-luslzo",
+            "client": "Beauty & Cosmetics Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s asrar via Snapchat",
+            "headline": "Outstanding results for a client in Beauty & Cosmetics Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s asrar.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3006,20 +3102,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "Beauty & Cosmetics Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-glory-snapchat-cb9awh",
-            "client": "s glory",
+            "slug": "snapchat-beauty-cosmetics-sector-kfom4l",
+            "client": "Beauty & Cosmetics Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s glory via Snapchat",
+            "headline": "Outstanding results for a client in Beauty & Cosmetics Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s glory.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3037,20 +3134,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "Beauty & Cosmetics Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-green-garden-snapchat-uoqz5h",
-            "client": "s green garden",
+            "slug": "snapchat-e-commerce-u3i3yg",
+            "client": "E-commerce",
             "category": "Snapchat",
-            "headline": "Outstanding results for s green garden via Snapchat",
+            "headline": "Outstanding results for a client in E-commerce via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s green garden.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3068,20 +3166,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-hindly-snapchat-90986",
-            "client": "s hindly",
+            "slug": "snapchat-e-commerce-h7i4wk",
+            "client": "E-commerce",
             "category": "Snapchat",
-            "headline": "Outstanding results for s hindly via Snapchat",
+            "headline": "Outstanding results for a client in E-commerce via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s hindly.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3099,20 +3198,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-legacy-perfumes-snapchat-5w8vcg",
-            "client": "s legacy perfumes",
+            "slug": "snapchat-perfumes-sector-4k1cog",
+            "client": "Perfumes Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s legacy perfumes via Snapchat",
+            "headline": "Outstanding results for a client in Perfumes Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s legacy perfumes.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3130,20 +3230,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "Perfumes Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-m-elegant-snapchat-wdxb0i",
-            "client": "s m elegant",
+            "slug": "snapchat-fashion-sector-jcufv",
+            "client": "Fashion Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s m elegant via Snapchat",
+            "headline": "Outstanding results for a client in Fashion Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s m elegant.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3161,20 +3262,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "Fashion Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-miniyum-snapchat-c8ww8a",
-            "client": "s miniyum",
+            "slug": "snapchat-f-b-sector-l2vkmu",
+            "client": "F&B Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s miniyum via Snapchat",
+            "headline": "Outstanding results for a client in F&B Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s miniyum.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3192,20 +3294,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "F&B Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-square-style-snapchat-y3to5",
-            "client": "s square style",
+            "slug": "snapchat-e-commerce-73z3rk",
+            "client": "E-commerce",
             "category": "Snapchat",
-            "headline": "Outstanding results for s square style via Snapchat",
+            "headline": "Outstanding results for a client in E-commerce via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s square style.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3223,20 +3326,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-tara-snapchat-6vt64o",
-            "client": "s tara",
+            "slug": "snapchat-beauty-cosmetics-sector-9lxbzt",
+            "client": "Beauty & Cosmetics Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s tara via Snapchat",
+            "headline": "Outstanding results for a client in Beauty & Cosmetics Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s tara.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3254,20 +3358,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "Beauty & Cosmetics Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-yasoob-snapchat-saeug",
-            "client": "s yasoob",
+            "slug": "snapchat-real-estate-sector-rx5mdl",
+            "client": "Real Estate Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s yasoob via Snapchat",
+            "headline": "Outstanding results for a client in Real Estate Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s yasoob.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3285,20 +3390,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "Real Estate Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-5sl9cj",
-            "client": "s المركب العربي للسيارات",
+            "slug": "snapchat-automotive-sector-zcwv2r",
+            "client": "Automotive Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s المركب العربي للسيارات via Snapchat",
+            "headline": "Outstanding results for a client in Automotive Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s المركب العربي للسيارات.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3316,20 +3422,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "Automotive Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-uh8uv",
-            "client": "s المركز السعودي للعود",
+            "slug": "snapchat-perfumes-sector-9aggxm",
+            "client": "Perfumes Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s المركز السعودي للعود via Snapchat",
+            "headline": "Outstanding results for a client in Perfumes Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s المركز السعودي للعود.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3347,20 +3454,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "Perfumes Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-8f04c",
-            "client": "s انجاز الاملاك",
+            "slug": "snapchat-real-estate-sector-sc2vpb",
+            "client": "Real Estate Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s انجاز الاملاك via Snapchat",
+            "headline": "Outstanding results for a client in Real Estate Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s انجاز الاملاك.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3378,20 +3486,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "Real Estate Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-gh2prk",
-            "client": "s دكان بليلة",
+            "slug": "snapchat-f-b-sector-iae3w7",
+            "client": "F&B Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s دكان بليلة via Snapchat",
+            "headline": "Outstanding results for a client in F&B Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s دكان بليلة.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3409,20 +3518,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "F&B Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-vfgunq",
-            "client": "s ركائز الاصول",
+            "slug": "snapchat-real-estate-sector-u1eiud",
+            "client": "Real Estate Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s ركائز الاصول via Snapchat",
+            "headline": "Outstanding results for a client in Real Estate Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s ركائز الاصول.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3440,20 +3550,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "Real Estate Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-y0v578",
-            "client": "s شمروخ",
+            "slug": "snapchat-perfumes-sector-rt4gmu",
+            "client": "Perfumes Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s شمروخ via Snapchat",
+            "headline": "Outstanding results for a client in Perfumes Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s شمروخ.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3471,20 +3582,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "Perfumes Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-8sxx9",
-            "client": "s عذبة",
+            "slug": "snapchat-e-commerce-qgafap",
+            "client": "E-commerce",
             "category": "Snapchat",
-            "headline": "Outstanding results for s عذبة via Snapchat",
+            "headline": "Outstanding results for a client in E-commerce via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s عذبة.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3502,20 +3614,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-kicgl",
-            "client": "s كليات الناية الطبية",
+            "slug": "snapchat-medical-sector-iik8dh",
+            "client": "Medical Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s كليات الناية الطبية via Snapchat",
+            "headline": "Outstanding results for a client in Medical Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s كليات الناية الطبية.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3533,20 +3646,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "Medical Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-p66nt8",
-            "client": "s مكتبة المللك عبد العزيز",
+            "slug": "snapchat-education-sector-o5ymy8",
+            "client": "Education Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s مكتبة المللك عبد العزيز via Snapchat",
+            "headline": "Outstanding results for a client in Education Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s مكتبة المللك عبد العزيز.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3564,20 +3678,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "Education Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-brkv08",
-            "client": "s ميراث",
+            "slug": "snapchat-real-estate-sector-t17ycs",
+            "client": "Real Estate Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s ميراث via Snapchat",
+            "headline": "Outstanding results for a client in Real Estate Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s ميراث.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3595,20 +3710,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "Real Estate Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "s-snapchat-awknw",
-            "client": "s نوادر السكري تمور",
+            "slug": "snapchat-f-b-sector-abiar9",
+            "client": "F&B Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for s نوادر السكري تمور via Snapchat",
+            "headline": "Outstanding results for a client in F&B Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/s نوادر السكري تمور.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3626,20 +3742,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "F&B Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "xiii6s-snapchat-ol0w5e",
-            "client": "إبداع الاتصالات لتقسيط الموبايلات والقروض",
+            "slug": "snapchat-telecommunications-sector-23xvqe",
+            "client": "Telecommunications Sector",
             "category": "Snapchat",
-            "headline": "Outstanding results for إبداع الاتصالات لتقسيط الموبايلات والقروض via Snapchat",
+            "headline": "Outstanding results for a client in Telecommunications Sector via Snapchat",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/snapchat/إبداع الاتصالات لتقسيط الموبايلات والقروض.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3657,20 +3774,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Snapchat",
+                "Telecommunications Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "agate-tiktok-e7wifd",
-            "client": "agate",
+            "slug": "tiktok-beauty-cosmetics-sector-qsj6ja",
+            "client": "Beauty & Cosmetics Sector",
             "category": "TikTok",
-            "headline": "Outstanding results for agate via TikTok",
+            "headline": "Outstanding results for a client in Beauty & Cosmetics Sector via TikTok",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/tiktok/agate.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3688,20 +3806,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "TikTok",
+                "Beauty & Cosmetics Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "arabica-tiktok-dps1fn",
-            "client": "arabica",
+            "slug": "tiktok-f-b-sector-xv0ios",
+            "client": "F&B Sector",
             "category": "TikTok",
-            "headline": "Outstanding results for arabica via TikTok",
+            "headline": "Outstanding results for a client in F&B Sector via TikTok",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/tiktok/arabica.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3719,20 +3838,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "TikTok",
+                "F&B Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "azba-2-tiktok-zvo8tr",
-            "client": "Azba 2",
+            "slug": "tiktok-e-commerce-ybjqkj",
+            "client": "E-commerce",
             "category": "TikTok",
-            "headline": "Outstanding results for Azba 2 via TikTok",
+            "headline": "Outstanding results for a client in E-commerce via TikTok",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/tiktok/Azba 2.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3750,20 +3870,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "TikTok",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "azba-tiktok-agcoi",
-            "client": "Azba",
+            "slug": "tiktok-e-commerce-n0n0f",
+            "client": "E-commerce",
             "category": "TikTok",
-            "headline": "Outstanding results for Azba via TikTok",
+            "headline": "Outstanding results for a client in E-commerce via TikTok",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/tiktok/Azba.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3781,20 +3902,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "TikTok",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "misra-tiktok-bpcdby",
-            "client": "Misra",
+            "slug": "tiktok-beauty-cosmetics-sector-n0l7zq",
+            "client": "Beauty & Cosmetics Sector",
             "category": "TikTok",
-            "headline": "Outstanding results for Misra via TikTok",
+            "headline": "Outstanding results for a client in Beauty & Cosmetics Sector via TikTok",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/tiktok/Misra.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3812,20 +3934,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "TikTok",
+                "Beauty & Cosmetics Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "new-inaya-tiktok-d85qr",
-            "client": "New Inaya",
+            "slug": "tiktok-medical-sector-0aemn",
+            "client": "Medical Sector",
             "category": "TikTok",
-            "headline": "Outstanding results for New Inaya via TikTok",
+            "headline": "Outstanding results for a client in Medical Sector via TikTok",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/tiktok/New Inaya.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3843,20 +3966,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "TikTok",
+                "Medical Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "1xpujk-tiktok-6rhqmi",
-            "client": "إبداع الاتصالات لتقسيط الموبايلات والقروض",
+            "slug": "tiktok-telecommunications-sector-wtq8aq",
+            "client": "Telecommunications Sector",
             "category": "TikTok",
-            "headline": "Outstanding results for إبداع الاتصالات لتقسيط الموبايلات والقروض via TikTok",
+            "headline": "Outstanding results for a client in Telecommunications Sector via TikTok",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/tiktok/إبداع الاتصالات لتقسيط الموبايلات والقروض.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3874,20 +3998,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "TikTok",
+                "Telecommunications Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "d6tt4-tiktok-9etvmu",
-            "client": "ابداع السداد",
+            "slug": "tiktok-financial-services-sector-1tc0z8",
+            "client": "Financial Services Sector",
             "category": "TikTok",
-            "headline": "Outstanding results for ابداع السداد via TikTok",
+            "headline": "Outstanding results for a client in Financial Services Sector via TikTok",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/tiktok/ابداع السداد.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3905,20 +4030,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "TikTok",
+                "Financial Services Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "00yajf-tiktok-41jiem",
-            "client": "تارا",
+            "slug": "tiktok-beauty-cosmetics-sector-6l1nzn",
+            "client": "Beauty & Cosmetics Sector",
             "category": "TikTok",
-            "headline": "Outstanding results for تارا via TikTok",
+            "headline": "Outstanding results for a client in Beauty & Cosmetics Sector via TikTok",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/tiktok/تارا.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3936,20 +4062,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "TikTok",
+                "Beauty & Cosmetics Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "fe30c-tiktok-y7zyh",
-            "client": "سهم المستقبل ",
+            "slug": "tiktok-real-estate-sector-y545b",
+            "client": "Real Estate Sector",
             "category": "TikTok",
-            "headline": "Outstanding results for سهم المستقبل  via TikTok",
+            "headline": "Outstanding results for a client in Real Estate Sector via TikTok",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/tiktok/سهم المستقبل .PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3967,20 +4094,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "TikTok",
+                "Real Estate Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "wufj3o-tiktok-n94cvc",
-            "client": "شركة المركز السعودي للعود",
+            "slug": "tiktok-perfumes-sector-zi5u45",
+            "client": "Perfumes Sector",
             "category": "TikTok",
-            "headline": "Outstanding results for شركة المركز السعودي للعود via TikTok",
+            "headline": "Outstanding results for a client in Perfumes Sector via TikTok",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/tiktok/شركة المركز السعودي للعود.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -3998,20 +4126,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "TikTok",
+                "Perfumes Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "alt5km-tiktok-8tyoc",
-            "client": "شمروخ",
+            "slug": "tiktok-perfumes-sector-mo7tyk",
+            "client": "Perfumes Sector",
             "category": "TikTok",
-            "headline": "Outstanding results for شمروخ via TikTok",
+            "headline": "Outstanding results for a client in Perfumes Sector via TikTok",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/tiktok/شمروخ.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -4029,20 +4158,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "TikTok",
+                "Perfumes Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "u1d2km-tiktok-wgqut5",
-            "client": "عطور ليجاسي",
+            "slug": "tiktok-perfumes-sector-x6jkce",
+            "client": "Perfumes Sector",
             "category": "TikTok",
-            "headline": "Outstanding results for عطور ليجاسي via TikTok",
+            "headline": "Outstanding results for a client in Perfumes Sector via TikTok",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/tiktok/عطور ليجاسي.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -4060,20 +4190,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "TikTok",
+                "Perfumes Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "r4o9oo-tiktok-3hpaadq",
-            "client": "كليات العناية الطبية",
+            "slug": "tiktok-medical-sector-hm4mgk",
+            "client": "Medical Sector",
             "category": "TikTok",
-            "headline": "Outstanding results for كليات العناية الطبية via TikTok",
+            "headline": "Outstanding results for a client in Medical Sector via TikTok",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/tiktok/كليات العناية الطبية.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -4091,20 +4222,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "TikTok",
+                "Medical Sector",
                 "أعمال"
             ]
         },
         {
-            "slug": "ggey4-tiktok-rz59un",
-            "client": "مؤسسة الماسة الزهرية",
+            "slug": "tiktok-e-commerce-0iy1kt",
+            "client": "E-commerce",
             "category": "TikTok",
-            "headline": "Outstanding results for مؤسسة الماسة الزهرية via TikTok",
+            "headline": "Outstanding results for a client in E-commerce via TikTok",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/results/tiktok/مؤسسة الماسة الزهرية.PNG",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -4122,20 +4254,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "TikTok",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "2-stores-ot4jjt",
-            "client": "2",
+            "slug": "stores-e-commerce-v2jlpu",
+            "client": "E-commerce",
             "category": "Stores",
-            "headline": "Outstanding results for 2 via Stores",
+            "headline": "Outstanding results for a client in E-commerce via Stores",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/stores/2.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -4153,20 +4286,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Stores",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "3-stores-ik75d",
-            "client": "3",
+            "slug": "stores-e-commerce-ayu3k",
+            "client": "E-commerce",
             "category": "Stores",
-            "headline": "Outstanding results for 3 via Stores",
+            "headline": "Outstanding results for a client in E-commerce via Stores",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/stores/3.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -4184,20 +4318,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Stores",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "4-stores-jpktcn",
-            "client": "4",
+            "slug": "stores-e-commerce-6xr1",
+            "client": "E-commerce",
             "category": "Stores",
-            "headline": "Outstanding results for 4 via Stores",
+            "headline": "Outstanding results for a client in E-commerce via Stores",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/stores/4.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -4215,20 +4350,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Stores",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "whatsapp-image-2025-07-19-at-3-51-22-pm-stores-hvsld",
-            "client": "WhatsApp Image 2025-07-19 at 3.51.22 PM",
+            "slug": "stores-e-commerce-v3r2sqd",
+            "client": "E-commerce",
             "category": "Stores",
-            "headline": "Outstanding results for WhatsApp Image 2025-07-19 at 3.51.22 PM via Stores",
+            "headline": "Outstanding results for a client in E-commerce via Stores",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/stores/WhatsApp Image 2025-07-19 at 3.51.22 PM.jpeg",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -4246,20 +4382,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Stores",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "whatsapp-image-2025-07-19-at-3-56-41-pm-stores-liugto",
-            "client": "WhatsApp Image 2025-07-19 at 3.56.41 PM",
+            "slug": "stores-e-commerce-h330ye",
+            "client": "E-commerce",
             "category": "Stores",
-            "headline": "Outstanding results for WhatsApp Image 2025-07-19 at 3.56.41 PM via Stores",
+            "headline": "Outstanding results for a client in E-commerce via Stores",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/stores/WhatsApp Image 2025-07-19 at 3.56.41 PM.jpeg",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -4277,20 +4414,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Stores",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "whatsapp-image-2025-07-19-at-3-58-59-pm-stores-3xnj9",
-            "client": "WhatsApp Image 2025-07-19 at 3.58.59 PM",
+            "slug": "stores-e-commerce-62jrn",
+            "client": "E-commerce",
             "category": "Stores",
-            "headline": "Outstanding results for WhatsApp Image 2025-07-19 at 3.58.59 PM via Stores",
+            "headline": "Outstanding results for a client in E-commerce via Stores",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/stores/WhatsApp Image 2025-07-19 at 3.58.59 PM.jpeg",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -4308,20 +4446,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Stores",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "01-06-2024-stores-i4ttam",
-            "client": "المتجر مبيعات سنة 01-06- 2024",
+            "slug": "stores-e-commerce-hi8eth",
+            "client": "E-commerce",
             "category": "Stores",
-            "headline": "Outstanding results for المتجر مبيعات سنة 01-06- 2024 via Stores",
+            "headline": "Outstanding results for a client in E-commerce via Stores",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/stores/المتجر مبيعات سنة 01-06- 2024.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -4339,20 +4478,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Stores",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "ercvz9-stores-xfz4ae",
-            "client": "عذبة",
+            "slug": "stores-e-commerce-4czs4",
+            "client": "E-commerce",
             "category": "Stores",
-            "headline": "Outstanding results for عذبة via Stores",
+            "headline": "Outstanding results for a client in E-commerce via Stores",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/stores/عذبة.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -4370,20 +4510,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Stores",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "9-stores-1rtse",
-            "client": "مبيعات المتجر شهر 9",
+            "slug": "stores-e-commerce-9sv91r",
+            "client": "E-commerce",
             "category": "Stores",
-            "headline": "Outstanding results for مبيعات المتجر شهر 9 via Stores",
+            "headline": "Outstanding results for a client in E-commerce via Stores",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/stores/مبيعات المتجر شهر 9.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -4401,20 +4542,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Stores",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "2-9-stores-b6p9yj",
-            "client": "مبيعات المتجر2 شهر 9",
+            "slug": "stores-e-commerce-2nh84l",
+            "client": "E-commerce",
             "category": "Stores",
-            "headline": "Outstanding results for مبيعات المتجر2 شهر 9 via Stores",
+            "headline": "Outstanding results for a client in E-commerce via Stores",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/stores/مبيعات المتجر2 شهر 9.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -4432,20 +4574,21 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Stores",
+                "E-commerce",
                 "أعمال"
             ]
         },
         {
-            "slug": "t2zlyq-stores-nrf9pb",
-            "client": "متجر مناديل",
+            "slug": "stores-fmcg-sector-6qfnu",
+            "client": "FMCG Sector",
             "category": "Stores",
-            "headline": "Outstanding results for متجر مناديل via Stores",
+            "headline": "Outstanding results for a client in FMCG Sector via Stores",
             "metric": {
                 "label": "Growth",
                 "value": "High"
             },
             "image": "/images/stores/متجر مناديل.png",
-            "challenge": "Achieving marketing goals amidst strong competition.",
+            "challenge": "Achieving marketing goals amidst strong competition in the market.",
             "solution": "Launching tailored campaigns and testing to increase performance based on data analysis.",
             "results": [
                 {
@@ -4463,6 +4606,7 @@ export const caseStudiesData = {
             ],
             "tags": [
                 "Stores",
+                "FMCG Sector",
                 "أعمال"
             ]
         }
