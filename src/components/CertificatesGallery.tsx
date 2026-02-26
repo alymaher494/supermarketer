@@ -99,7 +99,7 @@ export default function CertificatesGallery({ limit, showTitle = true }: Certifi
                             <div className={`flex-grow ${isRTL ? "text-right" : "text-left"}`}>
                                 <div className={`flex justify-between items-start mb-2 ${isRTL ? "flex-row-reverse" : ""}`}>
                                     <span className="text-[10px] font-mono text-secondary px-2 py-0.5 border border-secondary/30 rounded uppercase tracking-tighter">
-                                        {cert.date}
+                                        {(cert as any).date || "2024"}
                                     </span>
                                     <Award size={16} className="text-slate-600" />
                                 </div>
