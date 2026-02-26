@@ -1,103 +1,150 @@
 export const servicesData = {
     ar: [
         {
-            id: "strategy",
-            title: "استراتيجية تسويق الأداء",
-            description: "استراتيجيات كاملة مصممة خصيصًا لاقتصاديات شركتك: استهداف الجماهير الباردة والدافئة والساخنة مع مؤشرات أداء رئيسية واضحة وخطط اختبار.",
-            type: "استراتيجية الجمالية",
-            content: "نركز على بناء خارطة طريق واضحة للنمو تعتمد على البيانات.",
-            details: {
-                problem: "تشتت الجهود الإعلانية وعدم وجود خطة واضحة للاستهداف والنمو.",
-                solution: "تصميم استراتيجية Funnel كاملة تغطي جميع مراحل رحلة العميل.",
-                outcomes: ["خطة واضحة", "مؤشرات أداء محددة", "تحسين استهلاك الميزانية"]
-            }
-        },
-        {
             id: "execution",
             title: "إدارة الإعلانات الممولة",
-            description: "تخطيط وإطلاق وتحسين الحملات على Meta و TikTok و Snapchat و Google بعقلية الأداء أولاً.",
+            description: "إدارة حملات إعلانية على فيسبوك، إنستجرام، جوجل، تيك توك، وسناب شات.",
             type: "إدارة شهرية",
-            content: "نركز على تحويل كل ريال يُنفق إلى مبيعات وأرباح حقيقية.",
+            content: "بهدف زيادة المبيعات وتحقيق أقصى عائد على الإنفاق الإعلاني يومياً.",
             details: {
-                problem: "صرف ميزانيات إعلانية ضخمة دون الحصول على عائد مرضٍ.",
-                solution: "إدارة دقيقة يومية للحملات مع تحسين مستمر بناءً على الأداء.",
+                problem: "صرف ميزانيات إعلانية دون الحصول على عائد مرضٍ بسبب استهداف غير دقيق.",
+                solution: "إدارة يومية وتصاعدية دقيقة للحملات مع تحسين مستمر بناءً على الأداء.",
                 outcomes: ["زيادة المبيعات", "تحسين ROAS", "تقليل CAC"]
             }
         },
         {
             id: "ecommerce",
             title: "نمو التجارة الإلكترونية",
-            description: "دفع المبيعات المربحة من خلال اختبار الإبداع، وتصميم العروض، وتحسين مسار التحويل، وأطر التوسع المهيكلة.",
+            description: "خدمة مخصصة لأصحاب المتاجر الإلكترونية لزيادة عدد الطلبات.",
             type: "شراكة نمو",
-            content: "نساعد المتاجر الإلكترونية على التوسع المستدام وزيادة الربحية.",
+            content: "نقلل تكلفة الإعلان مع رفع المبيعات وتقوية هيكلة المتجر ليتناسب مع زيادة الزوار.",
             details: {
-                problem: "صعوبة التوسع في المبيعات مع الحفاظ على هوامش ربح جيدة.",
+                problem: "عدم استقرار الطلبات اليومية وارتفاع تكلفة طلب العميل الجديد (CAC).",
                 solution: "إطار عمل مهيكل للتوسع يركز على تحسين العروض والمحتوى الإعلاني.",
-                outcomes: ["نمو مبيعات مستدام", "عروض جذابة", "توسع آمن"]
+                outcomes: ["نمو مبيعات مستدام", "عروض جذابة", "زيادة الولاء"]
+            }
+        },
+        {
+            id: "strategy",
+            title: "التخطيط والاستراتيجية",
+            description: "خطة تسويق إلكتروني واضحة بدل التجارب العشوائية وتضييع الميزانية.",
+            type: "أساس النجاح",
+            content: "نركز على بناء خارطة طريق بناءً على اقتصاديات بيزنسك للوصول للربحية.",
+            details: {
+                problem: "إطلاق حملات بشكل عشوائي بلا ربطها برحلة مسار التحويل الكامل (Funnel).",
+                solution: "تصميم رحلة عميل متكاملة (Cold, Warm, Hot) لاستهداف وتمرير العميل للقرار الشرائي.",
+                outcomes: ["خطة واضحة", "مؤشرات أداء محددة", "استهداف ذكي"]
+            }
+        },
+        {
+            id: "audit",
+            title: "تدقيق الحملات الإعلانية",
+            description: "مراجعة كاملة للحسابات الإعلانية لمعرفة فين المشكلة وفين الهدر.",
+            type: "فحص الحسابات",
+            content: "نضع أيدينا على نقاط الضعف لحلها وكيفية تحسين النتائج فوراً.",
+            details: {
+                problem: "تسرب الميزانية في مسارات غير مربحة دون معرفة السبب الحقيقي.",
+                solution: "دخول عميق في بنية إعداد الإعلانات الحالية للبحث عن فرص وإصلاح الخطأ.",
+                outcomes: ["اكتشاف أسباب الهدر", "تقليل التكاليف", "توصيات تصحيح"]
+            }
+        },
+        {
+            id: "creative",
+            title: "اختبارات المحتوى الإعلاني",
+            description: "تجربة صور وفيديوهات مختلفة عشان نعرف أنهي إعلان بيجيب مبيعات أكتر.",
+            type: "تطوير الإبداع",
+            content: "نعتمد على اختبار الفرضيات بشكل دائم (A/B Testing) للوصول للخلطة الرابحة.",
+            details: {
+                problem: "استنزاف الجمهور من المحتوى المتكرر ونقص التحويل نتيجة إعلانات مملة.",
+                solution: "بناء أنظمة اختبار ممنهجة للزوايا التسويقية لتحديد الرسالة الأفضل تأثيرًا.",
+                outcomes: ["زيادة النقر", "إيصال الرسالة بدقة", "حرق إعلاني أقل"]
             }
         },
         {
             id: "analytics",
-            title: "التتبع والتقارير",
-            description: "تقارير نظيفة عن ROAS و CAC والـ LTV وفترات الاسترداد — تحويل البيانات الخام إلى قرارات واضحة.",
-            type: "إعداد تقني",
-            content: "نضمن دقة البيانات لاتخاذ قرارات تسويقية ذكية ومبنية على الحقائق.",
+            title: "التحليلات والتقارير",
+            description: "تقارير بسيطة ومفهومة تعرفك صرفت كام، دخلت كام، تكمل ولا تغيّر.",
+            type: "تحليل دقيق",
+            content: "إعداد ربط البيكسل وتحويل البيانات المعقدة لقرارات عملية يومية.",
             details: {
-                problem: "بيانات غير دقيقة وتقارير يصعب فهمها أو اتخاذ قرارات بناءً عليها.",
-                solution: "إعداد تتبع متطور وتقارير لوحية واضحة تعكس واقع الأداء.",
-                outcomes: ["دقة بيانات عالية", "قرارات ذكية", "رؤية كاملة للأداء"]
+                problem: "بيانات غير دقيقة بسبب التحديثات أو عدم إعداد التتبع بشكل صحيح من الأساس.",
+                solution: "إعداد وتهيئة شاملة للتتبع عبر جوجل أناليتكس وبيكسلات منصات التواصل.",
+                outcomes: ["دقة بيانات عالية", "قرارات مبنية على الأرقام", "رؤية كاملة"]
             }
         }
     ],
     en: [
         {
-            id: "strategy",
-            title: "Performance Marketing Strategy",
-            description: "Full-funnel strategies tailored to your economics: cold, warm, and hot audiences with clear KPIs and testing roadmaps.",
-            type: "Strategy First",
-            content: "Focusing on building a clear growth roadmap based on unit economics.",
-            details: {
-                problem: "Scattered ad efforts and lack of a clear plan for scaling.",
-                solution: "Designing a complete full-funnel strategy covering all stages of the customer journey.",
-                outcomes: ["Clear Roadmap", "Defined KPIs", "Optimized Budget Consumption"]
-            }
-        },
-        {
             id: "execution",
             title: "Paid Ads Management",
-            description: "Planning, launching, and optimizing campaigns on Meta, TikTok, Snapchat, and Google with a performance-first mindset.",
+            description: "Managing ad campaigns on Facebook, Instagram, Google, TikTok, and Snapchat.",
             type: "Monthly Management",
-            content: "Focusing on turning every dollar spent into real sales and profit.",
+            content: "Aiming to increase sales and achieve maximum daily return on ad spend.",
             details: {
-                problem: "Spending large ad budgets without getting a satisfactory return.",
-                solution: "Daily precise campaign management with continuous optimization based on performance.",
+                problem: "Spending large ad budgets without getting a satisfactory return due to poor targeting.",
+                solution: "Precise daily and scalable campaign management with continuous optimization based on data.",
                 outcomes: ["Increased Sales", "Improved ROAS", "Lower CAC"]
             }
         },
         {
             id: "ecommerce",
             title: "E-commerce Growth",
-            description: "Driving profitable sales through creative testing, offer design, funnel optimization, and structured scaling frameworks.",
+            description: "Dedicated service for online stores to increase orders and scale profitably.",
             type: "Growth Partnership",
-            content: "Helping online stores achieve sustainable scaling and increased profitability.",
+            content: "Reducing ad costs while boosting sales and strengthening store structure for high traffic.",
             details: {
-                problem: "Difficulty in scaling sales while maintaining healthy profit margins.",
-                solution: "Structured scaling framework focused on offer optimization and ad creative testing.",
-                outcomes: ["Sustainable Sales Growth", "Compelling Offers", "Safe Scaling"]
+                problem: "Unstable daily orders and high cost per acquisition (CAC).",
+                solution: "Structured scaling framework focused on offer optimization and compelling ad creatives.",
+                outcomes: ["Sustainable Sales Growth", "Compelling Offers", "Increased LTV"]
+            }
+        },
+        {
+            id: "strategy",
+            title: "Strategy & Planning",
+            description: "A clear digital marketing plan instead of random experiments and wasted budget.",
+            type: "Foundation",
+            content: "Focusing on building a clear roadmap based on your unit economics to reach profitability.",
+            details: {
+                problem: "Launching scattered campaigns without linking them to a full-funnel customer journey.",
+                solution: "Designing a complete customer journey (Cold, Warm, Hot) to target and guide buying decisions.",
+                outcomes: ["Clear Roadmap", "Defined KPIs", "Smart Targeting"]
+            }
+        },
+        {
+            id: "audit",
+            title: "Campaign Auditing",
+            description: "Full review of ad accounts to find where the problems and waste are.",
+            type: "Account Audit",
+            content: "Identifying weaknesses to solve them and showing exactly how to improve results immediately.",
+            details: {
+                problem: "Budget leakage in unprofitable channels without knowing the real cause.",
+                solution: "Deep dive into current ad setups to find opportunities and fix structural errors.",
+                outcomes: ["Find Wasted Spend", "Cost Reduction", "Actionable Recommendations"]
+            }
+        },
+        {
+            id: "creative",
+            title: "Ad Creative Testing",
+            description: "Testing different images and videos to find which ads drive the most sales.",
+            type: "Creative Development",
+            content: "Relying on systematic A/B testing of hypotheses to find the winning formula.",
+            details: {
+                problem: "Audience fatigue from repetitive content and low conversions due to boring ads.",
+                solution: "Building systematic angle testing frameworks to determine the most effective messaging.",
+                outcomes: ["Higher CTR", "Accurate Messaging", "Less Ad Fatigue"]
             }
         },
         {
             id: "analytics",
-            title: "Tracking & Reporting",
-            description: "Clean reporting on ROAS, CAC, LTV proxies, and payback periods — turning raw data into clear decisions.",
-            type: "Technical Setup",
-            content: "Ensuring data accuracy to make smart, fact-based marketing decisions.",
+            title: "Analytics & Reporting",
+            description: "Simple, clear reports that show you how much you spent, how much you made, and what to do next.",
+            type: "Deep Analytics",
+            content: "Setting up pixel tracking and turning complex data into actionable daily decisions.",
             details: {
-                problem: "Inaccurate data and reports that are hard to understand or act upon.",
-                solution: "Advanced tracking setup and clear dashboard reporting reflecting actual performance.",
-                outcomes: ["High Data Accuracy", "Smart Decisions", "Full Performance Visibility"]
+                problem: "Inaccurate data due to updates or failing to configure correct tracking from the start.",
+                solution: "Comprehensive setup for Google Analytics and all social platform pixels.",
+                outcomes: ["High Data Accuracy", "Data-driven Decisions", "Full Visibility"]
             }
         }
     ]
 };
-

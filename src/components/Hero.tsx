@@ -39,7 +39,7 @@ export default function Hero() {
                     title: "خبير تسويق",
                     title2: "في مصر والخليج",
                     desc: "أكثر من 5 سنوات من الخبرة في مساعدة العلامات التجارية على التوسع في مجالات التجارة الإلكترونية، العقارات، والأغذية والمشروبات.",
-                    image: "/regional_growth_v3_1771881241616.png"
+                    image: "/hero_regional_expertise_ai_1771881203665.png"
                 }
             ],
             cta: "ابدأ الآن",
@@ -66,7 +66,7 @@ export default function Hero() {
                     title: "Egypt & GCC",
                     title2: "Market Growth",
                     desc: "Over 5 years of experience helping brands scale profitably across E-commerce, Real Estate, and F&B sectors.",
-                    image: "/regional_growth_v3_1771881241616.png"
+                    image: "/hero_regional_expertise_ai_1771881203665.png"
                 }
             ],
             cta: "Start Your Project",
@@ -116,12 +116,12 @@ export default function Hero() {
             </div>
 
             {/* Content Layer */}
-            <div className="relative z-20 h-full container mx-auto px-6 flex flex-col justify-center pt-40 md:pt-48 pb-40 md:pb-20">
+            <div className="relative z-20 h-full container mx-auto px-6 flex flex-col justify-center pt-32 md:pt-36 pb-32 md:pb-16">
                 <div className="max-w-4xl">
                     <span className="block text-secondary font-mono uppercase tracking-[0.2em] mb-4 ps-1">
                         {slides[currentSlide].subtitle}
                     </span>
-                    <h1 className="text-[8vw] md:text-[5vw] font-bold leading-[0.95] text-white uppercase mb-8">
+                    <h1 className="text-[8vw] md:text-[5vw] font-bold leading-[0.95] text-white uppercase mb-4">
                         <div className="overflow-hidden">
                             <span ref={title1Ref} className="block">{slides[currentSlide].title}</span>
                         </div>
@@ -129,11 +129,11 @@ export default function Hero() {
                             <span ref={title2Ref} className="block text-outline-white text-transparent">{slides[currentSlide].title2}</span>
                         </div>
                     </h1>
-                    <p ref={descRef} className={`text-xl md:text-2xl text-slate-300 max-w-2xl font-light leading-[1.8] mb-14 border-secondary overflow-hidden ${isRTL ? "border-r-[3px] pr-8 text-right" : "border-l-[3px] pl-8 text-left"}`}>
+                    <p ref={descRef} className={`text-xl md:text-2xl text-slate-300 max-w-2xl font-light leading-[1.8] mb-8 border-secondary overflow-hidden ${isRTL ? "border-r-[3px] pr-8 text-right" : "border-l-[3px] pl-8 text-left"}`}>
                         {slides[currentSlide].desc}
                     </p>
 
-                    <div className={`flex items-center gap-6 justify-start`}>
+                    <div className={`flex flex-wrap items-center gap-6 justify-start mb-8`}>
                         <Link href="/contact" className="btn-primary flex items-center gap-2 group">
                             {t.cta} <ArrowRight className={`group-hover:${isRTL ? "-translate-x-1" : "translate-x-1"} transition-transform ${isRTL ? "rotate-180" : ""}`} />
                         </Link>
@@ -141,21 +141,23 @@ export default function Hero() {
                             {t.work}
                         </Link>
                     </div>
+
+                    <div className={`flex gap-4 w-full md:max-w-md mt-6 ${isRTL ? "justify-end md:pr-12" : "justify-center md:pl-4"}`}>
+                        <button onClick={prevSlide} className="w-14 h-10 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-secondary hover:text-black hover:border-secondary transition-all">
+                            {isRTL ? <ChevronRight size={24} /> : <ChevronLeft size={24} />}
+                        </button>
+                        <button onClick={nextSlide} className="w-14 h-10 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-secondary hover:text-black hover:border-secondary transition-all">
+                            {isRTL ? <ChevronLeft size={24} /> : <ChevronRight size={24} />}
+                        </button>
+                    </div>
                 </div>
             </div>
 
-            {/* Slider Controls */}
-            <div className={`absolute bottom-10 ${isRTL ? "right-6 md:right-12" : "left-6 md:left-12"} z-30 flex gap-4`}>
-                <button onClick={prevSlide} className="w-14 h-10 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-secondary hover:text-black hover:border-secondary transition-all">
-                    {isRTL ? <ChevronRight size={24} /> : <ChevronLeft size={24} />}
-                </button>
-                <button onClick={nextSlide} className="w-14 h-10 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-secondary hover:text-black hover:border-secondary transition-all">
-                    {isRTL ? <ChevronLeft size={24} /> : <ChevronRight size={24} />}
-                </button>
-            </div>
+            {/* Slide Indicators */}
+
 
             {/* Slide Indicators */}
-            <div className={`absolute bottom-12 ${isRTL ? "left-6 md:left-12" : "right-6 md:right-12"} z-30 flex gap-4 items-end`}>
+            <div className={`absolute bottom-16 md:bottom-20 ${isRTL ? "left-6 md:left-12" : "right-6 md:right-12"} z-30 flex gap-4 items-end`}>
                 <span className="text-4xl font-bold text-white">0{currentSlide + 1}</span>
                 <span className="text-xl text-slate-500 mb-1">/ 0{slides.length}</span>
             </div>

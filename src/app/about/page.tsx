@@ -29,8 +29,8 @@ export default function AboutPage() {
             stats: [
                 { label: "ميزانيات مُدارة", value: "+1M SAR" },
                 { label: "سنوات الخبرة", value: "+5" },
-                { label: "عائد إعلاني (ROAS)", value: "High" },
-                { label: "قطاعات السوق", value: "E-com/RE" }
+                { label: "عائد إعلاني (ROAS)", value: "مرتفع" },
+                { label: "قطاعات السوق", value: "متاجر/عقارات" }
             ],
             values: {
                 label: "نهج النمو",
@@ -105,16 +105,19 @@ export default function AboutPage() {
         gsap.registerPlugin(ScrollTrigger);
 
         // Animate Image Reveal
-        gsap.from(".about-image", {
-            scale: 1.2,
-            opacity: 0,
-            duration: 1.5,
-            ease: "power2.out",
-            scrollTrigger: {
-                trigger: ".about-hero",
-                start: "top center",
+        gsap.fromTo(".about-image",
+            { scale: 1.2, opacity: 0 },
+            {
+                scale: 1,
+                opacity: 1,
+                duration: 1.5,
+                ease: "power2.out",
+                scrollTrigger: {
+                    trigger: ".about-hero",
+                    start: "top bottom",
+                }
             }
-        });
+        );
     }, [language]);
 
     return (
@@ -130,7 +133,7 @@ export default function AboutPage() {
                 <div className="relative aspect-video w-full overflow-hidden rounded-3xl mb-16">
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
                     <Image
-                        src="/regional_growth_v3_1771881241616.png"
+                        src="/hero_performance_marketing_ai_1771881173104.png"
                         alt="Growth Strategy"
                         fill
                         className="about-image object-cover"
@@ -157,7 +160,7 @@ export default function AboutPage() {
                 <div className="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
                     {t.stats.map((stat, i) => (
                         <div key={i}>
-                            <span className="block text-4xl md:text-6xl font-bold text-white mb-2" dir="ltr">{stat.value}</span>
+                            <span className={`block font-bold text-white mb-2 ${isRTL ? "text-3xl lg:text-5xl" : "text-4xl md:text-6xl"}`} dir="auto">{stat.value}</span>
                             <span className="text-xs font-mono uppercase tracking-widest text-slate-500">{stat.label}</span>
                         </div>
                     ))}

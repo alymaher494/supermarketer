@@ -17,16 +17,18 @@ export default function SnapPortfolio() {
     const ArrowIcon = isRTL ? ArrowUpLeft : ArrowUpRight;
     const slides = caseStudiesData[language].filter(s =>
         s.category !== "إدارة متاجر" && s.category !== "Store Management"
-    );
+    ).slice(0, 5);
 
     const content = {
         ar: {
             label: "أعمال مميزة",
-            viewCase: "عرض الحالة الدراسية"
+            viewCase: "عرض الحالة الدراسية",
+            viewAll: "شاهد جميع الأعمال"
         },
         en: {
             label: "Featured Work",
-            viewCase: "View Case Study"
+            viewCase: "View Case Study",
+            viewAll: "View All Projects"
         }
     };
     const t = content[language];
@@ -57,7 +59,7 @@ export default function SnapPortfolio() {
     }, [language, slides.length]); // Re-run if language changes
 
     return (
-        <section className="relative bg-primary" dir={isRTL ? "rtl" : "ltr"}>
+        <section className="relative bg-primary" dir="ltr">
             <div ref={container} className="h-screen w-full relative overflow-hidden flex items-center">
 
                 {/* Background Static Text/Elements */}
@@ -94,7 +96,7 @@ export default function SnapPortfolio() {
                             </div>
 
                             {/* Content Box */}
-                            <div className={`absolute bottom-20 md:top-1/2 md:bottom-auto ${isRTL ? "right-6 md:right-24 md:-translate-y-1/2" : "left-6 md:left-24 md:-translate-y-1/2"} z-30 max-w-xl flex flex-col items-start text-start`}>
+                            <div className={`absolute bottom-20 md:top-1/2 md:bottom-auto ${isRTL ? "right-6 md:right-24 md:-translate-y-1/2" : "left-6 md:left-24 md:-translate-y-1/2"} z-30 max-w-xl flex flex-col ${isRTL ? "items-end text-right" : "items-start text-left"}`}>
                                 <div className="overflow-hidden mb-4">
                                     <h2 className={`text-5xl md:text-7xl font-bold text-white uppercase leading-tight transform transition-transform duration-700 ${i === activeIndex ? "translate-y-0" : "translate-y-full"}`}>
                                         {slide.client}
@@ -102,7 +104,7 @@ export default function SnapPortfolio() {
                                 </div>
 
                                 <div className="overflow-hidden mb-8 w-full">
-                                    <div className={`flex flex-wrap gap-3 transform transition-transform duration-700 delay-100 ${i === activeIndex ? "translate-y-0" : "translate-y-full"} justify-start`}>
+                                    <div className={`flex flex-wrap gap-3 transform transition-transform duration-700 delay-100 ${i === activeIndex ? "translate-y-0" : "translate-y-full"} ${isRTL ? "justify-end" : "justify-start"}`}>
                                         {slide.tags?.map((tag, idx) => (
                                             <span key={idx} className="px-4 py-1 border border-white/20 rounded-full text-sm text-white bg-black/20 backdrop-blur-sm">
                                                 {tag}
@@ -111,7 +113,7 @@ export default function SnapPortfolio() {
                                     </div>
                                 </div>
 
-                                <div className={`transform transition-all duration-700 delay-200 w-full ${i === activeIndex ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} flex justify-start`}>
+                                <div className={`transform transition-all duration-700 delay-200 w-full ${i === activeIndex ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} flex ${isRTL ? "justify-end" : "justify-start"}`}>
                                     <Link href={`/case-studies/${slide.slug}`} className={`inline-flex items-center gap-4 text-white hover:text-secondary transition-colors group ${isRTL ? "flex-row-reverse" : ""}`}>
                                         <span className="text-xl font-bold uppercase tracking-wider">{t.viewCase}</span>
                                         <div className="w-12 h-12 rounded-full border border-white/30 flex items-center justify-center group-hover:bg-secondary group-hover:border-secondary group-hover:text-black transition-all">
@@ -139,6 +141,12 @@ export default function SnapPortfolio() {
                         </button>
                     ))}
                 </div>
+            </div>
+
+            <div className="py-20 flex justify-center items-center bg-[#0a0a0a] border-t border-white/5 relative z-50">
+                <Link href="/case-studies" className="btn-primary text-xl px-12 py-5 font-bold uppercase tracking-wider">
+                    {t.viewAll}
+                </Link>
             </div>
         </section>
     );

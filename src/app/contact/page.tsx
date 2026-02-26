@@ -71,8 +71,8 @@ export default function ContactPage() {
                     <div>
                         <h3 className="text-xl text-slate-400 mb-6 uppercase tracking-widest">{t.detailsLabel}</h3>
                         <div className="space-y-8 text-2xl md:text-3xl font-light text-white">
-                            <a href="mailto:info@mtgar.com" className="block hover:text-secondary w-fit transition-colors">info@mtgar.com</a>
-                            <a href="tel:+201025414469" className="block hover:text-secondary w-fit transition-colors" dir="ltr">+20 102 541 4469</a>
+                            <a href="mailto:mohamed.elsayed@supermarketir.com" className="block hover:text-secondary w-fit transition-colors md:text-xl">mohamed.elsayed@supermarketir.com</a>
+                            <a href="tel:01150263953" className="block hover:text-secondary w-fit transition-colors" dir="ltr">0115 026 3953</a>
                             <p className="text-slate-500">{t.info.location}</p>
                         </div>
                     </div>
@@ -80,9 +80,10 @@ export default function ContactPage() {
                     <div>
                         <h3 className="text-xl text-slate-400 mb-6 uppercase tracking-widest">{t.socialsLabel}</h3>
                         <div className="flex flex-col gap-4 text-xl">
-                            <a href="#" className="border-b border-border-subtle py-2 w-fit hover:border-white transition-colors">LinkedIn ↗</a>
-                            <a href="#" className="border-b border-border-subtle py-2 w-fit hover:border-white transition-colors">Instagram ↗</a>
-                            <a href="#" className="border-b border-border-subtle py-2 w-fit hover:border-white transition-colors">Twitter (X) ↗</a>
+                            <a href="https://www.linkedin.com/in/mohamed-elsayed-a976311ba/" target="_blank" rel="noopener noreferrer" className="border-b border-border-subtle py-2 w-fit hover:text-secondary hover:border-secondary transition-colors">LinkedIn ↗</a>
+                            <a href="https://www.instagram.com/el_afreky_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="border-b border-border-subtle py-2 w-fit hover:text-secondary hover:border-secondary transition-colors">Instagram ↗</a>
+                            <a href="https://www.facebook.com/mohamed.elafreky" target="_blank" rel="noopener noreferrer" className="border-b border-border-subtle py-2 w-fit hover:text-secondary hover:border-secondary transition-colors">Facebook ↗</a>
+                            <a href="https://wa.me/201150263953" target="_blank" rel="noopener noreferrer" className="border-b border-border-subtle py-2 w-fit hover:text-secondary hover:border-secondary transition-colors">WhatsApp ↗</a>
                         </div>
                     </div>
                 </div>

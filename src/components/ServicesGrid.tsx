@@ -25,33 +25,33 @@ export default function ServicesGrid() {
                 {
                     title: "إدارة الإعلانات الممولة",
                     desc: "إدارة حملات إعلانية على فيسبوك، إنستجرام، جوجل، تيك توك، وسناب شات بهدف زيادة المبيعات.",
-                    icon: <Target className="text-secondary" size={24} />
+                    icon: <Target className="text-secondary group-hover:text-white transition-colors" size={24} />
                 },
                 {
                     title: "نمو التجارة الإلكترونية",
                     desc: "خدمة مخصصة لأصحاب المتاجر الإلكترونية لزيادة عدد الطلبات وتقليل تكلفة الإعلان.",
-                    icon: <TrendingUp className="text-secondary" size={24} />
+                    icon: <TrendingUp className="text-secondary group-hover:text-white transition-colors" size={24} />
                 },
                 {
                     title: "التخطيط والاستراتيجية",
                     desc: "خطة تسويق إلكتروني واضحة بدل التجارب العشوائية وتضييع الميزانية.",
-                    icon: <Zap className="text-secondary" size={24} />,
+                    icon: <Zap className="text-secondary group-hover:text-white transition-colors" size={24} />,
                     highlight: true
                 },
                 {
                     title: "تدقيق الحملات الإعلانية",
                     desc: "مراجعة كاملة للحسابات الإعلانية لمعرفة فين المشكلة وفين الهدر وإزاي تتحسن النتائج.",
-                    icon: <Search className="text-secondary" size={24} />
+                    icon: <Search className="text-secondary group-hover:text-white transition-colors" size={24} />
                 },
                 {
                     title: "اختبارات المحتوى الإعلاني",
                     desc: "تجربة صور وفيديوهات مختلفة عشان نعرف أنهي إعلان بيجيب مبيعات أكتر.",
-                    icon: <BarChart3 className="text-secondary" size={24} />
+                    icon: <BarChart3 className="text-secondary group-hover:text-white transition-colors" size={24} />
                 },
                 {
                     title: "التحليلات والتقارير",
                     desc: "تقارير بسيطة ومفهومة تعرفك صرفت كام، دخلت كام، تكمل ولا تغيّر.",
-                    icon: <PieChart className="text-secondary" size={24} />
+                    icon: <PieChart className="text-secondary group-hover:text-white transition-colors" size={24} />
                 }
             ]
         },
@@ -62,33 +62,33 @@ export default function ServicesGrid() {
                 {
                     title: "Paid Ads Management",
                     desc: "Managing ad campaigns on Facebook, Instagram, Google, TikTok, and Snapchat to increase sales.",
-                    icon: <Target className="text-secondary" size={24} />
+                    icon: <Target className="text-secondary group-hover:text-white transition-colors" size={24} />
                 },
                 {
                     title: "E-commerce Growth",
                     desc: "Dedicated service for online stores to increase orders and reduce ad costs.",
-                    icon: <TrendingUp className="text-secondary" size={24} />
+                    icon: <TrendingUp className="text-secondary group-hover:text-white transition-colors" size={24} />
                 },
                 {
                     title: "Strategy & Planning",
                     desc: "A clear digital marketing plan instead of random experiments and wasted budget.",
-                    icon: <Zap className="text-secondary" size={24} />,
+                    icon: <Zap className="text-secondary group-hover:text-white transition-colors" size={24} />,
                     highlight: true
                 },
                 {
                     title: "Campaign Auditing",
                     desc: "Full review of ad accounts to find where the problems and waste are.",
-                    icon: <Search className="text-secondary" size={24} />
+                    icon: <Search className="text-secondary group-hover:text-white transition-colors" size={24} />
                 },
                 {
                     title: "Ad Creative Testing",
                     desc: "Testing different images and videos to find which ads drive the most sales.",
-                    icon: <BarChart3 className="text-secondary" size={24} />
+                    icon: <BarChart3 className="text-secondary group-hover:text-white transition-colors" size={24} />
                 },
                 {
                     title: "Analytics & Reporting",
                     desc: "Simple, clear reports that show you how much you spent, how much you made, and what to do next.",
-                    icon: <PieChart className="text-secondary" size={24} />
+                    icon: <PieChart className="text-secondary group-hover:text-white transition-colors" size={24} />
                 }
             ]
         }

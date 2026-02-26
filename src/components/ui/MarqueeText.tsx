@@ -33,7 +33,7 @@ export default function MarqueeText({ text }: Props) {
             gsap.to(row1.current, {
                 xPercent: -50,
                 ease: "none",
-                duration: 30,
+                duration: 120,
                 repeat: -1
             });
 
@@ -41,7 +41,7 @@ export default function MarqueeText({ text }: Props) {
             gsap.fromTo(row2.current, { xPercent: -50 }, {
                 xPercent: 0,
                 ease: "none",
-                duration: 30,
+                duration: 120,
                 repeat: -1
             });
         }, container);
@@ -54,7 +54,7 @@ export default function MarqueeText({ text }: Props) {
             <div className="flex w-max whitespace-nowrap gap-12 md:gap-24" ref={row1}>
                 {displayItems.map((t, i) => (
                     <span key={i} className="text-6xl md:text-8xl font-bold uppercase text-transparent text-outline-white-sm hover:text-outline-white transition-all flex items-center gap-12 md:gap-24">
-                        {t} <span className="text-secondary">_</span>
+                        {t} <span className="text-secondary opacity-50">•</span>
                     </span>
                 ))}
             </div>
@@ -63,7 +63,7 @@ export default function MarqueeText({ text }: Props) {
             <div className="flex w-max whitespace-nowrap gap-12 md:gap-24" ref={row2}>
                 {displayItems.map((t, i) => (
                     <span key={i} className="text-6xl md:text-8xl font-bold uppercase text-transparent text-outline-white-sm hover:text-outline-white transition-all flex items-center gap-12 md:gap-24">
-                        {t} <span className="text-secondary">_</span>
+                        {t} <span className="text-secondary opacity-50">•</span>
                     </span>
                 ))}
             </div>
