@@ -1,0 +1,10 @@
+﻿b320d36 - kobani: Fix CertificatesGallery build error
+2760a26 - kobani: feat: use official case study images and content from landing site
+2e782d1 - kobani: chore: sync EN services, update portfolio sticky scroll, and refine about page
+23bb8fd - kobani: feat: mask client names for privacy in case studies
+43a8e56 - kobani: feat: autogenerate all case studies from images folders with correct platform categories
+a72e20e - kobani: style: translation updates, links, fixes, responsive portfolio
+592a404 - kobani: Update about page text
+8101c2b - kobani: Sync correct sections and clean up unused files
+00c4603 - kobani: Initialize Version 2 of the website at /v2 with premium UI/UX and GSAP animations
+c506f44 - kobani: Update cropped certificate images, adjust gallery to single row (4 columns), add navbar link, and fix RTL alignment expertise

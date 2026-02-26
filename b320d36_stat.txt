@@ -1,0 +1,8 @@
+﻿commit b320d36afcbee07262755d6c56412d38d01aba20
+Author: kobani <kobanifilm@gmail.com>
+Date:   Thu Feb 26 20:28:02 2026 +0200
+
+    Fix CertificatesGallery build error
+
+ src/components/CertificatesGallery.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)

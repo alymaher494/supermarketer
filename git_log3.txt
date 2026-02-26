@@ -1,0 +1,8 @@
+﻿Thu Feb 26 20:28:02 2026 +0200 - b320d36 - Fix CertificatesGallery build error
+Thu Feb 26 16:30:14 2026 +0200 - 2760a26 - feat: use official case study images and content from landing site
+Thu Feb 26 15:59:20 2026 +0200 - 2e782d1 - chore: sync EN services, update portfolio sticky scroll, and refine about page
+Thu Feb 26 03:22:28 2026 +0200 - 23bb8fd - feat: mask client names for privacy in case studies
+Thu Feb 26 03:08:19 2026 +0200 - 43a8e56 - feat: autogenerate all case studies from images folders with correct platform categories
+Thu Feb 26 02:42:53 2026 +0200 - a72e20e - style: translation updates, links, fixes, responsive portfolio
+Wed Feb 25 21:12:53 2026 +0200 - 592a404 - Update about page text
+Wed Feb 25 21:07:22 2026 +0200 - 8101c2b - Sync correct sections and clean up unused files

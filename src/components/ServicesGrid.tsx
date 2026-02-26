@@ -23,34 +23,34 @@ export default function ServicesGrid() {
             headline: "خدمات التسويق الإلكتروني",
             items: [
                 {
-                    title: "إدارة الإعلانات الممولة",
-                    desc: "إدارة حملات إعلانية على فيسبوك، إنستجرام، جوجل، تيك توك، وسناب شات بهدف زيادة المبيعات.",
-                    icon: <Target className="text-secondary group-hover:text-white transition-colors" size={24} />
-                },
-                {
-                    title: "نمو التجارة الإلكترونية",
-                    desc: "خدمة مخصصة لأصحاب المتاجر الإلكترونية لزيادة عدد الطلبات وتقليل تكلفة الإعلان.",
-                    icon: <TrendingUp className="text-secondary group-hover:text-white transition-colors" size={24} />
-                },
-                {
-                    title: "التخطيط والاستراتيجية",
-                    desc: "خطة تسويق إلكتروني واضحة بدل التجارب العشوائية وتضييع الميزانية.",
+                    title: "التخطيط و الإستراتيجية",
+                    desc: "استراتيجيات شاملة مصممة خصيصًا لتناسب ميزانيتك: وجماهيرك مع مؤشرات أداء رئيسية واضحة وخطط اختبار.",
                     icon: <Zap className="text-secondary group-hover:text-white transition-colors" size={24} />,
                     highlight: true
                 },
                 {
-                    title: "تدقيق الحملات الإعلانية",
-                    desc: "مراجعة كاملة للحسابات الإعلانية لمعرفة فين المشكلة وفين الهدر وإزاي تتحسن النتائج.",
+                    title: "إدارة الحملات الاعلانية",
+                    desc: "تخطيط وإطلاق وتحسين الحملات على منصات Meta وTikTok وSnapchat وGoogle مع التركيز على الأداء أولاً.",
+                    icon: <Target className="text-secondary group-hover:text-white transition-colors" size={24} />
+                },
+                {
+                    title: "نمو التجارة الإلكترونية",
+                    desc: "خدمة مخصصة لأصحاب المتاجر الإلكترونية لزيادة عدد الطلبات مقبال خفض التكلفة.",
+                    icon: <TrendingUp className="text-secondary group-hover:text-white transition-colors" size={24} />
+                },
+                {
+                    title: "الإستشارات و المراجعة",
+                    desc: "مراجعة كاملة للحسابات الإعلانية لاكتشاف أسباب تسرب الميزانية وخفض التكاليف وإصلاح الأخطاء.",
                     icon: <Search className="text-secondary group-hover:text-white transition-colors" size={24} />
                 },
                 {
                     title: "اختبارات المحتوى الإعلاني",
-                    desc: "تجربة صور وفيديوهات مختلفة عشان نعرف أنهي إعلان بيجيب مبيعات أكتر.",
+                    desc: "الاعتماد على اختبار الفرضيات بشكل مستمر للوصول للرسالة التسويقية الأكثر تأثيراً وزيادة المبيعات.",
                     icon: <BarChart3 className="text-secondary group-hover:text-white transition-colors" size={24} />
                 },
                 {
                     title: "التحليلات والتقارير",
-                    desc: "تقارير بسيطة ومفهومة تعرفك صرفت كام، دخلت كام، تكمل ولا تغيّر.",
+                    desc: "تقارير دقيقة ومفهومة توضح حجم الإنفاق، وما تم تحقيقه من نتائج، ومبنية على بيانات حقيقية.",
                     icon: <PieChart className="text-secondary group-hover:text-white transition-colors" size={24} />
                 }
             ]
@@ -60,34 +60,34 @@ export default function ServicesGrid() {
             headline: "Digital Marketing Services",
             items: [
                 {
-                    title: "Paid Ads Management",
-                    desc: "Managing ad campaigns on Facebook, Instagram, Google, TikTok, and Snapchat to increase sales.",
-                    icon: <Target className="text-secondary group-hover:text-white transition-colors" size={24} />
-                },
-                {
-                    title: "E-commerce Growth",
-                    desc: "Dedicated service for online stores to increase orders and reduce ad costs.",
-                    icon: <TrendingUp className="text-secondary group-hover:text-white transition-colors" size={24} />
-                },
-                {
-                    title: "Strategy & Planning",
-                    desc: "A clear digital marketing plan instead of random experiments and wasted budget.",
+                    title: "Planning & Strategy",
+                    desc: "Comprehensive strategies tailored to your budget and audiences, with clear KPIs and testing plans.",
                     icon: <Zap className="text-secondary group-hover:text-white transition-colors" size={24} />,
                     highlight: true
                 },
                 {
-                    title: "Campaign Auditing",
-                    desc: "Full review of ad accounts to find where the problems and waste are.",
+                    title: "Ad Campaigns Management",
+                    desc: "Planning, launching, and optimizing campaigns on Meta, TikTok, Snapchat, and Google with a performance-first approach.",
+                    icon: <Target className="text-secondary group-hover:text-white transition-colors" size={24} />
+                },
+                {
+                    title: "E-commerce Growth",
+                    desc: "Dedicated service for online stores to increase orders and scale profitably.",
+                    icon: <TrendingUp className="text-secondary group-hover:text-white transition-colors" size={24} />
+                },
+                {
+                    title: "Consulting & Auditing",
+                    desc: "Deep dive into current ad setups to find opportunities, reduce costs, and fix structural errors.",
                     icon: <Search className="text-secondary group-hover:text-white transition-colors" size={24} />
                 },
                 {
                     title: "Ad Creative Testing",
-                    desc: "Testing different images and videos to find which ads drive the most sales.",
+                    desc: "Systematic A/B testing of hypotheses to find the winning formula and most effective messaging.",
                     icon: <BarChart3 className="text-secondary group-hover:text-white transition-colors" size={24} />
                 },
                 {
                     title: "Analytics & Reporting",
-                    desc: "Simple, clear reports that show you how much you spent, how much you made, and what to do next.",
+                    desc: "Simple, clear reports that show you what was spent and the exact results achieved from accurate tracking.",
                     icon: <PieChart className="text-secondary group-hover:text-white transition-colors" size={24} />
                 }
             ]

@@ -29,6 +29,13 @@ export default function Hero() {
                     image: "/hero_regional_expertise_ai_1771881203665.png"
                 },
                 {
+                    subtitle: "خبرة في الأسواق الإقليمية",
+                    title: "خبير تسويق",
+                    title2: "في مصر والخليج",
+                    desc: "أكثر من 9 سنوات من الخبرة في مساعدة العلامات التجارية على التوسع في مجالات التجارة الإلكترونية، العقارات، المجالات الطبية، والأغذية والمشروبات.",
+                    image: "/hero_regional_expertise_ai_1771881203665.png"
+                },
+                {
                     subtitle: "خبير في تسويق الالكتروني والنمو",
                     title: "بناء أنظمة",
                     title2: "نمو مربحة ومستدامة",
@@ -41,7 +48,11 @@ export default function Hero() {
                     title2: "إلى نمو واستثمار",
                     desc: "مساعدة العلامات التجارية في مصر والخليج على النمو وتحقيق الربحية. إدارة ميزانيات شهرية تتجاوز مليون ريال سعودي مع التركيز على اقتصاديات الوحدة.",
                     image: "/strategy_blueprint_v3_1771881257824.png"
+<<<<<<< HEAD
                 }
+=======
+                }                
+>>>>>>> 9066cd8 (Restore manual changes to Methodology (SplitColumns) text)
             ],
             cta: "ابدأ الآن",
             work: "شاهد أعمالي"

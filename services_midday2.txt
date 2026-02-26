@@ -1,0 +1,129 @@
+﻿commit 2e782d132073e736e6a8f826558873fbf41b857e
+Author: kobani <kobanifilm@gmail.com>
+Date:   Thu Feb 26 15:59:20 2026 +0200
+
+    chore: sync EN services, update portfolio sticky scroll, and refine about page
+
+diff --git a/src/data/services.ts b/src/data/services.ts
+index c118282..65b835c 100644
+--- a/src/data/services.ts
++++ b/src/data/services.ts
+@@ -1,9 +1,21 @@
+ export const servicesData = {
+     ar: [
++        {
++            id: "strategy",
++            title: " التخطيط و الإستراتيجية",
++            description: "استراتيجيات شاملة مصممة خصيصًا لتناسب ميزانيتك: وجماهيرك مع مؤشرات أداء رئيسية واضحة وخطط اختبار.",
++            type: "أساس النجاح",
++            content: "نركز على بناء خارطة طريق بناءً على اقتصاديات بيزنسك للوصول للربحية.",
++            details: {
++                problem: "إطلاق حملات بشكل عشوائي بلا ربطها برحلة مسار التحويل الكامل (Funnel).",
++                solution: "تصميم رحلة عميل متكاملة (Cold, Warm, Hot) لاستهداف وتمرير العميل للقرار الشرائي.",
++                outcomes: ["خطة واضحة", "مؤشرات أداء محددة", "استهداف ذكي"]
++            }
++        },
+         {
+             id: "execution",
+-            title: "إدارة الإعلانات الممولة",
+-            description: "إدارة حملات إعلانية على فيسبوك، إنستجرام، جوجل، تيك توك، وسناب شات.",
++            title: "إدارة الحملات الاعلانية",
++            description: "تخطيط وإطلاق وتحسين الحملات على منصات Meta وTikTok وSnapchat وGoogle مع التركيز على الأداء أولاً.",
+             type: "إدارة شهرية",
+             content: "بهدف زيادة المبيعات وتحقيق أقصى عائد على الإنفاق الإعلاني يومياً.",
+             details: {
+@@ -24,21 +36,9 @@ export const servicesData = {
+                 outcomes: ["نمو مبيعات مستدام", "عروض جذابة", "زيادة الولاء"]
+             }
+         },
+-        {
+-            id: "strategy",
+-            title: "التخطيط والاستراتيجية",
+-            description: "خطة تسويق إلكتروني واضحة بدل التجارب العشوائية وتضييع الميزانية.",
+-            type: "أساس النجاح",
+-            content: "نركز على بناء خارطة طريق بناءً على اقتصاديات بيزنسك للوصول للربحية.",
+-            details: {
+-                problem: "إطلاق حملات بشكل عشوائي بلا ربطها برحلة مسار التحويل الكامل (Funnel).",
+-                solution: "تصميم رحلة عميل متكاملة (Cold, Warm, Hot) لاستهداف وتمرير العميل للقرار الشرائي.",
+-                outcomes: ["خطة واضحة", "مؤشرات أداء محددة", "استهداف ذكي"]
+-            }
+-        },
+         {
+             id: "audit",
+-            title: "تدقيق الحملات الإعلانية",
++            title: "  الإستشارات و المراجعة ",
+             description: "مراجعة كاملة للحسابات الإعلانية لمعرفة فين المشكلة وفين الهدر.",
+             type: "فحص الحسابات",
+             content: "نضع أيدينا على نقاط الضعف لحلها وكيفية تحسين النتائج فوراً.",
+@@ -63,9 +63,9 @@ export const servicesData = {
+         {
+             id: "analytics",
+             title: "التحليلات والتقارير",
+-            description: "تقارير بسيطة ومفهومة تعرفك صرفت كام، دخلت كام، تكمل ولا تغيّر.",
++            description: "تقارير بسيطة ومفهومة تعرفك عن ما تم انفاقه، و النتائج المحققة.",
+             type: "تحليل دقيق",
+-            content: "إعداد ربط البيكسل وتحويل البيانات المعقدة لقرارات عملية يومية.",
++            content: " ربط البيكسل وتحويل البيانات المعقدة لقرارات عملية يومية.",
+             details: {
+                 problem: "بيانات غير دقيقة بسبب التحديثات أو عدم إعداد التتبع بشكل صحيح من الأساس.",
+                 solution: "إعداد وتهيئة شاملة للتتبع عبر جوجل أناليتكس وبيكسلات منصات التواصل.",
+@@ -74,10 +74,22 @@ export const servicesData = {
+         }
+     ],
+     en: [
++        {
++            id: "strategy",
++            title: "Planning & Strategy",
++            description: "Comprehensive strategies tailored to your budget and audiences, with clear KPIs and testing plans.",
++            type: "Foundation",
++            content: "Focusing on building a clear roadmap based on your unit economics to reach profitability.",
++            details: {
++                problem: "Launching scattered campaigns without linking them to a full-funnel customer journey.",
++                solution: "Designing a complete customer journey (Cold, Warm, Hot) to target and guide buying decisions.",
++                outcomes: ["Clear Roadmap", "Defined KPIs", "Smart Targeting"]
++            }
++        },
+         {
+             id: "execution",
+-            title: "Paid Ads Management",
+-            description: "Managing ad campaigns on Facebook, Instagram, Google, TikTok, and Snapchat.",
++            title: "Ad Campaigns Management",
++            description: "Planning, launching, and optimizing campaigns on Meta, TikTok, Snapchat, and Google with a performance-first approach.",
+             type: "Monthly Management",
+             content: "Aiming to increase sales and achieve maximum daily return on ad spend.",
+             details: {
+@@ -98,21 +110,9 @@ export const servicesData = {
+                 outcomes: ["Sustainable Sales Growth", "Compelling Offers", "Increased LTV"]
+             }
+         },
+-        {
+-            id: "strategy",
+-            title: "Strategy & Planning",
+-            description: "A clear digital marketing plan instead of random experiments and wasted budget.",
+-            type: "Foundation",
+-            content: "Focusing on building a clear roadmap based on your unit economics to reach profitability.",
+-            details: {
+-                problem: "Launching scattered campaigns without linking them to a full-funnel customer journey.",
+-                solution: "Designing a complete customer journey (Cold, Warm, Hot) to target and guide buying decisions.",
+-                outcomes: ["Clear Roadmap", "Defined KPIs", "Smart Targeting"]
+-            }
+-        },
+         {
+             id: "audit",
+-            title: "Campaign Auditing",
++            title: "Consulting & Auditing",
+             description: "Full review of ad accounts to find where the problems and waste are.",
+             type: "Account Audit",
+             content: "Identifying weaknesses to solve them and showing exactly how to improve results immediately.",
+@@ -137,9 +137,9 @@ export const servicesData = {
+         {
+             id: "analytics",
+             title: "Analytics & Reporting",
+-            description: "Simple, clear reports that show you how much you spent, how much you made, and what to do next.",
++            description: "Simple, clear reports that show you what was spent and the results achieved.",
+             type: "Deep Analytics",
+-            content: "Setting up pixel tracking and turning complex data into actionable daily decisions.",
++            content: "Pixel integration and turning complex data into actionable daily decisions.",
+             details: {
+                 problem: "Inaccurate data due to updates or failing to configure correct tracking from the start.",
+                 solution: "Comprehensive setup for Google Analytics and all social platform pixels.",
