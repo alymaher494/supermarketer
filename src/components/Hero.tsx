@@ -48,11 +48,7 @@ export default function Hero() {
                     title2: "إلى نمو واستثمار",
                     desc: "مساعدة العلامات التجارية في مصر والخليج على النمو وتحقيق الربحية. إدارة ميزانيات شهرية تتجاوز مليون ريال سعودي مع التركيز على اقتصاديات الوحدة.",
                     image: "/strategy_blueprint_v3_1771881257824.png"
-<<<<<<< HEAD
                 }
-=======
-                }                
->>>>>>> 9066cd8 (Restore manual changes to Methodology (SplitColumns) text)
             ],
             cta: "ابدأ الآن",
             work: "شاهد أعمالي"
