@@ -55,6 +55,14 @@ export default function Hero() {
         },
         en: {
             slides: [
+                
+                {
+                    subtitle: "Regional Expertise",
+                    title: "Egypt & GCC",
+                    title2: "Market Growth",
+                    desc: "Over 9 years of experience helping brands scale profitably across E-commerce, Real Estate, Medical Fields, and F&B sectors.",
+                    image: "/hero_regional_expertise_ai_1771881203665.png"
+                },
                 {
                     subtitle: "Performance Marketing Expert",
                     title: "Building Profitable",
@@ -68,14 +76,8 @@ export default function Hero() {
                     title2: "Into Growth",
                     desc: "Helping brands across Egypt & the GCC turn ad spend into profitable growth. Managing monthly budgets above 1M SAR with a clear focus on unit economics.",
                     image: "/strategy_blueprint_v3_1771881257824.png"
-                },
-                {
-                    subtitle: "Regional Expertise",
-                    title: "Egypt & GCC",
-                    title2: "Market Growth",
-                    desc: "Over 9 years of experience helping brands scale profitably across E-commerce, Real Estate, Medical Fields, and F&B sectors.",
-                    image: "/hero_regional_expertise_ai_1771881203665.png"
                 }
+
             ],
             cta: "Start Your Project",
             work: "View My Work"

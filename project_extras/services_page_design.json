@@ -1,0 +1,346 @@
+{
+    "page": "services",
+    "meta": {
+        "title": {
+            "en": "Services | Data-Driven Growth Frameworks",
+            "ar": "الخدمات | أطر عمل النمو القائمة على البيانات"
+        },
+        "description": {
+            "en": "Comprehensive performance marketing services designed to scale revenue and optimize ROI.",
+            "ar": "خدمات تسويق أداء شاملة مصممة لمضاعفة الإيرادات وتحسين العائد على الاستثمار."
+        }
+    },
+    "sections": [
+        {
+            "id": "services-hero",
+            "title": {
+                "en": "How We Scale Your Brand",
+                "ar": "كيف نوسع نطاق علامتك التجارية"
+            },
+            "subtitle": {
+                "en": "From fixing data tracking to managing million-dollar ad spins. Choose your growth engine.",
+                "ar": "من إصلاح تتبع البيانات إلى إدارة ميزانيات إعلانية ضخمة. اختر محرك نموك."
+            },
+            "gsap": {
+                "trigger": "onLoad",
+                "animations": [
+                    {
+                        "target": ".hero-headline",
+                        "type": "split-text-lines",
+                        "stagger": 0.1
+                    },
+                    {
+                        "target": ".hero-sub",
+                        "type": "fade-in",
+                        "delay": 0.5
+                    }
+                ]
+            }
+        },
+        {
+            "id": "service-list",
+            "services": [
+                {
+                    "id": "performance-marketing",
+                    "serviceType": "Retainer",
+                    "title": {
+                        "en": "Performance Marketing (Paid Ads)",
+                        "ar": "تسويق الأداء (الإعلانات المدفوعة)"
+                    },
+                    "shortDesc": {
+                        "en": "Meta, Google, TikTok & Snap Ads management aimed at profitability.",
+                        "ar": "إدارة إعلانات ميتا وجوجل وتيك توك وسناب شات بهدف الربحية."
+                    },
+                    "details": {
+                        "problem": {
+                            "en": "Wasting budget on ads that don't convert or scale.",
+                            "ar": "هدر الميزانية على إعلانات لا تحقق تحويلات أو لا تقبل التوسع."
+                        },
+                        "solution": {
+                            "en": "Full-funnel media buying strategy with rigorous creative testing.",
+                            "ar": "استراتيجية شراء وسائط شاملة مع اختبارات إبداعية صارمة."
+                        },
+                        "outcomes": [
+                            {
+                                "en": "Lower CPA",
+                                "ar": "خفض تكلفة الاستحواذ"
+                            },
+                            {
+                                "en": "Predictable Revenue",
+                                "ar": "إيرادات يمكن توقعها"
+                            },
+                            {
+                                "en": "Scalable Campaigns",
+                                "ar": "حملات قابلة للتوسع"
+                            }
+                        ]
+                    },
+                    "idealClient": {
+                        "en": "E-commerce brands doing $20k+/mo or funded SaaS startups.",
+                        "ar": "متاجر إلكترونية تحقق +20 ألف دولار شهرياً أو شركات ناشئة ممولة."
+                    },
+                    "engagementFormat": {
+                        "en": "Monthly Retainer (% of Ad Spend or Fixed Fee)",
+                        "ar": "عقد شهري (نسبة من الإنفاق أو رسوم ثابتة)"
+                    },
+                    "gsap": {
+                        "card": {
+                            "type": "fade-up",
+                            "duration": 0.8
+                        },
+                        "icon": {
+                            "type": "rotate-on-hover",
+                            "deg": 15
+                        },
+                        "content": {
+                            "type": "accordion-reveal"
+                        }
+                    }
+                },
+                {
+                    "id": "growth-strategy",
+                    "serviceType": "Project / Fractional",
+                    "title": {
+                        "en": "Growth Strategy & Consulting",
+                        "ar": "استراتيجيات النمو والاستشارات"
+                    },
+                    "shortDesc": {
+                        "en": "A holistic audit and roadmap to unlock your next stage of growth.",
+                        "ar": "تدقيق شامل وخارطة طريق لفتح المرحلة التالية من نموك."
+                    },
+                    "details": {
+                        "problem": {
+                            "en": "Hitting a revenue plateau with unclear next steps.",
+                            "ar": "الوصول إلى سقف في الإيرادات مع عدم وضوح الخطوات التالية."
+                        },
+                        "solution": {
+                            "en": "North Star Metric definition, channel diversification, and experiment backlog.",
+                            "ar": "تحديد مقياس النجاح الرئيسي، تنويع القنوات، وقائمة اختبارات النمو."
+                        },
+                        "outcomes": [
+                            {
+                                "en": "Clear Roadmap",
+                                "ar": "خارطة طريق واضحة"
+                            },
+                            {
+                                "en": "Team Alignment",
+                                "ar": "توافق الفريق"
+                            },
+                            {
+                                "en": "Sustainable Loops",
+                                "ar": "حلقات نمو مستدامة"
+                            }
+                        ]
+                    },
+                    "idealClient": {
+                        "en": "Founders needing a fractional CMO layout.",
+                        "ar": "المؤسسون الذين يحتاجون إلى مدير تسويق مؤقت."
+                    },
+                    "engagementFormat": {
+                        "en": "Quarterly Project or Fractional Role",
+                        "ar": "مشروع ربع سنوي أو دور وظيفي جزئي"
+                    },
+                    "gsap": {
+                        "card": {
+                            "type": "fade-up",
+                            "delay": 0.2
+                        },
+                        "icon": {
+                            "type": "scale-up-pulse"
+                        }
+                    }
+                },
+                {
+                    "id": "analytics-tracking",
+                    "serviceType": "One-time Setup",
+                    "title": {
+                        "en": "Analytics & Tracking Setup",
+                        "ar": "إعداد التحليلات والتتبع"
+                    },
+                    "shortDesc": {
+                        "en": "Fix your data. GTM Server-side, CAPI, and GA4 mastery.",
+                        "ar": "أصلح بياناتك. إتقان GTM من جانب الخادم، CAPI، و GA4."
+                    },
+                    "details": {
+                        "problem": {
+                            "en": "Blindly running ads with inaccurate data and iOS signal loss.",
+                            "ar": "تشغيل الإعلانات بشكل أعمى مع بيانات غير دقيقة وفقدان الإشارة بسبب iOS."
+                        },
+                        "solution": {
+                            "en": "Complete implementation of Server-side tracking and attribution tools.",
+                            "ar": "تنفيذ كامل لتتبع الخادم وأدوات العزو (Attribution)."
+                        },
+                        "outcomes": [
+                            {
+                                "en": "95%+ Data Accuracy",
+                                "ar": "دقة بيانات +95%"
+                            },
+                            {
+                                "en": "Real ROI Visibility",
+                                "ar": "رؤية حقيقية للعائد"
+                            },
+                            {
+                                "en": "Better Ad Algo Feeding",
+                                "ar": "تغذية أفضل لخوارزميات الإعلان"
+                            }
+                        ]
+                    },
+                    "idealClient": {
+                        "en": "Businesses spending >$5k/mo on ads.",
+                        "ar": "الشركات التي تنفق أكثر من 5 آلاف دولار شهرياً على الإعلانات."
+                    },
+                    "engagementFormat": {
+                        "en": "One-time Implementation Fee",
+                        "ar": "رسوم تنفيذ لمرة واحدة"
+                    },
+                    "gsap": {
+                        "card": {
+                            "type": "fade-up",
+                            "delay": 0.3
+                        },
+                        "icon": {
+                            "type": "morph-svg",
+                            "note": "Animate data graph icon"
+                        }
+                    }
+                },
+                {
+                    "id": "funnel-cro",
+                    "serviceType": "Project",
+                    "title": {
+                        "en": "Funnel Design & CRO",
+                        "ar": "تصميم قمع المبيعات وتحسين التحويل"
+                    },
+                    "shortDesc": {
+                        "en": "Turning more visitors into customers through design and psychology.",
+                        "ar": "تحويل المزيد من الزوار إلى عملاء من خلال التصميم وعلم النفس."
+                    },
+                    "details": {
+                        "problem": {
+                            "en": "High traffic but low conversion rates (leaky bucket).",
+                            "ar": "زيارات عالية ولكن معدلات تحويل منخفضة (دلو مثقوب)."
+                        },
+                        "solution": {
+                            "en": "Landing page overhaul, heatmap analysis, and A/B testing.",
+                            "ar": "إعادة تصميم صفحات الهبوط، تحليل الخرائط الحرارية، واختبارات A/B."
+                        },
+                        "outcomes": [
+                            {
+                                "en": "Higher CVR",
+                                "ar": "معدل تحويل أعلى"
+                            },
+                            {
+                                "en": "Lower CAC",
+                                "ar": "تكلفة استحواذ أقل"
+                            },
+                            {
+                                "en": "Better UX",
+                                "ar": "تجربة مستخدم أفضل"
+                            }
+                        ]
+                    },
+                    "idealClient": {
+                        "en": "Brands with significant traffic traffic (>10k visits/mo).",
+                        "ar": "العلامات التجارية ذات الزيارات العالية (>10 آلاف زيارة/شهر)."
+                    },
+                    "engagementFormat": {
+                        "en": "Audit + Project Implementation",
+                        "ar": "تدقيق + تنفيذ المشروع"
+                    },
+                    "gsap": {
+                        "card": {
+                            "type": "fade-up",
+                            "delay": 0.4
+                        },
+                        "icon": {
+                            "type": "draw-path",
+                            "note": "Draw conversion funnel shape"
+                        }
+                    }
+                },
+                {
+                    "id": "consulting-hours",
+                    "serviceType": "Hourly / Daily",
+                    "title": {
+                        "en": "Strategy Consultation",
+                        "ar": "استشارة استراتيجية"
+                    },
+                    "shortDesc": {
+                        "en": "1-on-1 sessions to unblock specific challenges.",
+                        "ar": "جلسات فردية لفك عقد تحديات محددة."
+                    },
+                    "details": {
+                        "problem": {
+                            "en": "Needing a second expert opinion or team training.",
+                            "ar": "الحاجة إلى رأي خبير ثانٍ أو تدريب الفريق."
+                        },
+                        "solution": {
+                            "en": "Deep-dive workshops or Q&A sessions.",
+                            "ar": "ورش عمل مكثفة أو جلسات أسئلة وأجوبة."
+                        },
+                        "outcomes": [
+                            {
+                                "en": "Immediate Clarity",
+                                "ar": "وضوح فوري"
+                            },
+                            {
+                                "en": "Unblocked Team",
+                                "ar": "إزالة العوائق عن الفريق"
+                            },
+                            {
+                                "en": "Actionable Steps",
+                                "ar": "خطوات قابلة للتنفيذ"
+                            }
+                        ]
+                    },
+                    "idealClient": {
+                        "en": "Marketing Managers & Solopreneurs.",
+                        "ar": "مدراء التسويق ورواد الأعمال المنفردين."
+                    },
+                    "engagementFormat": {
+                        "en": "Hourly Rate or Day Rate",
+                        "ar": "سعر بالساعة أو باليوم"
+                    },
+                    "gsap": {
+                        "card": {
+                            "type": "fade-up",
+                            "delay": 0.5
+                        },
+                        "icon": {
+                            "type": "shake-light",
+                            "trigger": "hover"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "services-cta",
+            "title": {
+                "en": "Not Sure What You Need?",
+                "ar": "لست متأكداً مما تحتاج؟"
+            },
+            "subtitle": {
+                "en": "Let's discuss your current situation and find the right fit.",
+                "ar": "دعنا نناقش وضعك الحالي ونجد الحل المناسب."
+            },
+            "action": {
+                "label": {
+                    "en": "Book Discovery Call",
+                    "ar": "احجز مكالمة اكتشاف"
+                },
+                "link": "/contact"
+            },
+            "gsap": {
+                "trigger": "scroll",
+                "animations": [
+                    {
+                        "target": ".cta-container",
+                        "type": "scale-up",
+                        "ease": "elastic"
+                    }
+                ]
+            }
+        }
+    ]
+}

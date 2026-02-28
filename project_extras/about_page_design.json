@@ -1,0 +1,341 @@
+{
+    "page": "about",
+    "meta": {
+        "title": {
+            "en": "About Mohamed | The Growth Scientist",
+            "ar": "عن محمد | مهندس النمو والأداء"
+        },
+        "description": {
+            "en": "My journey from traditional marketing to data-driven performance mastery.",
+            "ar": "رحلتي من التسويق التقليدي إلى احتراف تسويق الأداء المعتمد على البيانات."
+        }
+    },
+    "sections": [
+        {
+            "id": "about-hero",
+            "title": {
+                "en": "More Than Just a Media Buyer.",
+                "ar": "أكثر من مجرد مدير إعلانات."
+            },
+            "subtitle": {
+                "en": "I am a growth partner who bridges the gap between creative storytelling and hard data.",
+                "ar": "أنا شريك نمو يردم الفجوة بين السرد القصصي الإبداعي والبيانات الصلبة."
+            },
+            "body": {
+                "en": "With over 10 years of experience, I've helped startups and established brands navigate the complex digital landscape. My approach is simple: test relentlessly, optimize ruthlessly, and scale profitably.",
+                "ar": "مع أكثر من 10 سنوات من الخبرة، ساعدت الشركات الناشئة والعلامات التجارية الكبرى على التنقل في المشهد الرقمي المعقد. منهجي بسيط: اختبر بلا هوادة، حسن بصرامة، وتوسع بربحية."
+            },
+            "image": {
+                "alt": "Mohamed El-Sayed Portrait",
+                "note": "Professional shot, confident but approachable, dark background."
+            },
+            "gsap": {
+                "trigger": "onLoad",
+                "animations": [
+                    {
+                        "target": ".about-hero-img",
+                        "type": "clip-path-reveal",
+                        "direction": "left-to-right",
+                        "duration": 1
+                    },
+                    {
+                        "target": ".about-hero-text",
+                        "type": "fade-up-stagger",
+                        "delay": 0.3
+                    }
+                ]
+            }
+        },
+        {
+            "id": "timeline",
+            "title": {
+                "en": "My Journey",
+                "ar": "رحلتي المهنية"
+            },
+            "items": [
+                {
+                    "year": "2015",
+                    "title": {
+                        "en": "The Beginning",
+                        "ar": "البداية"
+                    },
+                    "desc": {
+                        "en": "Started as a generalist marketer, learning the fundamentals of brand voice.",
+                        "ar": "بدأت كمسوق عام، حيث تعلمت أساسيات صوت العلامة التجارية."
+                    }
+                },
+                {
+                    "year": "2018",
+                    "title": {
+                        "en": "The Pivot to Performance",
+                        "ar": "التحول للأداء"
+                    },
+                    "desc": {
+                        "en": "Realized that data is king. Shifted focus entirely to paid acquisition and analytics.",
+                        "ar": "أدركت أن البيانات هي الملك. حولت تركيزي بالكامل إلى الاستحواذ المدفوع والتحليلات."
+                    }
+                },
+                {
+                    "year": "2021",
+                    "title": {
+                        "en": "Scaling Startups",
+                        "ar": "توسيع الشركات الناشئة"
+                    },
+                    "desc": {
+                        "en": "Managed $5M+ in ad spend for high-growth SaaS and E-com clients.",
+                        "ar": "أدرت أكثر من 5 ملايين دولار في الإنفاق الإعلاني لعملاء في مجالات البرمجيات والتجارة الإلكترونية."
+                    }
+                },
+                {
+                    "year": "Present",
+                    "title": {
+                        "en": "Strategic Growth Partner",
+                        "ar": "شريك نمو استراتيجي"
+                    },
+                    "desc": {
+                        "en": "Leading comprehensive growth strategies for enterprise clients.",
+                        "ar": "أقود استراتيجيات نمو شاملة للعملاء من الشركات الكبرى."
+                    }
+                }
+            ],
+            "gsap": {
+                "trigger": "scroll",
+                "animations": [
+                    {
+                        "target": ".timeline-line",
+                        "type": "draw-svg",
+                        "triggerHook": "center"
+                    },
+                    {
+                        "target": ".timeline-item",
+                        "type": "fade-in-from-side",
+                        "stagger": 0.2
+                    }
+                ],
+                "responsive": "On mobile, stack items vertically with simple fade-up."
+            }
+        },
+        {
+            "id": "stack",
+            "title": {
+                "en": "My Tech Stack",
+                "ar": "أدواتي التقنية"
+            },
+            "categories": [
+                {
+                    "name": {
+                        "en": "Ad Platforms",
+                        "ar": "منصات الإعلان"
+                    },
+                    "items": [
+                        "Meta Ads",
+                        "Google Ads",
+                        "TikTok Ads",
+                        "Snapchat Ads",
+                        "LinkedIn Ads"
+                    ]
+                },
+                {
+                    "name": {
+                        "en": "Analytics & Tracking",
+                        "ar": "التحليلات والتتبع"
+                    },
+                    "items": [
+                        "GA4",
+                        "GTM (Server-side)",
+                        "Hotjar",
+                        "Mixpanel",
+                        "Looker Studio"
+                    ]
+                },
+                {
+                    "name": {
+                        "en": "CRM & Automation",
+                        "ar": "إدارة العملاء والأتمتة"
+                    },
+                    "items": [
+                        "HubSpot",
+                        "Zapier",
+                        "Salesforce",
+                        "Mailchimp"
+                    ]
+                }
+            ],
+            "gsap": {
+                "trigger": "scroll",
+                "animations": [
+                    {
+                        "target": ".stack-category-title",
+                        "type": "fade-right"
+                    },
+                    {
+                        "target": ".stack-pill",
+                        "type": "scale-up-stagger",
+                        "ease": "back.out(1.5)"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "process",
+            "title": {
+                "en": "How I Work",
+                "ar": "كيف أعمل"
+            },
+            "steps": [
+                {
+                    "id": "01",
+                    "title": {
+                        "en": "Audit & Discovery",
+                        "ar": "التدقيق والاكتشاف"
+                    },
+                    "desc": {
+                        "en": "Deep dive into historical data to find leaks and opportunities.",
+                        "ar": "غوص عميق في البيانات التاريخية للعثور على الفجوات والفرص."
+                    }
+                },
+                {
+                    "id": "02",
+                    "title": {
+                        "en": "Strategy Formulation",
+                        "ar": "صياغة الاستراتيجية"
+                    },
+                    "desc": {
+                        "en": "Building a custom roadmap aligned with business KPIs.",
+                        "ar": "بناء خارطة طريق مخصصة تتماشى مع مؤشرات الأداء الرئيسية للأعمال."
+                    }
+                },
+                {
+                    "id": "03",
+                    "title": {
+                        "en": "Execution & Launch",
+                        "ar": "التنفيذ والإطلاق"
+                    },
+                    "desc": {
+                        "en": "Setting up campaigns with pristine tracking and creative excellence.",
+                        "ar": "إعداد الحملات مع تتبع دقيق وتميز إبداعي."
+                    }
+                },
+                {
+                    "id": "04",
+                    "title": {
+                        "en": "Optimization & Scale",
+                        "ar": "التحسين والتوسع"
+                    },
+                    "desc": {
+                        "en": "Iterative testing to lower CPA and increase ROAS.",
+                        "ar": "اختبارات متكررة لخفض تكلفة الاستحواذ وزيادة العائد على الإعلانات."
+                    }
+                }
+            ],
+            "gsap": {
+                "trigger": "scroll",
+                "animations": [
+                    {
+                        "target": ".process-step",
+                        "type": "slide-up-stagger"
+                    },
+                    {
+                        "target": ".process-arrow",
+                        "type": "draw-arrow-path",
+                        "delay": 0.5
+                    }
+                ]
+            }
+        },
+        {
+            "id": "values",
+            "title": {
+                "en": "Core Values",
+                "ar": "القيم الأساسية"
+            },
+            "updated_cards": [
+                {
+                    "icon": "transparency",
+                    "title": {
+                        "en": "Radical Transparency",
+                        "ar": "شفافية مطلقة"
+                    },
+                    "desc": {
+                        "en": "You own your data. No hidden fees, no black boxes.",
+                        "ar": "أنت تمتلك بياناتك. لا رسوم خفية، لا صناديق سوداء."
+                    }
+                },
+                {
+                    "icon": "data",
+                    "title": {
+                        "en": "Data Over Opinion",
+                        "ar": "البيانات فوق الآراء"
+                    },
+                    "desc": {
+                        "en": "We make decisions based on what works, not what we 'think' works.",
+                        "ar": "نتخذ القرارات بناءً على ما ينجح، وليس ما 'نعتقد' أنه سينجح."
+                    }
+                },
+                {
+                    "icon": "partnership",
+                    "title": {
+                        "en": "Long-Term Partnership",
+                        "ar": "شراكة طويلة الأمد"
+                    },
+                    "desc": {
+                        "en": "I treat your budget like my own. Your growth is my growth.",
+                        "ar": "أعامل ميزانيتك كأنها ميزانيتي. نموك هو نموي."
+                    }
+                }
+            ],
+            "gsap": {
+                "trigger": "scroll",
+                "animations": [
+                    {
+                        "target": ".value-card",
+                        "type": "flip-x",
+                        "rotation": 90,
+                        "opacity": 0,
+                        "stagger": 0.2
+                    }
+                ]
+            }
+        },
+        {
+            "id": "about-cta",
+            "title": {
+                "en": "See What I Can Do For You",
+                "ar": "شاهد ما يمكنني فعله لك"
+            },
+            "subtitle": {
+                "en": "Explore my services or book a consultation.",
+                "ar": "استكشف خدماتي أو احجز استشارة."
+            },
+            "ctas": [
+                {
+                    "id": "services-link",
+                    "label": {
+                        "en": "View Services",
+                        "ar": "تصفح الخدمات"
+                    },
+                    "variant": "primary",
+                    "link": "/services"
+                },
+                {
+                    "id": "call-link",
+                    "label": {
+                        "en": "Book a Call",
+                        "ar": "احجز مكالمة"
+                    },
+                    "variant": "outline",
+                    "link": "/contact"
+                }
+            ],
+            "gsap": {
+                "trigger": "scroll",
+                "animations": [
+                    {
+                        "target": ".about-cta-container",
+                        "type": "fade-up"
+                    }
+                ]
+            }
+        }
+    ]
+}

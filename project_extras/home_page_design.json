@@ -1,0 +1,447 @@
+{
+    "page": "home",
+    "meta": {
+        "title": {
+            "en": "Mohamed El-Sayed | Performance & Growth Marketing Specialist",
+            "ar": "محمد السيد | خبير تسويق الأداء والنمو"
+        },
+        "description": {
+            "en": "Helping startups and brands scale revenue through data-driven performance marketing strategies.",
+            "ar": "مساعدة الشركات الناشئة والعلامات التجارية على مضاعفة الإيرادات من خلال استراتيجيات تسويق الأداء المعتمدة على البيانات."
+        }
+    },
+    "sections": [
+        {
+            "id": "hero",
+            "title": {
+                "en": "Scaling Revenue Through Data-Driven Performance Marketing",
+                "ar": "زيادة الإيرادات ومضاعفة النمو عبر تسويق الأداء المعتمد على البيانات"
+            },
+            "subtitle": {
+                "en": "Stop guessing. Start growing. I partner with ambitious brands to unlock measurable scale with scientific precision.",
+                "ar": "توقف عن التخمين وابدأ في النمو. شريكك الاستراتيجي لتحقيق توسع ملموس بدقة علمية."
+            },
+            "ctas": [
+                {
+                    "id": "primary",
+                    "label": {
+                        "en": "View Case Studies",
+                        "ar": "شاهد قصص النجاح"
+                    },
+                    "link": "/case-studies"
+                },
+                {
+                    "id": "secondary",
+                    "label": {
+                        "en": "Book a Strategy Call",
+                        "ar": "احجز مكالمة استراتيجية"
+                    },
+                    "link": "/contact"
+                }
+            ],
+            "gsap": {
+                "trigger": "onLoad",
+                "animations": [
+                    {
+                        "target": ".hero-title",
+                        "type": "split-text-chars",
+                        "duration": 0.8,
+                        "stagger": 0.02
+                    },
+                    {
+                        "target": ".hero-sub",
+                        "type": "fade-up",
+                        "delay": 0.5
+                    },
+                    {
+                        "target": ".hero-cta",
+                        "type": "slide-up-fade",
+                        "delay": 0.8
+                    },
+                    {
+                        "target": ".hero-bg-shapes",
+                        "type": "parallax-mouse-move",
+                        "note": "Subtle movement based on cursor position"
+                    }
+                ],
+                "responsive": "Disable mouse parallax on mobile."
+            }
+        },
+        {
+            "id": "stats",
+            "title": {
+                "en": "Impact by the Numbers",
+                "ar": "تأثيرنا بالأرقام"
+            },
+            "dataPoints": [
+                {
+                    "label": {
+                        "en": "Ad Spend Managed",
+                        "ar": "ميزانيات مُدارة"
+                    },
+                    "value": "$10M+",
+                    "suffix": "+"
+                },
+                {
+                    "label": {
+                        "en": "Average ROAS",
+                        "ar": "متوسط العائد الإعلاني"
+                    },
+                    "value": "350",
+                    "suffix": "%"
+                },
+                {
+                    "label": {
+                        "en": "Revenue Generated",
+                        "ar": "إيرادات محققة"
+                    },
+                    "value": "$40M",
+                    "suffix": "+"
+                },
+                {
+                    "label": {
+                        "en": "Successful Campaigns",
+                        "ar": "حملة ناجحة"
+                    },
+                    "value": "150",
+                    "suffix": "+"
+                }
+            ],
+            "gsap": {
+                "trigger": "scroll",
+                "start": "top 80%",
+                "animations": [
+                    {
+                        "target": ".stat-value",
+                        "type": "counter-up",
+                        "duration": 2000,
+                        "ease": "power2.out"
+                    },
+                    {
+                        "target": ".stat-label",
+                        "type": "fade-up",
+                        "delay": 0.2
+                    }
+                ]
+            }
+        },
+        {
+            "id": "services",
+            "title": {
+                "en": "Core Growth Capabilities",
+                "ar": "خدمات النمو الأساسية"
+            },
+            "subtitle": {
+                "en": "A holistic approach to acquisition and retention.",
+                "ar": "نهج شامل للاستحواذ على العملاء والحفاظ عليهم."
+            },
+            "items": [
+                {
+                    "id": "paid-media",
+                    "title": {
+                        "en": "Paid Media Buying",
+                        "ar": "شراء الوسائط الإعلانية"
+                    },
+                    "desc": {
+                        "en": "Meta, Google, TikTok & Snap. High-intent targeting with creative testing frameworks.",
+                        "ar": "ميتا، جوجل، تيك توك وسناب شات. استهداف عالي الدقة مع اختبارات إبداعية مستمرة."
+                    }
+                },
+                {
+                    "id": "analytics",
+                    "title": {
+                        "en": "Data & Analytics",
+                        "ar": "البيانات والتحليلات"
+                    },
+                    "desc": {
+                        "en": "GTM, GA4, and Server-side tracking to ensure every dollar is accounted for.",
+                        "ar": "تتبع دقيق لكل دولار عبر GTM و GA4 والربط الخادمي (Server-side)."
+                    }
+                },
+                {
+                    "id": "cro",
+                    "title": {
+                        "en": "Conversion Optimization",
+                        "ar": "تحسين معدل التحويل (CRO)"
+                    },
+                    "desc": {
+                        "en": "Turning traffic into customers through landing page audits and A/B testing.",
+                        "ar": "تحويل الزوار إلى عملاء من خلال تدقيق صفحات الهبوط واختبارات A/B."
+                    }
+                },
+                {
+                    "id": "strategy",
+                    "title": {
+                        "en": "Growth Strategy",
+                        "ar": "استراتيجيات النمو"
+                    },
+                    "desc": {
+                        "en": "Full-funnel planning from awareness to retention and LTV maximization.",
+                        "ar": "تخطيط متكامل لمراحل القمع البيعي من الوعي حتى الولاء وتعظيم القيمة."
+                    }
+                }
+            ],
+            "gsap": {
+                "trigger": "scroll",
+                "animations": [
+                    {
+                        "target": ".service-card",
+                        "type": "stagger-fade-up",
+                        "interval": 0.15
+                    },
+                    {
+                        "target": ".service-icon",
+                        "type": "scale-pulse-on-hover"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "sectors",
+            "title": {
+                "en": "Industries I Serve",
+                "ar": "الصناعات التي نخدمها"
+            },
+            "items": [
+                {
+                    "label": {
+                        "en": "E-Commerce",
+                        "ar": "التجارة الإلكترونية"
+                    },
+                    "icon": "shopping-bag"
+                },
+                {
+                    "label": {
+                        "en": "SaaS & B2B",
+                        "ar": "البرمجيات والشركات"
+                    },
+                    "icon": "server"
+                },
+                {
+                    "label": {
+                        "en": "Real Estate",
+                        "ar": "العقارات"
+                    },
+                    "icon": "building"
+                },
+                {
+                    "label": {
+                        "en": "FinTech",
+                        "ar": "التقنية المالية"
+                    },
+                    "icon": "credit-card"
+                }
+            ],
+            "gsap": {
+                "trigger": "scroll",
+                "animations": [
+                    {
+                        "target": ".sector-item",
+                        "type": "slide-left-stagger",
+                        "ease": "back.out(1.7)"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "case-studies",
+            "title": {
+                "en": "Proven Results",
+                "ar": "نتائج مثبتة"
+            },
+            "subtitle": {
+                "en": "Real data from real campaigns.",
+                "ar": "بيانات حقيقية من حملات واقعية."
+            },
+            "cards": [
+                {
+                    "client": "Project Alpha",
+                    "category": {
+                        "en": "E-Commerce",
+                        "ar": "تجارة إلكترونية"
+                    },
+                    "headline": {
+                        "en": "Scaling Fashion Brand to $2M/Year",
+                        "ar": "توسيع علامة أزياء لتصل إلى 2 مليون دولار سنوياً"
+                    },
+                    "metrics": [
+                        {
+                            "label": "ROAS",
+                            "value": "4.5x"
+                        },
+                        {
+                            "label": "Revenue",
+                            "value": "+200%"
+                        }
+                    ],
+                    "link": "/case-studies/project-alpha"
+                },
+                {
+                    "client": "TechStart",
+                    "category": {
+                        "en": "SaaS",
+                        "ar": "برمجيات"
+                    },
+                    "headline": {
+                        "en": "Reducing CAC by 40% for B2B Setup",
+                        "ar": "خفص تكلفة الاستحواذ بنسبة 40% لشركة B2B"
+                    },
+                    "metrics": [
+                        {
+                            "label": "CAC",
+                            "value": "-40%"
+                        },
+                        {
+                            "label": "Leads",
+                            "value": "1.5k+"
+                        }
+                    ]
+                },
+                {
+                    "client": "Luxury Estates",
+                    "category": {
+                        "en": "Real Estate",
+                        "ar": "عقارات"
+                    },
+                    "headline": {
+                        "en": "$50M in Property Sales Generated",
+                        "ar": "مبيعات عقارية بقيمة 50 مليون دولار"
+                    },
+                    "metrics": [
+                        {
+                            "label": "CPL",
+                            "value": "$15"
+                        },
+                        {
+                            "label": "Sales",
+                            "value": "$50M"
+                        }
+                    ]
+                }
+            ],
+            "ctas": [
+                {
+                    "label": {
+                        "en": "View All Case Studies",
+                        "ar": "شاهد كل دراسات الحالة"
+                    },
+                    "link": "/case-studies"
+                }
+            ],
+            "gsap": {
+                "trigger": "scroll",
+                "animations": [
+                    {
+                        "target": ".case-card",
+                        "type": "parallax-hover",
+                        "note": "Card tilts slightly on mouse move (3D effect)"
+                    },
+                    {
+                        "target": ".case-card-image",
+                        "type": "scale-on-hover",
+                        "scale": 1.05
+                    }
+                ],
+                "responsive": "Disable 3D tilt on mobile."
+            }
+        },
+        {
+            "id": "logos",
+            "title": {
+                "en": "Trusted Partners",
+                "ar": "شركاء النجاح"
+            },
+            "content": "logos_array_placeholder",
+            "gsap": {
+                "trigger": "scroll",
+                "animations": [
+                    {
+                        "target": ".logo-track",
+                        "type": "infinite-scroll-x",
+                        "speed": "slow"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "testimonials",
+            "title": {
+                "en": "What Clients Say",
+                "ar": "رأي العملاء"
+            },
+            "slides": [
+                {
+                    "text": {
+                        "en": "Mohamed transformed our acquisition strategy. The results speak for themselves.",
+                        "ar": "محمد قام بنقلة نوعية في استراتيجية الاستحواذ لدينا. النتائج تتحدث عن نفسها."
+                    },
+                    "author": "Ahmed K.",
+                    "role": {
+                        "en": "CEO, TechStart",
+                        "ar": "المدير التنفيذي، تك ستارت"
+                    }
+                },
+                {
+                    "text": {
+                        "en": "A rare combination of creative strategy and data-driven execution.",
+                        "ar": "مزيج نادر من الاستراتيجية الإبداعية والتنفيذ المعتمد على البيانات."
+                    },
+                    "author": "Sarah M.",
+                    "role": {
+                        "en": "Marketing Director",
+                        "ar": "مديرة التسويق"
+                    }
+                }
+            ],
+            "gsap": {
+                "trigger": "scroll",
+                "animations": [
+                    {
+                        "target": ".testimonial-slide",
+                        "type": "fade-in-slide"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "final-cta",
+            "title": {
+                "en": "Ready to Unlock Growth?",
+                "ar": "مستعد لتحقيق النمو؟"
+            },
+            "subtitle": {
+                "en": "Let's audit your current performance and build a roadmap to scale.",
+                "ar": "دعنا نراجع أداءك الحالي ونبني خارطة طريق للتوسع."
+            },
+            "ctas": [
+                {
+                    "id": "contact-primary",
+                    "label": {
+                        "en": "Book Your Strategy Call",
+                        "ar": "احجز مكالمتك الاستراتيجية"
+                    },
+                    "subLabel": {
+                        "en": "Free 15-min discovery",
+                        "ar": "جلسة استكشافية مجانية لمدة 15 دقيقة"
+                    },
+                    "link": "/contact"
+                }
+            ],
+            "gsap": {
+                "trigger": "scroll",
+                "animations": [
+                    {
+                        "target": ".final-cta-container",
+                        "type": "scale-up",
+                        "ease": "elastic.out(1, 0.75)"
+                    },
+                    {
+                        "target": ".final-cta-btn",
+                        "type": "pulse-glow",
+                        "repeat": -1
+                    }
+                ]
+            }
+        }
+    ]
+}

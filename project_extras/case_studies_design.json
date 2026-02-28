@@ -1,0 +1,222 @@
+{
+    "page": "case-studies",
+    "meta": {
+        "title": {
+            "en": "Case Studies | Proven Growth Results",
+            "ar": "دراسات الحالة | نتائج نمو مثبتة"
+        },
+        "description": {
+            "en": "Real-world examples of scaling brands through data-driven performance marketing.",
+            "ar": "أمثلة واقعية لتوسيع العلامات التجارية من خلال تسويق الأداء المعتمد على البيانات."
+        }
+    },
+    "listing": {
+        "title": {
+            "en": "Our Work Speaks for Itself",
+            "ar": "أعمالنا تتحدث عن نفسها"
+        },
+        "subtitle": {
+            "en": "Explore how we solve complex growth challenges across industries.",
+            "ar": "اكتشف كيف نحل تحديات النمو المعقدة عبر مختلف الصناعات."
+        },
+        "filters": [
+            {
+                "id": "all",
+                "label": {
+                    "en": "All",
+                    "ar": "الكل"
+                }
+            },
+            {
+                "id": "ecommerce",
+                "label": {
+                    "en": "E-Commerce",
+                    "ar": "تجارة إلكترونية"
+                }
+            },
+            {
+                "id": "saas",
+                "label": {
+                    "en": "SaaS / B2B",
+                    "ar": "برمجيات / شركات"
+                }
+            },
+            {
+                "id": "real-estate",
+                "label": {
+                    "en": "Real Estate",
+                    "ar": "عقارات"
+                }
+            }
+        ],
+        "cardTemplate": {
+            "image": "url-placeholder",
+            "badges": [
+                "Create",
+                "Scale"
+            ],
+            "title": "Campaign Title",
+            "metric": {
+                "label": "ROAS",
+                "value": "4.5x"
+            },
+            "link": "/case-studies/slug",
+            "gsap": {
+                "trigger": "scroll",
+                "animations": [
+                    {
+                        "target": ".case-card",
+                        "type": "fade-up-stagger",
+                        "amount": 0.1
+                    },
+                    {
+                        "target": ".card-image",
+                        "type": "scale-hover",
+                        "scale": 1.05
+                    }
+                ]
+            }
+        }
+    },
+    "detailTemplate": {
+        "header": {
+            "clientName": {
+                "visible": true,
+                "fallback": "Leading Local Brand"
+            },
+            "sector": "Sector Name",
+            "services": [
+                "Paid Social",
+                "CRO"
+            ],
+            "headline": {
+                "en": "Scaling [Client] from $X to $Y in 6 Months",
+                "ar": "توسيع [العميل] من س إلى ص في 6 أشهر"
+            },
+            "gsap": {
+                "trigger": "onLoad",
+                "animations": [
+                    {
+                        "target": ".header-bg",
+                        "type": "parallax-scroll",
+                        "speed": 0.5
+                    },
+                    {
+                        "target": ".header-title",
+                        "type": "split-chars-reveal"
+                    }
+                ]
+            }
+        },
+        "challenge": {
+            "title": {
+                "en": "The Challenge",
+                "ar": "التحدي"
+            },
+            "content": "Paragraph describing the initial state, pain points, and goals.",
+            "keyIssues": [
+                "High CPA",
+                "Low Retention",
+                "Poor Tracking"
+            ]
+        },
+        "strategy": {
+            "title": {
+                "en": "The Strategy",
+                "ar": "الاستراتيجية"
+            },
+            "content": "Description of the strategic approach taken.",
+            "steps": [
+                {
+                    "title": "Phase 1: Audit",
+                    "desc": "Fixing the foundation."
+                },
+                {
+                    "title": "Phase 2: Scale",
+                    "desc": "Aggressive testing."
+                }
+            ]
+        },
+        "execution": {
+            "title": {
+                "en": "Execution",
+                "ar": "التنفيذ"
+            },
+            "channels": [
+                "Meta Ads",
+                "Google Search",
+                "Email"
+            ],
+            "creativeAngle": "Description of the creative direction and messaging.",
+            "visuals": [
+                "ad-creative-1.jpg",
+                "dashboard-screenshot.png"
+            ],
+            "gsap": {
+                "trigger": "scroll",
+                "animations": [
+                    {
+                        "target": ".execution-visual",
+                        "type": "fade-up",
+                        "y": 50
+                    }
+                ]
+            }
+        },
+        "results": {
+            "title": {
+                "en": "The Results",
+                "ar": "النتائج"
+            },
+            "metrics": [
+                {
+                    "label": "ROAS",
+                    "before": "1.5x",
+                    "after": "4.2x"
+                },
+                {
+                    "label": "CPA",
+                    "before": "$40",
+                    "after": "$18"
+                },
+                {
+                    "label": "Revenue",
+                    "value": "+150%"
+                }
+            ],
+            "gsap": {
+                "trigger": "scroll",
+                "animations": [
+                    {
+                        "target": ".metric-card",
+                        "type": "counter-up",
+                        "duration": 2
+                    }
+                ]
+            }
+        },
+        "learnings": {
+            "title": {
+                "en": "Key Learnings",
+                "ar": "الدروس المستفادة"
+            },
+            "points": [
+                "Creative fatigue happens fast",
+                "Video ads outperformed static by 2x"
+            ]
+        },
+        "cta": {
+            "title": {
+                "en": "Ready for Similar Results?",
+                "ar": "جاهز لتحقيق نتائج مماثلة؟"
+            },
+            "action": {
+                "label": {
+                    "en": "Book Strategy Call",
+                    "ar": "احجز مكالمة استراتيجية"
+                },
+                "link": "/contact"
+            }
+        }
+    }
+}

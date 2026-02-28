@@ -1,0 +1,187 @@
+{
+    "projectWrapper": {
+        "name": "SuperMarketer.net Redesign",
+        "stack": [
+            "Next.js (App Router)",
+            "Typescript",
+            "Tailwind CSS",
+            "GSAP",
+            "i18next"
+        ],
+        "designSystem": {
+            "colors": {
+                "primary": "#0F172A",
+                "secondary": "#10B981",
+                "accent": "#3B82F6",
+                "text": {
+                    "primary": "#F8FAFC",
+                    "secondary": "#94A3B8"
+                },
+                "background": "#020617"
+            },
+            "typography": {
+                "headings": "Inter / Manrope (Bold, Tight tracking)",
+                "body": "Inter / Roboto (Clean, readable)"
+            }
+        }
+    },
+    "sitemap": [
+        {
+            "route": "/",
+            "name": "Home",
+            "sections": [
+                {
+                    "id": "hero",
+                    "component": "HeroSection",
+                    "content": {
+                        "headline": {
+                            "en": "Scaling Revenue Through Data-Driven Performance Marketing",
+                            "ar": "زيادة الإيرادات من خلال التسويق بالأداء المعتمد على البيانات"
+                        },
+                        "subhead": {
+                            "en": "Partnering with ambitious brands to unlock measurable growth.",
+                            "ar": "شريكك الاستراتيجي للعلامات التجارية الطموحة لتحقيق نمو قابل للقياس."
+                        },
+                        "cta_primary": {
+                            "en": "View Case Studies",
+                            "ar": "شاهد دراسات الحالة"
+                        },
+                        "cta_secondary": {
+                            "en": "Book a Strategy Call",
+                            "ar": "احجز مكالمة استراتيجية"
+                        }
+                    },
+                    "animation": {
+                        "type": "timeline",
+                        "elements": [
+                            {
+                                "target": ".hero-text",
+                                "effect": "staggerFromBottom",
+                                "duration": 0.8
+                            },
+                            {
+                                "target": ".hero-cta",
+                                "effect": "fadeIn",
+                                "delay": 0.5
+                            },
+                            {
+                                "target": ".hero-bg-shapes",
+                                "effect": "parallaxMouse",
+                                "intensity": 0.2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "trust",
+                    "component": "LogoTicker",
+                    "content": {
+                        "title": {
+                            "en": "Trusted by fast-growing companies",
+                            "ar": "شركات سريعة النمو تثق بي"
+                        },
+                        "logos": [
+                            "list_of_logo_urls"
+                        ]
+                    },
+                    "animation": {
+                        "type": "scrollTrigger",
+                        "effect": "infiniteScrollX"
+                    }
+                },
+                {
+                    "id": "services-preview",
+                    "component": "ServiceGrid",
+                    "content": {
+                        "heading": {
+                            "en": "Core Capabilities",
+                            "ar": "القدرات الأساسية"
+                        },
+                        "items": [
+                            {
+                                "title": "Paid Media (PPC)",
+                                "icon": "chart-bar"
+                            },
+                            {
+                                "title": "Growth Strategy",
+                                "icon": "rocket"
+                            },
+                            {
+                                "title": "Conversion Rate Optimization",
+                                "icon": "cursor-click"
+                            }
+                        ]
+                    },
+                    "animation": {
+                        "type": "scrollTrigger",
+                        "effect": "staggerFadeUp"
+                    }
+                }
+            ]
+        },
+        {
+            "route": "/about",
+            "name": "About",
+            "sections": [
+                {
+                    "id": "bio",
+                    "component": "SplitImageText",
+                    "content": {
+                        "heading": {
+                            "en": "About Mohamed",
+                            "ar": "عن محمد"
+                        },
+                        "body": {
+                            "en": "Performance Marketer with a focus on ROI...",
+                            "ar": "مسوق بالأداء يركز على العائد على الاستثمار..."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "route": "/services",
+            "name": "Services",
+            "sections": [
+                "ServiceList_Detailed"
+            ]
+        },
+        {
+            "route": "/case-studies",
+            "name": "Case Studies",
+            "sections": [
+                "CaseStudyGrid_Filterable"
+            ]
+        },
+        {
+            "route": "/contact",
+            "name": "Contact",
+            "sections": [
+                "ContactForm",
+                "CalendarEmbed"
+            ]
+        }
+    ],
+    "components": {
+        "atoms": [
+            "Button",
+            "Icon",
+            "Badge",
+            "Input",
+            "Logo"
+        ],
+        "molecules": [
+            "NavLinks",
+            "ServiceCard",
+            "TestimonialCard",
+            "StatCard"
+        ],
+        "organisms": [
+            "Navbar",
+            "Footer",
+            "ContactForm",
+            "HeroSection",
+            "ServiceGrid"
+        ]
+    }
+}
